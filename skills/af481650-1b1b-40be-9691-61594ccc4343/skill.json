@@ -1,0 +1,15 @@
+{
+  "id": "af481650-1b1b-40be-9691-61594ccc4343",
+  "name": "writing-shape",
+  "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\in-progress\\writing-shape",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "26564516ac2d36abf44615311cb42e23bdfd6a976cde9f27b2e8f8e31653bbd7",
+  "files": {
+    "SKILL.md": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd",
+    "agents/openai.yaml": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299"
+  }
+}

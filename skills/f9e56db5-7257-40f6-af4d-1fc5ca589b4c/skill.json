@@ -1,0 +1,16 @@
+{
+  "id": "f9e56db5-7257-40f6-af4d-1fc5ca589b4c",
+  "name": "ask-matt",
+  "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\ask-matt",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "9f5381e1cbcfb1769a8f57d1320c92d8dd3a3c62d58e9fa7a6188fc4f7d557a0",
+  "files": {
+    "PHASE-BOUNDARIES.md": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd",
+    "SKILL.md": "d8934db5ccf28b8c6e43d44d88801936d3831ab5666280b26d6f0852a312dc63",
+    "agents/openai.yaml": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e"
+  }
+}

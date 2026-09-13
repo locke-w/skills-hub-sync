@@ -1,0 +1,15 @@
+{
+  "id": "bdbb288a-e7d2-4209-be98-a313484654df",
+  "name": "implement",
+  "description": "Implement a piece of work based on a spec or set of tickets.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\implement",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "edc66ded9db01516f73971234e32b223044f7a10e2b155315c4216ace82045d3",
+  "files": {
+    "SKILL.md": "30cd7bc1ebfb3891e85a1eed3b3b81aea0fa4ad4553a784de7f8e421b2d223e0",
+    "agents/openai.yaml": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+  }
+}

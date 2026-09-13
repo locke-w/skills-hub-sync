@@ -1,0 +1,15 @@
+{
+  "id": "d786d693-828c-4b31-bdd0-dd7321f6e264",
+  "name": "grill-me",
+  "description": "A relentless interview to sharpen a plan or design.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\productivity\\grill-me",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "fbc5f9784bfd2dd45f461891171f24b0753867bdf9fccf2bec9fe4acadb7d968",
+  "files": {
+    "SKILL.md": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+    "agents/openai.yaml": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
+  }
+}

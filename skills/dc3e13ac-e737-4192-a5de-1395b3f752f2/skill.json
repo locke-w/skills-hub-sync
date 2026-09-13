@@ -1,0 +1,15 @@
+{
+  "id": "dc3e13ac-e737-4192-a5de-1395b3f752f2",
+  "name": "claude-handoff",
+  "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\in-progress\\claude-handoff",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "29a043931f539c99510628281b894174f473d544bf94bbd41e881302702166dc",
+  "files": {
+    "SKILL.md": "7f99b9c489c8d55374d261c31e2dcf7e75c2ee103dbb64e87b18971a05449f21",
+    "agents/openai.yaml": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263"
+  }
+}

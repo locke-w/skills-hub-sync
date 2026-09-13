@@ -1,0 +1,15 @@
+{
+  "id": "eaf9edf8-0d95-4fc7-b35f-94d2b1ec2e4c",
+  "name": "migrate-to-shoehorn",
+  "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\misc\\migrate-to-shoehorn",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "8207ffeca588331a4b310d69caf4a2f5c17d3ac36dffddf98351353df5b5ad65",
+  "files": {
+    "SKILL.md": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201",
+    "agents/openai.yaml": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180"
+  }
+}

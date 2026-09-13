@@ -1,0 +1,15 @@
+{
+  "id": "e13ac10f-62b8-466f-af5f-15080c3f53c7",
+  "name": "research",
+  "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\research",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "3e84c887878092e6db7d2f8ca13e30ba60cc16c6a1cc3f147df6b14fdb0a0bc6",
+  "files": {
+    "SKILL.md": "524b404b1ca373a8b00f63a64667ec4b0a61c3c9cf4e8f246e639be859bb6979",
+    "agents/openai.yaml": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412"
+  }
+}

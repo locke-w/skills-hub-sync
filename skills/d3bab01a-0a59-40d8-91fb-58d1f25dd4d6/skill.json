@@ -1,0 +1,19 @@
+{
+  "id": "d3bab01a-0a59-40d8-91fb-58d1f25dd4d6",
+  "name": "teach",
+  "description": "Teach the user a new skill or concept, within this workspace.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\productivity\\teach",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "abcc9588ff26674ed69c2b3bde0b75ef55a76f8d259f8199719816ed1f8cab1f",
+  "files": {
+    "GLOSSARY-FORMAT.md": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341",
+    "LEARNING-RECORD-FORMAT.md": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05",
+    "MISSION-FORMAT.md": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a",
+    "RESOURCES-FORMAT.md": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5",
+    "SKILL.md": "3377485cbb1d62782122c1cc8cab4ceb37d5457c0543889784f3d7d9ca359e04",
+    "agents/openai.yaml": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69"
+  }
+}

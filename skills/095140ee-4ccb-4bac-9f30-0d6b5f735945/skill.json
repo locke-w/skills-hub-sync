@@ -1,0 +1,17 @@
+{
+  "id": "095140ee-4ccb-4bac-9f30-0d6b5f735945",
+  "name": "codebase-design",
+  "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\codebase-design",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "e79f08f09e823a3891f5eda913f82bf536d7ecddf0469077874bbc648338b251",
+  "files": {
+    "DEEPENING.md": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
+    "DESIGN-IT-TWICE.md": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
+    "SKILL.md": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+    "agents/openai.yaml": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "7c12b450-8d33-40a5-9c9d-14f947266457",
+  "name": "writing-beats",
+  "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\in-progress\\writing-beats",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "aee181e7b3389298cacd0e025a92b9be525c1019cbe29ea6e921988613dd0ee6",
+  "files": {
+    "SKILL.md": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
+    "agents/openai.yaml": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
+  }
+}

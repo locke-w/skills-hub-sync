@@ -1,0 +1,15 @@
+{
+  "id": "ccbddf3a-7027-48fa-bc54-44d076e94594",
+  "name": "handoff",
+  "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\productivity\\handoff",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "6d7426d6ec2759af53566b92d342866fc84686806fd083c1f479fac4c223179d",
+  "files": {
+    "SKILL.md": "96f8045f01f569daa3737150d918b7201ccd090905fb10cefedd326e4001f551",
+    "agents/openai.yaml": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
+  }
+}

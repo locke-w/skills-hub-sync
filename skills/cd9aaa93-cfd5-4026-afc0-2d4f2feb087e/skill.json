@@ -1,0 +1,17 @@
+{
+  "id": "cd9aaa93-cfd5-4026-afc0-2d4f2feb087e",
+  "name": "prototype",
+  "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\prototype",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "eb3865976ffc475fcad980e2121d4d766144b79cf7ae0c1cef21b3724644b14b",
+  "files": {
+    "LOGIC.md": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a",
+    "SKILL.md": "f74ae01f4fc454d3a4ef21271920f1706e626271e715dda0559e489f45c792c3",
+    "UI.md": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b",
+    "agents/openai.yaml": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+  }
+}

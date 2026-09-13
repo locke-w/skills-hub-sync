@@ -1,0 +1,16 @@
+{
+  "id": "c2b3fae6-2254-4fab-a04a-c10bef30b923",
+  "name": "wizard",
+  "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\wizard",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "e19070fd63f151356c3cb0e9c6657a736c3834353f8d2a91c14ff1ed3ff98810",
+  "files": {
+    "SKILL.md": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164",
+    "agents/openai.yaml": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
+    "template.sh": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3"
+  }
+}

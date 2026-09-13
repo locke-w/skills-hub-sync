@@ -1,0 +1,16 @@
+{
+  "id": "1dd7ee85-419e-49ac-8926-9810bb379765",
+  "name": "writing-for-agents",
+  "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\productivity\\writing-for-agents",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "719c88442401de9a31869f0bb706e24ddfd95ed8a1a0ee0a8bb54c544c51cc4e",
+  "files": {
+    "SKILL-MECHANICS.md": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc",
+    "SKILL.md": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
+    "agents/openai.yaml": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+  }
+}

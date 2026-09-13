@@ -1,0 +1,15 @@
+{
+  "id": "ff0bd48a-3c70-44dc-bb8a-fda5651756a0",
+  "name": "loop-me",
+  "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\in-progress\\loop-me",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "219eff3964fb505a411a0f66e6e530706f342f2185b42e8a71862387dba0c58d",
+  "files": {
+    "SKILL.md": "38ac316635d244abfdc1526edec49596f9284b36595f5a212fc5983894b6094a",
+    "agents/openai.yaml": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3"
+  }
+}

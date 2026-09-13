@@ -1,0 +1,16 @@
+{
+  "id": "18897ebb-a143-4882-9c01-1656abda4db7",
+  "name": "setup-ts-deep-modules",
+  "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\in-progress\\setup-ts-deep-modules",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "b6a663551d7cef50d0b749216453e0c290a6abb7474a8cd6242a3438ef0aeecd",
+  "files": {
+    "SKILL.md": "3709fc7d62ea75cd7da1d6f21e33d58d758766fb8f5247a859687d7ed63c213e",
+    "agents/openai.yaml": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
+    "dependency-cruiser.config.cjs": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376"
+  }
+}

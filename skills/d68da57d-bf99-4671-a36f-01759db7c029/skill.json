@@ -1,0 +1,15 @@
+{
+  "id": "d68da57d-bf99-4671-a36f-01759db7c029",
+  "name": "wayfinder",
+  "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\wayfinder",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "559a8f322e91d8c3b2b3d63baef152e937d3570846cd82a534bf658cadadd984",
+  "files": {
+    "SKILL.md": "3362fa360948f8526e88ebe8184f5402f9b5f4d9dced2ba0ed2721f64ae3de5a",
+    "agents/openai.yaml": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
+  }
+}

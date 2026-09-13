@@ -1,0 +1,17 @@
+{
+  "id": "fbc69ea5-fb05-4535-8b87-b800d7d04094",
+  "name": "triage",
+  "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\triage",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "a6e60552467ddc5ab18f42f271490c1d2d0bcf8cebbeb2285cb0479fcbbb5b44",
+  "files": {
+    "AGENT-BRIEF.md": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15",
+    "OUT-OF-SCOPE.md": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae",
+    "SKILL.md": "652c815971c2df925cee0f250ae2596f50fde19328305f3c55afd157a7f06fe6",
+    "agents/openai.yaml": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
+  }
+}

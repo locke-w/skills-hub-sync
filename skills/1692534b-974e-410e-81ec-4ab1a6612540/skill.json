@@ -1,0 +1,16 @@
+{
+  "id": "1692534b-974e-410e-81ec-4ab1a6612540",
+  "name": "improve-codebase-architecture",
+  "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\improve-codebase-architecture",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "202c755a90c04489372afc14f68d76d83655817888dcd9b3b0356cfbc4df992d",
+  "files": {
+    "HTML-REPORT.md": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828",
+    "SKILL.md": "ab67dc77f7fb0e82ac2ce45e3680c4f90bd68f638c86522996cdf03426084ac7",
+    "agents/openai.yaml": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa"
+  }
+}

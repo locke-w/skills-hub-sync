@@ -1,0 +1,15 @@
+{
+  "id": "235ae180-f6bc-4f3c-9049-5158e30a9414",
+  "name": "to-tickets",
+  "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\to-tickets",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "8bdf5b3df2640c411f2898f1a4539a478896ab077da2ae46b15d6bf344e01ce8",
+  "files": {
+    "SKILL.md": "8082bc6ef165027c5df3215763055f4a9668878bf27f25f582db78a14c3ed3c1",
+    "agents/openai.yaml": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb"
+  }
+}

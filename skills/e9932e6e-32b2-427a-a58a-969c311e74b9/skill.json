@@ -1,0 +1,15 @@
+{
+  "id": "e9932e6e-32b2-427a-a58a-969c311e74b9",
+  "name": "grill-with-docs",
+  "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+  "source_type": "git",
+  "source_ref": "https://github.com/mattpocock/skills",
+  "source_subpath": "skills\\engineering\\grill-with-docs",
+  "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "tags": [],
+  "content_hash": "add11d1d2a892b3b27eef4fabf49dec8dcfea76fbea2ccdf3a3bc0859fa9c710",
+  "files": {
+    "SKILL.md": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
+    "agents/openai.yaml": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+  }
+}

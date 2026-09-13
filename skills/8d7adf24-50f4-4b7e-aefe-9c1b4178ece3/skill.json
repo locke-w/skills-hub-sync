@@ -1,0 +1,19 @@
+{
+  "id": "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3",
+  "name": "java-architect",
+  "description": "Use when building, configuring, or debugging enterprise Java applications with Spring Boot 3.x, microservices, or reactive programming. Invoke to implement WebFlux endpoints, optimize JPA queries and database performance, configure Spring Security with OAuth2/JWT, or resolve authentication issues and async processing challenges in cloud-native Spring applications.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "1ac065e0f173ac129481d152a8c8ea8d44e5b6cf3972ab21f36a9d7279f80677",
+  "files": {
+    "SKILL.md": "a2ade65946b092e925936a03d8c4d3575ae0013f5ec4faf5a22d7179f18a2eaa",
+    "references/jpa-optimization.md": "5d7255940c18ae913c220cb8f7bd8e75a1ee7884156dfd3c652a8e4a9857e310",
+    "references/reactive-webflux.md": "0c5f3cda8b88be596781028a903b1807aed7cbea30a7352cc832ea722a9e0441",
+    "references/spring-boot-setup.md": "aadf2abe9fa64552659ed817668941bf844c723ad4ec1d67ec1c0fb72d87ef32",
+    "references/spring-security.md": "e7cd092fa11b6185ce9d91a02afefb0ae82f50566589c912c78d53d9716dd095",
+    "references/testing-patterns.md": "9429df81ad070ae7818c81296f9399edb3579eb70b5b6bc306c7095d7cf54973"
+  }
+}

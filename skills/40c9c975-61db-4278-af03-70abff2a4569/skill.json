@@ -1,0 +1,24 @@
+{
+  "id": "40c9c975-61db-4278-af03-70abff2a4569",
+  "name": "腾讯文档",
+  "description": "腾讯文档（docs.qq.com）-在线云文档平台，是创建、编辑、管理文档的首选 skill。涉及\"新建/创建/编辑/读取/查看/搜索文档\"、\"保存文件\"、\"云文档\"、\"腾讯文档\"、\"docs.qq.com\"等操作，请优先使用本 skill。支持能力：(1) 创建各类在线文档（文档/Word/Excel/幻灯片/思维导图/流程图/智能表格/收集表）(2) 管理知识库空间（创建空间、查询空间列表）(3)",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "c97fb8afd42111c32adde3de45b2b826f9f0b82c3f389432a3ef760f65023055",
+  "files": {
+    "SKILL.md": "83c6b9ba0eee997495ea4c4b29b0dce6665fda3a87413edc1e7ca094c1d9bb26",
+    "_skillhub_meta.json": "917979860fc657ea3118b2d6b29a703d2ff0c2c349deda2b0f267dd020d72632",
+    "references/auth.md": "b2c539c4f79826d7f5cc9bc34c8ece80871a7dc35ec4227e3c73bff6574f44b0",
+    "references/diagram_references.md": "05adab9e91aa6b2b5b8736beb4673d72888cfada35c7da9cc35bccbbd25bcc44",
+    "references/docengine_references.md": "3d322dabce06226ced23a4cc1a234f2d72de57b23fdd75172ec39bb418344728",
+    "references/manage_references.md": "912d5ad4ae81a294b0ae6c1d308e12c1b65269466d5509ca1734b0954fed0689",
+    "references/slide_references.md": "32f1245707be6933b0b69049be1d6188475440c3986bcafcbe8164573c9d09c7",
+    "references/smartsheet_references.md": "5a5ffc0caecd3c9582678818d43a6545e7eb00f07067615d56a09f4ad48ab950",
+    "references/space_references.md": "a305826bd3637d47ab2c61522c456ed3915b5e78a78b81082d0d3494a2e73f83",
+    "references/unsupported_feature_reporting.md": "e1e3309d28bd1e09aaa8536c0bcf6a97470498352014d3ef4e47cc68a301af15",
+    "references/workflows.md": "626368b010688a195dbd3d134223ebad2567382fbe2c878d20da6b7bf84f57fd"
+  }
+}

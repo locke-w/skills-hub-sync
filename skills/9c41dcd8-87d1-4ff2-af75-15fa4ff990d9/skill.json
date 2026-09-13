@@ -1,0 +1,17 @@
+{
+  "id": "9c41dcd8-87d1-4ff2-af75-15fa4ff990d9",
+  "name": "photorealistic-character-generator",
+  "description": "Use when generating hyper-realistic human character portraits for AI short dramas, films, commercials, or virtual influencers, especially when resolving AI facial distortion, plastic skin, or face collapse across image-to-portrait restoration or text-to-character creation.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "de7a13f45956d520dcd2c8b6ed84c34fa009a09ca7832b0538ca7900c90dd260",
+  "files": {
+    "SKILL.md": "668719a14237743e997440307ce0a7d7c2720b58771770a9823a444c3ff7242f",
+    "references/image-reverse-engineering.md": "faf281a9be4e666233e821730416938898e86a782d7670d1a7572564d2a1d9e2",
+    "references/prompt-formula-and-keywords.md": "e4bcb0feca7a33871dc42f184133f547f670e5e0bd90ed4661e1a6281f268164",
+    "references/video-consistency-workflow.md": "c2b81541a2d89436e379eb3d348ee0c091788635eed61ffd1ae10619f758e2bd"
+  }
+}

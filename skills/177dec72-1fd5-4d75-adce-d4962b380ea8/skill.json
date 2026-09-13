@@ -1,0 +1,14 @@
+{
+  "id": "177dec72-1fd5-4d75-adce-d4962b380ea8",
+  "name": "executing-plans",
+  "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "3afc12fcba623d833c22b4f90a244efd3d8d4c21a82a1e9404d67426153804bf",
+  "files": {
+    "SKILL.md": "e2102f11631433939f162d383d769f8257d859d6639e0e14969cda3ef0a95eca"
+  }
+}

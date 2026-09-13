@@ -1,0 +1,19 @@
+{
+  "id": "72df17d3-6002-4c11-9a64-a08bb4db6db4",
+  "name": "wechat-miniprogram-architect",
+  "description": "Use when designing, building, refactoring, or reviewing WeChat Mini-Program (微信小程序) systems and enterprise applications. Invoke for double-thread performance optimization, setData fine-grained updates, subpackage architecture (independent packages, preload, async imports), clean layered architecture, global reactive state management, network interceptor with token refresh, Skyline engine adaptation, privacy compliance, and observability logging.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "e1b5fac95a2398d9aa69a81b786a0fd60d574abe4dcb94ebef7390765c329867",
+  "files": {
+    "SKILL.md": "f892bb7b48d76782b531920839155db0204fa271be50a730ec8bf1b70a67c7aa",
+    "references/double-thread-and-performance.md": "43548306eb796a9ab4051d0d1beb009a40e22d88d9a58f1ba35a4e4dc78ba128",
+    "references/layered-architecture-and-services.md": "c8714ff04534fecfac0782bdc840eaf3b2366de681dcf54c0826fed30b7bc7bf",
+    "references/security-observability-and-skyline.md": "3c78cffe6c7c38e9856cd97fc0e15244b6c3445399f4c7468debe0bef85529bb",
+    "references/state-management-and-events.md": "f670e408b631e0e09e752837f05814fa23e9bfdd38472f30f227fd0b46f1b127",
+    "references/subpackage-and-bundle-architecture.md": "9bd3026cd94dd4a299c555ad157c58a57d241a2afea01113f8f19fed95f92fec"
+  }
+}

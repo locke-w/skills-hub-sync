@@ -1,0 +1,15 @@
+{
+  "id": "bbea3ecf-b27e-48f9-914f-4257894f3437",
+  "name": "requesting-code-review",
+  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "61ca84cf8dadff60bb95fc3a1b3ca36d7836ba17783de4434ac0fcdc5918fe57",
+  "files": {
+    "SKILL.md": "5a3a44a3667800e2dc836829c6b92fada51e6dc58ac144ec05fe59f47d6bcd84",
+    "code-reviewer.md": "595d91d05d5ecba530bd52e1e53c5173d820ab5d4bc223eb7820d69a9ab1c403"
+  }
+}

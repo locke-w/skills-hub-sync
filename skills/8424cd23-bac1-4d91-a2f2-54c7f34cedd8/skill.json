@@ -1,0 +1,14 @@
+{
+  "id": "8424cd23-bac1-4d91-a2f2-54c7f34cedd8",
+  "name": "using-superpowers",
+  "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "26bdd756fe45d1b429ea39b0ae5c416665e06aca4cd7b64aa464a407037f14a9",
+  "files": {
+    "SKILL.md": "316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa"
+  }
+}

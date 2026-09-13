@@ -1,0 +1,14 @@
+{
+  "id": "7ad59973-efa0-4e33-a71b-037b0f2f72eb",
+  "name": "fullcolor-3dprint-character-prompts",
+  "description": "Use when generating AI realistic elder, parent, in-law, and late spouse character images or prompts for 3D full-color printing without portrait copyright risks, creating standardized 11 angle/scenario 3D printing prompt sets, or dynamically generating grassroots character profiles via formula with auto-deduplication against existing local asset libraries. (Strictly decoupled from copywriting: does NOT generate Xiaohongshu copywriting, which is reserved for downstream copywriter skills).",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "f7375ecb743fbea6611c4296a7c9a1ad2f3c99487afa53794e7260bbd890f2bf",
+  "files": {
+    "SKILL.md": "90a4e37db2316fca86b053b2cde1cdca434a35b422ae755b157ec0ebf650cf6b"
+  }
+}

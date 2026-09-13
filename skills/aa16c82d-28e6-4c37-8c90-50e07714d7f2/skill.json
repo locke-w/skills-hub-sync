@@ -1,0 +1,14 @@
+{
+  "id": "aa16c82d-28e6-4c37-8c90-50e07714d7f2",
+  "name": "project-workflow-analysis-blueprint-generator",
+  "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "5381dded995fb19d5169bb0ef2dbddd368637ffe25cfea1253063bcf86bd0fc2",
+  "files": {
+    "SKILL.md": "1563be31e5dd0568317b196dc92e10282a41d628db7bc04a990ad9019d35c37b"
+  }
+}

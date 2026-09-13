@@ -1,0 +1,16 @@
+{
+  "id": "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e",
+  "name": "brainstorming",
+  "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "39fc9c6ce47d36c0b710a4385542d5aa95200dab3dc4d040026458a01c4faa45",
+  "files": {
+    "SKILL.md": "bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
+    "spec-document-reviewer-prompt.md": "12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
+    "visual-companion.md": "a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
+  }
+}

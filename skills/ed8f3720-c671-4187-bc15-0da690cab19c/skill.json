@@ -1,0 +1,14 @@
+{
+  "id": "ed8f3720-c671-4187-bc15-0da690cab19c",
+  "name": "playwright-cli",
+  "description": "Automate browser interactions, test web pages and work with Playwright tests.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "b5ae6d2d15cc6b40c4fc78b792982f625104b0ed97f5ef5a16ef4d322c8cd231",
+  "files": {
+    "SKILL.md": "b2dab96e6d9f2439913f678e67740297100e30b094fe84a70e85ef03e70343fc"
+  }
+}

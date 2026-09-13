@@ -1,0 +1,27 @@
+{
+  "id": "2453447e-92fb-4980-90b2-9c8e9358948e",
+  "name": "xiaohongshu-memorial-3dprint-copywriter",
+  "description": "小红书情感爆款写作专家与3D打印纪念手办转化专家。专精于逝去亲人/长辈/父母/公婆追忆、遗物寄情、老照片立体化、催泪故事叙事，并将老照片三维立体建模与3D打印实体手办进行高转化软性植入（文案中严禁提及任何具体建模软件或AI工具名称，保持纯粹的情感与实体定制故事感）。深度融合 GitHub 开源微缩手办与场景摆拍全景矩阵（4层场景解构：15种摄影机位 × 12大生活实景 × 13大情感道具组 × 10大光影氛围 = 23,400种组合动态抽样），彻底根除传统AI生图\"千篇一律的手捧手办与单调书桌\"的拉垮问题。在 Antigravity 中根据图片状态机调用 generate_image，文案自动沉淀至 Obsidian 知识库，图片归档至 3D 打印素材库，全程动静分离。",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "1d33c8d0981bacd65647264caae7b106b28d7922836dea4a3118f549be631633",
+  "files": {
+    "2026-09-02-091705-local-command-caveatcaveat-the-messages-below.txt": "3bcb340bac4344864b216ca79c8a80988d5d4a7f596a08d1afa547a5a6aaf36c",
+    "SKILL.md": "e0b04a026395b14204381a3fe8bcaa76b2a1b490570de552768274b55f2fd668",
+    "SKILL.md.backup.20260913130322": "1c24cda413cf0183fed00613262c9e9b5b2774aafc59b1dd3286688f779885fc",
+    "checklists/unified-checklist.md": "8f8e12269cf784868993bdb8f740f60caca75119c29cebcd1cafc1bcdc579741",
+    "config/constants.md": "4f3c891b61eff92ce65c7b18a615f11c908fb967d82ded2ccab72a2229ffbd3c",
+    "references/bao.md": "4495dd4fc3ebd7219c6e95b717ef3534a838b8d8aa2a003d417cd9a28f8894e2",
+    "references/blender-render-and-img2img.md": "5736619a25cd1001b4f9798294b51dcaa9026d6fed80ee2664f15819b318160a",
+    "references/conversion-and-traffic-safety.md": "af43a29ae70db88e2fd0ce4998b98677a6f9f7a3f7ad4f0088c4138e6d6ebba6",
+    "references/emotional-story-templates.md": "5055a2dcee245a0eb8ded77a158706efb88168709eb4eea4daf6cd9f86f03a84",
+    "references/github-diorama-staging-matrix.md": "dedf62666d5f8de95aec67c85d89d321193faaa2c23ae4e5d024a803650ada7f",
+    "references/nano-banana-hyperrealistic-engine.md": "ae0573e285d92054f6627d1815103e08788fb0b738fc1e72e3f0f7cf6db4a39c",
+    "references/xiaohongshu_ai_rule.md": "f6438a999137a3142df7932bd6692d4bdc53e92e450ea9aa90124fff4f6fa7d9",
+    "scripts/send_email.py": "d33b0d0c9a8c613dea70ff9ce1905f37b4a391b7a6398eb9726692a15243601f",
+    "scripts/validate-config.sh": "0f312a97d22cb83718ddf06000806ae3a7300a6a44ecb5b2e6a581d7b8bfbd63"
+  }
+}

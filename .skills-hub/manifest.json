@@ -1,0 +1,606 @@
+{
+  "format_version": 1,
+  "skills": {
+    "0edc18ba-1caa-4736-8769-02ceb59612d5": {
+      "id": "0edc18ba-1caa-4736-8769-02ceb59612d5",
+      "name": "using-git-worktrees",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "d2d1a4762591ca7ca2c9530b49e46eaf3ba3e176a555bd1277f87a11ac198d5d",
+      "files": {
+        "SKILL.md": "085a45ee3de432bdb2768011591d9a882cb6c759e2317f379226451c5618fe8e"
+      }
+    },
+    "177dec72-1fd5-4d75-adce-d4962b380ea8": {
+      "id": "177dec72-1fd5-4d75-adce-d4962b380ea8",
+      "name": "executing-plans",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "3afc12fcba623d833c22b4f90a244efd3d8d4c21a82a1e9404d67426153804bf",
+      "files": {
+        "SKILL.md": "e2102f11631433939f162d383d769f8257d859d6639e0e14969cda3ef0a95eca"
+      }
+    },
+    "18f40675-b3be-4a35-b151-7374affc3e9f": {
+      "id": "18f40675-b3be-4a35-b151-7374affc3e9f",
+      "name": "python-architect",
+      "description": "Use when designing, building, refactoring, or reviewing enterprise Python applications, microservices, async systems, or library architectures. Invoke for Clean Architecture / DDD, FastAPI / Django enterprise structure, design patterns (Repository, Unit of Work, Strategy, Factory, DI), asyncio / TaskGroup concurrency, strict type contracts (Pydantic v2, Protocols, Generic types), SQLAlchemy 2.0 async ORM, testing with Pytest/Testcontainers, and production observability.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "3398f2163646649ddfeaa21369f6bc7f5f10d1fe84d5e049b41b0c2cdb57267e",
+      "files": {
+        "SKILL.md": "3ec83f31e5e2d243a41f99bb6a232fd94d7d1d4c440719c92dc6a8e18f328082",
+        "references/clean-architecture.md": "2568a79784b10536690c9c54b322a999fb75cecd0aa96be460cd662bdb7049e2",
+        "references/concurrency-async.md": "9d1b9e3c1751cbb2a1f5e4b50f689d3165222b70462356a610239de84261afbb",
+        "references/design-patterns.md": "cec639ef6053723f7104295a8ca870df0ef57dd24e6ca27ab0d1752df6772360",
+        "references/fastapi-async-architecture.md": "c7af9b9b3140cf019ee33e64c957bffc235c82822088558a7e3a1a1aed156e31",
+        "references/packaging-tooling.md": "926ef606640328c94c4fa05025dd87ad284f350da1589bd94fb115e647bb9d2f",
+        "references/testing-observability.md": "6fe185dd0a47117d3781d574fe0dac3191c4e166ebbc58132360a59443c076da",
+        "references/type-system-contracts.md": "2e72d1ccffe7d53ff53a05db408e71588c2459e92b3a8b118579253a7f1a1951"
+      }
+    },
+    "1e67f9a8-1e3d-4f93-8952-b5f7e5d02e3b": {
+      "id": "1e67f9a8-1e3d-4f93-8952-b5f7e5d02e3b",
+      "name": "subagent-driven-development",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "35a8bd1938ce0c4ea52876aa4a7a5c2f26ae31d797c3eb585cdcb8cf3d47d29b",
+      "files": {
+        "SKILL.md": "905a2b9be59b734dbe166525ad31dcaaf712a75926135adee1f554557aba5744"
+      }
+    },
+    "205d31f6-eec9-4105-a764-4b48cc6b79f7": {
+      "id": "205d31f6-eec9-4105-a764-4b48cc6b79f7",
+      "name": "java-coding-standards",
+      "description": "Java coding standards for Spring Boot and Quarkus services: naming, immutability, Optional usage, streams, exceptions, generics, CDI, reactive patterns, and project layout. Automatically applies framework-specific conventions.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "7d2dc78f8a7221a8aac0fe10c71dbb335b69997e13b8a6db7efb04bb839b5312",
+      "files": {
+        "SKILL.md": "fe851ef82b71dc5c7f6781314737213f82f9b4d7f1a72debed09909f14569c75"
+      }
+    },
+    "20973df3-6940-470d-baa6-a5f53ba49323": {
+      "id": "20973df3-6940-470d-baa6-a5f53ba49323",
+      "name": "finishing-a-development-branch",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "fe0fb9b6485b00a7be0cec52f86b34788f91d6746d8c39dfdf77d8a586f0e287",
+      "files": {
+        "SKILL.md": "5c8d4b59aedb14c94e2f5d787a3265e858e8f53d4ceffe7ff1c15878a52b0e91"
+      }
+    },
+    "2453447e-92fb-4980-90b2-9c8e9358948e": {
+      "id": "2453447e-92fb-4980-90b2-9c8e9358948e",
+      "name": "xiaohongshu-memorial-3dprint-copywriter",
+      "description": "小红书情感爆款写作专家与3D打印纪念手办转化专家。专精于逝去亲人/长辈/父母/公婆追忆、遗物寄情、老照片立体化、催泪故事叙事，并将老照片三维立体建模与3D打印实体手办进行高转化软性植入（文案中严禁提及任何具体建模软件或AI工具名称，保持纯粹的情感与实体定制故事感）。深度融合 GitHub 开源微缩手办与场景摆拍全景矩阵（4层场景解构：15种摄影机位 × 12大生活实景 × 13大情感道具组 × 10大光影氛围 = 23,400种组合动态抽样），彻底根除传统AI生图\"千篇一律的手捧手办与单调书桌\"的拉垮问题。在 Antigravity 中根据图片状态机调用 generate_image，文案自动沉淀至 Obsidian 知识库，图片归档至 3D 打印素材库，全程动静分离。",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "1d33c8d0981bacd65647264caae7b106b28d7922836dea4a3118f549be631633",
+      "files": {
+        "2026-09-02-091705-local-command-caveatcaveat-the-messages-below.txt": "3bcb340bac4344864b216ca79c8a80988d5d4a7f596a08d1afa547a5a6aaf36c",
+        "SKILL.md": "e0b04a026395b14204381a3fe8bcaa76b2a1b490570de552768274b55f2fd668",
+        "SKILL.md.backup.20260913130322": "1c24cda413cf0183fed00613262c9e9b5b2774aafc59b1dd3286688f779885fc",
+        "checklists/unified-checklist.md": "8f8e12269cf784868993bdb8f740f60caca75119c29cebcd1cafc1bcdc579741",
+        "config/constants.md": "4f3c891b61eff92ce65c7b18a615f11c908fb967d82ded2ccab72a2229ffbd3c",
+        "references/bao.md": "4495dd4fc3ebd7219c6e95b717ef3534a838b8d8aa2a003d417cd9a28f8894e2",
+        "references/blender-render-and-img2img.md": "5736619a25cd1001b4f9798294b51dcaa9026d6fed80ee2664f15819b318160a",
+        "references/conversion-and-traffic-safety.md": "af43a29ae70db88e2fd0ce4998b98677a6f9f7a3f7ad4f0088c4138e6d6ebba6",
+        "references/emotional-story-templates.md": "5055a2dcee245a0eb8ded77a158706efb88168709eb4eea4daf6cd9f86f03a84",
+        "references/github-diorama-staging-matrix.md": "dedf62666d5f8de95aec67c85d89d321193faaa2c23ae4e5d024a803650ada7f",
+        "references/nano-banana-hyperrealistic-engine.md": "ae0573e285d92054f6627d1815103e08788fb0b738fc1e72e3f0f7cf6db4a39c",
+        "references/xiaohongshu_ai_rule.md": "f6438a999137a3142df7932bd6692d4bdc53e92e450ea9aa90124fff4f6fa7d9",
+        "scripts/send_email.py": "d33b0d0c9a8c613dea70ff9ce1905f37b4a391b7a6398eb9726692a15243601f",
+        "scripts/validate-config.sh": "0f312a97d22cb83718ddf06000806ae3a7300a6a44ecb5b2e6a581d7b8bfbd63"
+      }
+    },
+    "2eeb74d4-edcc-43d6-a3c8-bf1f91142105": {
+      "id": "2eeb74d4-edcc-43d6-a3c8-bf1f91142105",
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "6e41504ed9a2dc55b84240c8dc4edf8db6e7c2da6b71ed29e8edbdf4f95a3094",
+      "files": {
+        "SKILL.md": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b",
+        "plan-document-reviewer-prompt.md": "6fce2aa83c63715697e9dd86050c820716100b91efbd9f12bab8477ecc060256"
+      }
+    },
+    "40c9c975-61db-4278-af03-70abff2a4569": {
+      "id": "40c9c975-61db-4278-af03-70abff2a4569",
+      "name": "腾讯文档",
+      "description": "腾讯文档（docs.qq.com）-在线云文档平台，是创建、编辑、管理文档的首选 skill。涉及\"新建/创建/编辑/读取/查看/搜索文档\"、\"保存文件\"、\"云文档\"、\"腾讯文档\"、\"docs.qq.com\"等操作，请优先使用本 skill。支持能力：(1) 创建各类在线文档（文档/Word/Excel/幻灯片/思维导图/流程图/智能表格/收集表）(2) 管理知识库空间（创建空间、查询空间列表）(3)",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "c97fb8afd42111c32adde3de45b2b826f9f0b82c3f389432a3ef760f65023055",
+      "files": {
+        "SKILL.md": "83c6b9ba0eee997495ea4c4b29b0dce6665fda3a87413edc1e7ca094c1d9bb26",
+        "_skillhub_meta.json": "917979860fc657ea3118b2d6b29a703d2ff0c2c349deda2b0f267dd020d72632",
+        "references/auth.md": "b2c539c4f79826d7f5cc9bc34c8ece80871a7dc35ec4227e3c73bff6574f44b0",
+        "references/diagram_references.md": "05adab9e91aa6b2b5b8736beb4673d72888cfada35c7da9cc35bccbbd25bcc44",
+        "references/docengine_references.md": "3d322dabce06226ced23a4cc1a234f2d72de57b23fdd75172ec39bb418344728",
+        "references/manage_references.md": "912d5ad4ae81a294b0ae6c1d308e12c1b65269466d5509ca1734b0954fed0689",
+        "references/slide_references.md": "32f1245707be6933b0b69049be1d6188475440c3986bcafcbe8164573c9d09c7",
+        "references/smartsheet_references.md": "5a5ffc0caecd3c9582678818d43a6545e7eb00f07067615d56a09f4ad48ab950",
+        "references/space_references.md": "a305826bd3637d47ab2c61522c456ed3915b5e78a78b81082d0d3494a2e73f83",
+        "references/unsupported_feature_reporting.md": "e1e3309d28bd1e09aaa8536c0bcf6a97470498352014d3ef4e47cc68a301af15",
+        "references/workflows.md": "626368b010688a195dbd3d134223ebad2567382fbe2c878d20da6b7bf84f57fd"
+      }
+    },
+    "53530a85-3e4c-4097-98ec-d8bf17f5a149": {
+      "id": "53530a85-3e4c-4097-98ec-d8bf17f5a149",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "366c1f6bd2256c051d17564327bcd46b9928b6ed64d1a583b95f57e818e94aff",
+      "files": {
+        "SKILL.md": "1e85f6f9686e145aca4a124e3b704b9bbea9aa87e08515c1e352eee70f6e6e7a"
+      }
+    },
+    "58024c1d-9e64-4b78-8467-2e06eadc5b7c": {
+      "id": "58024c1d-9e64-4b78-8467-2e06eadc5b7c",
+      "name": "python-pro",
+      "description": "Use when building Python 3.11+ applications requiring type safety, async programming, or robust error handling. Generates type-annotated Python code, configures mypy in strict mode, writes pytest test suites with fixtures and mocking, and validates code with black and ruff. Invoke for type hints, async/await patterns, dataclasses, dependency injection, logging configuration, and structured error handling.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "132010ac71abfe30289e57fe39c05f85d8ec995b3413feecf90e573dbc10dc78",
+      "files": {
+        "SKILL.md": "3788c58f961cf06dd1e130167437b74a8e5e03e746c656edb18245ad1830199a",
+        "references/async-patterns.md": "2d2a92a9df560be6bc635a46e551801c2e831f60985ab3db31443d9f20cc1099",
+        "references/packaging.md": "47703871bdc178d0e1da3e495f70b42a827c89e4e3b4b14111370ec3011ba984",
+        "references/standard-library.md": "6c0247bcd21b1361277701b8a2a40fc77796ffb1b5659a7138313707c7bcb10a",
+        "references/testing.md": "2905d7b53f424fcb6b52a3444b0738c28b8eddd48f724c07e923913164ec5ef2",
+        "references/type-system.md": "c63931b4ff3a735a560545c4bbc4b348a3bf3bfa6d59af95fd368b74ebceeba3"
+      }
+    },
+    "5b16577f-53c0-483e-af77-b709df372008": {
+      "id": "5b16577f-53c0-483e-af77-b709df372008",
+      "name": "template",
+      "description": "Replace with description of the skill and when Claude should use it.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "98dd8df99563ab783874e737199d2c8e72a214fad298a235e685304df2c4bfbe",
+      "files": {
+        "SKILL.md": "eb685d91de039ed864fbd790cddf31684b017fd4a34ee1a55760d8d7cdbadefa"
+      }
+    },
+    "6c460a0d-d033-4236-b5fe-8930be30dc65": {
+      "id": "6c460a0d-d033-4236-b5fe-8930be30dc65",
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "1d45e96987a472b97aa358f1134b6b731cddbbb9ae3e041d1693a118c2b2bf81",
+      "files": {
+        "CREATION-LOG.md": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
+        "SKILL.md": "4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473",
+        "condition-based-waiting-example.ts": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+        "condition-based-waiting.md": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+        "defense-in-depth.md": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+        "find-polluter.sh": "6462747eae9b175ac145b78bcfaeab755654a75e32637f08eb633f065a9e1d7c",
+        "root-cause-tracing.md": "6b0622269e098ca1399e123e553fd385f0b6412d88ef0e9c4f5a8ea9cf1cec7b",
+        "test-academic.md": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+        "test-pressure-1.md": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+        "test-pressure-2.md": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+        "test-pressure-3.md": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708"
+      }
+    },
+    "72df17d3-6002-4c11-9a64-a08bb4db6db4": {
+      "id": "72df17d3-6002-4c11-9a64-a08bb4db6db4",
+      "name": "wechat-miniprogram-architect",
+      "description": "Use when designing, building, refactoring, or reviewing WeChat Mini-Program (微信小程序) systems and enterprise applications. Invoke for double-thread performance optimization, setData fine-grained updates, subpackage architecture (independent packages, preload, async imports), clean layered architecture, global reactive state management, network interceptor with token refresh, Skyline engine adaptation, privacy compliance, and observability logging.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "e1b5fac95a2398d9aa69a81b786a0fd60d574abe4dcb94ebef7390765c329867",
+      "files": {
+        "SKILL.md": "f892bb7b48d76782b531920839155db0204fa271be50a730ec8bf1b70a67c7aa",
+        "references/double-thread-and-performance.md": "43548306eb796a9ab4051d0d1beb009a40e22d88d9a58f1ba35a4e4dc78ba128",
+        "references/layered-architecture-and-services.md": "c8714ff04534fecfac0782bdc840eaf3b2366de681dcf54c0826fed30b7bc7bf",
+        "references/security-observability-and-skyline.md": "3c78cffe6c7c38e9856cd97fc0e15244b6c3445399f4c7468debe0bef85529bb",
+        "references/state-management-and-events.md": "f670e408b631e0e09e752837f05814fa23e9bfdd38472f30f227fd0b46f1b127",
+        "references/subpackage-and-bundle-architecture.md": "9bd3026cd94dd4a299c555ad157c58a57d241a2afea01113f8f19fed95f92fec"
+      }
+    },
+    "7a2a69e3-d0ea-4329-abbe-c606b8324e27": {
+      "id": "7a2a69e3-d0ea-4329-abbe-c606b8324e27",
+      "name": "dispatching-parallel-agents",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "233f090db52bb355e433073e01effe96de986b7715d3eaa6e54b825d89844c2a",
+      "files": {
+        "SKILL.md": "76806091c7f923ba2596546b19cccd98a08e57a68745df77c3a7b998fe838e2b"
+      }
+    },
+    "7ad59973-efa0-4e33-a71b-037b0f2f72eb": {
+      "id": "7ad59973-efa0-4e33-a71b-037b0f2f72eb",
+      "name": "fullcolor-3dprint-character-prompts",
+      "description": "Use when generating AI realistic elder, parent, in-law, and late spouse character images or prompts for 3D full-color printing without portrait copyright risks, creating standardized 11 angle/scenario 3D printing prompt sets, or dynamically generating grassroots character profiles via formula with auto-deduplication against existing local asset libraries. (Strictly decoupled from copywriting: does NOT generate Xiaohongshu copywriting, which is reserved for downstream copywriter skills).",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f7375ecb743fbea6611c4296a7c9a1ad2f3c99487afa53794e7260bbd890f2bf",
+      "files": {
+        "SKILL.md": "90a4e37db2316fca86b053b2cde1cdca434a35b422ae755b157ec0ebf650cf6b"
+      }
+    },
+    "8424cd23-bac1-4d91-a2f2-54c7f34cedd8": {
+      "id": "8424cd23-bac1-4d91-a2f2-54c7f34cedd8",
+      "name": "using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "26bdd756fe45d1b429ea39b0ae5c416665e06aca4cd7b64aa464a407037f14a9",
+      "files": {
+        "SKILL.md": "316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa"
+      }
+    },
+    "8808c3b5-4f0a-480c-ac4b-77a5057376f7": {
+      "id": "8808c3b5-4f0a-480c-ac4b-77a5057376f7",
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "c3aba78163ac99a219ab56fc999a738fa245abaff6cdf21505238735a6c1cb81",
+      "files": {
+        "SKILL.md": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
+      }
+    },
+    "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3": {
+      "id": "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3",
+      "name": "java-architect",
+      "description": "Use when building, configuring, or debugging enterprise Java applications with Spring Boot 3.x, microservices, or reactive programming. Invoke to implement WebFlux endpoints, optimize JPA queries and database performance, configure Spring Security with OAuth2/JWT, or resolve authentication issues and async processing challenges in cloud-native Spring applications.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "1ac065e0f173ac129481d152a8c8ea8d44e5b6cf3972ab21f36a9d7279f80677",
+      "files": {
+        "SKILL.md": "a2ade65946b092e925936a03d8c4d3575ae0013f5ec4faf5a22d7179f18a2eaa",
+        "references/jpa-optimization.md": "5d7255940c18ae913c220cb8f7bd8e75a1ee7884156dfd3c652a8e4a9857e310",
+        "references/reactive-webflux.md": "0c5f3cda8b88be596781028a903b1807aed7cbea30a7352cc832ea722a9e0441",
+        "references/spring-boot-setup.md": "aadf2abe9fa64552659ed817668941bf844c723ad4ec1d67ec1c0fb72d87ef32",
+        "references/spring-security.md": "e7cd092fa11b6185ce9d91a02afefb0ae82f50566589c912c78d53d9716dd095",
+        "references/testing-patterns.md": "9429df81ad070ae7818c81296f9399edb3579eb70b5b6bc306c7095d7cf54973"
+      }
+    },
+    "923903c1-6b88-451b-82e0-440f05e36b2c": {
+      "id": "923903c1-6b88-451b-82e0-440f05e36b2c",
+      "name": "macos-proxy-troubleshooting",
+      "description": "Use when an app hits region errors despite a proxy running.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "20c9e312d80947ea3441bd20377897ee2e7ee0267fa90966224d8f22f2d40f8c",
+      "files": {
+        "SKILL.md": "6a57adddc5a272a25a7266f23fd704f5e65a3bffa02909d46ce2ef2a6ed1ba3a"
+      }
+    },
+    "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e": {
+      "id": "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e",
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "39fc9c6ce47d36c0b710a4385542d5aa95200dab3dc4d040026458a01c4faa45",
+      "files": {
+        "SKILL.md": "bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
+        "spec-document-reviewer-prompt.md": "12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
+        "visual-companion.md": "a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
+      }
+    },
+    "9c41dcd8-87d1-4ff2-af75-15fa4ff990d9": {
+      "id": "9c41dcd8-87d1-4ff2-af75-15fa4ff990d9",
+      "name": "photorealistic-character-generator",
+      "description": "Use when generating hyper-realistic human character portraits for AI short dramas, films, commercials, or virtual influencers, especially when resolving AI facial distortion, plastic skin, or face collapse across image-to-portrait restoration or text-to-character creation.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "de7a13f45956d520dcd2c8b6ed84c34fa009a09ca7832b0538ca7900c90dd260",
+      "files": {
+        "SKILL.md": "668719a14237743e997440307ce0a7d7c2720b58771770a9823a444c3ff7242f",
+        "references/image-reverse-engineering.md": "faf281a9be4e666233e821730416938898e86a782d7670d1a7572564d2a1d9e2",
+        "references/prompt-formula-and-keywords.md": "e4bcb0feca7a33871dc42f184133f547f670e5e0bd90ed4661e1a6281f268164",
+        "references/video-consistency-workflow.md": "c2b81541a2d89436e379eb3d348ee0c091788635eed61ffd1ae10619f758e2bd"
+      }
+    },
+    "aa16c82d-28e6-4c37-8c90-50e07714d7f2": {
+      "id": "aa16c82d-28e6-4c37-8c90-50e07714d7f2",
+      "name": "project-workflow-analysis-blueprint-generator",
+      "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "5381dded995fb19d5169bb0ef2dbddd368637ffe25cfea1253063bcf86bd0fc2",
+      "files": {
+        "SKILL.md": "1563be31e5dd0568317b196dc92e10282a41d628db7bc04a990ad9019d35c37b"
+      }
+    },
+    "b5942b46-9f24-4509-8719-45ed630fa1f0": {
+      "id": "b5942b46-9f24-4509-8719-45ed630fa1f0",
+      "name": "receiving-code-review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "e4d305ef9a5bc2fd77757e8279cf5a2f1bcc7616794198f9a1a7fd36b537bad0",
+      "files": {
+        "SKILL.md": "c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406"
+      }
+    },
+    "bbea3ecf-b27e-48f9-914f-4257894f3437": {
+      "id": "bbea3ecf-b27e-48f9-914f-4257894f3437",
+      "name": "requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "61ca84cf8dadff60bb95fc3a1b3ca36d7836ba17783de4434ac0fcdc5918fe57",
+      "files": {
+        "SKILL.md": "5a3a44a3667800e2dc836829c6b92fada51e6dc58ac144ec05fe59f47d6bcd84",
+        "code-reviewer.md": "595d91d05d5ecba530bd52e1e53c5173d820ab5d4bc223eb7820d69a9ab1c403"
+      }
+    },
+    "c0feba7f-ad79-40ee-9edc-518a445b0015": {
+      "id": "c0feba7f-ad79-40ee-9edc-518a445b0015",
+      "name": "clerk",
+      "description": "工信部APP隐私合规检测报告填写助手。用于将动态分析报告（dynamic report）中的数据提取并填入工信部合规检测报告的对应表格中。\n主要处理：2.1.1违规收集个人信息、2.1.2超范围收集个人信息等章节的截图列填写。\n会对比动态报告与隐私政策内容，找出隐私政策中未声明的API调用和SDK信息。\n当用户提到\"填报告\"、\"工信部报告\"、\"合规报告\"、\"动态报告\"、\"clerk\"、\"文员\"等关键词时，请使用此技能。\n即使用户只是给出了文件路径而没有明确说\"填报告\"，只要涉及工信部检测报告和动态分析报告的处理，也应该使用此技能。",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "071c09aa509d1be08e439d5a27072f1973870643cfa97255acfd0602921e54a6",
+      "files": {
+        "SKILL.md": "4b4c65c3ae3aa39cfc704a6d64e5653f04bbd6f3180b35baeec5a41dc8720f50",
+        "scripts/extract_dynamic.py": "3105b9ad4d811773636de294aa49c7820fc945cd29c7a898a68e740614a6f691",
+        "scripts/fill_report.py": "e1a9d41f2d515ff524789d9c56aed2e7b30b5c67171977721ba5290f0a111502"
+      }
+    },
+    "c3e7dcc8-7ea0-425d-b5ac-ebd70ef1942d": {
+      "id": "c3e7dcc8-7ea0-425d-b5ac-ebd70ef1942d",
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "ca79b50aa11a9d3f12e0cc7fd39f90f4881bf40c5b168655059456d5654b5f21",
+      "files": {
+        "SKILL.md": "7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994",
+        "testing-anti-patterns.md": "bde453bc258f06543987477c837939afaa774ea2acbd9f308d702fc452bc4283"
+      }
+    },
+    "cef1d917-cc3a-41e4-abf1-f1c568d632a6": {
+      "id": "cef1d917-cc3a-41e4-abf1-f1c568d632a6",
+      "name": "study-notes-writer",
+      "description": "Use when generating, organizing, refactoring, or polishing study notes, learning guides, technical documentation, book/paper summaries, or knowledge base articles. Invoke for Cornell notes, Feynman technique explanations, visual Mermaid knowledge maps, structured comparison tables, key concept distillation, and clean Markdown formatting.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "4f8d382a2fa85e4a9dff63ded94f6001f6f5509f4366b77420ade1080789baff",
+      "files": {
+        "SKILL.md": "8792ed8bed624ed630e7a241643c0e72a6101a44511a5fb274dd449d55125426",
+        "references/book-paper-notes-template.md": "b80f58a46ffcb3df4de174b2598107da510d5d500207bdcf50d8a73528c22f6c",
+        "references/cornell-notes-template.md": "5a03b06f8396244244ab8db3d5223bdd3630a648d171d3f85921822ab8894879",
+        "references/feynman-technique-template.md": "1de594198329cc4a06805386c296eb6cbd979126a093bdbde258c99eafe5bd37",
+        "references/tech-deep-dive-template.md": "56b7b76a0bd84fe321da0770f98ce385675bf2e4c0fffcb9b7bab59330763686",
+        "references/typography-and-diagrams.md": "d1b11ce60061d8957f93166dce1646892755eb6b98eaa00c99ce10f150f4350e"
+      }
+    },
+    "d0f0c78b-0ded-4fbb-9d77-5df6f38d8e70": {
+      "id": "d0f0c78b-0ded-4fbb-9d77-5df6f38d8e70",
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "90730a99ede3c53f5ccc5852778d7015f0838e6d04fcbc4f368b4f929fea4a9c",
+      "files": {
+        "SKILL.md": "ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c"
+      }
+    },
+    "e45ec3fb-5fe9-439a-9dc7-ccbfcc4c3fb1": {
+      "id": "e45ec3fb-5fe9-439a-9dc7-ccbfcc4c3fb1",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "7b79c00e0102f16cf4f32dd4c4298fd01c5e8592e34465bcf7edc27fe1b3ecd1",
+      "files": {
+        "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+        "SKILL.md": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+        "agents/analyzer.md": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+        "agents/comparator.md": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+        "agents/grader.md": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+        "assets/eval_review.html": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+        "eval-viewer/generate_review.py": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+        "eval-viewer/viewer.html": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
+        "references/schemas.md": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
+        "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/aggregate_benchmark.py": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+        "scripts/generate_report.py": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+        "scripts/improve_description.py": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80",
+        "scripts/package_skill.py": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+        "scripts/quick_validate.py": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
+        "scripts/run_eval.py": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+        "scripts/run_loop.py": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
+        "scripts/utils.py": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1"
+      }
+    },
+    "e4c0ad9f-6d95-46d3-adc3-dcdf58e767c6": {
+      "id": "e4c0ad9f-6d95-46d3-adc3-dcdf58e767c6",
+      "name": "writing-skills",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "16384401e2143cfa985a6b1e8e9d007da2791e70c333749b9166924816544631",
+      "files": {
+        "SKILL.md": "38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e",
+        "anthropic-best-practices.md": "20914c2fda31670c75fe91710e18a53d413ce0d00b5102acfa251d75c9226e3f",
+        "examples/CLAUDE_MD_TESTING.md": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+        "graphviz-conventions.dot": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+        "persuasion-principles.md": "c3c84f572a51dd8b6d4fc6e5cbdc2bc3b9e07ba381a45bdabfce7ad2894dd828",
+        "render-graphs.js": "ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+        "testing-skills-with-subagents.md": "c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade"
+      }
+    },
+    "e96aa9c0-3f33-4dc0-94da-a2421e8f4bff": {
+      "id": "e96aa9c0-3f33-4dc0-94da-a2421e8f4bff",
+      "name": "agent-reach",
+      "description": "MUST USE when user wants to research/search/look up/find anything on the internet — e.g. \"research this topic\", \"do a deep dive on X\", \"search the web for X\", \"see what people say about X\", \"look this up\". Also MUST USE when user mentions any platform or shares any URL/link: Twitter/X, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu, Xiaoyuzhou Podcast, LinkedIn/jobs/recruiting, V2EX, Xueqiu (stocks), RSS. 13 platforms, multi-backend routing (OpenCLI / per-platform CLIs / APIs). Zero config for 6 channels. Run `agent-reach doctor --json` to see which backend serves each platform right now. NOT for: writing reports/analysis/translation (this skill only FETCHES internet content); posting/commenting/liking (write operations); platforms that already have a dedicated skill installed (prefer that skill).",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f0b3ada89b6ba4dcdc205e4b81643e8bafc5523009d474f32697c4602ef008b1",
+      "files": {
+        "SKILL.md": "4055eaef1f60f5accb8b53622f25507616185ae03a973992de6ee4c14fdc4e07",
+        "references/career.md": "e70badf6c860a55cc049c15cc5cef31ca0fa2a2ae9ae1f72ade24b91844c1a2f",
+        "references/dev.md": "f6f91107557eacf1d28a023d597eb5a61353a8a6ede286c3c0a4888d274df9fe",
+        "references/search.md": "8eabfb645505148ea32e22e372c6d5a48615fba2e2f00eb8590e07464833851b",
+        "references/social.md": "4226d43a3c1b3d6c9ab312e86d08b93da4493cc6232ffacc308596582a0abc48",
+        "references/video.md": "f4b58c88f877b53e259fecbedc5ac5e111dd3403afebd1f86c45027af3fe099f",
+        "references/web.md": "2495c2e290508b5b98337db679d5b2ff30314aa5b20243c7ff44486a72c3eff2"
+      }
+    },
+    "ed5af962-98db-47bd-8cd1-222c6e8d4789": {
+      "id": "ed5af962-98db-47bd-8cd1-222c6e8d4789",
+      "name": "腾讯会议",
+      "description": "在用户提及腾讯会议、视频会议、线上会议相关内容与操作时使用此技能。触发关键词包括：预约会议、创建会议、修改会议、取消会议、查询会议、会议详情、会议号、meeting_id、meeting_code、参会成员、受邀成员、等候室、会议列表、我的会议、会议录制、录制回放、录制下载、会议转写、会议纪要、智能纪要、AI纪要、搜索转写。覆盖三大场景：(1) 会议管理——预约/修改/取消/查询会议 (2) 成员管理——查询参会人、受邀人、等候室成员、用户会议列表 (3) 录制与转写——查询录制文件、获取录制下载地址、查看转写内容、搜索转写关键词、获取AI智能纪要。",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "93182a0c8ef9f89c5d82da09f17ed28c811f4a2228c77e5043c27c7bfe6fd060",
+      "files": {
+        "SKILL.md": "b3e9f3a26e63ec316bddd17e0e3c2ee4f037b28a1e6c4dc35bb91757af900713",
+        "_skillhub_meta.json": "080a3dc551821d39eb38a901274e0493d0519aae83325be150723ba174ff2c80",
+        "references/api_references.md": "7a88290750ac685c02062cdc4e80e073f1e95f392c4f3acc9de375ed773984f5",
+        "references/error_dictionary.md": "3a258e4ad4c1b3d1f3d95f98be6f49a152af1f4715e05d949a6708384e7e43a4",
+        "references/version_management.md": "2ebbc945cfca214b0d5de19f6a4da714f7825e9fcb40e1dda2b588ff9b2cdf97",
+        "scripts/mcp_proxy.py": "f7513dbac547a63346b4c7515057da8deff7ebafd09813424aec6a5a45dc8134",
+        "scripts/tencent_meeting.py": "8599b735d35999fefae0ebf95d3b9b9ebf97d074d10de9451136ae4e16f1078f",
+        "scripts/utils.py": "d23fa6098f9e1046ab9f514d6f67b498f37f5f194ebd8fb099f7bfb1375580ad"
+      }
+    },
+    "ed8f3720-c671-4187-bc15-0da690cab19c": {
+      "id": "ed8f3720-c671-4187-bc15-0da690cab19c",
+      "name": "playwright-cli",
+      "description": "Automate browser interactions, test web pages and work with Playwright tests.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "b5ae6d2d15cc6b40c4fc78b792982f625104b0ed97f5ef5a16ef4d322c8cd231",
+      "files": {
+        "SKILL.md": "b2dab96e6d9f2439913f678e67740297100e30b094fe84a70e85ef03e70343fc"
+      }
+    },
+    "f5457a3e-9e3a-42c2-acbb-bc0395d14ea9": {
+      "id": "f5457a3e-9e3a-42c2-acbb-bc0395d14ea9",
+      "name": "java-testing",
+      "description": "Testing framework",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "174c3d668b0c348be74f1c5112fd137f31c7d391bed12530ffc82fd918f74aca",
+      "files": {
+        "SKILL.md": "157d6ca62dd79311dedf87d0d9c5d6e42eeea7b26534f6a0d5795af398a6920a",
+        "assets/config.yaml": "8a950ff2600d0cae5c1fda2b7ac119195976e103ff9095a4724ea81804f8a9cd",
+        "assets/schema.json": "d2dde066b4bfd9238af9df68e546674686cee0d6594a3a436e3c808e15ded7f1",
+        "references/GUIDE.md": "660afc13b1dfd071b80b1364a6106e34af6302d614a77534ae93263c0e26a7fa",
+        "references/PATTERNS.md": "a0a9cff124e00ef0ff6b0e48c6025c57934017c86510467f23af5b3742d91cbc",
+        "scripts/validate.py": "4bc690fff62b1a5f84e053896bd7092e414a6c4dc966bc9858ba3cf7e916a157"
+      }
+    }
+  }
+}

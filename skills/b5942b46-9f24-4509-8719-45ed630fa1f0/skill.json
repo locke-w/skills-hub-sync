@@ -1,0 +1,14 @@
+{
+  "id": "b5942b46-9f24-4509-8719-45ed630fa1f0",
+  "name": "receiving-code-review",
+  "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "e4d305ef9a5bc2fd77757e8279cf5a2f1bcc7616794198f9a1a7fd36b537bad0",
+  "files": {
+    "SKILL.md": "c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406"
+  }
+}

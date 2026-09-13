@@ -1,0 +1,15 @@
+{
+  "id": "2eeb74d4-edcc-43d6-a3c8-bf1f91142105",
+  "name": "writing-plans",
+  "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "6e41504ed9a2dc55b84240c8dc4edf8db6e7c2da6b71ed29e8edbdf4f95a3094",
+  "files": {
+    "SKILL.md": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b",
+    "plan-document-reviewer-prompt.md": "6fce2aa83c63715697e9dd86050c820716100b91efbd9f12bab8477ecc060256"
+  }
+}

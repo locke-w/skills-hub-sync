@@ -1,0 +1,16 @@
+{
+  "id": "0645794a-5edb-4479-9d92-7f7bbb526eeb",
+  "name": "photorealistic-character",
+  "description": "Use when generating ultra-realistic human faces, creating character consistency assets for AI short dramas or videos, restoring frontal portraits from reference screenshots, or creating new lifelike human personas without AI plastic glow or facial distortion.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "844f14923c1974b2e413c7ce7afb0e70e3bc1f24dafbc2bd58e5f70a20753a1d",
+  "files": {
+    "SKILL.md": "dd8d25c6a2afd9c2f9537d86c30254d476a40cf0d936b34b64eefa2a674c2e0b",
+    "references/prompt-library.md": "214a32568a18c813621d3c3f9dedfe2ce3fd5c396b9bbab58afa04bf8e7b8d58",
+    "references/video-consistency-workflow.md": "fda0e2d2f7c0c40001e8cc10e147667ed13222e0a13084bc0d64f1f96aa8c8a2"
+  }
+}

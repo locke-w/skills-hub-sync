@@ -1,0 +1,28 @@
+{
+  "id": "05706603-3620-4dd2-a038-44e00bbd9415",
+  "name": "web-access",
+  "description": "",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "b55041e735eb112083da85a22a4ba4a2930a8e02f5afa99366c973e03d5b14c3",
+  "files": {
+    ".claude-plugin/marketplace.json": "a9a683f2971003b4204bed0fe599d63ba8ce98db8f65880a876997a0c48c0485",
+    ".claude-plugin/plugin.json": "505bd3fb8debb6e8dfbb23049920174f04ff8a6aa0fbf87b019e0487f30ffcfe",
+    ".gitignore": "db2fbc34ec812553cb06c17770c533b0376c879fbca70e55bdb057fbc5d11788",
+    "README.md": "a46a3dd036cf127d2a2ad4f14accefd59b0dbb2212626e1dc5c64a98a2ef5243",
+    "SKILL.md": "4b9567a9ab32dd49e1bcee54914bc3c8d2d1b2cd292c22e53ed248ea80c387ac",
+    "config.env": "7e3b7b07bf7792d3e97137f8d7428f15cd4d41c3e03e6788fe36b9d03674c29b",
+    "references/cdp-api.md": "533c6a7aefef2f5ebfd92295ca9678fb3e701c4f1a05b28872468728d4f06548",
+    "references/migration-2.5.3.md": "ae09e4802d7619598225f72bb1bcfd5c23154689a4bfbdc6a3d78822e18171d9",
+    "references/site-patterns/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/browser-discovery.mjs": "f89a2a1f09fac91c376f64ca85de2a5c9dc2eb2f37ffc70dd0d2190ff9a03402",
+    "scripts/cdp-proxy.mjs": "1e95f5c9c0080face9bb02e7c862ada689721c7aeb794610c578706b8d8235e8",
+    "scripts/check-deps.mjs": "71e2dbafe8bd03aa231cebdfde968fc0f14095b5e02dd643074228f4e6851ac2",
+    "scripts/find-url.mjs": "c67c92a178d4ff6248be6341c96daa18936e5d3f6fb1a840e3e8753a69d528ad",
+    "scripts/match-site.mjs": "afa955642645661981ba6ed323a8bd4e0a222974c56ae06318bbf4e459283c70",
+    "templates/config.env.template": "7e3b7b07bf7792d3e97137f8d7428f15cd4d41c3e03e6788fe36b9d03674c29b"
+  }
+}

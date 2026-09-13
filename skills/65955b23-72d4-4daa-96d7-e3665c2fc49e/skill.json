@@ -1,0 +1,14 @@
+{
+  "id": "65955b23-72d4-4daa-96d7-e3665c2fc49e",
+  "name": "security-auditor",
+  "description": "Use when conducting security audits, vulnerability assessments, threat modeling, security hardening, or reviewing authentication, authorization, data protection, and LLM safety.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "587936f25beabddbbfc6a31f063ec499d7dfe50d4c17963a96a3f93af2652289",
+  "files": {
+    "SKILL.md": "97fdff6f3bc3e05471fc06984bfb68d6f8c3dc8910489eba8b4c93bc0606691b"
+  }
+}

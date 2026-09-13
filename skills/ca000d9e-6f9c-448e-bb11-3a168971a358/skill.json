@@ -1,0 +1,14 @@
+{
+  "id": "ca000d9e-6f9c-448e-bb11-3a168971a358",
+  "name": "web-scraping",
+  "description": "Expert in web scraping and data extraction with Python tools",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "60ccd37d21a318f30eb00de2298adb92585242a08349ae29713aa221d3849eb8",
+  "files": {
+    "SKILL.md": "ece4195704049d8e8261ceac6e7bee0097a4f63f60769f79156aaa1ef2fa142f"
+  }
+}

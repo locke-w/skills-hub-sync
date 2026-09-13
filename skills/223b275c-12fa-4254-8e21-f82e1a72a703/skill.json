@@ -1,0 +1,14 @@
+{
+  "id": "223b275c-12fa-4254-8e21-f82e1a72a703",
+  "name": "find-skills",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "f7f86e1271702d0b36c09e4f490ff2e9cfa179f9cbdbed0d916dfb4236735801",
+  "files": {
+    "SKILL.md": "5df70a7a474aaed217246277e17882e3eb9025077189026dfb028a713b480926"
+  }
+}

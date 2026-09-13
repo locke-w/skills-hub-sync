@@ -1,0 +1,16 @@
+{
+  "id": "4fe4f673-a924-4202-926e-ca428bc85d91",
+  "name": "opencli-sitemap-author",
+  "description": "Use when creating or maintaining OpenCLI site sitemaps: agent-facing navigation, page-state, action, workflow, API-reference, pitfall, and fallback knowledge for a website. Use after browser exploration discovers durable site context, when a sitemap is stale, or when promoting local site knowledge into the repo.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "5e75dd5b4d6a1962f9e2f64f6df215a98e5e6ceeab2b1cd118347bfa43dc205b",
+  "files": {
+    ".opencli-managed.json": "08846760950e1f434efa3d88e67c0ebbe0ad410cc79439efadb9899a8e5f79d8",
+    "SKILL.md": "8112efbb04c4d8f4ba706af6f29f02b1261fa3d43518b1f7c7b5ff8700685557",
+    "references/sitemap-schema.md": "fc6e7e770b6afff3e9f1432d96fed5da3cadf069c584d3c71e90c9156a768c08"
+  }
+}

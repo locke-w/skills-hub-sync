@@ -1,0 +1,14 @@
+{
+  "id": "9b65d530-7fe6-44fc-9c78-8e2687833665",
+  "name": "web-performance-auditor",
+  "description": "Use when conducting web performance audits, analyzing Core Web Vitals (LCP, INP, CLS), optimizing page load speed, rendering performance, bundle size, and network requests for web applications.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "63e27d7786f545e5db5582d9da162bd07ce5ea831267b899b642ec6f876ae9eb",
+  "files": {
+    "SKILL.md": "8f9576263e2cab3a0507f295758a897a6a664180e522b02b2d6d821ed4e3539b"
+  }
+}

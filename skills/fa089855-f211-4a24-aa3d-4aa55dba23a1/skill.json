@@ -1,0 +1,14 @@
+{
+  "id": "fa089855-f211-4a24-aa3d-4aa55dba23a1",
+  "name": "cognitive-distillation-architect",
+  "description": "Use when distilling a specific person or school's cognitive operating system into a verifiable, loadable agent skill with Alibaba engineering rigor.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "c1a26603dd90bb75e916aad642e6b2f872ca7ccb703c20aa4dc4312fb63dfcd1",
+  "files": {
+    "SKILL.md": "5ccfb323b8dab6b8cd3c10f31ad3a931bcce5b31310efa1d7979114b1455253c"
+  }
+}

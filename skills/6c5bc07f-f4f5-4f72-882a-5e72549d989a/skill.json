@@ -1,0 +1,15 @@
+{
+  "id": "6c5bc07f-f4f5-4f72-882a-5e72549d989a",
+  "name": "opencli-browser",
+  "description": "Use when an agent needs to drive a real Chrome window via opencli — inspect a page, fill forms, click through logged-in flows, or extract data ad-hoc. Covers the selector-first target contract, compound form fields, stale-ref handling, network capture, and the agent-native envelopes the CLI returns. Not for writing adapters — see opencli-adapter-author for that.",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "419f424585cbe3685153d8072871e8d34c5504e4fe71c57979aa9ebfe6a5529a",
+  "files": {
+    ".opencli-managed.json": "2c38a5aee6c5e197d3a3d2a4da68a542c6d6cc9a777b6cc36dbf49ed60e10c10",
+    "SKILL.md": "c51aaa1695d529fc4479788088ab0054642fa0f1f902ecb58867dd0b8418a7b0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "GSAP 动画开发助手",
+  "installedAt": 1780909827860,
+  "source": "marketplace",
+  "version": "1.0.0",
+  "skillId": "skill_2059474268680241152",
+  "examples_zh": [
+    "用 GSAP 给首页 Hero 做进入动画，并兼容 React 清理逻辑。",
+    "帮我实现 ScrollTrigger 滚动触发的卡片视差效果。",
+    "检查这段 GSAP timeline 代码有没有性能或内存泄漏问题。"
+  ],
+  "examples_en": [
+    "Create a GSAP entrance animation for a homepage hero with React cleanup logic.",
+    "Implement a ScrollTrigger-driven card parallax effect.",
+    "Review this GSAP timeline for performance issues or memory leaks."
+  ],
+  "iconSource": "https://openplatform-cdn.codebuddy.cn/public/operation-platform/skill-icons/skill_2059474268680241152/0ff4a984f716db71.svg",
+  "iconLocalPath": "C:\\Users\\17528\\.workbuddy\\skills\\skill_2059474268680241152\\_icon.svg",
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/operation-platform/skill-icons/skill_2059474268680241152/0ff4a984f716db71.svg"
+}

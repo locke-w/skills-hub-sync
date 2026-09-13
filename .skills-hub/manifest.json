@@ -1,6 +1,64 @@
 {
   "format_version": 1,
   "skills": {
+    "0161436f-5768-4473-a5c2-81c9c36646b4": {
+      "id": "0161436f-5768-4473-a5c2-81c9c36646b4",
+      "name": "test-engineer",
+      "description": "Use when designing test suites, writing unit/integration/E2E tests, analyzing test coverage gaps, creating Prove-It tests for bug reproduction, or improving test quality.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "cace31f570c6dfbab6be468bf76cf260b9a4a4fdd49cef82b701d5547470609e",
+      "files": {
+        "SKILL.md": "4c0d83c7f0a90be697df1d46d08ebdc4813c115c4f5ecb4e9cab997aca477cae"
+      }
+    },
+    "05706603-3620-4dd2-a038-44e00bbd9415": {
+      "id": "05706603-3620-4dd2-a038-44e00bbd9415",
+      "name": "web-access",
+      "description": "",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "b55041e735eb112083da85a22a4ba4a2930a8e02f5afa99366c973e03d5b14c3",
+      "files": {
+        ".claude-plugin/marketplace.json": "a9a683f2971003b4204bed0fe599d63ba8ce98db8f65880a876997a0c48c0485",
+        ".claude-plugin/plugin.json": "505bd3fb8debb6e8dfbb23049920174f04ff8a6aa0fbf87b019e0487f30ffcfe",
+        ".gitignore": "db2fbc34ec812553cb06c17770c533b0376c879fbca70e55bdb057fbc5d11788",
+        "README.md": "a46a3dd036cf127d2a2ad4f14accefd59b0dbb2212626e1dc5c64a98a2ef5243",
+        "SKILL.md": "4b9567a9ab32dd49e1bcee54914bc3c8d2d1b2cd292c22e53ed248ea80c387ac",
+        "config.env": "7e3b7b07bf7792d3e97137f8d7428f15cd4d41c3e03e6788fe36b9d03674c29b",
+        "references/cdp-api.md": "533c6a7aefef2f5ebfd92295ca9678fb3e701c4f1a05b28872468728d4f06548",
+        "references/migration-2.5.3.md": "ae09e4802d7619598225f72bb1bcfd5c23154689a4bfbdc6a3d78822e18171d9",
+        "references/site-patterns/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/browser-discovery.mjs": "f89a2a1f09fac91c376f64ca85de2a5c9dc2eb2f37ffc70dd0d2190ff9a03402",
+        "scripts/cdp-proxy.mjs": "1e95f5c9c0080face9bb02e7c862ada689721c7aeb794610c578706b8d8235e8",
+        "scripts/check-deps.mjs": "71e2dbafe8bd03aa231cebdfde968fc0f14095b5e02dd643074228f4e6851ac2",
+        "scripts/find-url.mjs": "c67c92a178d4ff6248be6341c96daa18936e5d3f6fb1a840e3e8753a69d528ad",
+        "scripts/match-site.mjs": "afa955642645661981ba6ed323a8bd4e0a222974c56ae06318bbf4e459283c70",
+        "templates/config.env.template": "7e3b7b07bf7792d3e97137f8d7428f15cd4d41c3e03e6788fe36b9d03674c29b"
+      }
+    },
+    "0645794a-5edb-4479-9d92-7f7bbb526eeb": {
+      "id": "0645794a-5edb-4479-9d92-7f7bbb526eeb",
+      "name": "photorealistic-character",
+      "description": "Use when generating ultra-realistic human faces, creating character consistency assets for AI short dramas or videos, restoring frontal portraits from reference screenshots, or creating new lifelike human personas without AI plastic glow or facial distortion.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "844f14923c1974b2e413c7ce7afb0e70e3bc1f24dafbc2bd58e5f70a20753a1d",
+      "files": {
+        "SKILL.md": "dd8d25c6a2afd9c2f9537d86c30254d476a40cf0d936b34b64eefa2a674c2e0b",
+        "references/prompt-library.md": "214a32568a18c813621d3c3f9dedfe2ce3fd5c396b9bbab58afa04bf8e7b8d58",
+        "references/video-consistency-workflow.md": "fda0e2d2f7c0c40001e8cc10e147667ed13222e0a13084bc0d64f1f96aa8c8a2"
+      }
+    },
     "0edc18ba-1caa-4736-8769-02ceb59612d5": {
       "id": "0edc18ba-1caa-4736-8769-02ceb59612d5",
       "name": "using-git-worktrees",
@@ -13,6 +71,54 @@
       "content_hash": "d2d1a4762591ca7ca2c9530b49e46eaf3ba3e176a555bd1277f87a11ac198d5d",
       "files": {
         "SKILL.md": "085a45ee3de432bdb2768011591d9a882cb6c759e2317f379226451c5618fe8e"
+      }
+    },
+    "110266ce-d16b-401c-ba72-00c9ae5cbe4c": {
+      "id": "110266ce-d16b-401c-ba72-00c9ae5cbe4c",
+      "name": "opencli-adapter-author",
+      "description": "Use when writing an OpenCLI adapter for a new site or adding a new command to an existing site. Guides end-to-end from first recon through field decoding, adapter coding, and verify. Replaces opencli-oneshot / opencli-explorer. For ad-hoc browser driving (no adapter), see opencli-browser instead; for a top-level orientation to opencli, see opencli-usage.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "871c5ba80e4845aaf6748361d09071fad98edddc66bee8891681de10c64a1574",
+      "files": {
+        ".opencli-managed.json": "883531ff390e092aa7c28c67a00be571414d77f23f87b463b95b9825e4827102",
+        "SKILL.md": "0a0997e6da28e6a88000e84ad16efee16570c0dfea869658039fffc11a213631",
+        "references/adapter-template.md": "97516641d4d3f1b43a5ff07a7f0375de94a442f5c9e2ba98ffe7c3bf2e3b4798",
+        "references/api-discovery.md": "d716e655040a3e47b1602a977f9a99ff9b5f2d949d1ae77fc3d3128266305c6b",
+        "references/coverage-matrix.md": "e31030788bc744628d2b0f40867fe4ebd89ea5fd26e8d5072affb3ec3df61622",
+        "references/field-conventions.md": "408515b3c60d06df72e56446f34722446eb57a641ddcc501b72d228209580463",
+        "references/field-decode-playbook.md": "d2d8c83f9f2858ba7bfd26bf0f7899f0c98614498ac535420cbbe8a748c2a63b",
+        "references/jsdom-fixture-pattern.md": "b362b9c950fa4fb7c88f233159a78b0f70a3eac0f03fa2f0f42ed8af65586c1d",
+        "references/output-design.md": "4dff6e36c56154fffd1d98886093bd80aced4bc57ff75defdd4e1add49fc89d1",
+        "references/site-memory.md": "0276b2635bb582f933a89756542c89a6a44af460c5e31f447f1819d93b73ded7",
+        "references/site-memory/bilibili.md": "f3364073be1e74f8901be3cec2a36949804b7ac7d064a60dd5ab8f86adde18d3",
+        "references/site-memory/eastmoney.md": "d0bbfcc8e319945b681e9217eacc5fda6d8b9314b028b3bc6a2fd16d6d306fb3",
+        "references/site-memory/tonghuashun.md": "af54fe208ebebed2e7a787635ad855101e59d7f6a9d67a48b214171dc92eec54",
+        "references/site-memory/xueqiu.md": "dabeace6a9a97aeb4b1e777ffefa623c8c419b12af2d600993a5e913463e9330",
+        "references/site-recon.md": "ba49ae9132041470cc7b0dba11f59766433359188406db0ea25fb4b5e39aa6e4",
+        "references/strategy-selection.md": "e4d8389d426c590b9298a34d4af688a0a975813d306cdbd7b7bc056c810e189e",
+        "references/success-rate-pitfalls.md": "189d6e3c6ade350da359fc5ce935e1f1cf8ef6aaafb2e5b2289ebe9c5e040d2d",
+        "references/typed-errors.md": "6268a134192d35c5d9d5b30951cb48f2feb92b782d6d6617f252ee7ee0900583"
+      }
+    },
+    "11912da5-a17c-4be7-8dfd-5aa23bd80471": {
+      "id": "11912da5-a17c-4be7-8dfd-5aa23bd80471",
+      "name": "using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "9002f2242c40d14b3169821e351f4f7f2ee9ff40b8e595ddfd6660c503043daa",
+      "files": {
+        "SKILL.md": "316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa",
+        "references/codex-tools.md": "37e06103a352516dcec2eb326f990d50c6728b571135cc7b54cbbb8902c451e0",
+        "references/copilot-tools.md": "9fb400a432d31494c6d764506f04227c4b8d89e27a09f84da9cc2b75998f2db6",
+        "references/gemini-tools.md": "a66092fb2dd2c69b6b6d1098feaf456614521fd7b887cf7cb4160c8040ed1d62"
       }
     },
     "177dec72-1fd5-4d75-adce-d4962b380ea8": {
@@ -92,6 +198,20 @@
         "SKILL.md": "5c8d4b59aedb14c94e2f5d787a3265e858e8f53d4ceffe7ff1c15878a52b0e91"
       }
     },
+    "223b275c-12fa-4254-8e21-f82e1a72a703": {
+      "id": "223b275c-12fa-4254-8e21-f82e1a72a703",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f7f86e1271702d0b36c09e4f490ff2e9cfa179f9cbdbed0d916dfb4236735801",
+      "files": {
+        "SKILL.md": "5df70a7a474aaed217246277e17882e3eb9025077189026dfb028a713b480926"
+      }
+    },
     "2453447e-92fb-4980-90b2-9c8e9358948e": {
       "id": "2453447e-92fb-4980-90b2-9c8e9358948e",
       "name": "xiaohongshu-memorial-3dprint-copywriter",
@@ -119,6 +239,25 @@
         "scripts/validate-config.sh": "0f312a97d22cb83718ddf06000806ae3a7300a6a44ecb5b2e6a581d7b8bfbd63"
       }
     },
+    "274062e6-6b94-4ef3-a829-45b58b3efb08": {
+      "id": "274062e6-6b94-4ef3-a829-45b58b3efb08",
+      "name": "java-architect",
+      "description": "Use when building, configuring, or debugging enterprise Java applications with Spring Boot 3.x, microservices, or reactive programming. Invoke to implement WebFlux endpoints, optimize JPA queries and database performance, configure Spring Security with OAuth2/JWT, or resolve authentication issues and async processing challenges in cloud-native Spring applications.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "5fdb09eab0c3d2483a2edc12d7f39cde355caa978fc6545241b93aa38d533b42",
+      "files": {
+        "SKILL.md": "afba0fbefcea621809f8e70526204d3c50a8d47c82e7ef97ba22cc59c919bc74",
+        "references/jpa-optimization.md": "9a3f98d529f6e7f097f4726725713cfff06c2765c200c50ebfc8c33960a69d93",
+        "references/reactive-webflux.md": "9338d333ea0f7d24fb43617d7b52f24202b7fc9c8904a6f893a65a1ee5e8f2f9",
+        "references/spring-boot-setup.md": "40a7ef2ed9a2eb25014d242a499877d10b51c15b45061a95943e691a48ee0a1b",
+        "references/spring-security.md": "c7ff0c161719080a9f69a3f9bfc83e3082c3480e09f2ab15e8be329208683774",
+        "references/testing-patterns.md": "de713f3aeadb4cff42e1e2fef4ad24617c995645dbc0ccb029848051da8690be"
+      }
+    },
     "2eeb74d4-edcc-43d6-a3c8-bf1f91142105": {
       "id": "2eeb74d4-edcc-43d6-a3c8-bf1f91142105",
       "name": "writing-plans",
@@ -132,6 +271,228 @@
       "files": {
         "SKILL.md": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b",
         "plan-document-reviewer-prompt.md": "6fce2aa83c63715697e9dd86050c820716100b91efbd9f12bab8477ecc060256"
+      }
+    },
+    "3a8bd25e-6063-43ec-91a4-c4d72698583b": {
+      "id": "3a8bd25e-6063-43ec-91a4-c4d72698583b",
+      "name": "opencli-autofix",
+      "description": "Automatically fix broken OpenCLI adapters when commands fail. Load this skill when an opencli command fails — it guides you through collecting a trace artifact, patching the adapter, retrying, and filing an upstream GitHub issue after a verified fix. Works with any AI agent.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "58af0ccf1fe23127da7f0ddb6c6834e6a18c08417d8993b8191ebd6c3ac5b80b",
+      "files": {
+        ".opencli-managed.json": "2bd1e8df5f503b6f5b9e3439a60b1ae8b21027fa09de654d51c2b9e66daf3f33",
+        "SKILL.md": "5799561d917650a6204f248d684e2d2695dc3787fffeebb6649b57d8f9264855"
+      }
+    },
+    "3e16e07a-3f26-400a-94ec-2b7d69b04045": {
+      "id": "3e16e07a-3f26-400a-94ec-2b7d69b04045",
+      "name": "archify",
+      "description": "Create polished, validated architecture, workflow, sequence, data-flow, and lifecycle/state diagrams as explorable standalone HTML with inline SVG, dark/light themes, optional trace motion, and PNG/JPEG/WebP/SVG/WebM export. Accept plain-language requirements or pasted Mermaid flowchart, sequenceDiagram, and stateDiagram input; inspect repository evidence when the diagram must reflect real code. Use when the user asks to visualize system architecture, infrastructure, cloud/security/network topology, technical workflows, API call sequences, request lifecycles, data pipelines, ETL/ELT, data lineage, state machines, or to convert/beautify Mermaid.",
+      "source_type": "git",
+      "source_ref": "https://github.com/tt-a1i/archify",
+      "source_subpath": "archify",
+      "source_revision": "c6519401f7b91b9d43011657880893b0a8955548",
+      "tags": [],
+      "content_hash": "6c6921e8e24a974ab9c22965c16010b9b1f223f9c905fa29243848b75f4ec498",
+      "files": {
+        "LICENSE": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706",
+        "SKILL.md": "10094272d6d1b4ad0f2c2e0880cb646fe4991454a2dc3d854aecb27e7407ee1f",
+        "THIRD_PARTY_NOTICES.md": "f8dec2a3a8c977069f07a370b5580757191202a805c19d3cad2c5bcaf9e3a8b3",
+        "assets/template.html": "35b2210b120c56a6c58d953ffe0cf815c2e67d0a5ff3e8b9518c45b737dd3fc3",
+        "bin/archify.mjs": "b0eb73f0e4c462100cc72ebb83a2b6e7bb9596b3b9ef0fe10d68219fd3cf99d3",
+        "bin/open-artifact.mjs": "add1722186683c12770c575585bbb8774919c15b87361e10d2fe834623223159",
+        "bin/preview.mjs": "6d41e491d42070c05b5e278548714da1fcef6e6adfd84a0391ab2bf12f47373c",
+        "bin/visual-check.mjs": "8fa8c6f233f3598f4f22e58c48a4de6f45b3b072ad8e7aee4731c49b4bfbdc52",
+        "brand-marks/README.md": "8b771a16322ce9ea47fdc00b9935e33adf0f3af608f2d735235443e15ef622e2",
+        "brand-marks/catalog.json": "e1a6c555cbf8ea36fb8100a4a25824e7ab87bebe9871e450ba05b6dea3b036d6",
+        "delta/architecture-delta.mjs": "f75aa96a22cdd640762f6f2cebdd1b89188d7d2f2cf354a764de1063c95b78ae",
+        "examples/agent-run.lifecycle.json": "af939579dcafc8b4c49f09594591577994398aee57a57369d4c791dfc0d85a42",
+        "examples/agent-tool-call.workflow.json": "4d3f6c23de2ca7d306e05d0041a9506833bb5a164a2bddc2d1984cf4da3ee90c",
+        "examples/async-job-roundtrip.sequence.json": "545f20920c89b69c2bb1f15508d5543fddbeb15cffba61e102206e04bd5a5cd9",
+        "examples/brand-aware-delivery.architecture.json": "d4f0df8114b3524756ffa49529c015e00757b0594a357183490c1edeb341e3c6",
+        "examples/cache-miss-request.sequence.json": "4bbaa6ca3cd4036002fd5d0f3a332eb922cec69d09bac3d7925f95beb4308389",
+        "examples/checkout-platform.base.architecture.json": "c112195e7285e3e4aedaeab3e1f85f5891d30fccc2c260aebe4e1da12c80cf84",
+        "examples/checkout-platform.head.architecture.json": "e3aaf47f77afeadafc81c6ce853dc1df68cc1e6932dec972cf478f4008fdda99",
+        "examples/dataflow-product-analytics.html": "d66d70595448044a92d032738e2437980d2160462f974a1de8cfa82c5e148d54",
+        "examples/deployment-release.lifecycle.json": "735c2c5819266e6ea2a71775b6eefce98b53030ce90cb721dc8e1d022ce5be71",
+        "examples/event-stream.dataflow.json": "a92d6597ddbe164f395da32a7d4b33cfae08edd7d9600a6fb45a2058e5bbb43e",
+        "examples/incident-response.workflow.json": "5c760c82eee545dfb7da38a4e628059d7891af4cfbfc13c8a7009ea64f69aa1b",
+        "examples/lifecycle-agent-run.html": "d15306112803fe6ac1050c6fd5d943545a5bc6a72a0407cd0751d0d8794f6429",
+        "examples/product-analytics.dataflow.json": "6fa38a7ccedf96da592d60b392783b846188eaa3ec9136c6dc06ca020e43a110",
+        "examples/production-deployment.architecture.json": "ec484aa8576664fdb207b543fa49486b23273faccb7a5071e1a0becfb48c22eb",
+        "examples/release-delivery.workflow.json": "e5c880417eac1623923c3dd5461e0c78acd762e1621a28bd53fc14a84cad6a91",
+        "examples/sequence-cache-miss-request.html": "6bf688c8577049973ace979ac73292eda0cc8f349934c6ba4452720853ced84c",
+        "examples/web-app-rendered.html": "26784b847623e79727e44eb5fabfbedc2c47289bf877703eee78787a3eb5bee5",
+        "examples/web-app.architecture.json": "483350f5297df682aba4e4a0fa491307ce3d3abd725ae4df07fab177490752cf",
+        "examples/workflow-agent-tool-call-rendered.html": "e083cfe2d35701472374910e922ebdf8b30fdd3d5547d0e2cabd05094d033c66",
+        "migrations/workflow-v2.mjs": "77aadc38460e5e778344901f492cc00f16f74e8fe1def14b01e6d6d346b9f4c7",
+        "package-lock.json": "f875c29b190f6f5dc14bea7e56879ad2282c0a5212253b24937f77b4f6198054",
+        "package.json": "7fe2a96f0d6730b2d35811d7d4f5e7e969c166a47a0c87543cdf667a221815be",
+        "recipes/scenarios.mjs": "e77d31d5b65b921799f4f560287fbac24feb3cd683bee8cabe49ed1ddde1a8ac",
+        "references/authoring-contract.md": "8f2b583d0d84fb315e4c4dfa685bbcb93343bf7673b92ea0e70d361f8ffca4d7",
+        "references/brand-marks.md": "8010869da70677e686ecb312d9c3eec2d20723a44f817ab2bbf5525361c8a136",
+        "references/delivery-contract.md": "a614c31f41d270995a5aee99036532470a43722f8208fdc8ef922805914d1d01",
+        "references/viewer-runtime.md": "dc0d9ffe6b9987d73d2d48710fce5ab4c120bbf1940ff1eb9355259c5d4f32b6",
+        "renderers/architecture/grid.mjs": "f6de99c32436feed3378b0ddef516bb4732ff27a89c543b50635d4d14a15a55a",
+        "renderers/architecture/render-architecture.mjs": "f57077cb9fa64a8412ab0af705cb31e2e7a920114b31852882c04a76840365dc",
+        "renderers/dataflow/README.md": "18c4f86ba62fcee371d9fe38094625b3a68cc76231c36ab8c8124acb4c1ffa42",
+        "renderers/dataflow/render-dataflow.mjs": "5a5da505e5c68041990de92847f53a38215efb9212bc36fc911774e8829335c9",
+        "renderers/lifecycle/README.md": "f8ef88dc859189bb18bad7bb2e27d997cbc9d30936cf20f8bf401bae7f57deec",
+        "renderers/lifecycle/render-lifecycle.mjs": "23720729a14495b4085839653ec0622f2465be3b1e8c9eb556b602ab3f4a8cda",
+        "renderers/sequence/README.md": "a442335dcf44b1587d3ad88809e31b001a4fafdf7a134040e8b1927455af4206",
+        "renderers/sequence/render-sequence.mjs": "230c0fb79775badb4beb6fd74f45ed1ffbb70e932c3641a24bedcc61f912bddf",
+        "renderers/shared/brand-marks.mjs": "4557b7f3eec25a3dba66a0f5da1c5dca6ec607e2a68e9be51cd697cefe9e6425",
+        "renderers/shared/cli.mjs": "2a6b8fa11234451627a70bca71985d80362a4c52401a90a21840d6e2ae3012d9",
+        "renderers/shared/desktop-readability.mjs": "b36203a11df348706e541f309266a0f9b914dac6a7eb8ba804e3abe8f8d6c710",
+        "renderers/shared/diagnostics.mjs": "855fea15daf2beb5be7fad0d54b72a63a4af8595f227facf845ba1852b3b365a",
+        "renderers/shared/engineering-profiles.mjs": "7e99f9d5423f66cc9ab6224da56dc2d5aa6c6faec29178034794e9db6b5b2889",
+        "renderers/shared/generated-brand-marks.mjs": "0f157d229c12df6f53763a3b88684baa5803a52484c49c4d34ec40b8743beea2",
+        "renderers/shared/generated-validators.mjs": "b32d852053a2159477393c38df55f4759633bd3d36d829bd307b9389611e06b8",
+        "renderers/shared/geometry.mjs": "161785af32241fc96df051c9be4f2bb9c3b897418d708f4a051b63f1c44952cf",
+        "renderers/shared/i18n.mjs": "da0320ac6c002f421c516cb4921e9b806a4ba5b3e9a4f6cbcdef0b16e2917d47",
+        "renderers/shared/layout-report.mjs": "44c2f74a20e483dd37dae6791ede39284ce3bac1a2a13872d2912999e8504df5",
+        "renderers/shared/legend.mjs": "4c8b37f10fb5c783a28bff6aa35bc3966155213ee32f64a8252eab5b9e64a747",
+        "renderers/shared/output-path.mjs": "44a5f63239703a0a56623711bb9565272488c540650cb8c3f0a3aac57928d1cf",
+        "renderers/shared/repository-evidence.mjs": "e36c109c84b338ea77d2ae74e9fa9ffe4317e7780a2be8d4d78e588ddb387677",
+        "renderers/shared/text-fit.mjs": "35b6ef2c64d88c1ea4e5aab2af7c4e8a2c2e1be62db71263787d39a9797e7dea",
+        "renderers/shared/utils.mjs": "20124265300eb286db184a053561005cc32b6128dc1bc1b3f9520ffa8d43a241",
+        "renderers/shared/validator.mjs": "7460d7fcbcdf710649256c5e96142ae26d807a655d3296ee8caf7f5e158622cc",
+        "renderers/workflow/README.md": "7e1bd65cc5cc38206304ae2f61f4f0f493da98d71a111a61d0754c9da362c5c9",
+        "renderers/workflow/render-workflow.mjs": "83be05d1efd1816c527fccdf3ebbd4a0f1454c6cb0c9f7554c6702eb40d9c540",
+        "renderers/workflow/workflow-compiler.mjs": "06dc97f67041037d71fd8731934d4833ece95ac1a4278e3ef875b0e51e516104",
+        "renderers/workflow/workflow-migration-geometry.mjs": "ebfc5085dd008ae63802f500402fb7bf8ca0ae28460997d867f45e5493b8fbe6",
+        "schemas/README.md": "f4ca94ec18cf60ad02211f2c5bb64e9c26a87467a22215e06db34dbfc5d6145f",
+        "schemas/architecture.schema.json": "8c96140b6af8d93fb825a3c63e46b74176c9485185c978074ffe89e0f614576c",
+        "schemas/common.schema.json": "2630c958314eeebb92e0f6f6330475f1a2bc48f8c1b53201ba3b58889b319c80",
+        "schemas/dataflow.schema.json": "09d238a6a18f2e074ec69c8f905f58a44d3a0b68fc6a925b8346c484a912af90",
+        "schemas/lifecycle.schema.json": "05b46c0db95ee7ed44305b61496a96bb4f69342b20f9903d6534d952ebc65083",
+        "schemas/sequence.schema.json": "c9fec3fad087f14d55c0bb2d34446246e3405f0238c292c1cb6bef28d1120fcb",
+        "schemas/workflow.schema.json": "2128e82afd2b971fcb7d80ada86fa836bb4a5035b504053b87d3aeefec380e3c",
+        "scripts/check-render-output.mjs": "cd70eeb43b07b6a669e10e35f06e4e2e4ce1f7e7a6afcfcf349d75d00e0721a5",
+        "scripts/check-update.mjs": "7c7f47b35a55754fd85468c5e1cfc467bb2e1b9dd5c683dd60172844882b1970",
+        "scripts/generate-brand-marks.mjs": "0434c31903b831382a91e85a329bcbcb39b32f29c656273a273f896b3b0a42e7",
+        "scripts/generate-validators.mjs": "a5f5f67d3cd4675b16fa620043a5463f3c15aad89afb1b0c7cf42cf35e883f9a",
+        "scripts/render-examples.mjs": "a173a053fb26c0ac3cd72eb9b4e50411e67ca8c50bec57f05d4ca8ba79db2c0b",
+        "scripts/update-contract.mjs": "7c5d34c5fa2e08fcd0b42e33a0f3b4685fcecf3ac88f1ed820528df8fdc46cbc",
+        "skill-release.json": "269772492c38663b5d19730a54e5d7ad973ef04e47eb4f75b6dfa2e249614097",
+        "test/adaptive-reader-layout.test.mjs": "80ba934f6c8398b321387e55b0aa858a928ea66c0a4125e7ad72b6f58a1669c5",
+        "test/animation.test.mjs": "f53265be97ca6e59a6902c68a4cd2690a7ed931ab89cb83ad071030d80e17398",
+        "test/architecture-delta.test.mjs": "dcd79e854a3fc81bc4fd200ae6d3214cdd68ef4d74a5dc92464e38b8d0f87937",
+        "test/artifact-receipt-flush.test.mjs": "666118920612f0b2c479c0521e86bcc1a4be1e46f0972fbf53f9bac77c80dce7",
+        "test/authored-reachability.test.mjs": "b243c1568c8470a28cfbebc6b9db4dfe0302e7f37f5c451ccffec53de23fd01b",
+        "test/authoring-safety-contract.test.mjs": "1454a57493576d4afa9fd3f8640e064c86e5cdcaac2de1890fcedce84d0fce24",
+        "test/automatic-port-spread.test.mjs": "138508bc4ca7b28b003400897caba5484fb6e2c28ff4a7be9d0bcbdef7391aab",
+        "test/base-input-compatibility.test.mjs": "0cc0ec480aa23620adfb493b0c102a744c72c8799e3e837ef4c31f26980551d5",
+        "test/brand-marks.test.mjs": "cdbc5cdcd1fb89d1246acd357a5f46d716556f978fe8959cb9a9f5e29c968be3",
+        "test/chapter-delta-preview.test.mjs": "834fab9360c66e333e028879d12c751e540e26618ee39cdcb6def1699376dbe3",
+        "test/chapter-handoff.test.mjs": "384683b85c8181b9be6a54f24dc00e739d5347b86b1a878d2d9a865a650b4f3e",
+        "test/chapter-rail.test.mjs": "a95d33c9d19e400954aa93e8585788828dba40698b7a9ada9648430872da8f9c",
+        "test/checkout-line-endings.test.mjs": "fe0c70cdf0088cbf63460c9df3aee998ecba96bf778333bd17e101ea805d2888",
+        "test/clean-skill-staging.test.mjs": "417551ba5490bd37e1a129306d6bc6ac30923f88feb06c9af2d2c2bd4328a5e9",
+        "test/cli-output-types.test.mjs": "a2f601413cee7c5312663c137742c196a2c7182affe20d108b5007d3d1f6802a",
+        "test/cli.test.mjs": "72931cb5a0feddfd438227a58fedea1aadd50ad1852ebd6574241a82fb833510",
+        "test/community-proof-intake.test.mjs": "90cdf0600a87a67b65ab02a90830dadd63de8bc28183fac6784ad3d5c35e4d4e",
+        "test/cursor-onboarding.test.mjs": "eda54bcffd77ffc238f1c45cf8094a203697a44a7bb4587196ee2c8cb59124b6",
+        "test/degraded.test.mjs": "b7cdbd22d594c627a4d8b0b6403e403a0599df9229c561c9bb435ce200ce1344",
+        "test/delivery-contract.test.mjs": "b3e0f39ed7ca788d7e40b05a53eef68f9696acdea9f2d0b2ea24e2740d00ee61",
+        "test/desktop-reader-browser.test.mjs": "c140411835720abb5ffeb14e10f07d7d55733d8ac3b25e984c09c1e9f5953fcb",
+        "test/diagram-guide.test.mjs": "52c057417736299482f3ca270992d87a4eae4807062b78c760d85cce5ef8aa3e",
+        "test/engineering-profile.test.mjs": "d5419dc45da1927a2cac1b998fdd5d1bbdbc68369ccb17cffaf4d98a90e0e242",
+        "test/finder.test.mjs": "10683c42d6d9e3d20e2c7b48006e0f4c0bb16094f8aa5c76ebaa105be531585c",
+        "test/fixtures/automatic-routing-node-border-clearance.workflow.json": "7c3ede1070394a94c565b7a80e0d5ca2cba4f041aaac85777c74df48bf71e933",
+        "test/fixtures/fail-migration-cleanup.mjs": "ffd6eb76aa7efa70778704176c55c327f288d9e60607a89d5077b916ebb93fdd",
+        "test/fixtures/issue-126/custom-widths.workflow.json": "7701a2f6271b9d02d9477d5fb02d52e70738ff14be824956cf77ff466c1c1013",
+        "test/fixtures/issue-126/explicit-route.workflow.json": "985ba9146664598785cc3a5008e847259ac66caf4c2c5570e32477f384f31b21",
+        "test/fixtures/issue-126/explicit-viewbox.workflow.json": "520071d14b748aa184589bac22fc548e501c78fb9cf2c8bdceba4bf715620c3f",
+        "test/fixtures/issue-126/labels.workflow.json": "496ea86f39914458688f0c3b4277c03c3dedc8eedf1ba35a11e8c99a4a323d08",
+        "test/fixtures/v1-baseline/agent-run.lifecycle.json": "b2264f4b2eff23e69b3dc79922062e942fc64ed0bec4f939fa53dda3cacd82d6",
+        "test/fixtures/v1-baseline/agent-tool-call.workflow.json": "4903056b3634e02cce9fd7c71b61fb27e6db455480c8d776a7005346b3afc564",
+        "test/fixtures/v1-baseline/cache-miss-request.sequence.json": "047914c4dc4ed753b6b9f100ebaf6e7f15f9b72af0913e3a8e7a223bdef39aaa",
+        "test/fixtures/v1-baseline/event-stream.dataflow.json": "a92d6597ddbe164f395da32a7d4b33cfae08edd7d9600a6fb45a2058e5bbb43e",
+        "test/fixtures/v1-baseline/product-analytics.dataflow.json": "6da9959f729d81c4cdf8895fb6611080ff0368c3cde48b00b0081495a006140d",
+        "test/fixtures/v1-baseline/production-deployment.architecture.json": "738e9c7f22e4e6e88f5aafc087dc58409105927daa9a79aaf240c8393654494f",
+        "test/fixtures/v1-baseline/web-app.architecture.json": "5fb15d0e0f7e5ed3a1a3f2e7ee406fb50aae126818c58db24f77236b07dd63f6",
+        "test/fixtures/v1-workflow-700x400.workflow.json": "74a9bf3424c656b47a757b39cc1bd69c27ae553c264d3186799bdc5d080b5509",
+        "test/fixtures/v1-workflow-explicit-coordinates.workflow.json": "4f1140e720fdfbae7f7efed9fb9fdffb581fef849798697db9df7fa56b2131af",
+        "test/gallery.test.mjs": "f30d8e759e16b793c0c7755779718cb0680b95be14bf7a8b5827105cfad7f4b5",
+        "test/generate-validators.test.mjs": "df9b0bb98f564eb0fcc358a7f2fc7fb8136387bd1d6ab1981cd7335e0ca69136",
+        "test/generated-artifact-xml.test.mjs": "e44204d5e48ae6806f96e62627c72ca086ef3b543a7e4227bc6ba02116e2a201",
+        "test/geometry.test.mjs": "8a341c048bf86dda21e19337729f7709ea3645b6f311a3eb3b795ef10fef7131",
+        "test/golden.mjs": "ad0a1e34a43d4ab07a97fbca5c2d2358162a240fabda3a69d419bce6631ea6b7",
+        "test/grid.test.mjs": "ebf1cd47535148c43b578eb10df0260f0f55cb6811d06c01375fbb408bf2cf6b",
+        "test/guide-page.test.mjs": "f8aae11961f7b91fe9bd05eccf4b46e6924d43ade3994f393551cedc8c518e8b",
+        "test/guide.test.mjs": "8c0d8db6ba3a79d902fdb89d77c75518b232a52153794ec70e28056d3d2e2b68",
+        "test/guided-views.test.mjs": "fbed156af01082f3bbde7b0c0b6675664613c47644e14a33fad3fbd1b8dc062e",
+        "test/helpers/xml.mjs": "21c8c86df4feaf0f3e9411ccf4f53574714d27c85fa9750fe794aadaccdba813",
+        "test/i18n.test.mjs": "12a6b17fcde1fddbf496f46e15bfd76db931e4f0c9c832e772a12a0ee0d02b17",
+        "test/intent-trace.test.mjs": "055a23bed7698ba3273dddc602bc76d8b0bc01298ed2ac9c91600991334bf7f6",
+        "test/landing.test.mjs": "b8bdaf3f2494394c1ae4d300567ecef03a834ea1186ab6b93419d15c8b14979e",
+        "test/layout-rules.test.mjs": "849d408e1ce01efc41b82e5d6243bf11412851de1dd249f1d08622aae0362fa3",
+        "test/legend-contract.test.mjs": "99abc8fb61a3b8fa1971378ba0107205554b16ca5bbe3f068a6a8900f9e26197",
+        "test/motion-governor.test.mjs": "02609189ef79e6b44f9b5b6c1a5c1716886201714fb16212eeb038ab12785b8c",
+        "test/open-artifact.test.mjs": "fab9d65f5ed0844182b0ee62ced9412e364179960ef65fee020b0d23d977eb55",
+        "test/ordinary-model-floor.test.mjs": "4927b007f21a926b638ce33704450c0b3515f649c137bddfa6fdbd938fe158e6",
+        "test/output-path.test.mjs": "d20122bdc38c0b097f65d95aef866dd43af43759ff622e6fcc6d921b6080279e",
+        "test/presentation.test.mjs": "9c0fd988a3123762218093ddb8b8189998272318695347ed6fb924cec490280a",
+        "test/preset-tryon.test.mjs": "92c45df6deac7ccefcb8c1c38ad0f0ba7f42ddd737e5ef0baa9d15aa57ef1719",
+        "test/preview-contract.test.mjs": "fab520b1c709e23b6393684f57db76fcf1aff5425bef838652efa355e63cccd3",
+        "test/preview.test.mjs": "c7a8a5f4ac26082ca362e75fc3f7e183c2219612f47754f94aec1d0e669958a4",
+        "test/proof-aperture.test.mjs": "f393b9935bb9d915e301a1bf974b67faa72161a2717d6b65077e1060280e9af2",
+        "test/reach-share-card.test.mjs": "b94cc337cacc3e412ff08d00e88078d975e1fa2c32ad7d72a37fcffe151a8832",
+        "test/readme-showcase.test.mjs": "e4eae9219429148c3bc45c818f0aa43906127bc355601e178ee9657c63614b34",
+        "test/real-repository-proof.test.mjs": "6ce5dc9a9ad0e1109ec40480e959e077a0a21ff931758ab072bfa5cbee7c24ed",
+        "test/relationship-direct-explorer.test.mjs": "1411a6540f608a99f328c0bdbdc542795fb6f296e80be3af1bf0740d55dae7b2",
+        "test/relationship-lens.test.mjs": "f344bd3cfe7329715b2c422afa9158e8668b7798b9fc8251e69f3b9cdc02f857",
+        "test/relationship-permalink.test.mjs": "c2425e42a1b78b8a9714b675a2330352c78cc59880ab5d3ac7628c794490e3c6",
+        "test/relationship-pulse.test.mjs": "c15ac8f463ca7978dd48c18698b8700ae408ae05a9eebfd334425d74fad96c18",
+        "test/release-identity.test.mjs": "5a55ab3abc7e5da7764a7fdb414f8cb8db21c1d83688a1aa68c69ab3423979f1",
+        "test/release-package-gates.test.mjs": "f8c91f00b381d1f8a4c786b9d917c47c5e7f69dfec533dc57057fe940092c7bb",
+        "test/render-output-checks.test.mjs": "637757de7c46ddf00739db371cb84ff9236691ae31fd308cb034ea7053b8744d",
+        "test/repair-receipt.test.mjs": "f0618c73c372d11dc68e9706e6995cc0d5cfde2a13614a12c8f5ff4e9ae0a522",
+        "test/repository-evidence.test.mjs": "b91e96f5c7282b66026b38df20aff308f76a2e85c2910b9147eba7f2a071a4e5",
+        "test/repository-language-metadata.test.mjs": "91e3e8c298031a1e117ee8974d41681402701c16a872acd57ae9fa341e8ead7c",
+        "test/route-journey.test.mjs": "b00d943fc8762dc062b5bc0981b0fb612233b948ca590eee50070c898bfac264",
+        "test/route-probe.test.mjs": "3bc76e9426254f5589466e1fa3d10c826b4e5e883f6b7f67bc371061c3405f25",
+        "test/route-share-card.test.mjs": "da8a73f42167d6fa47041f818aa6e8bde4fe6b614ad3441a9a7ac30c15db1709",
+        "test/semantic-camera.test.mjs": "2f547c8eee6519371ebe72343428ee1bf0f94f7a072b8c1eae02a7c73fde327e",
+        "test/semantic-flow.test.mjs": "305dad25e06dc01825f01cb6889411cc7a6db36ceaac624f7bc6c6136ce53a76",
+        "test/semantic-legend-gateway.test.mjs": "a2aaf49464f2d5a48612dc3dcb60bb557de85da5c11ca9f6fea3373c011fd820",
+        "test/semantic-lens.test.mjs": "d7a5532c3df8fa2e95d5b5d7b3648a8e95b6974ab379846a6e15e12b89c8795b",
+        "test/semantic-passport.test.mjs": "4d1b5e2c4d30c05ebdb8093f7577b63e855a1651620e81da1570a25bc2a95029",
+        "test/semantic-radar.test.mjs": "0b5e17d85af6fbc5e84c95b0187ec635191b1909020e537e1d1beb6c839963ba",
+        "test/semantic-zoom.test.mjs": "c92a4e0e480ceac71bccad78fafe2fac9a4f74b72213ea3824ff53e8646e216a",
+        "test/sequence-column-fit.test.mjs": "e3de2b0837390d31481c2d0533aed467de0263439b494843eff992060e5b0dd6",
+        "test/settled-flow.test.mjs": "e079d492252d77612439fc055a6d79ef545829b12539aefac496f796ac90165e",
+        "test/share-card-export.test.mjs": "635ebf918753136fd8dad6f40e01676fd993b64a5869d7a40620253959c8ec2e",
+        "test/site-language-continuity.test.mjs": "9a9bc4ce25a5573b64534aa9d9ccc37b6b4c2874886f072790c450d70dff1c9c",
+        "test/site-language-integration.mjs": "fa1ea2ceeecfb4c675e07e07fe614d6c1a1aa0d28fd9cef3d3df978b694580d7",
+        "test/skill-metadata.test.mjs": "fbb258131c5b5eb7450d7c4abcedad4fc2724dc1a899093222971198ed5f41eb",
+        "test/stable-update-manifest.test.mjs": "15e15dfb5bd45852fb1f00acde4270695c99eefbbc14db75b465028fa5134ef5",
+        "test/start-page.test.mjs": "ecd6628cd8336068782a9f67ee72d415d06e494cb953d029ea4320ebbfa7d7c6",
+        "test/story-beat-navigator.test.mjs": "6b6c0ab5b396e8a608d337cd8e351d4118a75678a5d90620943249b1bc53d7b0",
+        "test/story-carrier.test.mjs": "05143cd9c5f28ac5041fcb46daddf830ac171c0bf72335a8f9623a14916bf8bc",
+        "test/story-director-strip.test.mjs": "8ab2e1ff83cb63384ef9d2b459f7d86b2e7de767a30173b845009a02d26a7cce",
+        "test/story-follow-camera.test.mjs": "edc511d606a6eb18e41d8110a6fb9c9c0958c5638dce109ffb7968151cc709d7",
+        "test/story-horizon.test.mjs": "4136e9b4e296048e422f44d64e3d10f9d81884d1a6f099d5eb0c33c4c1e5d8dd",
+        "test/story-moment-link.test.mjs": "acd13d838b3af58058a68dca90b7f4aad81a4d2fea7e6a89afd3a21345aa2207",
+        "test/story-shelf.test.mjs": "b734d038ca09136f46b5b514d1f19b8ca8bfa3377839d27cbcc338179c7da210",
+        "test/story-trail.test.mjs": "9ec4a06fcd365cc7a4ecc31927a004d98a62bab0eb6f3dd9feefa4e9f7ae009b",
+        "test/toolbar-polish.test.mjs": "09903e134954fa7dccfafc164e25cd2f3680b7323d5b92c6e06abf8f6b572bb2",
+        "test/update-contract.test.mjs": "b4b98e73569308570f2a7f598d1e251487007739aeee761010884bc352b2dd13",
+        "test/update-notifier.test.mjs": "af92b7847bc4212958b8f5a2cda22a1cb88d0597f4755387071b725e0a935313",
+        "test/v1-compatibility.test.mjs": "5c8e25a164419fb1b959b29dbc6870be37872baad99a6cbdc2f5beb0b7c45bf7",
+        "test/vertical-edge.test.mjs": "0fe432c075babf181f1a80253882cd96234f22fc408f8109f90ffde3e8c9b436",
+        "test/viewer-chrome-layout.test.mjs": "5ad88141fb74fea23c8a960be5502f42b08dd63ccd9b40dbdc9bc163d9d77ed0",
+        "test/visual-check.test.mjs": "ea7a694b966cb661d694f86b9cce17c3be9ac4199d461e5bb30da1fbade07607",
+        "test/webm-artifact.smoke.mjs": "99444dd6a61ec307c8bb3d18378233bf67cd9ee4e025e2f46007c69c0115a502",
+        "test/workflow-compiler-hard-contract.test.mjs": "e5c114a7ab2e3e5db07c82c6a08c6ec16b7cd4a6e371c49ae98fc7b6ca94cc2f",
+        "test/workflow-compiler.test.mjs": "41c052e70a1cce95f220e5c2a472d9d8f5d9cf39febb050a057d48fdff4ba2bf",
+        "test/workflow-migration.test.mjs": "cb41f629c99b35384d93f94cd9984da2cfc83225c058cb65938633dd1c67d1fb",
+        "test/workflow-semantic-contract.test.mjs": "ea3ee45fcc037045c2d8b0ff1776a6ea1afb01c73858af64e7c39bb1bd16ae1e"
       }
     },
     "40c9c975-61db-4278-af03-70abff2a4569": {
@@ -156,6 +517,36 @@
         "references/space_references.md": "a305826bd3637d47ab2c61522c456ed3915b5e78a78b81082d0d3494a2e73f83",
         "references/unsupported_feature_reporting.md": "e1e3309d28bd1e09aaa8536c0bcf6a97470498352014d3ef4e47cc68a301af15",
         "references/workflows.md": "626368b010688a195dbd3d134223ebad2567382fbe2c878d20da6b7bf84f57fd"
+      }
+    },
+    "4361b8f9-3f18-4dee-9f23-20ca44b58619": {
+      "id": "4361b8f9-3f18-4dee-9f23-20ca44b58619",
+      "name": "code-reviewer",
+      "description": "Use when conducting thorough, multi-dimensional code reviews on code changes, PRs, git diffs, refactorings, or specific modules across correctness, readability, architecture, security, and performance.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "c3ebf0c5e2e3bb2eee57c0f7ca506be43ffc12dfc3df4d247f9a60242aef654e",
+      "files": {
+        "SKILL.md": "cf7215e8618343c1fddc216dbc295a86dd1a463331a29844bb67665a5a6b9daf"
+      }
+    },
+    "4fe4f673-a924-4202-926e-ca428bc85d91": {
+      "id": "4fe4f673-a924-4202-926e-ca428bc85d91",
+      "name": "opencli-sitemap-author",
+      "description": "Use when creating or maintaining OpenCLI site sitemaps: agent-facing navigation, page-state, action, workflow, API-reference, pitfall, and fallback knowledge for a website. Use after browser exploration discovers durable site context, when a sitemap is stale, or when promoting local site knowledge into the repo.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "5e75dd5b4d6a1962f9e2f64f6df215a98e5e6ceeab2b1cd118347bfa43dc205b",
+      "files": {
+        ".opencli-managed.json": "08846760950e1f434efa3d88e67c0ebbe0ad410cc79439efadb9899a8e5f79d8",
+        "SKILL.md": "8112efbb04c4d8f4ba706af6f29f02b1261fa3d43518b1f7c7b5ff8700685557",
+        "references/sitemap-schema.md": "fc6e7e770b6afff3e9f1432d96fed5da3cadf069c584d3c71e90c9156a768c08"
       }
     },
     "53530a85-3e4c-4097-98ec-d8bf17f5a149": {
@@ -191,6 +582,27 @@
         "references/type-system.md": "c63931b4ff3a735a560545c4bbc4b348a3bf3bfa6d59af95fd368b74ebceeba3"
       }
     },
+    "5b13c203-2e32-4716-8dd2-78dc23aac3f0": {
+      "id": "5b13c203-2e32-4716-8dd2-78dc23aac3f0",
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f0c67f6b9e6bd20d32301feb259077343686527e975064385e6dd77dd06369d8",
+      "files": {
+        "SKILL.md": "bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
+        "scripts/frame-template.html": "fb22ba9d47f3b83b56e0a95d52a3c2727db03b0d4365078d92c850293a62457b",
+        "scripts/helper.js": "e763d82f32b4ebb320be2f0d08449d3e5a0585778edf5c407c1fdab3f39976a5",
+        "scripts/server.cjs": "ea81185f581897c67d4b417eeb9bc7a158c50e0932c73047054fe53efc2683ef",
+        "scripts/start-server.sh": "3442a54b5ee5511637d27bf696e092b72f94c2324f40b5ba4410da4dd0c23bc8",
+        "scripts/stop-server.sh": "f65b7634a27343eab2086bdb6c59ba78695685f471b5a577b08a8817f7c50600",
+        "spec-document-reviewer-prompt.md": "12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
+        "visual-companion.md": "a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
+      }
+    },
     "5b16577f-53c0-483e-af77-b709df372008": {
       "id": "5b16577f-53c0-483e-af77-b709df372008",
       "name": "template",
@@ -203,6 +615,37 @@
       "content_hash": "98dd8df99563ab783874e737199d2c8e72a214fad298a235e685304df2c4bfbe",
       "files": {
         "SKILL.md": "eb685d91de039ed864fbd790cddf31684b017fd4a34ee1a55760d8d7cdbadefa"
+      }
+    },
+    "65955b23-72d4-4daa-96d7-e3665c2fc49e": {
+      "id": "65955b23-72d4-4daa-96d7-e3665c2fc49e",
+      "name": "security-auditor",
+      "description": "Use when conducting security audits, vulnerability assessments, threat modeling, security hardening, or reviewing authentication, authorization, data protection, and LLM safety.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "587936f25beabddbbfc6a31f063ec499d7dfe50d4c17963a96a3f93af2652289",
+      "files": {
+        "SKILL.md": "97fdff6f3bc3e05471fc06984bfb68d6f8c3dc8910489eba8b4c93bc0606691b"
+      }
+    },
+    "6a3e9e92-6265-4caf-ac2b-09092b07d18f": {
+      "id": "6a3e9e92-6265-4caf-ac2b-09092b07d18f",
+      "name": "subagent-driven-development",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "b5225e65f8c35fca927e0f5678b63b79e9c52e4296b989d93b41af8b777c7306",
+      "files": {
+        "SKILL.md": "905a2b9be59b734dbe166525ad31dcaaf712a75926135adee1f554557aba5744",
+        "code-quality-reviewer-prompt.md": "2eeb3bf63fccfbee042812dc94e7032048603f0f8c3827b4b53af9e4cef19b30",
+        "implementer-prompt.md": "a416193f881e5a712c988fffabfe1d5a97bffcd091eb95577c84fe2136588617",
+        "spec-reviewer-prompt.md": "631980e472eec5394de8b89b69d432e54fd3f7f523ecf9afa7eb4cda0c9b2baf"
       }
     },
     "6c460a0d-d033-4236-b5fe-8930be30dc65": {
@@ -227,6 +670,21 @@
         "test-pressure-1.md": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
         "test-pressure-2.md": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
         "test-pressure-3.md": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708"
+      }
+    },
+    "6c5bc07f-f4f5-4f72-882a-5e72549d989a": {
+      "id": "6c5bc07f-f4f5-4f72-882a-5e72549d989a",
+      "name": "opencli-browser",
+      "description": "Use when an agent needs to drive a real Chrome window via opencli — inspect a page, fill forms, click through logged-in flows, or extract data ad-hoc. Covers the selector-first target contract, compound form fields, stale-ref handling, network capture, and the agent-native envelopes the CLI returns. Not for writing adapters — see opencli-adapter-author for that.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "419f424585cbe3685153d8072871e8d34c5504e4fe71c57979aa9ebfe6a5529a",
+      "files": {
+        ".opencli-managed.json": "2c38a5aee6c5e197d3a3d2a4da68a542c6d6cc9a777b6cc36dbf49ed60e10c10",
+        "SKILL.md": "c51aaa1695d529fc4479788088ab0054642fa0f1f902ecb58867dd0b8418a7b0"
       }
     },
     "72df17d3-6002-4c11-9a64-a08bb4db6db4": {
@@ -304,6 +762,50 @@
         "SKILL.md": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
       }
     },
+    "883cd39a-3f0e-4903-951e-140fa2265ea6": {
+      "id": "883cd39a-3f0e-4903-951e-140fa2265ea6",
+      "name": "skill_2059474268680241152",
+      "description": "GSAP assistant for generating and reviewing frontend animation code with timelines, ScrollTrigger, plugins, framework integration, cleanup, and performance guidance.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "227325e44960cf0b02b21885cb4ab3353285c37a3a2d47c590b9d368490d1ddc",
+      "files": {
+        "SKILL.md": "975998687373746f74396973ad0136fcea5350281b368814113d70e9e8928f48",
+        "_icon.svg": "a26df88748bb36e0d3b4c3eab4df40414934488d1e2d8a9832c0446db46462d6",
+        "_skillhub_meta.json": "959b8942fe4632556e1a9937c227417c94f052c98c3cf1ee317892759069123e",
+        "references/gsap-core.md": "a73c6d60498aa7c7002ca314f0ff6eb561d9b4e57025562d9af755a7b339c261",
+        "references/gsap-frameworks.md": "9831ffc5d901cf05b5dae0671f565c74bf67dc94104dea81328bbabe6b250456",
+        "references/gsap-performance.md": "9b835c32ffdc3d67487c8eb20071c8d878364532c9fdf4b33021c0c24d6ccab2",
+        "references/gsap-plugins.md": "c5d0fc78f4ea6d2207041f7264c7a5f9aeec32fac89073a8e8d3f5c7550c9396",
+        "references/gsap-react.md": "610c6e4bcb030873972bf5e089633a08a26d86bcbab87e2295fb893b872a81b3",
+        "references/gsap-scrolltrigger.md": "0ed9fc51b6fa49bf1f89bf12576845f8ff6818e7b637e98ce56f0a9a7bba97a5",
+        "references/gsap-timeline.md": "133e5b726384a71acf93650dcec99bbf131720565311f0a3e9b9099ef48a1c87",
+        "references/gsap-utils.md": "67d53035a6df4f47cd9bc2bcef367efb9ee322dffbdf9958f747810e066afb05"
+      }
+    },
+    "8a2e6a57-a3e0-480c-8b5f-f2d5b90e3ab7": {
+      "id": "8a2e6a57-a3e0-480c-8b5f-f2d5b90e3ab7",
+      "name": "agent-reach",
+      "description": "MUST USE when user wants to 调研/research/搜索/search/查/找/look up anything on the internet — e.g. 全网调研 X / 帮我调研一下 X / 查一下 X / 搜搜 X / 看看大家怎么评价 X / X 上有什么讨论 / research this topic。 Also MUST USE when user mentions any platform or shares any URL/链接: 小红书/xiaohongshu/xhs, Twitter/推特/X, B站/bilibili, Reddit, Facebook, Instagram, V2EX, LinkedIn/领英/招聘/求职/jobs, YouTube, GitHub code search, 小宇宙播客, 雪球/股票行情, RSS feeds, or any web URL. 15 platforms, multi-backend routing (OpenCLI / per-platform CLIs / APIs). Zero config for 6 channels. Run `agent-reach doctor --json` to see which backend serves each platform right now. NOT for: 写报告/数据分析/翻译等内容加工（本 skill 只负责从互联网获取内容）； 发帖/评论/点赞等写操作；已有专门 skill 的平台（先用专门 skill）。 【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/*.md。 分类：search / social (小红书/推特/B站/V2EX/Reddit/Facebook/Instagram) / career(LinkedIn) / dev(github) / web(网页/文章/RSS) / video(YouTube/B站/播客)。",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "4db4f201fc0c6c9676892f29f6ae3d4894ec369f25f206e5be2d621f4316b971",
+      "files": {
+        "SKILL.md": "fdbe79b006a23bde0ce7b3f34f518ee52003b4f951495a3dacff6e3b579d5414",
+        "references/career.md": "749b72febaca636bde7bdd322b1bb27e9cce33a4c48f951d3f7e43637ec1e032",
+        "references/dev.md": "217491504b7eb6d88244e8f2be4307e99eac844c045b7545bdeff9365bf07b8e",
+        "references/search.md": "279f62efd8726eac445ad0421e8256c54624fab0919c876e1974f4c0303186fc",
+        "references/social.md": "ae80f127651b67b9d5798b1ae978106f86a9c56e5b0d5741dfe5232c9832ffa7",
+        "references/video.md": "004242f485cc0c032aacfff07cc149f44a2d3c5ced44b8747313c88f34f3cc48",
+        "references/web.md": "d1128567c463e11c9bc3b1d5032fdca83dd323863da408c03cfcff227ebe7a1c"
+      }
+    },
     "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3": {
       "id": "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3",
       "name": "java-architect",
@@ -337,6 +839,92 @@
         "SKILL.md": "6a57adddc5a272a25a7266f23fd704f5e65a3bffa02909d46ce2ef2a6ed1ba3a"
       }
     },
+    "92c0d585-62b7-4387-9c9a-6bf0a7e95f18": {
+      "id": "92c0d585-62b7-4387-9c9a-6bf0a7e95f18",
+      "name": "pdf",
+      "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "87189afad9c79c08170f2f8f6b9d7969b54152a95fc59718dbe039a4b9a939f4",
+      "files": {
+        "LICENSE.txt": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+        "SKILL.md": "724b72c932053fd87133144405b00fbeec30285ee770168328c8f591ec89c134",
+        "agents/openai.yaml": "48d488770edf103fa945b20a70834a135c224e949d772b502ea992ea03120cf6",
+        "assets/pdf.png": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee"
+      }
+    },
+    "98ff45c4-1e92-4e86-93b6-28abdae115ae": {
+      "id": "98ff45c4-1e92-4e86-93b6-28abdae115ae",
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "source_subpath": "skills/pptx",
+      "source_revision": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+      "tags": [],
+      "content_hash": "6642f12b705d8fc459c3c628cd1d26a7d99da07dc8e385b915745497b4ea5487",
+      "files": {
+        "LICENSE.txt": "6f8bd7f4d8ec5cb52b7a59ccb9e8c14c2a4ba529cb5adfc5e0bc676892b8ca79",
+        "SKILL.md": "d11d1c5e9f8cf7cdfebeda2c1ef73299bee612e2d16eff90513b7aa2f1bc4d31",
+        "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/add_slide.py": "cc9b314496acbc0e2667fdf8fcdbef90225e5f8ca7ba96b5ee1fbe11c909b7a6",
+        "scripts/clean.py": "cb2d3a270c6a1a4c12ce9bed4dbf749a5a774bff5ddc3a931ea06a41b0064dee",
+        "scripts/office/helpers/__init__.py": "d9edb79f99cebb42bc5351ab3f18599fe8d2cf94a1e6fda906cd5a71fecc8efb",
+        "scripts/office/helpers/pptx_chart.py": "cebede4e2eeb750dddd076c0789d0ba0acae6ad3c479caedbb268457d0cd8581",
+        "scripts/office/helpers/pptx_slide.py": "68bdf9e81d52784360e7d0b8e8dd0bc590c6ece37a97b36e48164c660997e9d8",
+        "scripts/office/helpers/pptx_theme.py": "903ad967f6bd11bde628f74d39a9f8c1f5ade40c7cc85f96143781e29463bbcd",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "4de4390a26e7e44e682ed98b39872cce2620f807f5b0de421567a43f74526388",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "71a6e04d3dbb21e4b705da8bb9a3c71e4295a389c15c09bd255f216de238097b",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "809f77f658f71e10f5cfbf99e25c895a23a4e62c81210b59a2fe8c7fb24849d2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "06555ced1e626ebcd9bb4a495b78d9596555f945b09161dea6c4cd4d8874a0ba",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "6978ba7e889070b0c3cb5b546b23e5a6c3516134afc53b87a21f482ca33f3858",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "17581a2683f0ecbfd4c64656f1dff7236a4563127b5d056da750a9fd61e26f67",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "aabcbb126609a518a78b007c1e6ab76e1016f136964f3afb3a5eda51584e983d",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "2dbfd4719505bf39b568005994a433997cbeac59cebc9d4867d564c94e9ba03a",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "39c6396b7b1f096885c3ceba5dab30e3ee14291c45a1d6fa6038ec4db69d88d0",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "57567431dcaf5dae08c5f7ae1eeb2c9a4d2d762a912cd09758f620469d226947",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "6ec3425c89d6bf6eec5dd0d82c0ed0fb606064b6d4692a696323ee86814de0e4",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "d90722af8f1439ae6b82d57858ee0b0720e320eb309cf30371666338aa66d106",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "1624b1ee04781508421fd5d8a7a8fd054196be5e1e122736c7ed350161bf4b89",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "4048c35b8949bab9f8ac58c2fcd0b534c5626fbe1d2bc88522a3724a0514d091",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "7f112630ff0a2bf450fb80ccc7d891fb2bfd70866c4913590d3a91f43744d4ec",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "2dd1b7ce7cf5be453fd2db72b6d6072259ede8193db7518c72439fa26fd7ad72",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "ec24c8039acb44422b65c2d99af82d4f21007d17bc33c87d36549904a29702d8",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "f812dffca0bb66db6e2ec2e01dd19258636b2a5a3a0bb949a2e7295665e0ce61",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "2a6b823a7c6da33bedb8ea9be74199db8a907530ecf9d3b31f31f92c4539a4c2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "495debc8fa967b77ed37799747b049832f2c95b2ecdb9f19ddcd68f8c9f96ab9",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "335e9ecd40bb594ec4b916ac8c7b9eead4e16fe1b79f9d4105fdb1c43b66bb1c",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "86c9ac8549d84af107daac8f6b3b0b9ed1113eae22be8fef4c5f2b606f23ae36",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "db28df195a3a1da2c749162c4e5736c94fc4e3d5e20d767d5ff68a37fdd46fd5",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "2f7c6b2a8a9d7a7e0dfa32ff3f13856275d83d0bbe968c7fc9954d0f665e7588",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "f5e69bc0280a2aae659766f782d2af47738c6c97ffabb0b10a871489f60280bc",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "a5db454991de6c9d52db8d2dda43d2f27f4cfa2e62c012d6bf202deef90659ce",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "70a3c67959f9ad2333016328716101bf8b476e682f29830cc9ee8da63dca7cc2",
+        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "49ec1c03440a9b5590e69acdf92b200fe133697de0b05f43a129fb94d1885026",
+        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "69688ea15f82a870053b9a60c79359063dbcfeec9cdabafabad51a53934bc35b",
+        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "ee7e7e1b9a1340536e25e87c8650a2b90a43b0e67d02d6746cd430048b3c1439",
+        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "607ffb6879cf5d5d765bfdfb2548f3f427ea964ddee6d08a15f0dc781749866d",
+        "scripts/office/schemas/mce/mc.xsd": "fc3d4398375c68a8aa0d608dad9003a3e5cc566f3d16a443f92fca3799ed2df3",
+        "scripts/office/schemas/microsoft/wml-2010.xsd": "60580c222b22548a4c306438a631ae2355db889ff59847cfcfd47943445a7132",
+        "scripts/office/schemas/microsoft/wml-2012.xsd": "85e17de88d4c1af45a571732eb862024cd7897e380efa5825bcfdbe57db21a64",
+        "scripts/office/schemas/microsoft/wml-2018.xsd": "b8bf0d8670a8ba8ea2dd441e7f22a81be7dfca520ca93306e99e4403c234a3b2",
+        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "6731624fcb1b0df9ab0533bc8fa2d8caa09d419b2280285bdda6c9e94d874f7d",
+        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "73dde8f5752d4047975fe2948d2ea99d26c1dab981a9739e77624a666090272a",
+        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "441556f2bfff0b49a3a4bae82cac5188aaee5419ddfa288dc0a58ce271f2237d",
+        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "1973a7ede01d55d351c50422ff451a1ad1f8f52cc792178f14b62f75c123e01f",
+        "scripts/office/soffice.py": "b3fd54b5bd174f330cfc78f4c06b55cd72ec21cd4f28ab02d9eccb537bfc8380",
+        "scripts/office/validate.py": "4c52fade74198284b1cf59ba503154173b769d53b1377dffaed9f2fa6ff5e7da",
+        "scripts/office/validators/__init__.py": "09a53b0969b042794ce29e5ee2487db365d57f7e95d691b145f5c60cb98144df",
+        "scripts/office/validators/base.py": "ff3115aa703895e91e12687f2207c295a6f86603c92629fcbb4ea7b4da916201",
+        "scripts/office/validators/docx.py": "8923a9461fb6e29358a87077e6a8591aa77a3f2a630d638637af310f2282f7c7",
+        "scripts/office/validators/pptx.py": "5708a510426bd9ec90d4052e19cbada888d4bf6e12049d5e28912da0b552d8dc",
+        "scripts/office/validators/redlining.py": "f781282c44cf498b44830a96fd91aa886c1268b0642c19b7326fa421d82f9d92",
+        "scripts/thumbnail.py": "7630ecee9954a572017bd203e12ff81baa7253757e63581dd3bd5ce92b0e9a80"
+      }
+    },
     "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e": {
       "id": "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e",
       "name": "brainstorming",
@@ -351,6 +939,40 @@
         "SKILL.md": "bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
         "spec-document-reviewer-prompt.md": "12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
         "visual-companion.md": "a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
+      }
+    },
+    "9a4da70f-f6a3-4178-8610-2e4c26929877": {
+      "id": "9a4da70f-f6a3-4178-8610-2e4c26929877",
+      "name": "alibaba-java-standards",
+      "description": "Use when writing, refactoring, reviewing, or designing Java code, Spring Boot applications, APIs, concurrent tasks, database schemas, or unit tests. Enforces Alibaba Java Coding Guidelines with zero-tolerance engineering discipline.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "410af5b78c741bffce8c9f084ad479b543d81f80bc6b9e31643c67502125c7fc",
+      "files": {
+        "SKILL.md": "014b7eb8faf1f4afb68aed78e2dad4dc18b723d9c7dc786a50297a07a2128e75",
+        "references/01-oop-and-naming.md": "9f96afb5b09062e50cef3523d053cde61fa641fe0717e92fefd023872438916e",
+        "references/02-concurrency-and-threads.md": "18931c66b471716311e169d7d8cdf01033504024eb9e3e079c2f363bda5bd15e",
+        "references/03-collections-and-streams.md": "d62e066250282483a661a3eabbc1d82c5ad2f4ba60b264b30a2f070e49462f64",
+        "references/04-exceptions-and-logs.md": "b29842f6b5421c8b5208b5f23427c64b640c7e361a6597aebb755f88ba5888cb",
+        "references/05-database-and-sql.md": "e9e6861b885b68ac20c14d9fd3367df89dac81187b8cf5827a1b24ca7a11acc4",
+        "references/06-engineering-architecture.md": "5a2858359c855fc83b2e9ca4ea67e12697e4618216a999144f048ee9f7daa7f1"
+      }
+    },
+    "9b65d530-7fe6-44fc-9c78-8e2687833665": {
+      "id": "9b65d530-7fe6-44fc-9c78-8e2687833665",
+      "name": "web-performance-auditor",
+      "description": "Use when conducting web performance audits, analyzing Core Web Vitals (LCP, INP, CLS), optimizing page load speed, rendering performance, bundle size, and network requests for web applications.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "63e27d7786f545e5db5582d9da162bd07ce5ea831267b899b642ec6f876ae9eb",
+      "files": {
+        "SKILL.md": "8f9576263e2cab3a0507f295758a897a6a664180e522b02b2d6d821ed4e3539b"
       }
     },
     "9c41dcd8-87d1-4ff2-af75-15fa4ff990d9": {
@@ -429,6 +1051,21 @@
         "scripts/fill_report.py": "e1a9d41f2d515ff524789d9c56aed2e7b30b5c67171977721ba5290f0a111502"
       }
     },
+    "c3cc045b-a8b3-48dd-8297-108117f483a9": {
+      "id": "c3cc045b-a8b3-48dd-8297-108117f483a9",
+      "name": "opencli-browser-sitemap",
+      "description": "Use when driving a website with opencli browser and sitemap context is available, requested, or needed to avoid blind navigation. Guides agents to consume site sitemap files lazily, choose adapter/browser fallback paths, resume from state signatures, and mark stale sitemap entries without trusting them over live browser state.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "7ec2cde7861159384ff0095d98331bbbe66142b145f47a393915d5a544f409a8",
+      "files": {
+        ".opencli-managed.json": "40aaf6d07c531a2c33ea604326f3e8e53a049d1dbb85d0f31cb039ba356f9e07",
+        "SKILL.md": "71ebf47c507808e216836fadf7d7189420d82406e763706b7715552963216260"
+      }
+    },
     "c3e7dcc8-7ea0-425d-b5ac-ebd70ef1942d": {
       "id": "c3e7dcc8-7ea0-425d-b5ac-ebd70ef1942d",
       "name": "test-driven-development",
@@ -442,6 +1079,59 @@
       "files": {
         "SKILL.md": "7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994",
         "testing-anti-patterns.md": "bde453bc258f06543987477c837939afaa774ea2acbd9f308d702fc452bc4283"
+      }
+    },
+    "c4c10773-89e9-4179-95c9-c2fc269d2bc7": {
+      "id": "c4c10773-89e9-4179-95c9-c2fc269d2bc7",
+      "name": "opencli-usage",
+      "description": "Use at the start of any OpenCLI session — this is the top-level map of what `opencli` can do, how to discover adapters, what flags and output formats are universal, and which specialized skill to load next. Point here when an agent asks \"what can opencli do?\" or \"how do I find the right command?\".",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f36341101e7d843b1d7f2a85cf9830f511a8e3e6eb5d22654d33cfb782040878",
+      "files": {
+        ".opencli-managed.json": "2bfc5d6296e5a6d991e632e353140a2ade017793cd4b33d8b00aa31fc2364e9f",
+        "SKILL.md": "12385878029824ae2ea2d06d5d6edf4a4e55aea0703226424ac85f0b0e5274eb"
+      }
+    },
+    "ca000d9e-6f9c-448e-bb11-3a168971a358": {
+      "id": "ca000d9e-6f9c-448e-bb11-3a168971a358",
+      "name": "web-scraping",
+      "description": "Expert in web scraping and data extraction with Python tools",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "60ccd37d21a318f30eb00de2298adb92585242a08349ae29713aa221d3849eb8",
+      "files": {
+        "SKILL.md": "ece4195704049d8e8261ceac6e7bee0097a4f63f60769f79156aaa1ef2fa142f"
+      }
+    },
+    "ca00c441-ad6e-43dd-a012-f419f0bfdf53": {
+      "id": "ca00c441-ad6e-43dd-a012-f419f0bfdf53",
+      "name": "playwright-cli",
+      "description": "Automate browser interactions, test web pages and work with Playwright tests.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "a0303449474e2c3cf88e5718268dacf0ccdda837ca80e3a28af179799425206a",
+      "files": {
+        "SKILL.md": "037cec52b1b0bc1522b05281b1d4238b6502d44fecda3e1f18a14f17119bbed0",
+        "references/element-attributes.md": "f9ccaf85f43b7fa522a48ece60e3f18f10d43cb509ebd48a010eefbd0cd4f47a",
+        "references/playwright-tests.md": "8da5c537cf6335c1e7590d5418b9a68c9007fd5851aa58331530e09f6ec06b78",
+        "references/request-mocking.md": "f1f6e6360309394bd457e1a9f78a66b1abd016a29d463a1e1215f168458a6fcd",
+        "references/running-code.md": "511fab7eab47171768d9f73048febe99fcbf6c7d9311984f9abeb2759ae47c07",
+        "references/session-management.md": "32727436c51ca8a105eeabf8db958e4483acb23dd7f6ac4ceade16f26e940b5b",
+        "references/spec-driven-testing.md": "9702a8a236e2cbd6d3abdb02fa243bbbcf013bded9432192d5f94e5a4980af2b",
+        "references/storage-state.md": "463a013d7f895773235f324c3adeaa261426269e5c55b194e64fa81ccb12bd79",
+        "references/test-generation.md": "4e06520311becf84b115645dd6a088db67f81e8c928edf7a3019acc8d66592e9",
+        "references/tracing.md": "678d3e9ad0d03349315cb0a097905e3708530d8e03d66f33a2040a7b6b8b44a8",
+        "references/video-recording.md": "3eeb4634a62101ea5659f084439f48e8131748524d71d0eaf95bc0b2fa758096"
       }
     },
     "cef1d917-cc3a-41e4-abf1-f1c568d632a6": {
@@ -475,6 +1165,20 @@
       "content_hash": "90730a99ede3c53f5ccc5852778d7015f0838e6d04fcbc4f368b4f929fea4a9c",
       "files": {
         "SKILL.md": "ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c"
+      }
+    },
+    "e391be72-00f6-4385-85af-7d1ee8e6cd1d": {
+      "id": "e391be72-00f6-4385-85af-7d1ee8e6cd1d",
+      "name": "springboot-tdd",
+      "description": "使用 JUnit 5、Mockito、MockMvc、Testcontainers 和 JaCoCo 进行 Spring Boot 的测试驱动开发 (TDD)。在添加功能、修复 Bug 或进行重构时使用。",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f7c53ba1a6ba03b8a094b47146fde24c0c9915702ce11f68c70e92bed89a6bc7",
+      "files": {
+        "SKILL.md": "2c306dda3a7cd3ae609c4d0896bfcf6d348f7a53dba24537434b93bb4d2745e1"
       }
     },
     "e45ec3fb-5fe9-439a-9dc7-ccbfcc4c3fb1": {
@@ -583,6 +1287,59 @@
         "SKILL.md": "b2dab96e6d9f2439913f678e67740297100e30b094fe84a70e85ef03e70343fc"
       }
     },
+    "ee9fe84d-f954-477c-ae68-0337c64a87c2": {
+      "id": "ee9fe84d-f954-477c-ae68-0337c64a87c2",
+      "name": "playwright",
+      "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "f0c104425152e18f7e4ddbedd3aa168f538202425b767dee0df4e501a9e15107",
+      "files": {
+        "LICENSE.txt": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+        "NOTICE.txt": "a43ad22fc7381a9901c88798479a0617b8397581c67847401d1971f8738d3e03",
+        "SKILL.md": "c52cc95125b720cdc3c9829b0294c2752d4ae9b85a5282aa153da8bba929af87",
+        "agents/openai.yaml": "dfc22e6c764f025e5e520fe2e1781e119f6262f406feddafe84ff8aaf9a4ff21",
+        "assets/playwright-small.svg": "5ecfaf38d817a6abbc453114191cc9afb3f0799a557dae1c2c1a1445c8a7b386",
+        "assets/playwright.png": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+        "references/cli.md": "da94ffe5a7c368e233eac1cdfa2d5207cb85a2a0571607af0e43402c6e12cd45",
+        "references/workflows.md": "621d2b8542a91d1d5cd65a5a7774ea250683e4c217e00e9c90d301eb6367d86e",
+        "scripts/playwright_cli.sh": "3fce0ea2b9875179f701d9f4c03425545c441b2769cd6c6df964cc7d1d1dbfa8"
+      }
+    },
+    "ef1d4b5d-6589-4e04-81fe-3e7ed74bd2ca": {
+      "id": "ef1d4b5d-6589-4e04-81fe-3e7ed74bd2ca",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "c83fdc1707bd7c91b8b874223a5b3a1744c9ea9959ab8331cae7a923f039e82c",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
+        "agents/analyzer.md": "8ccce0d9755f7684277870e791ffb643b026d5dd4508e5c1bdc8dfec9e8532b5",
+        "agents/comparator.md": "ee90af43eb0dbe2fdadbb96d01f9776f387ed5c529ce083c22b8bec4e3ae10d3",
+        "agents/grader.md": "6ec1c6950fcafa3e00d5e845b2498c5ea3e8f7f012bd9c6abad25425f3ee619c",
+        "assets/eval_review.html": "2cc6071b35ac897b17cf0388ce240fd959396f35f95a1f7d3e74a248dd060d0f",
+        "eval-viewer/generate_review.py": "44d97a35be977331b13b04932927b3beb285862a173f0f15dd052d4f31de5c76",
+        "eval-viewer/viewer.html": "46abd4e19e482b4aeebea24b135c2d88fb122a63346dbeab7fcecd83828a826d",
+        "references/schemas.md": "5ef5fd3c1ac7baae965b5bda6b4f2cf6a191a2d712c7fef2a12dde84573b4833",
+        "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/aggregate_benchmark.py": "16c5a53e4cbf55a679a42c244cba39cee463d99ce507ecc9fafc4cb4e0a133e0",
+        "scripts/generate_report.py": "d90ec4cfc2dd539564edd332880fb7561309a1f0097d082de88e3101d6c8031e",
+        "scripts/improve_description.py": "09425704c5717656fffd346ba075a390bb55d494dd1082bccd4fe2423117fa05",
+        "scripts/package_skill.py": "2cd9a9891844516fd30466eae30e4a9b9a199802522de3fb12f59a063fba58ab",
+        "scripts/quick_validate.py": "99f76b23da5882ccc9301890e4c31837e4a9262bd1a9a75dc729df0b12459d52",
+        "scripts/run_eval.py": "252ac58feedf233673d6a605661158db20806f724c7d1dd32c92ae316b24ef67",
+        "scripts/run_loop.py": "85b36782ec856e066257cf8e917606945e6df098428005e17f8d60a5b6789c29",
+        "scripts/utils.py": "b396f920bfbb422822427d800656ab125876e1e42ae242ed3c9380338f9d0833"
+      }
+    },
     "f5457a3e-9e3a-42c2-acbb-bc0395d14ea9": {
       "id": "f5457a3e-9e3a-42c2-acbb-bc0395d14ea9",
       "name": "java-testing",
@@ -600,6 +1357,34 @@
         "references/GUIDE.md": "660afc13b1dfd071b80b1364a6106e34af6302d614a77534ae93263c0e26a7fa",
         "references/PATTERNS.md": "a0a9cff124e00ef0ff6b0e48c6025c57934017c86510467f23af5b3742d91cbc",
         "scripts/validate.py": "4bc690fff62b1a5f84e053896bd7092e414a6c4dc966bc9858ba3cf7e916a157"
+      }
+    },
+    "fa089855-f211-4a24-aa3d-4aa55dba23a1": {
+      "id": "fa089855-f211-4a24-aa3d-4aa55dba23a1",
+      "name": "cognitive-distillation-architect",
+      "description": "Use when distilling a specific person or school's cognitive operating system into a verifiable, loadable agent skill with Alibaba engineering rigor.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "c1a26603dd90bb75e916aad642e6b2f872ca7ccb703c20aa4dc4312fb63dfcd1",
+      "files": {
+        "SKILL.md": "5ccfb323b8dab6b8cd3c10f31ad3a931bcce5b31310efa1d7979114b1455253c"
+      }
+    },
+    "fb6f4d35-4027-4acb-b809-528e81862713": {
+      "id": "fb6f4d35-4027-4acb-b809-528e81862713",
+      "name": "tech-study-docs",
+      "description": "Use when writing, structuring, or refactoring technical documentation, study notes, tech specs, API docs, architecture guides, or cheat sheets. Enforces concise, structured, high-signal writing aligned with Alibaba engineering practices and robust zero-error Mermaid diagrams.",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "ec85d868909d1d0e5ac961defb87a64dec896a7c2a8bc58ea92633ed53a3e9b8",
+      "files": {
+        "SKILL.md": "b42677743708d0c2be593f2cdf8ff745962dd09f18c28442fa6fa73422f74276"
       }
     }
   }

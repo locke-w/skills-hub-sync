@@ -1,0 +1,20 @@
+{
+  "id": "8a2e6a57-a3e0-480c-8b5f-f2d5b90e3ab7",
+  "name": "agent-reach",
+  "description": "MUST USE when user wants to 调研/research/搜索/search/查/找/look up anything on the internet — e.g. 全网调研 X / 帮我调研一下 X / 查一下 X / 搜搜 X / 看看大家怎么评价 X / X 上有什么讨论 / research this topic。 Also MUST USE when user mentions any platform or shares any URL/链接: 小红书/xiaohongshu/xhs, Twitter/推特/X, B站/bilibili, Reddit, Facebook, Instagram, V2EX, LinkedIn/领英/招聘/求职/jobs, YouTube, GitHub code search, 小宇宙播客, 雪球/股票行情, RSS feeds, or any web URL. 15 platforms, multi-backend routing (OpenCLI / per-platform CLIs / APIs). Zero config for 6 channels. Run `agent-reach doctor --json` to see which backend serves each platform right now. NOT for: 写报告/数据分析/翻译等内容加工（本 skill 只负责从互联网获取内容）； 发帖/评论/点赞等写操作；已有专门 skill 的平台（先用专门 skill）。 【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/*.md。 分类：search / social (小红书/推特/B站/V2EX/Reddit/Facebook/Instagram) / career(LinkedIn) / dev(github) / web(网页/文章/RSS) / video(YouTube/B站/播客)。",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "4db4f201fc0c6c9676892f29f6ae3d4894ec369f25f206e5be2d621f4316b971",
+  "files": {
+    "SKILL.md": "fdbe79b006a23bde0ce7b3f34f518ee52003b4f951495a3dacff6e3b579d5414",
+    "references/career.md": "749b72febaca636bde7bdd322b1bb27e9cce33a4c48f951d3f7e43637ec1e032",
+    "references/dev.md": "217491504b7eb6d88244e8f2be4307e99eac844c045b7545bdeff9365bf07b8e",
+    "references/search.md": "279f62efd8726eac445ad0421e8256c54624fab0919c876e1974f4c0303186fc",
+    "references/social.md": "ae80f127651b67b9d5798b1ae978106f86a9c56e5b0d5741dfe5232c9832ffa7",
+    "references/video.md": "004242f485cc0c032aacfff07cc149f44a2d3c5ced44b8747313c88f34f3cc48",
+    "references/web.md": "d1128567c463e11c9bc3b1d5032fdca83dd323863da408c03cfcff227ebe7a1c"
+  }
+}

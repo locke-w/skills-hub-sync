@@ -1,0 +1,83 @@
+# Fullcolor 3D Print Character Prompts - 路径与参数配置
+# 版本: 2.0.0（对应技能 v5.0）
+# 路径支持 ${VAR:-默认值}；validators/validate_prompts.py 直接读取本文件（单一数据源）
+
+paths:
+  # Obsidian 知识库根目录
+  obsidian_root: "${OBSIDIAN_ROOT:-/Users/wuyongjia/obsidian-gitee}"
+  # 人物档案与提示词目录（每个人物一个 char_XX_姿态_描述 子目录）
+  material_base: "${OBSIDIAN_ROOT:-/Users/wuyongjia/obsidian-gitee}/technology/🚀 项目/3D打印/素材"
+  # 3D 打印纯图片素材根目录
+  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/3D打印/素材}"
+  # Midjourney V8 参数文档
+  mj_params_doc: "${MJ_DOC:-/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md}"
+  # 小红书 AI 合规手册（xiaohongshu 技能内）
+  xhs_rule_doc: "${XHS_RULE:-/Users/wuyongjia/.skillshub/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md}"
+  # 批量审计报告输出（相对技能根目录）
+  audit_report: "docs/latest-audit-report.md"
+
+generation:
+  # 默认批量生成数量
+  default_batch_size: 20
+  # 30% 现代配额（2020-2026 年去世的 40-60 岁中年亲人）
+  modern_quota_percentage: 30
+  # 每个人物的视角数量
+  prompts_per_character: 11
+  views:
+    midjourney: ["00", "01"]
+    gemini: ["02", "03", "04", "05", "06", "07", "08", "09", "10"]
+  # 封面候选视角（与 xiaohongshu 技能约定）
+  cover_candidates: ["07", "10"]
+
+parameters:
+  view_00:
+    aspect_ratio: "1:1"
+    style: "raw"
+    stylize: 80
+    version: 8
+    negative_contains: ["English"]
+  view_01:
+    aspect_ratio: "1:1"
+    style: "raw"
+    stylize: 50
+    version: 8
+    negative_contains: ["English"]
+    # 01 负向中禁止出现（会迫使模型生成真人）
+    negative_forbidden: ["doll", "3d render", "figurine", "plastic skin", "porcelain doll", "wax museum"]
+  gemini_views:
+    # 小红书笔记场景图：工具参数设 3:4，提示词开头写 ratio_cue
+    aspect_ratio: "3:4"
+    ratio_cue: "Vertical 3:4 composition"
+    avoid_contains: ["English text", "letters"]
+    # 封面候选视角需包含的留白提示关键词
+    cover_cue: "negative space"
+  # 视角 00/01 词数预算（v5 按强制结构校准，见 prompt-engineering-spec.md 铁律十一）
+  word_count:
+    positive_min: 35
+    positive_max: 65
+    negative_min: 12
+    negative_max: 18
+    total_min: 50
+    total_max: 82
+  ifts_words_min: 15
+  ifts_words_max: 20
+
+validation:
+  strict_mode: true
+  check_ifts_consistency: true
+  check_framing: true
+  check_no_english: true
+  check_completeness: true
+  check_code_leakage: true
+  check_engine_syntax: true
+  check_aspect_ratio: true
+  check_text_render: true
+  check_funeral_imagery: true
+  # 批量审计：同一场景槽位跨人物的内容词 Jaccard 相似度阈值（超过即列为同质化嫌疑）
+  scene_similarity_threshold: 0.5
+
+deduplication:
+  # IFTS 语义相似度阈值（Jaccard）
+  ifts_similarity_threshold: 0.35
+  # 同代际同职业互斥度阈值
+  same_generation_vocation_threshold: 0.40

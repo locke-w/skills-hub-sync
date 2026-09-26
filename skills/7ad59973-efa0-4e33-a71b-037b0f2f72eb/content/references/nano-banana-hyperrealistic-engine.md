@@ -1,6 +1,10 @@
 # Nano Banana 2 真实拍摄光学级 Prompt 引擎 (v3.0 摄影大师升级版)
 
-本文件是 Antigravity 直接调用 `generate_image` 工具时的**核心 Prompt 拼装规范**。
+> **v5 归属说明**：本文件原属 xiaohongshu 文案技能，v5 起迁入 fullcolor，作为视角 02–10 的**机位手法与去 AI 味微瑕素材库**。
+> - 用于小红书笔记的场景图**一律 3:4**；下表中 `3:2`、`1:1` 仅适用于非笔记用途（详情页、横幅等）。
+> - 提示词结构以 `prompt-engineering-spec.md` 铁律八的 v5 骨架为准（开头 `Vertical 3:4 composition.`，结尾 `Avoid: English text, letters, …`）。
+
+本文件是调用生图工具（如 `generate_image`）时的 **Prompt 拼装参考**。
 深度融合电影摄影光学（Film Optics）、微距纪录片纪实摄影（Macro Photojournalism）与《超写实人物专家》的去 AI 塑料感底层技术，**彻底根除 AI 假脸、磨皮塑料感、假手浮空与数字数码味，达到 100% 真实单反/胶片实拍效果**。
 
 ---

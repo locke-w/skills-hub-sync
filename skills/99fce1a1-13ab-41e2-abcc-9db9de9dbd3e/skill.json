@@ -7,10 +7,10 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "f43ec13b021a0cc140247ab8fa129e835bcd878c5335194123f17e961c699dac",
+  "content_hash": "39fc9c6ce47d36c0b710a4385542d5aa95200dab3dc4d040026458a01c4faa45",
   "files": {
-    "SKILL.md": "4625fbfaafb229d41364b77a3591f9559e0d9d73ab0ed3589bb8e3c63f0cb734",
-    "spec-document-reviewer-prompt.md": "845c53bf548472622150cb03708a6abbcc3c11cf86b7d7131e41e6789c334574",
-    "visual-companion.md": "50ad6b6de86deee5ce86a92c006c7cb40d413ab47a8f971d7942ef39da1a9b7f"
+    "SKILL.md": "bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
+    "spec-document-reviewer-prompt.md": "12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
+    "visual-companion.md": "a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
   }
 }

@@ -1,5 +1,8 @@
 # GitHub 开源微缩手办与场景摆拍全景蒸馏矩阵 (Diorama & Toy Staging Master Matrix)
 
+> **v5 归属说明**：本文件原属 xiaohongshu 文案技能，v5 起随视觉职责迁入 fullcolor，作为视角 02–10 的**场景变奏素材库**（规则见 `scene-library.md` 第 3 节）。
+> 用于小红书笔记的场景图统一 **3:4 竖构图**、Gemini 负向统一含 `English text, letters`、不写可读文字、不放灵堂/供桌意象（见 `prompt-engineering-spec.md` 铁律二、铁律八）。
+
 本文件深度蒸馏了 GitHub 开源社区（Flux Garage Kit、Midjourney Collectible Photography、SDXL Toy Diorama、Civitai Miniature Staging）与业内顶级商业静物/微缩摄影师的布景技术。
 
 彻底解决传统 AI 生图**“千篇一律的手捧手办”、“背景永远是单调电脑桌”、“缺乏生活叙事与道具”**的单调拉垮问题，建立 **23,400 种组合的高质感动态摆拍矩阵**！

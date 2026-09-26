@@ -1,0 +1,15 @@
+{
+  "id": "08ab42c4-dbd8-467a-a385-b0443f85ab0d",
+  "name": "macos-gui-automation",
+  "description": "Use when computer_use GUI 批准超时,需无人值守驱动 macOS 应用。",
+  "source_type": "local",
+  "source_ref": null,
+  "source_subpath": null,
+  "source_revision": null,
+  "tags": [],
+  "content_hash": "65fa7effeaa3341142750547d492117790d52159ef74f62f57519dfd7ef6c6a6",
+  "files": {
+    "SKILL.md": "dd063270a9dc7156a07ebdf34db986e12811c4f50dcfd05eb180b212fb0795e6",
+    "references/gemini-feishu-char-pipeline.md": "33a04dc17f67bef81a0cae6e2895892e1dcad23d02b48cf4d044e240a9e9d933"
+  }
+}

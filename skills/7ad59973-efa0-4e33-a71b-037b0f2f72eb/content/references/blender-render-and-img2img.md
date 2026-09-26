@@ -1,5 +1,8 @@
 # 3D 打印成品效果图与图生图决策工作流指南
 
+> **v5 归属说明**：本文件原属 xiaohongshu 文案技能，v5 起迁入 fullcolor，作为**有 3D 模型文件时的可选工作流**。
+> 文中"SKILL.md 6步算法"指 `prompt-engineering-spec.md` 的六步法（v5 增加 Step 7 场景图规则）；笔记用场景图统一 3:4。
+
 本指南详解**"Blender 物理光学级底模渲染 ➔ 图生图/文生图决策 ➔ 模块化 Prompt 引擎组装 ➔ 直接调用 generate_image"**的核心技术路径。
 
 ---

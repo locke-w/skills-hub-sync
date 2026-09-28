@@ -340,20 +340,6 @@
         "scripts/templates/people.xml": "3d3273c725e85f7dce810103055072d6c1577c7e51d88b2f7794b647e7a9cc37"
       }
     },
-    "1e67f9a8-1e3d-4f93-8952-b5f7e5d02e3b": {
-      "id": "1e67f9a8-1e3d-4f93-8952-b5f7e5d02e3b",
-      "name": "subagent-driven-development",
-      "description": "Use when executing implementation plans with independent tasks in the current session",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "de1792063430c477ca20bf7ebe56bfab091fb6fb4cd5fef4f0491b19e685b22d",
-      "files": {
-        "SKILL.md": "6bd8b947bad82cd59bd440b64a6f2a2e92e7c89282cf26187e6ea3ba44f1b199"
-      }
-    },
     "205d31f6-eec9-4105-a764-4b48cc6b79f7": {
       "id": "205d31f6-eec9-4105-a764-4b48cc6b79f7",
       "name": "java-coding-standards",
@@ -797,20 +783,6 @@
         "references/sitemap-schema.md": "fc6e7e770b6afff3e9f1432d96fed5da3cadf069c584d3c71e90c9156a768c08"
       }
     },
-    "53530a85-3e4c-4097-98ec-d8bf17f5a149": {
-      "id": "53530a85-3e4c-4097-98ec-d8bf17f5a149",
-      "name": "find-skills",
-      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "f7f86e1271702d0b36c09e4f490ff2e9cfa179f9cbdbed0d916dfb4236735801",
-      "files": {
-        "SKILL.md": "5df70a7a474aaed217246277e17882e3eb9025077189026dfb028a713b480926"
-      }
-    },
     "58024c1d-9e64-4b78-8467-2e06eadc5b7c": {
       "id": "58024c1d-9e64-4b78-8467-2e06eadc5b7c",
       "name": "python-pro",
@@ -1115,20 +1087,6 @@
         "agents/openai.yaml": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
       }
     },
-    "8424cd23-bac1-4d91-a2f2-54c7f34cedd8": {
-      "id": "8424cd23-bac1-4d91-a2f2-54c7f34cedd8",
-      "name": "using-superpowers",
-      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "34bebacd0c916305e5481a18cf84d52d038cba170e2b1f34c8f55f0bb255c40e",
-      "files": {
-        "SKILL.md": "8052a1248970aee7ddd272bf27e9873aec08177d5065b75ba8c53d9b68d89d5f"
-      }
-    },
     "87dcac4c-56fa-48e0-bfd4-fed71a528a31": {
       "id": "87dcac4c-56fa-48e0-bfd4-fed71a528a31",
       "name": "to-spec",
@@ -1200,25 +1158,6 @@
         "references/social.md": "ae80f127651b67b9d5798b1ae978106f86a9c56e5b0d5741dfe5232c9832ffa7",
         "references/video.md": "004242f485cc0c032aacfff07cc149f44a2d3c5ced44b8747313c88f34f3cc48",
         "references/web.md": "d1128567c463e11c9bc3b1d5032fdca83dd323863da408c03cfcff227ebe7a1c"
-      }
-    },
-    "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3": {
-      "id": "8d7adf24-50f4-4b7e-aefe-9c1b4178ece3",
-      "name": "java-architect",
-      "description": "Use when building, configuring, or debugging enterprise Java applications with Spring Boot 3.x, microservices, or reactive programming. Invoke to implement WebFlux endpoints, optimize JPA queries and database performance, configure Spring Security with OAuth2/JWT, or resolve authentication issues and async processing challenges in cloud-native Spring applications.",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "125fe3bd10f490e42473dd225b1ba2cbb7d89bca005b6f993939d699efac61c4",
-      "files": {
-        "SKILL.md": "8d094c823e0a5431213e3bb16f92cc451f0567b5a53e95a4471cd1484a87d023",
-        "references/jpa-optimization.md": "9a3f98d529f6e7f097f4726725713cfff06c2765c200c50ebfc8c33960a69d93",
-        "references/reactive-webflux.md": "9338d333ea0f7d24fb43617d7b52f24202b7fc9c8904a6f893a65a1ee5e8f2f9",
-        "references/spring-boot-setup.md": "40a7ef2ed9a2eb25014d242a499877d10b51c15b45061a95943e691a48ee0a1b",
-        "references/spring-security.md": "c7ff0c161719080a9f69a3f9bfc83e3082c3480e09f2ab15e8be329208683774",
-        "references/testing-patterns.md": "de713f3aeadb4cff42e1e2fef4ad24617c995645dbc0ccb029848051da8690be"
       }
     },
     "923903c1-6b88-451b-82e0-440f05e36b2c": {
@@ -1368,22 +1307,6 @@
         "scripts/office/validators/pptx.py": "5708a510426bd9ec90d4052e19cbada888d4bf6e12049d5e28912da0b552d8dc",
         "scripts/office/validators/redlining.py": "f781282c44cf498b44830a96fd91aa886c1268b0642c19b7326fa421d82f9d92",
         "scripts/thumbnail.py": "7630ecee9954a572017bd203e12ff81baa7253757e63581dd3bd5ce92b0e9a80"
-      }
-    },
-    "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e": {
-      "id": "99fce1a1-13ab-41e2-abcc-9db9de9dbd3e",
-      "name": "brainstorming",
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "f43ec13b021a0cc140247ab8fa129e835bcd878c5335194123f17e961c699dac",
-      "files": {
-        "SKILL.md": "4625fbfaafb229d41364b77a3591f9559e0d9d73ab0ed3589bb8e3c63f0cb734",
-        "spec-document-reviewer-prompt.md": "845c53bf548472622150cb03708a6abbcc3c11cf86b7d7131e41e6789c334574",
-        "visual-companion.md": "50ad6b6de86deee5ce86a92c006c7cb40d413ab47a8f971d7942ef39da1a9b7f"
       }
     },
     "9a4da70f-f6a3-4178-8610-2e4c26929877": {
@@ -1833,37 +1756,6 @@
         "SKILL.md": "2c306dda3a7cd3ae609c4d0896bfcf6d348f7a53dba24537434b93bb4d2745e1"
       }
     },
-    "e45ec3fb-5fe9-439a-9dc7-ccbfcc4c3fb1": {
-      "id": "e45ec3fb-5fe9-439a-9dc7-ccbfcc4c3fb1",
-      "name": "skill-creator",
-      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "c83fdc1707bd7c91b8b874223a5b3a1744c9ea9959ab8331cae7a923f039e82c",
-      "files": {
-        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
-        "SKILL.md": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
-        "agents/analyzer.md": "8ccce0d9755f7684277870e791ffb643b026d5dd4508e5c1bdc8dfec9e8532b5",
-        "agents/comparator.md": "ee90af43eb0dbe2fdadbb96d01f9776f387ed5c529ce083c22b8bec4e3ae10d3",
-        "agents/grader.md": "6ec1c6950fcafa3e00d5e845b2498c5ea3e8f7f012bd9c6abad25425f3ee619c",
-        "assets/eval_review.html": "2cc6071b35ac897b17cf0388ce240fd959396f35f95a1f7d3e74a248dd060d0f",
-        "eval-viewer/generate_review.py": "44d97a35be977331b13b04932927b3beb285862a173f0f15dd052d4f31de5c76",
-        "eval-viewer/viewer.html": "46abd4e19e482b4aeebea24b135c2d88fb122a63346dbeab7fcecd83828a826d",
-        "references/schemas.md": "5ef5fd3c1ac7baae965b5bda6b4f2cf6a191a2d712c7fef2a12dde84573b4833",
-        "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "scripts/aggregate_benchmark.py": "16c5a53e4cbf55a679a42c244cba39cee463d99ce507ecc9fafc4cb4e0a133e0",
-        "scripts/generate_report.py": "d90ec4cfc2dd539564edd332880fb7561309a1f0097d082de88e3101d6c8031e",
-        "scripts/improve_description.py": "09425704c5717656fffd346ba075a390bb55d494dd1082bccd4fe2423117fa05",
-        "scripts/package_skill.py": "2cd9a9891844516fd30466eae30e4a9b9a199802522de3fb12f59a063fba58ab",
-        "scripts/quick_validate.py": "99f76b23da5882ccc9301890e4c31837e4a9262bd1a9a75dc729df0b12459d52",
-        "scripts/run_eval.py": "252ac58feedf233673d6a605661158db20806f724c7d1dd32c92ae316b24ef67",
-        "scripts/run_loop.py": "85b36782ec856e066257cf8e917606945e6df098428005e17f8d60a5b6789c29",
-        "scripts/utils.py": "b396f920bfbb422822427d800656ab125876e1e42ae242ed3c9380338f9d0833"
-      }
-    },
     "e4c0ad9f-6d95-46d3-adc3-dcdf58e767c6": {
       "id": "e4c0ad9f-6d95-46d3-adc3-dcdf58e767c6",
       "name": "writing-skills",
@@ -1899,26 +1791,6 @@
         "agents/openai.yaml": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
         "mocking.md": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d",
         "tests.md": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
-      }
-    },
-    "e96aa9c0-3f33-4dc0-94da-a2421e8f4bff": {
-      "id": "e96aa9c0-3f33-4dc0-94da-a2421e8f4bff",
-      "name": "agent-reach",
-      "description": "MUST USE when user wants to research/search/look up/find anything on the internet — e.g. \"research this topic\", \"do a deep dive on X\", \"search the web for X\", \"see what people say about X\", \"look this up\". Also MUST USE when user mentions any platform or shares any URL/link: Twitter/X, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu, Xiaoyuzhou Podcast, LinkedIn/jobs/recruiting, V2EX, Xueqiu (stocks), RSS. 13 platforms, multi-backend routing (OpenCLI / per-platform CLIs / APIs). Zero config for 6 channels. Run `agent-reach doctor --json` to see which backend serves each platform right now. NOT for: writing reports/analysis/translation (this skill only FETCHES internet content); posting/commenting/liking (write operations); platforms that already have a dedicated skill installed (prefer that skill).",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "174368fa074b3afef991286fd76ad10000b06d4a9b4964329ec9934e08826ef8",
-      "files": {
-        "SKILL.md": "064e1cb37dc3589a49d92cefc6b6ab9ab79a705595cec9884838f4b38abd69e1",
-        "references/career.md": "749b72febaca636bde7bdd322b1bb27e9cce33a4c48f951d3f7e43637ec1e032",
-        "references/dev.md": "217491504b7eb6d88244e8f2be4307e99eac844c045b7545bdeff9365bf07b8e",
-        "references/search.md": "279f62efd8726eac445ad0421e8256c54624fab0919c876e1974f4c0303186fc",
-        "references/social.md": "806c89ebe7f277eb9c7f82b2097efdfbd8014b5392c7c10da86cb90fc4e16ebe",
-        "references/video.md": "0f1cafd30c7feba64c90a8dd5e95ff1d567d083ea40331fb00932a4979978cb8",
-        "references/web.md": "d1128567c463e11c9bc3b1d5032fdca83dd323863da408c03cfcff227ebe7a1c"
       }
     },
     "e9932e6e-32b2-427a-a58a-969c311e74b9": {
@@ -1970,20 +1842,6 @@
         "scripts/mcp_proxy.py": "22e1519b9b5e6848ac5e6a66657602151a30a815abd5271434a77e5e800d97bd",
         "scripts/tencent_meeting.py": "e4eaca467ff9aa50fd9b224feb2c95c6120387189adfc42bfe3f4d5ed8343f10",
         "scripts/utils.py": "24829225fa7456c30998cb340708943472058b033d4fc5abd595a6e4f1387f75"
-      }
-    },
-    "ed8f3720-c671-4187-bc15-0da690cab19c": {
-      "id": "ed8f3720-c671-4187-bc15-0da690cab19c",
-      "name": "playwright-cli",
-      "description": "Automate browser interactions, test web pages and work with Playwright tests.",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "0fed2310298f2556fba16265717c77e07b43b5ad72b78982c859065fe7fdc440",
-      "files": {
-        "SKILL.md": "b2adb683e80a850b9e68132d47ebfab1a7dbd3a9d0e8a499805391532c9b9f0c"
       }
     },
     "ee9fe84d-f954-477c-ae68-0337c64a87c2": {

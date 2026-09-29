@@ -151,23 +151,6 @@
         "references/typed-errors.md": "6268a134192d35c5d9d5b30951cb48f2feb92b782d6d6617f252ee7ee0900583"
       }
     },
-    "11912da5-a17c-4be7-8dfd-5aa23bd80471": {
-      "id": "11912da5-a17c-4be7-8dfd-5aa23bd80471",
-      "name": "using-superpowers",
-      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "9002f2242c40d14b3169821e351f4f7f2ee9ff40b8e595ddfd6660c503043daa",
-      "files": {
-        "SKILL.md": "316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa",
-        "references/codex-tools.md": "37e06103a352516dcec2eb326f990d50c6728b571135cc7b54cbbb8902c451e0",
-        "references/copilot-tools.md": "9fb400a432d31494c6d764506f04227c4b8d89e27a09f84da9cc2b75998f2db6",
-        "references/gemini-tools.md": "a66092fb2dd2c69b6b6d1098feaf456614521fd7b887cf7cb4160c8040ed1d62"
-      }
-    },
     "12c18986-5f9a-4a61-9b76-7444379f19fb": {
       "id": "12c18986-5f9a-4a61-9b76-7444379f19fb",
       "name": "writing-fragments",
@@ -1101,6 +1084,27 @@
       "files": {
         "SKILL.md": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
         "agents/openai.yaml": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
+      }
+    },
+    "8091cd22-7dce-46d0-8b6a-950c24e3735f": {
+      "id": "8091cd22-7dce-46d0-8b6a-950c24e3735f",
+      "name": "using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "source_type": "git",
+      "source_ref": "https://github.com/obra/superpowers",
+      "source_subpath": "skills/using-superpowers",
+      "source_revision": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "tags": [],
+      "content_hash": "9d51c111baba9db05b42b946d2edc1df5701484cf62bbd310df47f0ebcb630b1",
+      "files": {
+        "SKILL.md": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+        "references/antigravity-tools.md": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+        "references/claude-code-tools.md": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
+        "references/codex-tools.md": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+        "references/gemini-tools.md": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+        "references/hermes-tools.md": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
+        "references/muse-tools.md": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
+        "references/pi-tools.md": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5"
       }
     },
     "87dcac4c-56fa-48e0-bfd4-fed71a528a31": {

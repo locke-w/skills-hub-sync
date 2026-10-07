@@ -7,11 +7,11 @@
   "source_subpath": "skills\\engineering\\tdd",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "5fee048c9612b3d7b548768a911ca52e6f6f6cf26a328fae38f17c86cfa73a46",
+  "content_hash": "d4bfcf521a967b67f7487d240805e238673c3ba65254a628e70ea0c1cb55d9bd",
   "files": {
-    "SKILL.md": "cb01f66bebfaa25fa1f88e6b7e769cd9fd9f35b1120b8563749820738814c927",
-    "agents/openai.yaml": "ea6f01cf1b8c06a4b0f5b649d74b1b8ce8685e72af1b38d70d877693e092af0b",
-    "mocking.md": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
-    "tests.md": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a"
+    "SKILL.md": "193b791c489d1640ccfb58d7cbd60fc9e059ef44632b3c92f208784cfe45ab78",
+    "agents/openai.yaml": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
+    "mocking.md": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d",
+    "tests.md": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
   }
 }

@@ -24,23 +24,23 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "7841d6b6e02320b2149588f3a5a116ed88baf88fdad9b9df229ad40b2370ade3",
+      "content_hash": "781fb07129ec5ac43ff078a852a6634782beb53b860e1a4b44f08b5a1b595574",
       "files": {
-        ".claude-plugin/marketplace.json": "a9a683f2971003b4204bed0fe599d63ba8ce98db8f65880a876997a0c48c0485",
-        ".claude-plugin/plugin.json": "505bd3fb8debb6e8dfbb23049920174f04ff8a6aa0fbf87b019e0487f30ffcfe",
-        ".gitignore": "db2fbc34ec812553cb06c17770c533b0376c879fbca70e55bdb057fbc5d11788",
-        "README.md": "a46a3dd036cf127d2a2ad4f14accefd59b0dbb2212626e1dc5c64a98a2ef5243",
-        "SKILL.md": "4b9567a9ab32dd49e1bcee54914bc3c8d2d1b2cd292c22e53ed248ea80c387ac",
-        "config.env": "1b6a454fd4cfc4a06469b20f214f07851638d82fa309fd72f1192c3cd60d2c7e",
-        "references/cdp-api.md": "533c6a7aefef2f5ebfd92295ca9678fb3e701c4f1a05b28872468728d4f06548",
-        "references/migration-2.5.3.md": "ae09e4802d7619598225f72bb1bcfd5c23154689a4bfbdc6a3d78822e18171d9",
+        ".claude-plugin/marketplace.json": "f008631cd33408ed16f3cb828cc108b9fdf5ced64e02a5aaf3872d88a0e50659",
+        ".claude-plugin/plugin.json": "22995d83120bda2e710af1630ac7094b3a7c31c139efc993dbe7f3c2f36ffb00",
+        ".gitignore": "4bcf7298aae8555be5927ccbf5c689f87d379517c54adaa57dbd0731ebfda408",
+        "README.md": "7c25cbfdff925fab4f6abc096909ffe652327c64c25ac4f1a1c513763e0a22fe",
+        "SKILL.md": "3c8ec65ec6785c75eb37e3d0e207f2bc110b1f19af4a47431a24543c3a170c50",
+        "config.env": "dd498cb0ed2c62f2947bad897079cf599f8672e62932fc05dfc1244034c42884",
+        "references/cdp-api.md": "371b5a17b2fc15604fb3d4d5d088734a87b974981eaef4f688d434df5bfa3910",
+        "references/migration-2.5.3.md": "aa7aec6c623171c932bd368966e426b5ad0752f24c0bfc7981b1460f4650c34c",
         "references/site-patterns/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "scripts/browser-discovery.mjs": "f89a2a1f09fac91c376f64ca85de2a5c9dc2eb2f37ffc70dd0d2190ff9a03402",
-        "scripts/cdp-proxy.mjs": "1e95f5c9c0080face9bb02e7c862ada689721c7aeb794610c578706b8d8235e8",
-        "scripts/check-deps.mjs": "71e2dbafe8bd03aa231cebdfde968fc0f14095b5e02dd643074228f4e6851ac2",
-        "scripts/find-url.mjs": "c67c92a178d4ff6248be6341c96daa18936e5d3f6fb1a840e3e8753a69d528ad",
-        "scripts/match-site.mjs": "afa955642645661981ba6ed323a8bd4e0a222974c56ae06318bbf4e459283c70",
-        "templates/config.env.template": "7e3b7b07bf7792d3e97137f8d7428f15cd4d41c3e03e6788fe36b9d03674c29b"
+        "scripts/browser-discovery.mjs": "30f62a5bad7653cbe19676c9bbffa11b82dac9a3d12599b6a748826d8f304b26",
+        "scripts/cdp-proxy.mjs": "26939c2ef7cea17ec076b689b18b9ad293f1e316f329eb84152d6143c35fbb1b",
+        "scripts/check-deps.mjs": "6f08c9fda6ca002af4cd10e3c7fef71c0c2449b83bb5920dae4a089f95b30524",
+        "scripts/find-url.mjs": "b5738e490dc6da95f2ecb38d201749bfec4baf8c4184d4d439d152d7fa8346c6",
+        "scripts/match-site.mjs": "75a5bd66db947dc7cb894f2c14ba04845fca832d22ca664edd8e471eb72125c1",
+        "templates/config.env.template": "dd498cb0ed2c62f2947bad897079cf599f8672e62932fc05dfc1244034c42884"
       }
     },
     "0645794a-5edb-4479-9d92-7f7bbb526eeb": {
@@ -83,12 +83,12 @@
       "source_subpath": "skills\\engineering\\codebase-design",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "e79f08f09e823a3891f5eda913f82bf536d7ecddf0469077874bbc648338b251",
+      "content_hash": "b43ee81090b73ef1b9a17c96b39bdf9265d751e38f2e736670b7d55830a86d85",
       "files": {
-        "DEEPENING.md": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
-        "DESIGN-IT-TWICE.md": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
-        "SKILL.md": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
-        "agents/openai.yaml": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+        "DEEPENING.md": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+        "DESIGN-IT-TWICE.md": "8e740bf98446dbd4dfdc132ac4346d9a7eedaf93de6a495889171cf7f99f16bd",
+        "SKILL.md": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+        "agents/openai.yaml": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f"
       }
     },
     "0edc18ba-1caa-4736-8769-02ceb59612d5": {
@@ -114,10 +114,10 @@
       "source_subpath": "skills\\in-progress\\implement-spec",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "c57d6fb8cbec28261ffa02f4d31bf452b3807f0a34efdd09ad1ad0367a50ebda",
+      "content_hash": "6de4c1dfc86169a50925d072f65499cfe87736642212b9a0fee3e07fa946a633",
       "files": {
-        "SKILL.md": "986c0becc03a5b72d1c8b04c8e7c0830b8b9baae109acba404d0f1a8831966a5",
-        "agents/openai.yaml": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3"
+        "SKILL.md": "f703b5f41df9c2202e19540d203e0d5fc32613572a838a070136cc22e712b129",
+        "agents/openai.yaml": "d457ae78ff282b8798380b0c2e393c9798bc2bf5ee7dfe9ca31607714c6cd7d3"
       }
     },
     "110266ce-d16b-401c-ba72-00c9ae5cbe4c": {
@@ -160,10 +160,10 @@
       "source_subpath": "skills\\in-progress\\writing-fragments",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "f2e26072323f960af348cad40b5541992765727f4af9404ddd290ded78609fb1",
+      "content_hash": "96baaea69f5535a07e9e73a59aa673ec98d0bd9beda6e6519146b04f4ab12b9f",
       "files": {
-        "SKILL.md": "3be6ffe9386ddd6de8b320c331295953995792fd65d0972aa2a28524ead73e90",
-        "agents/openai.yaml": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb"
+        "SKILL.md": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea",
+        "agents/openai.yaml": "81167f25ee8ea1bb4b4958f12b6702ea972ad31b05e03ec91e39fa4bae0c2641"
       }
     },
     "1692534b-974e-410e-81ec-4ab1a6612540": {
@@ -175,11 +175,11 @@
       "source_subpath": "skills\\engineering\\improve-codebase-architecture",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "202c755a90c04489372afc14f68d76d83655817888dcd9b3b0356cfbc4df992d",
+      "content_hash": "adc1aa78a0634dc39cd2729cd0784be3c48f00a1ebbd1171e8d29032201084e8",
       "files": {
-        "HTML-REPORT.md": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828",
-        "SKILL.md": "ab67dc77f7fb0e82ac2ce45e3680c4f90bd68f638c86522996cdf03426084ac7",
-        "agents/openai.yaml": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa"
+        "HTML-REPORT.md": "581e8bb5a521e46bbda8ca7e19b15948bed882187108092ebb90c62513b77528",
+        "SKILL.md": "d1ac25511a936ff4250a48dbcefda363837d6bb9321b3cba73df99fa37270a75",
+        "agents/openai.yaml": "c8cb20f68ebf0edb4e497bc11ae5fcaa196004e661cd189015b04f4109ced7f1"
       }
     },
     "177dec72-1fd5-4d75-adce-d4962b380ea8": {
@@ -205,11 +205,11 @@
       "source_subpath": "skills\\in-progress\\setup-ts-deep-modules",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "b6a663551d7cef50d0b749216453e0c290a6abb7474a8cd6242a3438ef0aeecd",
+      "content_hash": "9c43b15550c4e24a2ec41ee6c021d77afdc0220b7500aa930293305800502783",
       "files": {
-        "SKILL.md": "3709fc7d62ea75cd7da1d6f21e33d58d758766fb8f5247a859687d7ed63c213e",
-        "agents/openai.yaml": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
-        "dependency-cruiser.config.cjs": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376"
+        "SKILL.md": "29acca66ac99d4532e2a6f0370d8125d7cba1e87c9ac66573203c75189d3e6c7",
+        "agents/openai.yaml": "159f680217d50747702620c05fd65734a152185b3219a8ca5ee4630878a354fa",
+        "dependency-cruiser.config.cjs": "3c4973bec69f73b2117654abf9e666a7c28665b213be20e6d39869e29842428e"
       }
     },
     "18f40675-b3be-4a35-b151-7374affc3e9f": {
@@ -242,11 +242,11 @@
       "source_subpath": "skills\\productivity\\writing-for-agents",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "719c88442401de9a31869f0bb706e24ddfd95ed8a1a0ee0a8bb54c544c51cc4e",
+      "content_hash": "9d32670349d3276951faf6148ccec20dc8bcbb1d669a4cd4fff44d07a36b67ac",
       "files": {
-        "SKILL-MECHANICS.md": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc",
-        "SKILL.md": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
-        "agents/openai.yaml": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+        "SKILL-MECHANICS.md": "c768e6307c7c10728c401c213f2c4ba71c542127eeb7ad2956aabd15a0fa0059",
+        "SKILL.md": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a",
+        "agents/openai.yaml": "eacb24b2a618cfb81dacb0416f4fdd75ddf3a8060f8ddb99aae1b1e301907e4b"
       }
     },
     "1df00677-6782-4b36-8c13-15f29d00bdf7": {
@@ -258,69 +258,69 @@
       "source_subpath": "skills\\docx",
       "source_revision": "34040c9c568585f6929bedeaad110ad08f079624",
       "tags": [],
-      "content_hash": "9ad559c723dbaaf0590d9ed999bb90efb6d7f69ebb6846d0cee537b9e47001cf",
+      "content_hash": "c2cf76617bbae8b7e09cf11ddf3d47a9b86d0d8e3f3525aadeda2bed84f61513",
       "files": {
-        "LICENSE.txt": "6f8bd7f4d8ec5cb52b7a59ccb9e8c14c2a4ba529cb5adfc5e0bc676892b8ca79",
-        "SKILL.md": "ffd82aa6a49674c09914941639e5945694e19c67e43d8459704391e13b4ace25",
-        "scripts/__init__.py": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
-        "scripts/accept_changes.py": "4996798dfae55153079fd03b7c3b2fd7e9f4466a10c8101e7592d72d68b059fb",
-        "scripts/comment.py": "edda239444220c74b41544e2ca9dc66d86561e9500df4d24abc966af797fe890",
-        "scripts/merge_runs.py": "a0d4e28d4875a2d4445f2bb5e950fc48244578c5380f45c4059cb60a56138676",
-        "scripts/office/helpers/__init__.py": "d9edb79f99cebb42bc5351ab3f18599fe8d2cf94a1e6fda906cd5a71fecc8efb",
-        "scripts/office/helpers/pptx_chart.py": "cebede4e2eeb750dddd076c0789d0ba0acae6ad3c479caedbb268457d0cd8581",
-        "scripts/office/helpers/pptx_slide.py": "68bdf9e81d52784360e7d0b8e8dd0bc590c6ece37a97b36e48164c660997e9d8",
-        "scripts/office/helpers/pptx_theme.py": "903ad967f6bd11bde628f74d39a9f8c1f5ade40c7cc85f96143781e29463bbcd",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "4de4390a26e7e44e682ed98b39872cce2620f807f5b0de421567a43f74526388",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "71a6e04d3dbb21e4b705da8bb9a3c71e4295a389c15c09bd255f216de238097b",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "809f77f658f71e10f5cfbf99e25c895a23a4e62c81210b59a2fe8c7fb24849d2",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "06555ced1e626ebcd9bb4a495b78d9596555f945b09161dea6c4cd4d8874a0ba",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "6978ba7e889070b0c3cb5b546b23e5a6c3516134afc53b87a21f482ca33f3858",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "17581a2683f0ecbfd4c64656f1dff7236a4563127b5d056da750a9fd61e26f67",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "aabcbb126609a518a78b007c1e6ab76e1016f136964f3afb3a5eda51584e983d",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "2dbfd4719505bf39b568005994a433997cbeac59cebc9d4867d564c94e9ba03a",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "39c6396b7b1f096885c3ceba5dab30e3ee14291c45a1d6fa6038ec4db69d88d0",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "57567431dcaf5dae08c5f7ae1eeb2c9a4d2d762a912cd09758f620469d226947",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "6ec3425c89d6bf6eec5dd0d82c0ed0fb606064b6d4692a696323ee86814de0e4",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "d90722af8f1439ae6b82d57858ee0b0720e320eb309cf30371666338aa66d106",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "1624b1ee04781508421fd5d8a7a8fd054196be5e1e122736c7ed350161bf4b89",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "4048c35b8949bab9f8ac58c2fcd0b534c5626fbe1d2bc88522a3724a0514d091",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "7f112630ff0a2bf450fb80ccc7d891fb2bfd70866c4913590d3a91f43744d4ec",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "2dd1b7ce7cf5be453fd2db72b6d6072259ede8193db7518c72439fa26fd7ad72",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "ec24c8039acb44422b65c2d99af82d4f21007d17bc33c87d36549904a29702d8",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "f812dffca0bb66db6e2ec2e01dd19258636b2a5a3a0bb949a2e7295665e0ce61",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "2a6b823a7c6da33bedb8ea9be74199db8a907530ecf9d3b31f31f92c4539a4c2",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "495debc8fa967b77ed37799747b049832f2c95b2ecdb9f19ddcd68f8c9f96ab9",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "335e9ecd40bb594ec4b916ac8c7b9eead4e16fe1b79f9d4105fdb1c43b66bb1c",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "86c9ac8549d84af107daac8f6b3b0b9ed1113eae22be8fef4c5f2b606f23ae36",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "db28df195a3a1da2c749162c4e5736c94fc4e3d5e20d767d5ff68a37fdd46fd5",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "2f7c6b2a8a9d7a7e0dfa32ff3f13856275d83d0bbe968c7fc9954d0f665e7588",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "f5e69bc0280a2aae659766f782d2af47738c6c97ffabb0b10a871489f60280bc",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "a5db454991de6c9d52db8d2dda43d2f27f4cfa2e62c012d6bf202deef90659ce",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "70a3c67959f9ad2333016328716101bf8b476e682f29830cc9ee8da63dca7cc2",
-        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "49ec1c03440a9b5590e69acdf92b200fe133697de0b05f43a129fb94d1885026",
-        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "69688ea15f82a870053b9a60c79359063dbcfeec9cdabafabad51a53934bc35b",
-        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "ee7e7e1b9a1340536e25e87c8650a2b90a43b0e67d02d6746cd430048b3c1439",
-        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "607ffb6879cf5d5d765bfdfb2548f3f427ea964ddee6d08a15f0dc781749866d",
-        "scripts/office/schemas/mce/mc.xsd": "fc3d4398375c68a8aa0d608dad9003a3e5cc566f3d16a443f92fca3799ed2df3",
-        "scripts/office/schemas/microsoft/wml-2010.xsd": "60580c222b22548a4c306438a631ae2355db889ff59847cfcfd47943445a7132",
-        "scripts/office/schemas/microsoft/wml-2012.xsd": "85e17de88d4c1af45a571732eb862024cd7897e380efa5825bcfdbe57db21a64",
-        "scripts/office/schemas/microsoft/wml-2018.xsd": "b8bf0d8670a8ba8ea2dd441e7f22a81be7dfca520ca93306e99e4403c234a3b2",
-        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "6731624fcb1b0df9ab0533bc8fa2d8caa09d419b2280285bdda6c9e94d874f7d",
-        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "73dde8f5752d4047975fe2948d2ea99d26c1dab981a9739e77624a666090272a",
-        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "441556f2bfff0b49a3a4bae82cac5188aaee5419ddfa288dc0a58ce271f2237d",
-        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "1973a7ede01d55d351c50422ff451a1ad1f8f52cc792178f14b62f75c123e01f",
-        "scripts/office/soffice.py": "b3fd54b5bd174f330cfc78f4c06b55cd72ec21cd4f28ab02d9eccb537bfc8380",
-        "scripts/office/validate.py": "4c52fade74198284b1cf59ba503154173b769d53b1377dffaed9f2fa6ff5e7da",
-        "scripts/office/validators/__init__.py": "09a53b0969b042794ce29e5ee2487db365d57f7e95d691b145f5c60cb98144df",
-        "scripts/office/validators/base.py": "ff3115aa703895e91e12687f2207c295a6f86603c92629fcbb4ea7b4da916201",
-        "scripts/office/validators/docx.py": "8923a9461fb6e29358a87077e6a8591aa77a3f2a630d638637af310f2282f7c7",
-        "scripts/office/validators/pptx.py": "5708a510426bd9ec90d4052e19cbada888d4bf6e12049d5e28912da0b552d8dc",
-        "scripts/office/validators/redlining.py": "f781282c44cf498b44830a96fd91aa886c1268b0642c19b7326fa421d82f9d92",
-        "scripts/templates/comments.xml": "c89bad9ffa3b3fc843d10b1542b54ede87b5c3f3bbf8a12b791ea35f6bac3f73",
-        "scripts/templates/commentsExtended.xml": "1e630582dbb214661b00588d3937722588405374b6d444cc1f0601506c402a3b",
-        "scripts/templates/commentsExtensible.xml": "0bd252f89a34dcbfec414a88fba101b77726ed7c87fdc96a76dc9b54304bb4a7",
-        "scripts/templates/commentsIds.xml": "84cdf36ba354077a87c8ac5448d68ada3737d747e1a8a7b6e38c060049975a47",
-        "scripts/templates/people.xml": "3d3273c725e85f7dce810103055072d6c1577c7e51d88b2f7794b647e7a9cc37"
+        "LICENSE.txt": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+        "SKILL.md": "8017469ea95fb7d28225c62daf8e2f3492a7b516fc64c18c28977cbf8980b7fe",
+        "scripts/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "scripts/accept_changes.py": "0c991d2bc7304a1248e9f3bf9b1498f0b6e76641fc457e7cbd73c99b4eef3a74",
+        "scripts/comment.py": "37d116e5f56bb142b208c6c6a4bbcf960495abf470ddb7c6675ccfac864ba3d7",
+        "scripts/merge_runs.py": "3ab367fd7fba4647943d0aa5e65203b15458551410f5ffc821d902616a4b9f40",
+        "scripts/office/helpers/__init__.py": "678e42456d9e10923c8b9a93691cdd993de3433448a184fa72a0c31f4ae086d5",
+        "scripts/office/helpers/pptx_chart.py": "47ac266f7d39d11ede6bb0d1f3a19d801394fd2964636f1b48beb701f1832964",
+        "scripts/office/helpers/pptx_slide.py": "7b9f69b4a5bd6a2d9eabf9e0e3e796d7a421373145f6a8cd11f60b7ba2d6a5d0",
+        "scripts/office/helpers/pptx_theme.py": "ebb54c56e9c13807f5f98f0cae22d47cdd0162da8525eaa664e3f2c8c8d6bb03",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+        "scripts/office/schemas/mce/mc.xsd": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+        "scripts/office/schemas/microsoft/wml-2010.xsd": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+        "scripts/office/schemas/microsoft/wml-2012.xsd": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+        "scripts/office/schemas/microsoft/wml-2018.xsd": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+        "scripts/office/soffice.py": "df2c8d7249c132a4512d744482e4b5ed0ecbe885f0bcfb1295e7e6a7ced0432c",
+        "scripts/office/validate.py": "346a4c89d92fff55e610f11efda48c30228815b29bdb10b987e48f7af70acf1e",
+        "scripts/office/validators/__init__.py": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+        "scripts/office/validators/base.py": "f818ea28c793ba42960fa4498265e2632a62c86f7b5d6aff6fa89dacc02d59ea",
+        "scripts/office/validators/docx.py": "93d3444c0ef3f043d21a2285c46d2cda478426b930dc33dcf3b11265935517b5",
+        "scripts/office/validators/pptx.py": "17eadad2b7a8374ccbe4cda45693bcd6a36f9d61a7d60f9c9ceef9464dec8299",
+        "scripts/office/validators/redlining.py": "ed50d0885eee4b9c387f546b059bcaed64086815880a5167336244f93e305123",
+        "scripts/templates/comments.xml": "a08ba83ee8790ac9e3dc61921f4988f19edd7e06ac09d6f1897a877c1581818d",
+        "scripts/templates/commentsExtended.xml": "544eeecfeceed4b468fff163cd9c366d33641c8b8ab691ce002576197846afe8",
+        "scripts/templates/commentsExtensible.xml": "bad10b3283e6ad6e7ef6d1ca5169683721ed690ee331282c65df04017e080631",
+        "scripts/templates/commentsIds.xml": "db20f9616e004ec42ef736e80c2384e45db0f8d1194d31dc8b37c7d6ecdd6420",
+        "scripts/templates/people.xml": "056f63aa1197fd8c9dda980c9f1b9ff016fd5fa4a462df8aec5f384f39d23e37"
       }
     },
     "205d31f6-eec9-4105-a764-4b48cc6b79f7": {
@@ -360,9 +360,9 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "f7f86e1271702d0b36c09e4f490ff2e9cfa179f9cbdbed0d916dfb4236735801",
+      "content_hash": "366c1f6bd2256c051d17564327bcd46b9928b6ed64d1a583b95f57e818e94aff",
       "files": {
-        "SKILL.md": "5df70a7a474aaed217246277e17882e3eb9025077189026dfb028a713b480926"
+        "SKILL.md": "1e85f6f9686e145aca4a124e3b704b9bbea9aa87e08515c1e352eee70f6e6e7a"
       }
     },
     "235ae180-f6bc-4f3c-9049-5158e30a9414": {
@@ -374,10 +374,10 @@
       "source_subpath": "skills\\engineering\\to-tickets",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "8bdf5b3df2640c411f2898f1a4539a478896ab077da2ae46b15d6bf344e01ce8",
+      "content_hash": "06bcd3fa33044f518c2145da72e8fcff6b2723f3d243297bcc402f9ba5cddc3c",
       "files": {
-        "SKILL.md": "8082bc6ef165027c5df3215763055f4a9668878bf27f25f582db78a14c3ed3c1",
-        "agents/openai.yaml": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb"
+        "SKILL.md": "5c9fba69845c2519b9b35b9af42ae5142c21f8ca15ac2123dc2722002c8058ae",
+        "agents/openai.yaml": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090"
       }
     },
     "2453447e-92fb-4980-90b2-9c8e9358948e": {
@@ -415,14 +415,14 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "5fdb09eab0c3d2483a2edc12d7f39cde355caa978fc6545241b93aa38d533b42",
+      "content_hash": "cd3b640f7c7404a16a87d81b103e11ce79c1ac72d1d28262aea86c291ebfc636",
       "files": {
-        "SKILL.md": "afba0fbefcea621809f8e70526204d3c50a8d47c82e7ef97ba22cc59c919bc74",
-        "references/jpa-optimization.md": "9a3f98d529f6e7f097f4726725713cfff06c2765c200c50ebfc8c33960a69d93",
-        "references/reactive-webflux.md": "9338d333ea0f7d24fb43617d7b52f24202b7fc9c8904a6f893a65a1ee5e8f2f9",
-        "references/spring-boot-setup.md": "40a7ef2ed9a2eb25014d242a499877d10b51c15b45061a95943e691a48ee0a1b",
-        "references/spring-security.md": "c7ff0c161719080a9f69a3f9bfc83e3082c3480e09f2ab15e8be329208683774",
-        "references/testing-patterns.md": "de713f3aeadb4cff42e1e2fef4ad24617c995645dbc0ccb029848051da8690be"
+        "SKILL.md": "6e38cf7391e2248808ba50ab18699fb2738645076dbdb50d1e2cd62e73b95c30",
+        "references/jpa-optimization.md": "5d7255940c18ae913c220cb8f7bd8e75a1ee7884156dfd3c652a8e4a9857e310",
+        "references/reactive-webflux.md": "0c5f3cda8b88be596781028a903b1807aed7cbea30a7352cc832ea722a9e0441",
+        "references/spring-boot-setup.md": "aadf2abe9fa64552659ed817668941bf844c723ad4ec1d67ec1c0fb72d87ef32",
+        "references/spring-security.md": "e7cd092fa11b6185ce9d91a02afefb0ae82f50566589c912c78d53d9716dd095",
+        "references/testing-patterns.md": "9429df81ad070ae7818c81296f9399edb3579eb70b5b6bc306c7095d7cf54973"
       }
     },
     "28151882-0840-483a-b6d0-a8aa4672c691": {
@@ -465,10 +465,10 @@
       "source_subpath": "skills\\engineering\\code-review",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "00273787ab744ce7d757b357fa2f2d0398be740db4d7a79c4b285efce84f8e1f",
+      "content_hash": "3634b8e3344cbf31e1a89777f6231ca398881ada3b9740796ce672274d1e4ccb",
       "files": {
-        "SKILL.md": "3abbdfe52540f9242e16589fae2cc423b3d98994c37683944462b29bab89495c",
-        "agents/openai.yaml": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe"
+        "SKILL.md": "47f4e52c21694def9c7c11cbfbf891ca35eac7a93e395797515be3c8a409ae50",
+        "agents/openai.yaml": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352"
       }
     },
     "3a8bd25e-6063-43ec-91a4-c4d72698583b": {
@@ -484,6 +484,57 @@
       "files": {
         ".opencli-managed.json": "2bd1e8df5f503b6f5b9e3439a60b1ae8b21027fa09de654d51c2b9e66daf3f33",
         "SKILL.md": "5799561d917650a6204f248d684e2d2695dc3787fffeebb6649b57d8f9264855"
+      }
+    },
+    "3c033197-5288-4a70-b45e-c2445d31bfb7": {
+      "id": "3c033197-5288-4a70-b45e-c2445d31bfb7",
+      "name": "auto-xhs",
+      "description": "纪念手办（3D 全彩打印长辈/父母/公婆/岳父母/老伴手办）小红书全流程技能：① 铸造无肖像侵权的虚构中国长辈人物（五维画像 + IFTS + 全库去重）并生成 11 视角提示词；② 驱动本机 Google Gemini App（最高档模型）按 prompts 批量出图，01 手办图作参考保持一致；③ 调用 pi + DeepSeek flash 写小红书发布包（标题/正文/话题/封面/图序/运营卡）并自动校验回修；④ 扫描素材库全部人物（含归档）做去重与索引；⑤ 把图片、正文、润色后的标题/置顶评论发到飞书联系人（带判重）；支持一条龙 pipeline。触发：发布飞书、发飞书、发布前全流程、一条龙、生成人物、构建人物、手办人物、纪念手办提示词、11 视角、出图、生图、Gemini 出图、小红书文案、纪念手办文案、发布包、评论区运营、私信话术、去重、素材库审计、char_XX、auto-xhs。",
+      "source_type": "local",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": null,
+      "tags": [],
+      "content_hash": "85c1a93d519c587f7a1d5ced57197a6c353e57e7e18d691cf3eea4a7ec91ef70",
+      "files": {
+        "SKILL.md": "db1bdaae3820f9b340bf8889150ed0ff7308de9661f904b5c1ed6f9c1e45cd38",
+        "checklists/copy-checklist.md": "8172aea6fc027589d66c45410292ef67d99330b3c256cc17d33178c4f364dd37",
+        "checklists/image-qa.md": "121fc873c1527dc4bfc72b0df4f07a5e081a3426a08494c076a1bc828dfcc16a",
+        "config/copy_lexicon.json": "ed3bf57c93ad30c1d999c968d7970812db8d8b17a88fe18c4c66ac4c411cf360",
+        "config/studio.toml": "39c6022083e7fd499761fe15573dfa74e435b9fbd2ad88da39a1b1557c6d4fcd",
+        "prompts/copy_system.md": "6eae943dc6b39251ee75a482ea96414bc8861748e09fb6ca5db73fdd68705c02",
+        "prompts/feishu_polish.md": "4ce277b04ca8c01afd38c1c400755c90fd8aac811ee1efe2dca44ef61bf1bb14",
+        "prompts/gemini/intro.md": "70f5145c04c8215b25ed6c1eaf273b1776f0e9f3aa16218f4d873203818bd8fe",
+        "prompts/gemini/view_00.md": "678ca9dae96e1c0c170f4879f5a661b702658e4f0474d3f84186e30c376035a3",
+        "prompts/gemini/view_01.md": "7423f28c1178bb7910dc156216429929c2cb04e9d2de1f65e3b1814e8ba9be8a",
+        "prompts/gemini/view_scene.md": "8b6db3fcf37d0b85283300e6d53d1d8b36b09431fc33d842395637a6be1280de",
+        "references/character/camera-engine.md": "64b6fe7cbe0215386e7aaf9668f86d891d9e86d82e36c90b8eb7df642ae8faf5",
+        "references/character/character-json.md": "265e3e3b978223425671fc4bd512cf64214e94ab3c58be938833c1a61abba975",
+        "references/character/character.example.json": "cf5111fa6d289ff4f238a3276705a9462c65eb27be8771e75bc9643a57acb170",
+        "references/character/forging-engine.md": "1213c3367a0f3aec1a17782cd101e0323b37291749835c769cd1add5317f5e5b",
+        "references/character/golden-examples.md": "72b27368786414fb9c3058c818e401d18421dd5e759623e28ec2d0639862009d",
+        "references/character/prompt-spec.md": "ef695e54c1ab624468370fb6159369dcd691dcb9ef4e28ff41cfa83831e4f416",
+        "references/character/scene-library.md": "5580c426bd5b9e7d2282be22e853ae86ece310e386328d540f90da0faa6c901c",
+        "references/character/staging-matrix.md": "2ad0bedd23ec720ff960c8f95f4f75a2314dbba058ac7398ae608519e1532817",
+        "references/copy/bao.md": "7e231cc4519d936ecba34f881aada6b6e9228997464a89bb6fd3254e54445f6b",
+        "references/copy/conversion-and-traffic-safety.md": "ba377519aabe96f394045588c08751ab4f56b4f6ce822d13318f022f23f5c90d",
+        "references/copy/copywriting-craft.md": "7a5e1bd39481d33bc3e7c632c43a40192b46d656e477f660fcd2ef656c977a32",
+        "references/copy/emotional-story-templates.md": "49b74794a5c4a91dcacc65e2affa471d32b3ae8264f43648732026391f28a8e6",
+        "references/copy/operations-playbook.md": "af824355b38b5c948e09b5633ea85ff02ea478679037b6b13de346a3e37049ce",
+        "references/copy/xiaohongshu_ai_rule.md": "792c4aeea61d9b28b43a6a9088c9ac93a9480c0726e1812bc722acd7fc1d3cc0",
+        "references/images/gemini-app-runbook.md": "8b284e589045bfb2e1370836b12d9269ed8069103a1334489a0235261b2b602d",
+        "references/publish/feishu-runbook.md": "c5896396b4240455d46d863a5aa02b314d31a8fa5c412c37cc247d7033595a95",
+        "scripts/common.py": "319fbb52e5248af011f31f5836eac29c28a01832d993e0e92e517dc2e6ff1b18",
+        "scripts/feishu_send.py": "d1602ca8857caf4682cd1c4e451b7679a894ba2e6e20f15def1bdf677c5defde",
+        "scripts/gemini_app.py": "177bce7c3b5be83e9a0809866dcc4af2849372bd9a87e1a841c902cf6cf646ff",
+        "scripts/gui.py": "0799c9e67f25c375306a09ca70fc357f38abd6c84e732f33585930c42fcf4345",
+        "scripts/inspect_images.py": "5baf78f0ef7ac4899db058e737ce4e929b5334ed26d5d0d8d0d543f2706f226b",
+        "scripts/library.py": "74a0cada153baaefe837cb56a27a647291a0cb9637675a6f34a6b93f936ca7ca",
+        "scripts/pipeline.py": "a391e3605906ccb82e4e879c0dce4d2ebcf265f5bd4bc6032e1b294015d2e5aa",
+        "scripts/render_character.py": "76e9aeaf6b10a7bc53025d57eff89e016a87b4bbb2cc622a2c062fd3ba035064",
+        "scripts/validate_copy.py": "c662ffdfd00df303a02fd4abfc110c47e49b167e23428def3c19f8b7bc9eabe9",
+        "scripts/validate_prompts.py": "cdfdbfa262ac97b80e5a8fa7d8c999598f1ce7ee03f44a5bf3cdd0fca34ec7e1",
+        "scripts/write_copy.py": "8e66dba66393237f118fa8b98d418ee4520ad24d5b2723857fa2f4738a91335c"
       }
     },
     "3e16e07a-3f26-400a-94ec-2b7d69b04045": {
@@ -702,10 +753,10 @@
       "source_subpath": "skills\\productivity\\wait-what",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "d35f708df987cda8d291fdc32d98a2fa66f9aadf48d10389b518735c20077c19",
+      "content_hash": "b35e6c9992ed5094300eb89fc189707a478b2a1026e24b19b33c50e6d67917fb",
       "files": {
-        "SKILL.md": "dcaa44ef972d5a3f9bda65a69442fb11e36eb41b7e9bb0dc8b63031ba0582fdb",
-        "agents/openai.yaml": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
+        "SKILL.md": "e3f44e3ccbc0e7b62f20ba70b295fc9c9f4aa3f96c77168faee1c71bacbf4215",
+        "agents/openai.yaml": "b41faadf741d51e4ea184148b2d1854d93f947aaf754c7844f70a00f04194999"
       }
     },
     "40c9c975-61db-4278-af03-70abff2a4569": {
@@ -755,15 +806,15 @@
       "source_subpath": "skills\\engineering\\setup-matt-pocock-skills",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "e8d6b6db9a77b00965a2579da2cebbf57f83659c01e72eece4dea6c0261185a5",
+      "content_hash": "7e537dc1f29bc7e5638f6fa2acf37436e54f0c1b1f3376eed30743460248cfdb",
       "files": {
-        "SKILL.md": "86c0dee483fb69f7f5ecfcd010f6d7cbb30df2c47a9b059ac95f98380f383d86",
-        "agents/openai.yaml": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
-        "domain.md": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
-        "issue-tracker-github.md": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b",
-        "issue-tracker-gitlab.md": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab",
-        "issue-tracker-local.md": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021",
-        "triage-labels.md": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8"
+        "SKILL.md": "2bcd89e97777cdb705914424e39c97d5db524c8eb4eafac8120778a07774f0ec",
+        "agents/openai.yaml": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939",
+        "domain.md": "edc6d6131fdffc4b7135704f5262124fc43355c95f61b7399dc5a4db643e28ca",
+        "issue-tracker-github.md": "afd6852a80185217bd28aa5cbe456bef1e85be25be7bd1fba382d5b8ee428325",
+        "issue-tracker-gitlab.md": "ea175f73d193b3f55819c0ed9bbccf6ee0e70ad8f928e3d7607596c53380acd6",
+        "issue-tracker-local.md": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e",
+        "triage-labels.md": "4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d"
       }
     },
     "4fe4f673-a924-4202-926e-ca428bc85d91": {
@@ -810,11 +861,11 @@
       "source_subpath": "skills\\misc\\git-guardrails-claude-code",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "588acb0d520971ea65fb6febdf0ade9cdf5d5663a4512650d08e55ccff013897",
+      "content_hash": "27ba97d8364daa565fe606cf6822eb5359f123f1dc8556744de040dacc803056",
       "files": {
-        "SKILL.md": "12d335b84bcf984b213b527014262233f27ffa1eb807db466832ff711b96f41f",
-        "agents/openai.yaml": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
-        "scripts/block-dangerous-git.sh": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12"
+        "SKILL.md": "69b291d655626a01602b998a1836fcb93c058ede68dfafddfd71e87f17074764",
+        "agents/openai.yaml": "d53cd783fc0ac208dec9a4c267989284384785aab6422dccdaed42f9e40243ec",
+        "scripts/block-dangerous-git.sh": "234922b83c0a1737ee7300806c21ac0f389b07aaeb65c2d71ccedafbc5e1ea4b"
       }
     },
     "5b13c203-2e32-4716-8dd2-78dc23aac3f0": {
@@ -861,11 +912,11 @@
       "source_subpath": "skills\\engineering\\diagnosing-bugs",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "0bc0d0e76b2d0cc8dcae8b404ea182a88dc4062e18b2b03645c0b39b63c58fc2",
+      "content_hash": "c23bf1ba7bf7bf55d36937b33bf634e31441d74c6671da415f0d1801b908e7f3",
       "files": {
-        "SKILL.md": "bca66b7141da7d225b7dfd1abf6f2bee657b8044d3897604055e760749c71724",
-        "agents/openai.yaml": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
-        "scripts/hitl-loop.template.sh": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
+        "SKILL.md": "77f3cf31bc99b2f49af943222526531fcc9fc41d047626d3640e875e85af3e84",
+        "agents/openai.yaml": "3e430dbe4334a87597488c060cb3dc3786bb00c9182877d6f5ec41f62490e90b",
+        "scripts/hitl-loop.template.sh": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503"
       }
     },
     "65955b23-72d4-4daa-96d7-e3665c2fc49e": {
@@ -947,10 +998,10 @@
       "source_subpath": "skills\\misc\\scaffold-exercises",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "84724317e746d409fab9c89f1c2a0392a9c6bd8324aa27ecc7efd75b830247c1",
+      "content_hash": "7ec4a3945b4d5f29594eace8f7d5cbb799dec5f5bba87f188f94c1f75e0071a5",
       "files": {
-        "SKILL.md": "de28db7a0954db55c11ba1e3cc0fd4c037bf0f5cb8313cb292e319bcce47f424",
-        "agents/openai.yaml": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db"
+        "SKILL.md": "75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9",
+        "agents/openai.yaml": "525b33913340bea7947ad2de17f2a7c5fb94be543345fe80ae753b9a44ba601d"
       }
     },
     "6e71bbdb-7fcb-4999-833c-77d4a8f6c478": {
@@ -962,10 +1013,10 @@
       "source_subpath": "skills\\productivity\\to-questionnaire",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "85289025855d77446d9a518b12261047e2242ad543797420e036924653c9cf39",
+      "content_hash": "de349e981057e8aab601a774569ef8eef69c0a97c83a2108cf5d65f6520a9741",
       "files": {
-        "SKILL.md": "77825120815c21400f82e2794faf342d1d1a4ab1493be3fe061857885d26b768",
-        "agents/openai.yaml": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b"
+        "SKILL.md": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+        "agents/openai.yaml": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
       }
     },
     "72df17d3-6002-4c11-9a64-a08bb4db6db4": {
@@ -996,12 +1047,12 @@
       "source_subpath": "skills\\engineering\\domain-modeling",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "807204ef7f0e82ede788e2f94ee940992aa4141804d49a02ffe17162c13233b8",
+      "content_hash": "89ccbb000441670eaeb82240936e694b30421a876eacd20f8820b0973f203293",
       "files": {
-        "ADR-FORMAT.md": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
-        "CONTEXT-FORMAT.md": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
-        "SKILL.md": "dd4c753a617bd7db97c34fd3e049581c4bc0c0590e8a8b1f97d3b9d6013131dc",
-        "agents/openai.yaml": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8"
+        "ADR-FORMAT.md": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+        "CONTEXT-FORMAT.md": "17ab16ce783e4d2801ee52fd9acdf550cbf44de65ae76797a93943bbedf22a13",
+        "SKILL.md": "327a2b50620e2fd70abc6893cd6965e76b20f8d0adb0dc2c8d5eb3845efb643e",
+        "agents/openai.yaml": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
       }
     },
     "7572b44a-a782-4c86-9aa8-58ba8b6a3735": {
@@ -1013,10 +1064,10 @@
       "source_subpath": "skills\\in-progress\\retro",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "fd4736932b9572d8e5b67849974b2966f902860daf55d4b60f1dcbeb6d428c1e",
+      "content_hash": "138a6c52e6e8fae766d14322e1047cf95d490a236aedfea6f00406afe239713b",
       "files": {
-        "SKILL.md": "27213192896e3efa8f0a5dd316bfcfd072e7ae794658523cf1bfe0908b819f1c",
-        "agents/openai.yaml": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3"
+        "SKILL.md": "264f3330f1e2382af89610ed048ba0ed6d08883eb69f596a8f1df3f1e1a4c6a1",
+        "agents/openai.yaml": "cb6fb9d7e6b4be5975f41f6def1dd00a1255bad5d9b02696b124c924a8b8745c"
       }
     },
     "7a2a69e3-d0ea-4329-abbe-c606b8324e27": {
@@ -1080,10 +1131,10 @@
       "source_subpath": "skills\\in-progress\\writing-beats",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "aee181e7b3389298cacd0e025a92b9be525c1019cbe29ea6e921988613dd0ee6",
+      "content_hash": "e2b292759e63b5a264558750ada00e9c2afc8ecb957148443f133aa50fdec71b",
       "files": {
-        "SKILL.md": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
-        "agents/openai.yaml": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
+        "SKILL.md": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
+        "agents/openai.yaml": "ddaef01da61d8e3c5f482c4403033c20cf5823f08a1dbf1d4c871670831d01e2"
       }
     },
     "8091cd22-7dce-46d0-8b6a-950c24e3735f": {
@@ -1116,10 +1167,10 @@
       "source_subpath": "skills\\engineering\\to-spec",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "7f4a38312a6231d9ad975cbc521d350718dc482a4df43a6c10876f29538368e1",
+      "content_hash": "fe4161dbf30edde0f295335d6201b56d829851402f0cddf3ebf8c8640cd7c070",
       "files": {
-        "SKILL.md": "c73a2250beac0479e384f5466e834bb54ce6e30b7f8705e9999ba840d9d59b36",
-        "agents/openai.yaml": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a"
+        "SKILL.md": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+        "agents/openai.yaml": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb"
       }
     },
     "8808c3b5-4f0a-480c-ac4b-77a5057376f7": {
@@ -1169,15 +1220,15 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "4db4f201fc0c6c9676892f29f6ae3d4894ec369f25f206e5be2d621f4316b971",
+      "content_hash": "87a3bc0d5630a953fd879c6b2050eaee8f42a354d39ed277a80815a672914f7f",
       "files": {
-        "SKILL.md": "fdbe79b006a23bde0ce7b3f34f518ee52003b4f951495a3dacff6e3b579d5414",
-        "references/career.md": "749b72febaca636bde7bdd322b1bb27e9cce33a4c48f951d3f7e43637ec1e032",
-        "references/dev.md": "217491504b7eb6d88244e8f2be4307e99eac844c045b7545bdeff9365bf07b8e",
-        "references/search.md": "279f62efd8726eac445ad0421e8256c54624fab0919c876e1974f4c0303186fc",
-        "references/social.md": "ae80f127651b67b9d5798b1ae978106f86a9c56e5b0d5741dfe5232c9832ffa7",
-        "references/video.md": "004242f485cc0c032aacfff07cc149f44a2d3c5ced44b8747313c88f34f3cc48",
-        "references/web.md": "d1128567c463e11c9bc3b1d5032fdca83dd323863da408c03cfcff227ebe7a1c"
+        "SKILL.md": "e6b1cfd553132933feed966acbd9e2f8f65d17f9fcbeeaf452dc5d7ef7d77c39",
+        "references/career.md": "e70badf6c860a55cc049c15cc5cef31ca0fa2a2ae9ae1f72ade24b91844c1a2f",
+        "references/dev.md": "f6f91107557eacf1d28a023d597eb5a61353a8a6ede286c3c0a4888d274df9fe",
+        "references/search.md": "8eabfb645505148ea32e22e372c6d5a48615fba2e2f00eb8590e07464833851b",
+        "references/social.md": "9d046e55d2284a21fbfc8f522135af947d11e9ca4aa96cc119fe9708fb22883c",
+        "references/video.md": "0f01f9da6a81ca0939f86df3ad05212829dc28999d89b2895d6d1f640ad9c43e",
+        "references/web.md": "2495c2e290508b5b98337db679d5b2ff30314aa5b20243c7ff44486a72c3eff2"
       }
     },
     "923903c1-6b88-451b-82e0-440f05e36b2c": {
@@ -1203,61 +1254,61 @@
       "source_subpath": "skills\\xlsx",
       "source_revision": "34040c9c568585f6929bedeaad110ad08f079624",
       "tags": [],
-      "content_hash": "6f50c2e20e8517977740597198b7b8b593e4e856a5923e6c751fdf17025bf98e",
+      "content_hash": "0bfb3b7cab9f7a55eb00e91d6a7f2ced0ae90a850d1aa12c694091946fb7e83c",
       "files": {
-        "LICENSE.txt": "6f8bd7f4d8ec5cb52b7a59ccb9e8c14c2a4ba529cb5adfc5e0bc676892b8ca79",
-        "SKILL.md": "111e06521941d60feea6c160d9f67a0b9b95a383d3db0b4c95e65937eb12fb5a",
-        "scripts/office/helpers/__init__.py": "d9edb79f99cebb42bc5351ab3f18599fe8d2cf94a1e6fda906cd5a71fecc8efb",
-        "scripts/office/helpers/pptx_chart.py": "cebede4e2eeb750dddd076c0789d0ba0acae6ad3c479caedbb268457d0cd8581",
-        "scripts/office/helpers/pptx_slide.py": "68bdf9e81d52784360e7d0b8e8dd0bc590c6ece37a97b36e48164c660997e9d8",
-        "scripts/office/helpers/pptx_theme.py": "903ad967f6bd11bde628f74d39a9f8c1f5ade40c7cc85f96143781e29463bbcd",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "4de4390a26e7e44e682ed98b39872cce2620f807f5b0de421567a43f74526388",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "71a6e04d3dbb21e4b705da8bb9a3c71e4295a389c15c09bd255f216de238097b",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "809f77f658f71e10f5cfbf99e25c895a23a4e62c81210b59a2fe8c7fb24849d2",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "06555ced1e626ebcd9bb4a495b78d9596555f945b09161dea6c4cd4d8874a0ba",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "6978ba7e889070b0c3cb5b546b23e5a6c3516134afc53b87a21f482ca33f3858",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "17581a2683f0ecbfd4c64656f1dff7236a4563127b5d056da750a9fd61e26f67",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "aabcbb126609a518a78b007c1e6ab76e1016f136964f3afb3a5eda51584e983d",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "2dbfd4719505bf39b568005994a433997cbeac59cebc9d4867d564c94e9ba03a",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "39c6396b7b1f096885c3ceba5dab30e3ee14291c45a1d6fa6038ec4db69d88d0",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "57567431dcaf5dae08c5f7ae1eeb2c9a4d2d762a912cd09758f620469d226947",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "6ec3425c89d6bf6eec5dd0d82c0ed0fb606064b6d4692a696323ee86814de0e4",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "d90722af8f1439ae6b82d57858ee0b0720e320eb309cf30371666338aa66d106",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "1624b1ee04781508421fd5d8a7a8fd054196be5e1e122736c7ed350161bf4b89",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "4048c35b8949bab9f8ac58c2fcd0b534c5626fbe1d2bc88522a3724a0514d091",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "7f112630ff0a2bf450fb80ccc7d891fb2bfd70866c4913590d3a91f43744d4ec",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "2dd1b7ce7cf5be453fd2db72b6d6072259ede8193db7518c72439fa26fd7ad72",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "ec24c8039acb44422b65c2d99af82d4f21007d17bc33c87d36549904a29702d8",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "f812dffca0bb66db6e2ec2e01dd19258636b2a5a3a0bb949a2e7295665e0ce61",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "2a6b823a7c6da33bedb8ea9be74199db8a907530ecf9d3b31f31f92c4539a4c2",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "495debc8fa967b77ed37799747b049832f2c95b2ecdb9f19ddcd68f8c9f96ab9",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "335e9ecd40bb594ec4b916ac8c7b9eead4e16fe1b79f9d4105fdb1c43b66bb1c",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "86c9ac8549d84af107daac8f6b3b0b9ed1113eae22be8fef4c5f2b606f23ae36",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "db28df195a3a1da2c749162c4e5736c94fc4e3d5e20d767d5ff68a37fdd46fd5",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "2f7c6b2a8a9d7a7e0dfa32ff3f13856275d83d0bbe968c7fc9954d0f665e7588",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "f5e69bc0280a2aae659766f782d2af47738c6c97ffabb0b10a871489f60280bc",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "a5db454991de6c9d52db8d2dda43d2f27f4cfa2e62c012d6bf202deef90659ce",
-        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "70a3c67959f9ad2333016328716101bf8b476e682f29830cc9ee8da63dca7cc2",
-        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "49ec1c03440a9b5590e69acdf92b200fe133697de0b05f43a129fb94d1885026",
-        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "69688ea15f82a870053b9a60c79359063dbcfeec9cdabafabad51a53934bc35b",
-        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "ee7e7e1b9a1340536e25e87c8650a2b90a43b0e67d02d6746cd430048b3c1439",
-        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "607ffb6879cf5d5d765bfdfb2548f3f427ea964ddee6d08a15f0dc781749866d",
-        "scripts/office/schemas/mce/mc.xsd": "fc3d4398375c68a8aa0d608dad9003a3e5cc566f3d16a443f92fca3799ed2df3",
-        "scripts/office/schemas/microsoft/wml-2010.xsd": "60580c222b22548a4c306438a631ae2355db889ff59847cfcfd47943445a7132",
-        "scripts/office/schemas/microsoft/wml-2012.xsd": "85e17de88d4c1af45a571732eb862024cd7897e380efa5825bcfdbe57db21a64",
-        "scripts/office/schemas/microsoft/wml-2018.xsd": "b8bf0d8670a8ba8ea2dd441e7f22a81be7dfca520ca93306e99e4403c234a3b2",
-        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "6731624fcb1b0df9ab0533bc8fa2d8caa09d419b2280285bdda6c9e94d874f7d",
-        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "73dde8f5752d4047975fe2948d2ea99d26c1dab981a9739e77624a666090272a",
-        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "441556f2bfff0b49a3a4bae82cac5188aaee5419ddfa288dc0a58ce271f2237d",
-        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "1973a7ede01d55d351c50422ff451a1ad1f8f52cc792178f14b62f75c123e01f",
-        "scripts/office/soffice.py": "b3fd54b5bd174f330cfc78f4c06b55cd72ec21cd4f28ab02d9eccb537bfc8380",
-        "scripts/office/validate.py": "4c52fade74198284b1cf59ba503154173b769d53b1377dffaed9f2fa6ff5e7da",
-        "scripts/office/validators/__init__.py": "09a53b0969b042794ce29e5ee2487db365d57f7e95d691b145f5c60cb98144df",
-        "scripts/office/validators/base.py": "ff3115aa703895e91e12687f2207c295a6f86603c92629fcbb4ea7b4da916201",
-        "scripts/office/validators/docx.py": "8923a9461fb6e29358a87077e6a8591aa77a3f2a630d638637af310f2282f7c7",
-        "scripts/office/validators/pptx.py": "5708a510426bd9ec90d4052e19cbada888d4bf6e12049d5e28912da0b552d8dc",
-        "scripts/office/validators/redlining.py": "f781282c44cf498b44830a96fd91aa886c1268b0642c19b7326fa421d82f9d92",
-        "scripts/recalc.py": "d3cf584bdf2bc099a7c5c37ac457222a92d1a15af3da7d5addcac97fb51ee5a0"
+        "LICENSE.txt": "79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+        "SKILL.md": "6712b39718fe815054abca9c3ee72f989613e6f771c8a5c58f30a65a6c905622",
+        "scripts/office/helpers/__init__.py": "678e42456d9e10923c8b9a93691cdd993de3433448a184fa72a0c31f4ae086d5",
+        "scripts/office/helpers/pptx_chart.py": "47ac266f7d39d11ede6bb0d1f3a19d801394fd2964636f1b48beb701f1832964",
+        "scripts/office/helpers/pptx_slide.py": "7b9f69b4a5bd6a2d9eabf9e0e3e796d7a421373145f6a8cd11f60b7ba2d6a5d0",
+        "scripts/office/helpers/pptx_theme.py": "ebb54c56e9c13807f5f98f0cae22d47cdd0162da8525eaa664e3f2c8c8d6bb03",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+        "scripts/office/schemas/mce/mc.xsd": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+        "scripts/office/schemas/microsoft/wml-2010.xsd": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+        "scripts/office/schemas/microsoft/wml-2012.xsd": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+        "scripts/office/schemas/microsoft/wml-2018.xsd": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+        "scripts/office/soffice.py": "df2c8d7249c132a4512d744482e4b5ed0ecbe885f0bcfb1295e7e6a7ced0432c",
+        "scripts/office/validate.py": "346a4c89d92fff55e610f11efda48c30228815b29bdb10b987e48f7af70acf1e",
+        "scripts/office/validators/__init__.py": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+        "scripts/office/validators/base.py": "f818ea28c793ba42960fa4498265e2632a62c86f7b5d6aff6fa89dacc02d59ea",
+        "scripts/office/validators/docx.py": "93d3444c0ef3f043d21a2285c46d2cda478426b930dc33dcf3b11265935517b5",
+        "scripts/office/validators/pptx.py": "17eadad2b7a8374ccbe4cda45693bcd6a36f9d61a7d60f9c9ceef9464dec8299",
+        "scripts/office/validators/redlining.py": "ed50d0885eee4b9c387f546b059bcaed64086815880a5167336244f93e305123",
+        "scripts/recalc.py": "66f6e726d5a53cfabea0b6471d6669deb95e54e96cb7913b687e4388da1bb3d9"
       }
     },
     "98ff45c4-1e92-4e86-93b6-28abdae115ae": {
@@ -1389,10 +1440,10 @@
       "source_subpath": "skills\\productivity\\grilling",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "397cc39d9fe65636c499bc62b2c6f066876903016040dbb5da903dac0d9fbd43",
+      "content_hash": "f77f40017ddb705416bd0753d81d3d09d6653bf7a629207005f0517309561b00",
       "files": {
-        "SKILL.md": "d806733216b16e51adad834e724bfec5540a436d06395bfc75b843cda9f7404b",
-        "agents/openai.yaml": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6"
+        "SKILL.md": "10ff989e7498b23b5acb49d5048f11dcd906757d2f79c5cdf8a00001381296f2",
+        "agents/openai.yaml": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b"
       }
     },
     "aa16c82d-28e6-4c37-8c90-50e07714d7f2": {
@@ -1418,10 +1469,10 @@
       "source_subpath": "skills\\in-progress\\writing-shape",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "26564516ac2d36abf44615311cb42e23bdfd6a976cde9f27b2e8f8e31653bbd7",
+      "content_hash": "d2c7c3c33f6c397221e2780d3776915037bc87cc913ea6344b78a0d869e431c4",
       "files": {
-        "SKILL.md": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd",
-        "agents/openai.yaml": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299"
+        "SKILL.md": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72",
+        "agents/openai.yaml": "56de45430e23104ff178415f5ecf7821d51a9cfabd8814b1607ebf39da2ef5cd"
       }
     },
     "b5942b46-9f24-4509-8719-45ed630fa1f0": {
@@ -1462,10 +1513,26 @@
       "source_subpath": "skills\\engineering\\implement",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "edc66ded9db01516f73971234e32b223044f7a10e2b155315c4216ace82045d3",
+      "content_hash": "b38c86dc514e088d2ff7cd6d43eadbf8cf886c08d89f9312e02527b081bf152a",
       "files": {
-        "SKILL.md": "30cd7bc1ebfb3891e85a1eed3b3b81aea0fa4ad4553a784de7f8e421b2d223e0",
-        "agents/openai.yaml": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+        "SKILL.md": "6d3fd9e83b8f36e5213854779db49b256a457a7ebb4a503e53fa7dcff696adc3",
+        "agents/openai.yaml": "8970a8596ade0c28ab427f41a4ea242d6bdf6186c59ebf55e1238dbecaab79dc"
+      }
+    },
+    "bdf5fc1f-30ae-4b47-8971-bbbbf94d35b8": {
+      "id": "bdf5fc1f-30ae-4b47-8971-bbbbf94d35b8",
+      "name": "idea-stage-validation",
+      "description": "用 Anthropic「AI 创业生命周期 · 想法阶段」方法，把模糊的产品/创业想法打磨成一句可证伪的问题假设，再做结构化「魔鬼代言人」压力测试。它比单纯头脑风暴硬核：用 opencli 抓真实用户抱怨/竞品评价做反证、要求真人访谈才放行、每步用大白话给止损闸门——想要证据驱动的端到端想法验证时用它。只要用户带来一个新产品想法、创业点子、说「我想做一个 X」、问「这个值不值得做 / 有没有人要」、想验证需求、压力测试假设、定义问题、做 idea validation 或 office-hours 式的推敲，就主动用这个 skill——哪怕用户没明说「验证」二字。也适用于：用户的想法还停留在脑子里、没写一行代码、正在纠结要不要做。覆盖想法阶段第 1–4 步（定义问题 / 市场竞品 / 客户访谈 / 设计方案概念）；不做第 5 步造原型，MVP 是之后另一个阶段。触发词包括：想法、点子、创业、validate、问题假设、值不值得做、压力测试、魔鬼代言人、/想法。",
+      "source_type": "git",
+      "source_ref": "https://github.com/AlineFan/idea-stage-validation",
+      "source_subpath": "idea-stage-validation",
+      "source_revision": "ea745422b277888cb89cca953f51ccd6e385801c",
+      "tags": [],
+      "content_hash": "ef549d0ea9f0e9bf48cb95b8fc73468ad9ae6a4eb9dcf8871eebb175a54eabe1",
+      "files": {
+        "LICENSE": "907d365a2d025becc4a4fcadc6325e468db8a197dda16e38623b1fc56cf3a1c7",
+        "README.md": "d532e70be3a566a7d7676430a4b7ddb435dbc5b35108f236071459d6c55d89a4",
+        "SKILL.md": "63b9b80b66bf95620c6d5c634c9cb285f4042e8f30e9522bf472fcbc42feec54"
       }
     },
     "c0feba7f-ad79-40ee-9edc-518a445b0015": {
@@ -1493,11 +1560,11 @@
       "source_subpath": "skills\\engineering\\wizard",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "e19070fd63f151356c3cb0e9c6657a736c3834353f8d2a91c14ff1ed3ff98810",
+      "content_hash": "2e6b697d8742affb11c4377790e5c24baa5676c1a8758235dea83ffa7b929a9b",
       "files": {
-        "SKILL.md": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164",
-        "agents/openai.yaml": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
-        "template.sh": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3"
+        "SKILL.md": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1",
+        "agents/openai.yaml": "98f44d682d58e262f160dc59a8befc365e0aa65820dd0261864af26aa8e59d83",
+        "template.sh": "33cbe9dfb1d0e9185b60248a52aabed14bc64785a00cac695e302e739dd6c153"
       }
     },
     "c3cc045b-a8b3-48dd-8297-108117f483a9": {
@@ -1554,10 +1621,10 @@
       "source_subpath": "skills\\engineering\\resolving-merge-conflicts",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "46a54a795e2eff8fa19a45917b5ca11593d6ec7fb4a9865c594de4c5e8cd804e",
+      "content_hash": "ff40e3b9ec91775290ce602512e936203d3088ed12e7d6016546500df1f56630",
       "files": {
-        "SKILL.md": "d97e7320010bbe7d32313c574acd47cec830d64edd59c956bd0ce2cba84e6ad7",
-        "agents/openai.yaml": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b"
+        "SKILL.md": "9d8114f8ef0b31f535a265fc05c364bd8cf2e2895a830040e06c22acb11f54b0",
+        "agents/openai.yaml": "a1f4f96838f2ed6282eb28abbbf99029cb8fadce552baf53da90a025b8bffddf"
       }
     },
     "ca000d9e-6f9c-448e-bb11-3a168971a358": {
@@ -1583,19 +1650,19 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "a0303449474e2c3cf88e5718268dacf0ccdda837ca80e3a28af179799425206a",
+      "content_hash": "7a165a626836a026e7d91ea562b61804b6be02027b925c7c3b9a256c3a42db57",
       "files": {
-        "SKILL.md": "037cec52b1b0bc1522b05281b1d4238b6502d44fecda3e1f18a14f17119bbed0",
-        "references/element-attributes.md": "f9ccaf85f43b7fa522a48ece60e3f18f10d43cb509ebd48a010eefbd0cd4f47a",
-        "references/playwright-tests.md": "8da5c537cf6335c1e7590d5418b9a68c9007fd5851aa58331530e09f6ec06b78",
-        "references/request-mocking.md": "f1f6e6360309394bd457e1a9f78a66b1abd016a29d463a1e1215f168458a6fcd",
-        "references/running-code.md": "511fab7eab47171768d9f73048febe99fcbf6c7d9311984f9abeb2759ae47c07",
-        "references/session-management.md": "32727436c51ca8a105eeabf8db958e4483acb23dd7f6ac4ceade16f26e940b5b",
-        "references/spec-driven-testing.md": "9702a8a236e2cbd6d3abdb02fa243bbbcf013bded9432192d5f94e5a4980af2b",
-        "references/storage-state.md": "463a013d7f895773235f324c3adeaa261426269e5c55b194e64fa81ccb12bd79",
-        "references/test-generation.md": "4e06520311becf84b115645dd6a088db67f81e8c928edf7a3019acc8d66592e9",
-        "references/tracing.md": "678d3e9ad0d03349315cb0a097905e3708530d8e03d66f33a2040a7b6b8b44a8",
-        "references/video-recording.md": "3eeb4634a62101ea5659f084439f48e8131748524d71d0eaf95bc0b2fa758096"
+        "SKILL.md": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13",
+        "references/element-attributes.md": "bf19aa4671e0a50a0fefa9c790f39124e803060eefe395042b723c29fcb7faa2",
+        "references/playwright-tests.md": "c5b0719fef2cfdff50bd744051b2f9afc119775db4b48e9b2882c1cf3886797c",
+        "references/request-mocking.md": "54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c",
+        "references/running-code.md": "d95c539a5990b71d02d8bdf1d9414df16191eb6cff95b0063820518b7a13dcb2",
+        "references/session-management.md": "cd3e261b8763bf952f1e371b876cb78d054379afec85482f9250633e1b7e6c44",
+        "references/spec-driven-testing.md": "3326b3af65ed6e05180aa394a7fd578f29822e67bde9f22f7c7f94e6c8e3a594",
+        "references/storage-state.md": "9ac47f9ae4a1aedcd2077f8ac9ab1ba6bee1962cb83ff51adcd36fb6d83b5ec6",
+        "references/test-generation.md": "2a9c4d94effa31b05cf367dfa8bbace8874a3bc9799987ad2b03269af224d299",
+        "references/tracing.md": "792e0ac7705e56ac48df84c0f5400221ce86107897c671590a64a4ea6a82508e",
+        "references/video-recording.md": "8555ab5400df0d90e66318aacc0a8a4418fbf872e7463824d55d5c41615abd83"
       }
     },
     "ccbddf3a-7027-48fa-bc54-44d076e94594": {
@@ -1607,10 +1674,10 @@
       "source_subpath": "skills\\productivity\\handoff",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "6d7426d6ec2759af53566b92d342866fc84686806fd083c1f479fac4c223179d",
+      "content_hash": "697650be489e1247ebf2b215d0b5aa97beb2844307e2c7d7f70229db7e0a6a57",
       "files": {
-        "SKILL.md": "96f8045f01f569daa3737150d918b7201ccd090905fb10cefedd326e4001f551",
-        "agents/openai.yaml": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
+        "SKILL.md": "7c62de979fdc7ac32fb5ddb2146156c917f80ee070d30fadc9d40343c4b6ed25",
+        "agents/openai.yaml": "5c479fd562c691851690e8b18c8501045bef0943c10743d636b2fae26add1d28"
       }
     },
     "cd9aaa93-cfd5-4026-afc0-2d4f2feb087e": {
@@ -1622,12 +1689,12 @@
       "source_subpath": "skills\\engineering\\prototype",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "eb3865976ffc475fcad980e2121d4d766144b79cf7ae0c1cef21b3724644b14b",
+      "content_hash": "1a377595a50330ccdc5e21cb062e2326f2a9f192eb22d28a2adab386fdda3da8",
       "files": {
-        "LOGIC.md": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a",
-        "SKILL.md": "f74ae01f4fc454d3a4ef21271920f1706e626271e715dda0559e489f45c792c3",
-        "UI.md": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b",
-        "agents/openai.yaml": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+        "LOGIC.md": "f61c7d249e786a79ef289018901c348271e1798dd0b0bc5607b5c6f4d4a01ab9",
+        "SKILL.md": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+        "UI.md": "723211e878acbc7b6ff09755263f3295cde724ba902ff0064da41eed51d45ad3",
+        "agents/openai.yaml": "5af65e43ab41a350436697b81e27b7f848d36782043b73c322bb2c9fa9cc55dc"
       }
     },
     "cef1d917-cc3a-41e4-abf1-f1c568d632a6": {
@@ -1672,16 +1739,16 @@
       "source_subpath": "skills\\productivity\\teach",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "b89245dd20f671c4aa320603fc24e98295a3e7ce2a9a8edb6e14656768ce284b",
+      "content_hash": "41022d691e87aaee88e5a6a8446786d2926c7b9178da3069b5348a52dbd441c3",
       "files": {
-        "GLOSSARY-FORMAT.md": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341",
-        "LEARNING-RECORD-FORMAT.md": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05",
-        "MISSION-FORMAT.md": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a",
+        "GLOSSARY-FORMAT.md": "9b99859ec28437668130d8f2ce5a342938970f8a1ed4fd38c3eab4f4b5fff210",
+        "LEARNING-RECORD-FORMAT.md": "701fa34b6748aa89e6c960ffb815257f481a7d77fb2900f9028f7edf3fdd6052",
+        "MISSION-FORMAT.md": "8cacbb3c0644d3ae0ea4965564797099401a6930a23f7cf462918576587f2418",
         "MISSION.md": "35b67f47d5cfdf781413f0272131cdf0fb41352a830f867f9a90f5da684725c1",
-        "RESOURCES-FORMAT.md": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5",
+        "RESOURCES-FORMAT.md": "e9cacf34026e11a8d1c8f9de88abe5bcbf654f4ebdb25cae8c0de0d5f48f44ec",
         "RESOURCES.md": "ae5026533bdc10c55d72f9fa8b66bc056366038d1571862a246aba5291084953",
-        "SKILL.md": "3377485cbb1d62782122c1cc8cab4ceb37d5457c0543889784f3d7d9ca359e04",
-        "agents/openai.yaml": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69",
+        "SKILL.md": "a32df9dcdfc0c4fdc1c98e1ed3940c5f56b84c1aa90ff60346f32b8b53915b43",
+        "agents/openai.yaml": "5856f3ae8aec742f1499c640aecdd5f1d6af5fa210a7c6ec794de8263a6f733f",
         "assets/styles.css": "c6bb4d6501da8dc84032e264bcc9d6fb6f2150387607273b8820487a7d8a7e21",
         "learning-records/0001-智能体工具生态初步认识.md": "36832cd3e0bd5586a68db520b82ac13683fd83546c1cc1f80e39373a22575e0b",
         "lessons/0001-智能体工具概览.html": "f949aa5cdbaff5233a31d3a2dcb688eb1db1898b34d0889b528b6cffa9f0a83f"
@@ -1696,10 +1763,10 @@
       "source_subpath": "skills\\engineering\\wayfinder",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "559a8f322e91d8c3b2b3d63baef152e937d3570846cd82a534bf658cadadd984",
+      "content_hash": "dbba36c1a531e2e063d873a75b3ae2eda6fc51aa86b7382bbf106b98bcf8c95a",
       "files": {
-        "SKILL.md": "3362fa360948f8526e88ebe8184f5402f9b5f4d9dced2ba0ed2721f64ae3de5a",
-        "agents/openai.yaml": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
+        "SKILL.md": "fee6e1d0c50f0e736b4ef8a599060c959afae904c9a97d82c97f049fcc3aa0f1",
+        "agents/openai.yaml": "88bc81a11a6d52ac67aeaa76b8b619e387020d47c5133a4dd4927fd15c4ad073"
       }
     },
     "d786d693-828c-4b31-bdd0-dd7321f6e264": {
@@ -1711,10 +1778,10 @@
       "source_subpath": "skills\\productivity\\grill-me",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "fbc5f9784bfd2dd45f461891171f24b0753867bdf9fccf2bec9fe4acadb7d968",
+      "content_hash": "ed0d90f42ec40232db01c44a8786e6938eed1df3783e81c985afaa0728d05834",
       "files": {
-        "SKILL.md": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
-        "agents/openai.yaml": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
+        "SKILL.md": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
+        "agents/openai.yaml": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b"
       }
     },
     "d82581e2-0a80-4b99-b01c-67c4d53d16d2": {
@@ -1726,10 +1793,10 @@
       "source_subpath": "skills\\misc\\setup-pre-commit",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "3b018dfb65c0b088ea77b5cb9780b66fed777655776b4280f41c5044358d13b0",
+      "content_hash": "f7811649ec09aeb8aea5b4607a0a2fa5c1153e15815fe5d8b46a844a11975c81",
       "files": {
-        "SKILL.md": "e069e6a23069ebdba946d4dea11e5d663c10640c6b14b55c4585c81b1a256ac9",
-        "agents/openai.yaml": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727"
+        "SKILL.md": "c9819d7f1e3b198064edc1faa3154224ed67395e9f07f5d3cea4b67cf0a11a98",
+        "agents/openai.yaml": "acf41db398c5c43afe504008bb7d615a97b6498b0f1f6c5b2395254c0bfb57d1"
       }
     },
     "dc3e13ac-e737-4192-a5de-1395b3f752f2": {
@@ -1741,10 +1808,10 @@
       "source_subpath": "skills\\in-progress\\claude-handoff",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "29a043931f539c99510628281b894174f473d544bf94bbd41e881302702166dc",
+      "content_hash": "cd453a15ccc0c6a452a56ed421013ec10b767f72e9dc79a5cad2e3217cd90159",
       "files": {
-        "SKILL.md": "7f99b9c489c8d55374d261c31e2dcf7e75c2ee103dbb64e87b18971a05449f21",
-        "agents/openai.yaml": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263"
+        "SKILL.md": "6738e8b7c7899ea0038fb7a5c859ca1b90c7b1eb40123dcdbe94c51b5b119f12",
+        "agents/openai.yaml": "2308a672978864633286fb9f0792b08657e501426b3f7883fc418d5d2eac5eb0"
       }
     },
     "e13ac10f-62b8-466f-af5f-15080c3f53c7": {
@@ -1756,10 +1823,10 @@
       "source_subpath": "skills\\engineering\\research",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "3e84c887878092e6db7d2f8ca13e30ba60cc16c6a1cc3f147df6b14fdb0a0bc6",
+      "content_hash": "de1dfc354b015c3eb568098874cd6fc9e61a63a7c3cb89a4f0d42a4db62f4b16",
       "files": {
-        "SKILL.md": "524b404b1ca373a8b00f63a64667ec4b0a61c3c9cf4e8f246e639be859bb6979",
-        "agents/openai.yaml": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412"
+        "SKILL.md": "985569f15739c713d6784887c3d186d4ef9ac85bec5ad9c068d25bf0739928e4",
+        "agents/openai.yaml": "9b4c470d63221c1f68f22df70b83e2f12401b317babe0d1b7b5f24a974474d0d"
       }
     },
     "e391be72-00f6-4385-85af-7d1ee8e6cd1d": {
@@ -1805,12 +1872,12 @@
       "source_subpath": "skills\\engineering\\tdd",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "d4bfcf521a967b67f7487d240805e238673c3ba65254a628e70ea0c1cb55d9bd",
+      "content_hash": "5fee048c9612b3d7b548768a911ca52e6f6f6cf26a328fae38f17c86cfa73a46",
       "files": {
-        "SKILL.md": "193b791c489d1640ccfb58d7cbd60fc9e059ef44632b3c92f208784cfe45ab78",
-        "agents/openai.yaml": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac",
-        "mocking.md": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d",
-        "tests.md": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
+        "SKILL.md": "cb01f66bebfaa25fa1f88e6b7e769cd9fd9f35b1120b8563749820738814c927",
+        "agents/openai.yaml": "ea6f01cf1b8c06a4b0f5b649d74b1b8ce8685e72af1b38d70d877693e092af0b",
+        "mocking.md": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+        "tests.md": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a"
       }
     },
     "e9932e6e-32b2-427a-a58a-969c311e74b9": {
@@ -1822,10 +1889,10 @@
       "source_subpath": "skills\\engineering\\grill-with-docs",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "add11d1d2a892b3b27eef4fabf49dec8dcfea76fbea2ccdf3a3bc0859fa9c710",
+      "content_hash": "6c4aadadcd8e4fe0ca3f00a60cd3cdd429e48e15f706f4946bc6fd8541d7110b",
       "files": {
-        "SKILL.md": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
-        "agents/openai.yaml": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+        "SKILL.md": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+        "agents/openai.yaml": "94cd0ab161fb468a836349f5ed482ba58ce8e709a05c57ce533d739dbd35cca9"
       }
     },
     "eaf9edf8-0d95-4fc7-b35f-94d2b1ec2e4c": {
@@ -1837,10 +1904,10 @@
       "source_subpath": "skills\\misc\\migrate-to-shoehorn",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "8207ffeca588331a4b310d69caf4a2f5c17d3ac36dffddf98351353df5b5ad65",
+      "content_hash": "a6bfe7775b249b8aa37e6609fee384e998e21801686c9771a44847a237dda75d",
       "files": {
-        "SKILL.md": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201",
-        "agents/openai.yaml": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180"
+        "SKILL.md": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72",
+        "agents/openai.yaml": "395c2db852e66a199f1cd07f7ed92d66cb6f0787460c5475926f1a5e778b699d"
       }
     },
     "ed5af962-98db-47bd-8cd1-222c6e8d4789": {
@@ -1895,26 +1962,26 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "c83fdc1707bd7c91b8b874223a5b3a1744c9ea9959ab8331cae7a923f039e82c",
+      "content_hash": "7b79c00e0102f16cf4f32dd4c4298fd01c5e8592e34465bcf7edc27fe1b3ecd1",
       "files": {
-        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
-        "SKILL.md": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
-        "agents/analyzer.md": "8ccce0d9755f7684277870e791ffb643b026d5dd4508e5c1bdc8dfec9e8532b5",
-        "agents/comparator.md": "ee90af43eb0dbe2fdadbb96d01f9776f387ed5c529ce083c22b8bec4e3ae10d3",
-        "agents/grader.md": "6ec1c6950fcafa3e00d5e845b2498c5ea3e8f7f012bd9c6abad25425f3ee619c",
-        "assets/eval_review.html": "2cc6071b35ac897b17cf0388ce240fd959396f35f95a1f7d3e74a248dd060d0f",
-        "eval-viewer/generate_review.py": "44d97a35be977331b13b04932927b3beb285862a173f0f15dd052d4f31de5c76",
-        "eval-viewer/viewer.html": "46abd4e19e482b4aeebea24b135c2d88fb122a63346dbeab7fcecd83828a826d",
-        "references/schemas.md": "5ef5fd3c1ac7baae965b5bda6b4f2cf6a191a2d712c7fef2a12dde84573b4833",
+        "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+        "SKILL.md": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+        "agents/analyzer.md": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+        "agents/comparator.md": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+        "agents/grader.md": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+        "assets/eval_review.html": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+        "eval-viewer/generate_review.py": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+        "eval-viewer/viewer.html": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
+        "references/schemas.md": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
         "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "scripts/aggregate_benchmark.py": "16c5a53e4cbf55a679a42c244cba39cee463d99ce507ecc9fafc4cb4e0a133e0",
-        "scripts/generate_report.py": "d90ec4cfc2dd539564edd332880fb7561309a1f0097d082de88e3101d6c8031e",
-        "scripts/improve_description.py": "09425704c5717656fffd346ba075a390bb55d494dd1082bccd4fe2423117fa05",
-        "scripts/package_skill.py": "2cd9a9891844516fd30466eae30e4a9b9a199802522de3fb12f59a063fba58ab",
-        "scripts/quick_validate.py": "99f76b23da5882ccc9301890e4c31837e4a9262bd1a9a75dc729df0b12459d52",
-        "scripts/run_eval.py": "252ac58feedf233673d6a605661158db20806f724c7d1dd32c92ae316b24ef67",
-        "scripts/run_loop.py": "85b36782ec856e066257cf8e917606945e6df098428005e17f8d60a5b6789c29",
-        "scripts/utils.py": "b396f920bfbb422822427d800656ab125876e1e42ae242ed3c9380338f9d0833"
+        "scripts/aggregate_benchmark.py": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+        "scripts/generate_report.py": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+        "scripts/improve_description.py": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80",
+        "scripts/package_skill.py": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+        "scripts/quick_validate.py": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
+        "scripts/run_eval.py": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+        "scripts/run_loop.py": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
+        "scripts/utils.py": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1"
       }
     },
     "f5457a3e-9e3a-42c2-acbb-bc0395d14ea9": {
@@ -1945,11 +2012,11 @@
       "source_subpath": "skills\\engineering\\ask-matt",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "9f5381e1cbcfb1769a8f57d1320c92d8dd3a3c62d58e9fa7a6188fc4f7d557a0",
+      "content_hash": "4d6eec01309a25b303a6f2864a387f53705a497ffb2141c2457fed56c9928c68",
       "files": {
-        "PHASE-BOUNDARIES.md": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd",
-        "SKILL.md": "d8934db5ccf28b8c6e43d44d88801936d3831ab5666280b26d6f0852a312dc63",
-        "agents/openai.yaml": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e"
+        "PHASE-BOUNDARIES.md": "a8aa20158609ef39e2b308b6ba0660c91066838d07a867202e63a7744a88a3ed",
+        "SKILL.md": "b25d86fb36b1d294eeead5d7db529f86135f9671f2afcd607579a63bb2213769",
+        "agents/openai.yaml": "bdffbc5a0a99ed1b6ef3253d251d755fd18162b9845972e380007f844b09b05c"
       }
     },
     "fa089855-f211-4a24-aa3d-4aa55dba23a1": {
@@ -1989,12 +2056,12 @@
       "source_subpath": "skills\\engineering\\triage",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "a6e60552467ddc5ab18f42f271490c1d2d0bcf8cebbeb2285cb0479fcbbb5b44",
+      "content_hash": "582ffd60a126fac8d12c96fda0a0fbd36be03115a482edd3e46fc2bf57473d06",
       "files": {
-        "AGENT-BRIEF.md": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15",
-        "OUT-OF-SCOPE.md": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae",
-        "SKILL.md": "652c815971c2df925cee0f250ae2596f50fde19328305f3c55afd157a7f06fe6",
-        "agents/openai.yaml": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
+        "AGENT-BRIEF.md": "7f5f87fed3033df1b06e083c480f3e847b1fbb0647746b8a4c6a50f9f26ef44f",
+        "OUT-OF-SCOPE.md": "1fbf9b432130c6380aa65813b55553cfda150309b27c595e183f8e335b8a190d",
+        "SKILL.md": "623a2ed692bdc77d2090e2a3dea3b627dd722ad3bbaca0be83aada75292c8fc4",
+        "agents/openai.yaml": "2e683717720cf456d165d0bb1a68bb600d0b6a8ccb61841c172e50d26f95351c"
       }
     },
     "ff0bd48a-3c70-44dc-bb8a-fda5651756a0": {
@@ -2006,10 +2073,10 @@
       "source_subpath": "skills\\in-progress\\loop-me",
       "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
       "tags": [],
-      "content_hash": "219eff3964fb505a411a0f66e6e530706f342f2185b42e8a71862387dba0c58d",
+      "content_hash": "6e1a14c57438a1b33ff46adddcdd3baf72cb73c2157f4ef311de4e914a8b333e",
       "files": {
-        "SKILL.md": "38ac316635d244abfdc1526edec49596f9284b36595f5a212fc5983894b6094a",
-        "agents/openai.yaml": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3"
+        "SKILL.md": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7",
+        "agents/openai.yaml": "b66fa10079957051be6a812f45e55b67ac394b71d5ba88349962b4c9205802c3"
       }
     }
   }

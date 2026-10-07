@@ -1,0 +1,101 @@
+# auto-xhs 唯一配置文件（单一数据源）
+# 所有脚本只读本文件 + config/copy_lexicon.json；改参数只改这里。
+
+[paths]
+material = "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
+asset = "/Users/wuyongjia/3D打印/素材"
+archive_dirname = "_已使用"
+reports_dirname = "_reports"          # 审计报告、registry、copy 日志都写 MATERIAL/_reports/
+downloads = "~/Downloads"
+# 同编号多副本时的优先级（越靠前越权威）：根目录 > _已使用/1~70 > _已使用/1~58 > _已使用/根目录残留
+source_priority = ["", "_已使用/1~70", "_已使用/1~58", "_已使用/根目录残留"]
+
+[generation]
+default_batch_size = 20
+modern_quota_percentage = 30
+views_square = ["00", "01"]
+views_scene = ["02", "03", "04", "05", "06", "07", "08", "09", "10"]
+cover_candidates = ["07", "10"]
+slot_names = { "02" = "专属老座", "03" = "尊崇敬奉", "04" = "岁月手艺", "05" = "晨曦静好", "06" = "风雨归人", "07" = "掌心温存", "08" = "生活遗存", "09" = "深夜陪伴", "10" = "时光重叠" }
+
+[prompt]
+square_cue = "Square 1:1 composition."
+scene_cue = "Vertical 3:4 composition."
+cover_cue = "Leave clean negative space in the upper third for a title overlay."
+ifts_words = [15, 20]
+square_total_words = [50, 110]         # 00/01 整段（含 Avoid）
+figurine_negative_forbidden = ["doll", "3d render", "figurine", "plastic skin", "porcelain doll", "wax museum"]  # 01–10 的 Avoid 里禁止
+bust_cm = "6.0cm"
+full_cm = "12.0cm"
+# 02–10 统一 Avoid 句（01 用 studio Avoid，见 render_character.py）
+scene_avoid = "English text, letters, watermark, anime, cartoon, CGI look, cheap toy plastic shine, western features, youthful face, deformed hands, extra fingers, missing fingers, floating objects, broken geometry"
+slot_extra = { "07" = "fused fingers, visible human face", "08" = "exaggerated steam, messy clutter", "09" = "creepy dark shadows, blown out lamp highlights" }
+
+[dedup]
+ifts_jaccard_max = 0.35
+ifts_ignore = ["chinese", "old", "elderly"]
+scene_similarity_library = 0.5
+scene_similarity_batch = 0.35
+
+[images]
+scene_ratio = "3:4"
+crop_scene_to_ratio = true            # 下载图不是 3:4 时：原图存 _raw/，居中裁成 3:4
+min_long_edge = 1024
+
+[gemini_app]
+app_path = "/Users/wuyongjia/Applications/Google Gemini.app"
+process = "Web App"
+model_labels = ["Pro", "3 Pro", "Thinking"]  # 用户要求"用最好的"；按顺序取选择器中第一个存在的标签
+attach_reference = true
+poll_interval_s = 15
+per_image_timeout_s = 420
+download_timeout_s = 60
+limit_phrases = ["limit", "上限", "try again later", "稍后再试", "额度"]
+
+[copy]
+pi_bin = "/Users/wuyongjia/.pi/agent/bin/pi"
+model = "deepseek/deepseek-flash"
+thinking = "high"
+retries = 1
+attach_refs = ["references/copy/copywriting-craft.md", "references/copy/emotional-story-templates.md", "references/copy/conversion-and-traffic-safety.md", "references/copy/operations-playbook.md"]
+filename = "小红书文案.md"
+
+[copy.rules]
+# 校验数值（validate_copy.py 只读这里 + copy_lexicon.json）
+body_min = 180                  # 正文字符（含标点与 Emoji，不含空白与正文末行声明）
+body_max = 220
+title_hard = 20                 # 平台最大字符长度【官方·以发布页实时提示为准】
+title_min = 14
+title_max = 19                  # 保留 1 字符缓冲
+emoji_weight = 2                # 保守口径：1 个 Emoji 按 2 字符计
+title_emoji_max = 1
+title_count = 8
+title_types_min = 5
+cover_min = 6                   # 封面大字最少字数
+cover_max = 10
+tags_min = 8
+tags_max = 12
+para_emoji_max = 2
+note_min_images = 6             # 每篇图片最少张数
+note_max_images = 9             # 每篇图片最多张数
+
+[business]
+# 业务参数全部条目，原值（TOML 裸键不支持中文，全部加引号）
+"基础款" = "6cm 胸像 · ¥299-399"
+"进阶款" = "10-15cm 全彩带场景道具 · ¥499-899"
+"制作周期" = "10-14 天（确认模型后开始计算）"
+"物流" = "顺丰保价包邮"
+"工艺说明" = "全彩光敏树脂 3D 打印 + 手工修件（层厚等参数以供应商实测为准）"
+"流程" = "免费照片评估 → 三维建模与五官定型 → 客户确认（可修改）→ 打印 → 质检 → 发货"
+"成交路径" = "站内完成：小红书店铺商品页 / 站内私信 / 官方留资组件"
+"报价场景" = "只在私信或店铺商品页报价；笔记正文与公开评论不报价"
+"照片保存期限" = "交付后 30 天删除原图与模型文件（客户另行书面同意除外）"
+
+[feishu]
+app_path = "/Applications/Lark.app"
+process = "Feishu"
+contact = "吴永佳"
+divider_template = "------------------------{char_dir}------------------------"
+image_views = ["01","02","03","04","05","06","07","08","09","10"]
+send_interval_s = 5
+polish = true

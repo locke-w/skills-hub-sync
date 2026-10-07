@@ -1,0 +1,16 @@
+{
+  "id": "bdf5fc1f-30ae-4b47-8971-bbbbf94d35b8",
+  "name": "idea-stage-validation",
+  "description": "用 Anthropic「AI 创业生命周期 · 想法阶段」方法，把模糊的产品/创业想法打磨成一句可证伪的问题假设，再做结构化「魔鬼代言人」压力测试。它比单纯头脑风暴硬核：用 opencli 抓真实用户抱怨/竞品评价做反证、要求真人访谈才放行、每步用大白话给止损闸门——想要证据驱动的端到端想法验证时用它。只要用户带来一个新产品想法、创业点子、说「我想做一个 X」、问「这个值不值得做 / 有没有人要」、想验证需求、压力测试假设、定义问题、做 idea validation 或 office-hours 式的推敲，就主动用这个 skill——哪怕用户没明说「验证」二字。也适用于：用户的想法还停留在脑子里、没写一行代码、正在纠结要不要做。覆盖想法阶段第 1–4 步（定义问题 / 市场竞品 / 客户访谈 / 设计方案概念）；不做第 5 步造原型，MVP 是之后另一个阶段。触发词包括：想法、点子、创业、validate、问题假设、值不值得做、压力测试、魔鬼代言人、/想法。",
+  "source_type": "git",
+  "source_ref": "https://github.com/AlineFan/idea-stage-validation",
+  "source_subpath": "idea-stage-validation",
+  "source_revision": "ea745422b277888cb89cca953f51ccd6e385801c",
+  "tags": [],
+  "content_hash": "ef549d0ea9f0e9bf48cb95b8fc73468ad9ae6a4eb9dcf8871eebb175a54eabe1",
+  "files": {
+    "LICENSE": "907d365a2d025becc4a4fcadc6325e468db8a197dda16e38623b1fc56cf3a1c7",
+    "README.md": "d532e70be3a566a7d7676430a4b7ddb435dbc5b35108f236071459d6c55d89a4",
+    "SKILL.md": "63b9b80b66bf95620c6d5c634c9cb285f4042e8f30e9522bf472fcbc42feec54"
+  }
+}

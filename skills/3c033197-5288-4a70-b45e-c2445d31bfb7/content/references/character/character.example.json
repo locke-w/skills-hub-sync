@@ -1,0 +1,160 @@
+{
+  "num": 79,
+  "posture": "FM",
+  "modern": false,
+  "dir": "char_79_FM_守了三十年山林敲锣防火的护林员岳父",
+  "title_cn": "守了三十年山林敲锣防火的护林员岳父",
+  "kin": "姻亲代 · 岳父",
+  "era": "东北林区 · 1980s–2010s 国营林场护林员，一个人守一座山头三十年",
+  "ifts": "64-year-old Chinese father-in-law, rugged long jaw, wind-burned cheeks, thick graying brows, cropped gray hair, watchful narrowed eyes, brass patrol gong",
+  "setting": "standing on a misty pine forest trail",
+  "cloth": "tan sheepskin vest over dark blue jacket, canvas boots",
+  "cloth01": "tan sheepskin vest over dark blue jacket and canvas boots",
+  "light00": "cool morning mist light",
+  "card": {
+    "age": "64 岁（2017 年冬离世）· 国营林场护林员岳父，一个人守山头三十年，女儿出嫁那天他才下山",
+    "d1": "粗犷的长下颌（Rugged long jaw），颧骨宽而扁，眉弓厚，鼻梁宽直，眼窝深、眼皮厚",
+    "d2": "山风吹出的皴红脸颊（Wind-burned cheeks），眼角放射状细纹；浓眉已花白（Thick graying brows），灰白短寸发（Cropped gray hair）；手背冻裂的旧疤，指节粗大",
+    "d3": "主色棕黄色羊皮坎肩（Tan sheepskin vest），辅色深蓝棉布外衣与帆布高帮鞋；坎肩毛边磨得发亮",
+    "d4": "挂在腰间的一面黄铜巡山锣（Brass patrol gong）和木槌——防火季每天巡山敲锣提醒；次信物：一只旧军用铝水壶",
+    "d5": "眯眼远望、警觉又安稳的眼神（Watchful narrowed eyes），不爱说话，看女儿时眼神会软下来"
+  },
+  "bio": "他在林场当了三十年护林员，一个人守一座山头。春秋防火季，每天背着水壶、腰挂一面黄铜锣，沿着山脊巡一圈，走到哪敲到哪，锣声在山谷里能传好几里。他很少下山，女婿第一次上门，是爬了三个小时山路去护林站找他的。女儿出嫁那天，他穿着那件羊皮坎肩下山，喝了一杯酒，第二天一早又回了山上。2017 年冬天，他 64 岁，那面锣如今挂在女儿家的书房。",
+  "dedup": [
+    [
+      "信物",
+      "黄铜巡山锣 + 木槌 + 铝水壶",
+      "全库无锣类信物；水壶为次信物不入 IFTS"
+    ],
+    [
+      "色彩",
+      "棕黄羊皮坎肩 + 深蓝外衣",
+      "全库无羊皮坎肩；深蓝仅为辅色"
+    ],
+    [
+      "职业",
+      "国营林场护林员（梯队 E 国营 · 全库首个林业）",
+      "全库无林业人物"
+    ],
+    [
+      "骨相",
+      "粗犷长下颌 + 宽扁颧骨 + 厚眉弓",
+      "与 char_37/58/70 公公类姻亲以长下颌+浓眉区分"
+    ],
+    [
+      "IFTS",
+      "20 词",
+      "全库（含本批）最高 Jaccard 0.15（对 char_75，去掉 Chinese 后按词集计算），< 0.35 通过"
+    ]
+  ],
+  "print": "铜锣挂在左胯并与腿侧实体熔接，锣面厚 ≥ 2mm；右手握木槌贴在身侧；双脚分开站立在圆形底座上，重心居中。",
+  "cn00": "真实纪实全身像：64 岁护林员岳父，粗犷长下颌、山风吹皴的红脸颊、花白浓眉、灰白短寸、眯眼远望的警觉眼神，腰挂黄铜巡山锣；穿棕黄羊皮坎肩、深蓝外衣、帆布高帮鞋，站在晨雾弥漫的松林小道上，清冷的晨雾光，哈苏 90mm f/3.2。full-body 锁定全身。",
+  "cn01": "由 00 衍生：12.0cm 全彩树脂全身模型（full-body ×2），IFTS 逐字继承，服装加 sculpted，站立于加重圆形底座、浅灰影棚、柔光箱、RF 100mm f/8；--s 50，负向拦活人与石膏柱。",
+  "scenes": {
+    "02": {
+      "title": "护林站门口的树墩座",
+      "prop": "黄铜锣（手办）、铝水壶",
+      "light": "晨雾冷光",
+      "camera": "Sony A7R V with FE 35mm f/1.4 GM lens",
+      "location": "outside a log ranger hut in a pine forest",
+      "cn": "松林里的护林站木屋门口，一截老树墩被坐得发亮，那是他每天巡山回来歇脚的地方。树墩上放着旧铝水壶，12 厘米全身手办站在树墩旁的石头上，腰挂铜锣。晨雾弥漫，冷调柔光穿过松枝。",
+      "en": "A misty dawn photograph outside a log ranger hut in a pine forest. An old tree stump polished smooth by years of sitting stands by the door, where he rested after every patrol, his dented aluminum army canteen on top. The 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands on a flat stone beside the stump. Cool morning fog drifts between the pines, soft blue-gray light.",
+      "shot": "Sony A7R V with FE 35mm f/1.4 GM lens at f/2.8, cool misty palette, Kodak Portra 160 tones"
+    },
+    "03": {
+      "title": "女儿家书房 · 挂着的铜锣与松塔",
+      "prop": "黄铜巡山锣、松塔",
+      "light": "暖调台灯",
+      "camera": "Canon EOS R6 with RF 50mm f/1.8 lens",
+      "location": "of a wooden bookshelf in a daughter's study",
+      "cn": "女儿家书房的木书架，全身手办站在视平中层，身后墙上挂着那面真的黄铜锣，旁边摆着两颗松塔。暖调台灯，铜锣泛着温润的光。",
+      "en": "A warm photograph of a wooden bookshelf in a daughter's study. The 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands at eye level on the middle shelf beside two large pine cones, and behind it on the wall hangs his real brass patrol gong with its wooden mallet. A warm desk lamp gives the brass a soft mellow glow, calm and respectful.",
+      "shot": "Canon EOS R6 with RF 50mm f/1.8 lens at f/2.2, mellow brass tones, Kodak Portra 400 grain"
+    },
+    "04": {
+      "title": "木屋桌上的巡山日志与铜锣",
+      "prop": "黄铜锣、木槌、巡山日志",
+      "light": "硬光窗格投影",
+      "camera": "Nikon Z7 II with 35mm f/1.8 lens",
+      "location": "A still life on the rough plank table inside a ranger hut",
+      "cn": "护林站木屋的桌面：一本翻开的巡山日志（字迹模糊不可读）、一面黄铜锣和木槌、一只铝水壶、一支铅笔。全身手办站在日志旁。窗户的硬光把窗格影子清晰地投在桌上。",
+      "en": "A still life on the rough plank table inside a ranger hut. An open patrol logbook with faded, illegible handwriting, a brass patrol gong with its wooden mallet, an aluminum canteen and a stub of pencil lie on the table. The 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands beside the logbook. Crisp hard sunlight through a small window casts sharp window-frame shadows across the planks.",
+      "shot": "Nikon Z7 II with 35mm f/1.8 lens at f/5.6, graphic shadows, Kodak Portra 160 tones"
+    },
+    "05": {
+      "title": "木屋窗台 · 松林里的光束",
+      "prop": "黄铜锣（手办）",
+      "light": "日出松林丁达尔光",
+      "camera": "Hasselblad X2D 100C with 90mm f/2.5 lens",
+      "location": "on the windowsill of a log ranger hut",
+      "cn": "护林站木屋的窗台上，一只搪瓷杯里插着几枝野杜鹃，旁边一颗松塔。日出的光束穿过松林照进来，空气里浮着细尘。全身手办站在窗台上，逆光勾出羊皮坎肩的毛边。",
+      "en": "A sunrise photograph on the windowsill of a log ranger hut. A chipped enamel cup holds a few sprigs of wild azalea beside a pine cone, and the 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands on the sill with his brass patrol gong. Volumetric sunbeams pierce through the pine forest outside, fine dust glowing in the light, backlight rimming the fleece edge of his sheepskin vest.",
+      "shot": "Hasselblad X2D 100C with 90mm f/2.5 lens at f/2.8, luminous backlight, Kodak Portra 400 tones"
+    },
+    "06": {
+      "title": "山间晨雾的木屋门廊",
+      "prop": "马灯、雨衣、黄铜锣（手办）",
+      "light": "山间雾晨 + 马灯暖光",
+      "camera": "Fujifilm X-T5 with XF 23mm f/1.4 lens",
+      "location": "on the porch of a mountain ranger hut",
+      "cn": "雾气弥漫的清晨，护林站门廊的挂钩上挂着军绿雨衣，一盏马灯亮着，门边一双沾露水的帆布鞋。全身手办站在门廊的木栏上。山雾冷白，马灯暖黄，像他刚巡完夜山回来。",
+      "en": "A foggy early-morning photograph on the porch of a mountain ranger hut. An army-green raincoat hangs on a peg, an old hurricane lantern glows warmly, and dew-soaked canvas boots stand by the door. The 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands on the wooden porch rail with his brass patrol gong. Cold white mountain fog meets the lantern's warm glow, as if he has just returned from the night patrol.",
+      "shot": "Fujifilm X-T5 with XF 23mm f/1.4 lens at f/2.0, fog and lantern contrast, Kodak Portra 800 grain"
+    },
+    "07": {
+      "title": "女儿双手 · 山顶仰拍松林与天空",
+      "prop": "手办腰间的铜锣",
+      "light": "山顶晴空逆光",
+      "camera": "Nikon Z6 II with 24mm f/1.8 lens",
+      "location": "on a mountain ridge looking up",
+      "cn": "山脊上，女儿把双手高高举起，托着 12 厘米全身手办。镜头从下往上仰拍，背景是松林树冠和一片晴空，逆光勾出手办轮廓，腰间小铜锣闪着光。只见手和前臂，不露脸。主体在下 2/3，上方留白给标题。",
+      "en": "A low-angle photograph on a mountain ridge looking up. A daughter raises both hands high, holding the 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong against a clear sky ringed by pine crowns. Backlight rims the figurine and makes the tiny sculpted brass gong at his hip flash. Only her hands and forearms appear, five natural fingers each, open blue sky above for a title.",
+      "shot": "Nikon Z6 II with 24mm f/1.8 lens at f/5.6, crisp mountain light, Kodak Ektar 100 tones"
+    },
+    "08": {
+      "title": "铁炉上的蘑菇汤与馒头",
+      "prop": "铝水壶、黄铜锣（手办）",
+      "light": "炉火暖光",
+      "camera": "Canon EOS R6 with RF 35mm f/1.8 lens",
+      "location": "A warm still life beside a small cast-iron stove in a ranger hut",
+      "cn": "护林站的小铁炉上坐着一口铝锅，锅里是山上采的榛蘑炖汤，炉边烤着两个馒头，旁边是铝水壶。全身手办站在炉边的木台上。炉火暖光。",
+      "en": "A warm still life beside a small cast-iron stove in a ranger hut. An aluminum pot of wild hazel mushroom soup simmers on top, two steamed buns toast on the stove edge, and his aluminum canteen sits nearby. The 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands on the wooden ledge next to the stove with his brass patrol gong. Warm firelight glow, a single thin wisp of steam.",
+      "shot": "Canon EOS R6 with RF 35mm f/1.8 lens at f/2.8, warm firelight, Kodak Gold 200 grain"
+    },
+    "09": {
+      "title": "床头的松针茶与布帽",
+      "prop": "黄铜锣（手办）、布帽",
+      "light": "月光冷调 + 小台灯",
+      "camera": "Canon EOS R6 II with RF 50mm f/1.2 lens",
+      "location": "on a bedside cabinet in a daughter's home",
+      "cn": "女儿家床头柜上，一杯松针茶、一顶他常戴的深蓝布帽，全身手办立在小台灯旁。窗外月光偏冷，灯下一小圈暖光。",
+      "en": "A calm night photograph on a bedside cabinet in a daughter's home. A glass of pine-needle tea and his faded dark blue cloth cap sit beside the 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong. Cool moonlight from the window and a small warm lamp, a gentle amber circle on the wood.",
+      "shot": "Canon EOS R6 II with RF 50mm f/1.2 lens at f/1.8, dual color temperature, Kodak Vision3 500T tones"
+    },
+    "10": {
+      "title": "80 年代相册 · 马灯下的护林站木桌",
+      "prop": "黄铜锣（手办）、马灯",
+      "light": "马灯暖光 + 窗外蓝调",
+      "camera": "Sony A7S III with FE 35mm f/1.8 lens",
+      "location": "on the plank table of a ranger hut",
+      "cn": "护林站木桌上，一盏马灯照着摊开的 80 年代相册，照片里三十岁的他站在木质防火瞭望塔下。12 厘米全身手办站在马灯旁，窗外是蓝调暮色。上方留白给标题。",
+      "en": "A lantern-lit photograph on the plank table of a ranger hut. An old hurricane lantern glows beside an open 1980s album, where a faded print shows the same Chinese man at thirty beneath a wooden fire lookout tower. The 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong stands in the lantern light. Blue dusk fills the small window behind, dim space left above.",
+      "shot": "Sony A7S III with FE 35mm f/1.8 lens at f/2.0, lantern warmth, Kodak Portra 800 grain"
+    }
+  },
+  "figurine_anchor": "the 12cm resin full-body figurine of a 64-year-old Chinese forest ranger father-in-law in a tan sheepskin vest with a brass patrol gong",
+  "signature_props": [
+    "黄铜巡山锣和木槌",
+    "旧军用铝水壶"
+  ],
+  "signature_props_en": [
+    "brass patrol gong",
+    "aluminum canteen"
+  ],
+  "colors": [
+    "棕黄",
+    "深蓝"
+  ],
+  "vocation": "护林员",
+  "generation": "姻亲"
+}

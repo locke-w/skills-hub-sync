@@ -1,0 +1,14 @@
+{
+  "id": "2e9f4ff8-cf3d-4ee4-8dfe-b7881ee0b28b",
+  "name": "template-skill",
+  "description": "Replace with description of the skill and when Claude should use it.",
+  "source_type": "git",
+  "source_ref": "https://github.com/anthropics/skills",
+  "source_subpath": "template",
+  "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+  "tags": [],
+  "content_hash": "99b8a72a7e234a56d34570edf1e36d6fe238704c2e931d673f9034642008046e",
+  "files": {
+    "SKILL.md": "bc3548bb6225e301467d27136b4f8cbd64eede42d3408d9df1bd1ccc8b21f7af"
+  }
+}

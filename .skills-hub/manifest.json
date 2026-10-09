@@ -59,6 +59,21 @@
         "references/video-consistency-workflow.md": "fda0e2d2f7c0c40001e8cc10e147667ed13222e0a13084bc0d64f1f96aa8c8a2"
       }
     },
+    "07b0a39b-cf47-4c7c-b96a-35073566f1f6": {
+      "id": "07b0a39b-cf47-4c7c-b96a-35073566f1f6",
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/brand-guidelines",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "fe2174bbdc5b320e85db6eb91620a019bdf3e1192f57e9172904200c108ff2ed",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "a0aa0a21ebf9e8511a045cc234bc839adc2b6706db727add14e9855f242e11a7"
+      }
+    },
     "08ab42c4-dbd8-467a-a385-b0443f85ab0d": {
       "id": "08ab42c4-dbd8-467a-a385-b0443f85ab0d",
       "name": "macos-gui-automation",
@@ -149,6 +164,111 @@
         "references/strategy-selection.md": "e4d8389d426c590b9298a34d4af688a0a975813d306cdbd7b7bc056c810e189e",
         "references/success-rate-pitfalls.md": "189d6e3c6ade350da359fc5ce935e1f1cf8ef6aaafb2e5b2289ebe9c5e040d2d",
         "references/typed-errors.md": "6268a134192d35c5d9d5b30951cb48f2feb92b782d6d6617f252ee7ee0900583"
+      }
+    },
+    "1275396d-b051-4fb8-a849-0d38941bc462": {
+      "id": "1275396d-b051-4fb8-a849-0d38941bc462",
+      "name": "claude-api",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/claude-api",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "57923bdaf97b3799de3167fcdffb2ad35053d8f5442f152f65fd98dca7f88db1",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "f41a83050356a53546c8d6116ea89acf0fcfb408eab58f8ada5570bb9af6820e",
+        "csharp/claude-api/README.md": "003f6b49a8350513d3a85c6456cafd3435950418a5051571fa01fde6e1eabb54",
+        "csharp/claude-api/batches.md": "a009e559cd09c41863c6f7090aa0c52697d1f15f59e955e3f8c4d54e025428a0",
+        "csharp/claude-api/files-api.md": "3d2d6f2e897a544390fda482a78048b9287e751fe8ce36d7f766517258c629ea",
+        "csharp/claude-api/streaming.md": "fa4fcc6cbd228d586a0ea744f2ea99f6e5ae36d36668236609caca2e993f36e4",
+        "csharp/claude-api/tool-use.md": "f803f3004222dc7ef3c472a24b0ea9158cd251f4e15a4d6d0e28768332fb8ff8",
+        "curl/examples.md": "be9022585fe6c455f03fea7ab6c156b6f7621267c89c39d56d12f4d8976d1c15",
+        "curl/managed-agents.md": "045570764cef0e7f528b04b4df2ac7951dfc5185631bc52c37637a502c361933",
+        "go/claude-api/README.md": "b178471cad6f8d1b122164150ede0a563d151160decf1734b95b06bf532aaf40",
+        "go/claude-api/files-api.md": "2a5803d4c3752163e6e9669d6abf17be0db966ccdb8368ebe3aaa8b76c91d6ab",
+        "go/claude-api/streaming.md": "4c886320453dc4de120f837f7482cc1df51eca2259d6004131430f3bfe872372",
+        "go/claude-api/tool-use.md": "08ca43e06bc67f9986233fa09ad458a8a00a310f7dc75d58afdbb27e56203853",
+        "go/managed-agents/README.md": "1d1e3a6c8c00c418a688e22cabc42aef8b6d522b9e6ce4fd7e83e77cbaf00396",
+        "java/claude-api/README.md": "abdcde9b7994a2ccb6905e6aed2262147a88e0540b90e63c79055678166597cf",
+        "java/claude-api/files-api.md": "e73673834e52313ec54cd1ea524b9bed1aa1fd0934ecb05ef356b408fe6262d0",
+        "java/claude-api/streaming.md": "3e377835446edf0c8a3d1a031ace8bef26745c43a0b7a9e21cbdae76fa2aa5a2",
+        "java/claude-api/tool-use.md": "2a8aa7e81cd9610dd6b1591115a30dd7616c5e8edce0ccfaf890653e67564c58",
+        "java/managed-agents/README.md": "17fac0ff2cfa3e88b2c9907fe91c5c6a2f4f6f295aa2e12d147f067397f2bf35",
+        "php/claude-api/README.md": "19c34f46635e0d2e7a88552472d42c8b2837be431fbd6b5140336c1525eccacf",
+        "php/claude-api/batches.md": "8fecddc3d2f568204c85f9280c09fba7862aca49ab28540f52596ad563c33e1d",
+        "php/claude-api/files-api.md": "66a1fa21a73fedef16016bfb0048c2cab6ef34470c08e4e8c5ad7a17558b5693",
+        "php/claude-api/streaming.md": "3e3ae6dbdcfd62e550043ef8822632f489104fb6a45c2f0cb7c012d3a1262e21",
+        "php/claude-api/tool-use.md": "84bc4c8019ebf57ea62fd6e454d887f97a91be30a6728c263d07eaf67c7f3cc6",
+        "php/managed-agents/README.md": "f786d5edb2f93925ae56e058d6b7f3e575556efd377c55ba56a2ed80a0b27baf",
+        "python/claude-api/README.md": "e2f19cd9c8033608417f748f728b16b1218b44174af6a6c5ab5c89d8fe47d707",
+        "python/claude-api/batches.md": "11ac2faf3f5dd2493c587b707e2d8f95996e20a5f8830d4de90f7f381f073c6b",
+        "python/claude-api/files-api.md": "7ee515def5f5268e157a1da1f19c3708005d038e870f16187fb301d6ac24d2ac",
+        "python/claude-api/sdk-upgrade.md": "81e9465817220be133ea26e26a58f00978d7b5f167504c9c4f926e7d2d215105",
+        "python/claude-api/streaming.md": "e0214335cb89ef30ef540995fe9d53369923410c416ce1030a62aacb3c7923ba",
+        "python/claude-api/tool-use.md": "86613b900a95892ab9293523890fdfffa5a1c83ba32bc57de9281c56539421c3",
+        "python/managed-agents/README.md": "f527ae78b31cd8410f2deecdaec54e4c58878e26fc9c213ee78f1a22b559decf",
+        "ruby/claude-api/README.md": "cea94e149e739a0169a9d178165e966a8d7302cbcbe867f4346af09c96363630",
+        "ruby/claude-api/streaming.md": "86c8585184f949d9c58ee575a03e0c02ada74609d24a9f35c74231409e4eb05f",
+        "ruby/claude-api/tool-use.md": "3e76eff751e20b5957c339bb7ed4f78a9064261d3fa4622b9e38dba3b60c04f0",
+        "ruby/managed-agents/README.md": "a6a8aedbc6fc1ae9cc180b74870272f0030b632646f797eff1a17ff6efa635e8",
+        "shared/admin-api.md": "5ff467c2a48e1a41c103167dfebe4361fc0ae4402e32304ddc4a8bb253b858e6",
+        "shared/agent-design.md": "b179ea16233b16f53a3d8f6ed58465464050142de80dedcc9e453b672d06a201",
+        "shared/anthropic-cli.md": "ae03f1f620c0382c7370ff8692cc0fe8bfa906a33cd42d196f2791f9197dceb2",
+        "shared/claude-platform-on-aws.md": "6122d69be5bf88219dc895f905522fd7652d94d323dac37cb52c80414aaf8450",
+        "shared/cost-optimization.md": "cfcafa96101d1100c574f92bb444000edaf97d6fdbaf74383dcf85de532d02e7",
+        "shared/error-codes.md": "a997ee27a14634274d6d2e48bd6f255567a8172320ce927996b0aae3ba7d1ac5",
+        "shared/evals/build-eval.md": "5c3d4a2c627641f70b1ff1286512beabda0c94374f97cda2d789b0bd5aae7cd7",
+        "shared/evals/cost-hillclimb.md": "d517856cae2403fdc7e32d5b103bbcec415d44320f38e170b0fdb214ff6914eb",
+        "shared/evals/eval-audit.md": "ee40ffada6d5e10967e713184e49f7e65c936e5c7702ca753221405fb168a79e",
+        "shared/evals/eval-hillclimb.md": "7cb3e8b9da6445358f47ebe662f2b00d8c7fa8191aab28c8f8a43a9df0b8ec16",
+        "shared/evals/report/SCHEMA.md": "4194d6589efb511a5aed23bcc00c936ea1d3cb0ed362558c8dfbdb68ba6a4426",
+        "shared/evals/report/build-report-lite.mjs": "908a74d1909b451a864a0ceea367b9943ebe853ad56469d1971604fde77d517d",
+        "shared/evals/report/runner-scaffold.mjs": "1c75568243b82ccb7c3ddc4b0799518c832ed4acd5c96b3f067defbee678e39d",
+        "shared/live-sources.md": "8f194508a30bff75f50d16a0b404b8835c233b1d9fe37abd692ec9d7e0cc1c07",
+        "shared/managed-agents-api-reference.md": "efb0536b63e5296910d7fa245ed37783075daf2bc76da5900bbe34ff9beb6c49",
+        "shared/managed-agents-client-patterns.md": "a8639bf706b0c0b25eeba0c1653d17ea8283f1d77d66a2215fd044b994322f18",
+        "shared/managed-agents-core.md": "2dca86a0a9c1759b14053b82027291e0a82fe4fe2173b8674c0cc567d1b20014",
+        "shared/managed-agents-environments.md": "22d1361dbe9b90ed4e20aaf0966b4cc75543442793466651081808c330d966f2",
+        "shared/managed-agents-events.md": "5e4e35dd12dd029a9a84fb7c278472fd80a1d7bd22cf9e100f95d111a976784c",
+        "shared/managed-agents-memory.md": "ce6e0381ee5caaaf14805cb40232d324c0a1b373d9d8b95c1ca96c709173f80e",
+        "shared/managed-agents-multiagent.md": "c29d06e7b560b8cc763b8f37a0b13b52004430d4c572d681b7b9cea9d61dbfec",
+        "shared/managed-agents-onboarding-from-quickstart.md": "0b6b94de0ce8a1b5373d18ebbe04a7161240f85d7480ee8922c28e84f191ab10",
+        "shared/managed-agents-onboarding-from-url.md": "ed97bf3c8d94cca6745125fdf13331d2e21fe7d22eb14d537e67b2ef86de3e68",
+        "shared/managed-agents-onboarding.md": "efb508364773236a0d9fdd561f25a1824ed189e3e9a6ce9e3dbc85dbe3d3bbcc",
+        "shared/managed-agents-outcomes.md": "ff22ab603d73972379e50d85977c7c089d585810bf4bc3c4927daa5d770dd57a",
+        "shared/managed-agents-overview.md": "646f40bdc0d64469b28993f7338be045a538a238463f2e724638d756b62e6d2a",
+        "shared/managed-agents-quickstarts/contract-tracker.md": "fb2691f3dff259c5066da3c1678dbddd4d5ddabb3d5fecc0dec08216a8074fe1",
+        "shared/managed-agents-quickstarts/data-analyst.md": "e9523921b6fc8b4fe7eb8412ddc49dbf89894467e924fc7f2be8f9a424b7d450",
+        "shared/managed-agents-quickstarts/deep-researcher.md": "390ddec8764f967e57e7195460fa764f5ed72f8b9223f6640a41861b1c749e40",
+        "shared/managed-agents-quickstarts/field-monitor.md": "4a10f6a798b9954aa7fbef4a3b2093ffdd0fe5c2cc5bbe0b65bd9e8a1e74a53e",
+        "shared/managed-agents-quickstarts/incident-commander.md": "7f7497fb47965e2234bbc01e4f77e27ac3275ee6f393e25f9732353b94839b50",
+        "shared/managed-agents-quickstarts/sprint-retro-facilitator.md": "d3262ae495902991364f9c0681dba2439d5dd4f29d9cc61bae4675fee5ffdb0d",
+        "shared/managed-agents-quickstarts/structured-extractor.md": "3e620387b15a2837915cd46a55aa58616af828f552678e86df3e14bb1328b9cd",
+        "shared/managed-agents-quickstarts/support-agent.md": "e993e36b29b5238cd3bb0b309656d4a67f5e47ebf6bc6b858b52ea65a0bc75c7",
+        "shared/managed-agents-quickstarts/support-to-eng-escalator.md": "7ec75df72ef3dcb6c586012bd578aea487c0a023d92953fd2871f3162e2d2868",
+        "shared/managed-agents-scheduled-deployments.md": "0d2fc260617163bde09483858121efa88e1cc70a99c7da3edd1569892958660e",
+        "shared/managed-agents-self-hosted-sandboxes.md": "099873bcda9598adc4f6a07b4e58c9d9772170ed65f6bf5a56f182d3465de87b",
+        "shared/managed-agents-tools.md": "b2401e8ad88f5360899cafb0b5a965f2624bc18e5afac4d725a10b62d9beb29f",
+        "shared/managed-agents-webhooks.md": "3161555cd1c40d071f70fc3ec4e6454e90f4d512d64a286c2c0397133cc8e276",
+        "shared/model-migration.md": "63ddf976d459b7b4392003908feaf726cfe1bdd3e004f98f1f940fffbd092625",
+        "shared/models.md": "a3de37fcee4ed448c6d5004568c64d5938cdb755049a11579cb085314e5ea3a9",
+        "shared/platform-availability.md": "9dacc56aaf22095f0969f60a689676fe8a65ff0ac78c15cb9f7a0a1074e3fa28",
+        "shared/preserved-thinking-migration.md": "f90fe550c067b1f69ea9396ead0a6c45c425c2ef3ad9ecb50c934bd76d7fbecb",
+        "shared/preserved-thinking-migration/causes.md": "d4eeb1c769787657d8134600b87331640dce4e8602e2902c8e1f4d4128d7e8fd",
+        "shared/preserved-thinking-migration/drop_block_probe.py": "fdfaf74337ee8c9fc9f45f294abb0bbe30fc1017ff2f0f900530115c2f85a5c0",
+        "shared/preserved-thinking-migration/prefix_diff.py": "7067de24db3ac99de222895a0634c88aaa4d188ba9784b48ae5f047f62a0fcc1",
+        "shared/prompt-audit.md": "01be94959700462c82b4525d90103eb8f5b45081a44e0379bef1649617341dc6",
+        "shared/prompt-caching.md": "2d44bdb878cb79d11f61775c35a7c1a3f87ff7ef392dbb698c2049163af7f4de",
+        "shared/token-counting.md": "c9b89bb919eba1e6a3dd73c737672c2702b6f365632b8d2b69885cfc6991bfa1",
+        "shared/tool-use-concepts.md": "42e2d6bed497d9c138390a6c03658d7236da3a1cec187a0a1518c18f554b7247",
+        "typescript/claude-api/README.md": "a96d96ce4484735d3439817f775cb3d7bf4bee5b6fcf95e6b88c406af42d58f2",
+        "typescript/claude-api/batches.md": "e43defcd1dd1cee9d4899af60f176ce6e87a521b3c6c866d29c8b5dc630ab9ad",
+        "typescript/claude-api/files-api.md": "c47994378d82daea0e80d3bc237591330c68bd5e1e1271f5d6086dc22d94bf97",
+        "typescript/claude-api/streaming.md": "bd734fdc972910cd4f5ac9072ba21e75ef1e8e79c120c70d3fcdc01697a060a2",
+        "typescript/claude-api/tool-use.md": "d294f0758ba13af31cb2d2724366851886f8f7a819745f3aa6a54082ebb4fb70",
+        "typescript/managed-agents/README.md": "d6fceb6a9d97cab4219e0b8c4631b2e293398be2031a90529249365d22e38e8b"
       }
     },
     "12c18986-5f9a-4a61-9b76-7444379f19fb": {
@@ -441,6 +561,20 @@
         "agents/openai.yaml": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4"
       }
     },
+    "2e9f4ff8-cf3d-4ee4-8dfe-b7881ee0b28b": {
+      "id": "2e9f4ff8-cf3d-4ee4-8dfe-b7881ee0b28b",
+      "name": "template-skill",
+      "description": "Replace with description of the skill and when Claude should use it.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "template",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "99b8a72a7e234a56d34570edf1e36d6fe238704c2e931d673f9034642008046e",
+      "files": {
+        "SKILL.md": "bc3548bb6225e301467d27136b4f8cbd64eede42d3408d9df1bd1ccc8b21f7af"
+      }
+    },
     "2eeb74d4-edcc-43d6-a3c8-bf1f91142105": {
       "id": "2eeb74d4-edcc-43d6-a3c8-bf1f91142105",
       "name": "writing-plans",
@@ -484,6 +618,21 @@
       "files": {
         ".opencli-managed.json": "2bd1e8df5f503b6f5b9e3439a60b1ae8b21027fa09de654d51c2b9e66daf3f33",
         "SKILL.md": "5799561d917650a6204f248d684e2d2695dc3787fffeebb6649b57d8f9264855"
+      }
+    },
+    "3b281954-b6ea-4e03-9d26-e7da78a91549": {
+      "id": "3b281954-b6ea-4e03-9d26-e7da78a91549",
+      "name": "frontend-design",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/frontend-design",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "889593bda98299fed147ea1a9a8f3515c7959996e405ba6d5a6428e6a69c34ed",
+      "files": {
+        "LICENSE.txt": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+        "SKILL.md": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
       }
     },
     "3c033197-5288-4a70-b45e-c2445d31bfb7": {
@@ -759,6 +908,26 @@
         "agents/openai.yaml": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
       }
     },
+    "3e6dd4ef-8b93-444a-9f0d-8c31c26b5b19": {
+      "id": "3e6dd4ef-8b93-444a-9f0d-8c31c26b5b19",
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/slack-gif-creator",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "4eec206ce02a5a7c429df1aefddb4af393ff003d232e96e31d8208674744bd3b",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "561c85ffeab639a1e84bb51cfc49f66e868a2a4c4b8945bf77b7bdaeca145a7d",
+        "core/easing.py": "241adbc2d649a1e762615fe5f4e56593b3b5a52e28f6c9dda492588d7e02d653",
+        "core/frame_composer.py": "0b3e5561b238fa804b8443af8a65c3b6cb8e5286e83f7ae611217ea5c2388fae",
+        "core/gif_builder.py": "a47a2cda9505e5e7f25cd0dd1c53a0bdb88193ddb1eea2161f87541c1fb390f2",
+        "core/validators.py": "83d43a5884187fc7a1e309acfd3b91ccfb4b7e70581b855718f1cdb6e9ebbece",
+        "requirements.txt": "46f28d66846632623a1a83ad36613fa241c96abef1fe514e6496de99306a0d33"
+      }
+    },
     "40c9c975-61db-4278-af03-70abff2a4569": {
       "id": "40c9c975-61db-4278-af03-70abff2a4569",
       "name": "腾讯文档",
@@ -797,6 +966,21 @@
         "SKILL.md": "cf7215e8618343c1fddc216dbc295a86dd1a463331a29844bb67665a5a6b9daf"
       }
     },
+    "484eaecd-1da0-47c5-a641-c436161adc1f": {
+      "id": "484eaecd-1da0-47c5-a641-c436161adc1f",
+      "name": "discernment-nudge",
+      "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/discernment-nudge",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "cdd4a4287a345b90c9473d6d4b3101a52acf7930bf20c6713a9e46a5a8c05058",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "8e498a6c417b707a845a5373d56dabf5f812c50a25152752ace76251a9515c1c"
+      }
+    },
     "4b9bc4d8-a99f-4152-9ac0-2f0deb489b43": {
       "id": "4b9bc4d8-a99f-4152-9ac0-2f0deb489b43",
       "name": "setup-matt-pocock-skills",
@@ -831,6 +1015,48 @@
         ".opencli-managed.json": "08846760950e1f434efa3d88e67c0ebbe0ad410cc79439efadb9899a8e5f79d8",
         "SKILL.md": "8112efbb04c4d8f4ba706af6f29f02b1261fa3d43518b1f7c7b5ff8700685557",
         "references/sitemap-schema.md": "fc6e7e770b6afff3e9f1432d96fed5da3cadf069c584d3c71e90c9156a768c08"
+      }
+    },
+    "51cf61f4-f188-4ecb-b27a-fcba4596b9ea": {
+      "id": "51cf61f4-f188-4ecb-b27a-fcba4596b9ea",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/mcp-builder",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "7223e8d398ebef75b54bd7a76392ca7c551abc6704fb1223d7b40acf20c2915f",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2",
+        "reference/evaluation.md": "830d9a3a69c9d6d01b638ce3497e0a7680b1d422d318929181a101f7d3816983",
+        "reference/mcp_best_practices.md": "900b5c9ec725b594ea04270d27c33cc51a0c8e866f5cb7ad4f57fb48d3838380",
+        "reference/node_mcp_server.md": "2157ec5b77d6a7f2f84884d81acd060126f969e01a8a780470c1d927c2dabd37",
+        "reference/python_mcp_server.md": "890a64d0949e5b40c639682cda46661311ab818fc03976884ce46f00e2eff462",
+        "scripts/connections.py": "9db2f1ff6442010b131817c1ec127dcf29949c787e7d7948049145c0a39627a9",
+        "scripts/evaluation.py": "0797ae0f3c50bfa5d7281ebc8bc936ac89f33450aca6a36b95c4862ca8c21482",
+        "scripts/example_evaluation.xml": "4df64ca67ca193021364d4d148997b8821f392353dab73c852fa41cfaa822048",
+        "scripts/requirements.txt": "f53f4d884919bbc75bc971f62d196c6f0a443eccf2539f534fd2b66e0618c49d"
+      }
+    },
+    "560c9c6a-9d92-49ae-aaf2-16b98974add7": {
+      "id": "560c9c6a-9d92-49ae-aaf2-16b98974add7",
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/internal-comms",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "beba3d4c2eca0d664a6d0bb22e63d366b67383dca9371bf65678ec5db077d0b9",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "c5c061ab25b33fab2358a9be53a5cc0d528ec7c3e8a29285a041ffc95d0d8947",
+        "examples/3p-updates.md": "5ea581bce7bc7030e5d9b5f65c192fd9aa05db8460837c485057ee9ad1b4e736",
+        "examples/company-newsletter.md": "408275de740b7a849df557abd2136dc4f689c9aaa35a76fe5549a745bcc1df09",
+        "examples/faq-answers.md": "02808d0a5dc3c0fe03c6b03a4e291fbda51dfc970a91cc4f28a82faa62d16251",
+        "examples/general-comms.md": "c30fa95415e6b03b7501b9dcfbf4aa5a37494408c3b7bd8ae2a72e750dc456d2"
       }
     },
     "58024c1d-9e64-4b78-8467-2e06eadc5b7c": {
@@ -868,6 +1094,25 @@
         "scripts/block-dangerous-git.sh": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12"
       }
     },
+    "5a4c3c09-0aaf-47a1-8bba-26be152f7e5e": {
+      "id": "5a4c3c09-0aaf-47a1-8bba-26be152f7e5e",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/webapp-testing",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "c214e9589b46983bebd94f26f6a6e506a944da7adec4c76621574b292f70f4b3",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
+        "examples/console_logging.py": "f06fbca7cdfa44ecf5bae40813b30fc758ec3280af1aab5586aa2dd384db7ad6",
+        "examples/element_discovery.py": "7e99c7caf1593a75a8b2e36847128c41962fefc604f7947426581c2b9fc2361b",
+        "examples/static_html_automation.py": "6633d0b7c3b3bef31e6baa9cef6fac57490767ee481702fe11c281d8d013b769",
+        "scripts/with_server.py": "529b5f10f6ecf2e6234747be6d6601be7ef9011ee29a3eee0879e7823f608238"
+      }
+    },
     "5b13c203-2e32-4716-8dd2-78dc23aac3f0": {
       "id": "5b13c203-2e32-4716-8dd2-78dc23aac3f0",
       "name": "brainstorming",
@@ -901,6 +1146,102 @@
       "content_hash": "4ffdde0e5096d2c6ad40af99685f2cce9cc28bef9ba2c72c61fc3ef03ba40457",
       "files": {
         "SKILL.md": "bc3548bb6225e301467d27136b4f8cbd64eede42d3408d9df1bd1ccc8b21f7af"
+      }
+    },
+    "613b3514-d2ea-45c7-8456-09d79e9ed982": {
+      "id": "613b3514-d2ea-45c7-8456-09d79e9ed982",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/canvas-design",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "377b8d302c8986f01d0f9dc6780af8296bd67fcdd12ffc3fec2cda52b3996eb3",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "7bebc4a2cf108c55c1e52bb96b1050dc1ab2f9492e9c2d43f1fe57f826728f4d",
+        "canvas-fonts/ArsenalSC-OFL.txt": "7a87a0c469fedc802e3acef550db9a728f621275984b46c6c51e731d7212520a",
+        "canvas-fonts/ArsenalSC-Regular.ttf": "65e6f89df58f68fd905b3add34a79dd6106aa3b3044df0dad9676fff53d504b9",
+        "canvas-fonts/BigShoulders-Bold.ttf": "b43bcd198b9fdf717dd42aa61a34dba32e01aceaeae659d689afd0ca52c37ea2",
+        "canvas-fonts/BigShoulders-OFL.txt": "9ce6294be745093338c51e62d7efaddbf32b90ac9a7ffde8a12ce92e0413fe25",
+        "canvas-fonts/BigShoulders-Regular.ttf": "18a879fc71978a4447150705caf880a9da3860083c259fd29e6dc03057b6842a",
+        "canvas-fonts/Boldonse-OFL.txt": "f5fe122e06e26a0277b07d6f6d171a60156aef5fe138281538498cee767b6bd4",
+        "canvas-fonts/Boldonse-Regular.ttf": "cc2e540604565c0f90a7d8d46194a2f42fc9c45512cd2e39bf03b50eb68c35a4",
+        "canvas-fonts/BricolageGrotesque-Bold.ttf": "a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d",
+        "canvas-fonts/BricolageGrotesque-OFL.txt": "a093964b3ca71526ae129d0d5f39bc9dba905ae5ebeb72d741bb0d4ed2d5d5b0",
+        "canvas-fonts/BricolageGrotesque-Regular.ttf": "972a6d098c9867ae131d0ea99e221e63976b11a19d4b931c2c7ace525674e4f6",
+        "canvas-fonts/CrimsonPro-Bold.ttf": "48f191e38355c8db100eb3ce157c20f9302a3b9a37b44a660f77ecfce3986609",
+        "canvas-fonts/CrimsonPro-Italic.ttf": "52318db3526b644e6efa60be0b3ca5a50e40fbe8bd026c261e0aa206f0772267",
+        "canvas-fonts/CrimsonPro-OFL.txt": "fd2bc485bc16b876b09f97ab0a218092c0c78f533be0d7750aca9e9df9e3ab7b",
+        "canvas-fonts/CrimsonPro-Regular.ttf": "48fad08cb1917a7b2f2c6fe5135d6c07743a6663cf7631ec4481108aaf081422",
+        "canvas-fonts/DMMono-OFL.txt": "0f2c192cfa63e591f680392d1792ff06e52a76ef81f70841ccb0b36c11b61826",
+        "canvas-fonts/DMMono-Regular.ttf": "f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450",
+        "canvas-fonts/EricaOne-OFL.txt": "cb7900ec9382f84f51ec5c79b6cddd9c17892bc3a2e90bfb74d6d710bdabf5fd",
+        "canvas-fonts/EricaOne-Regular.ttf": "db1d89e80e33a8a01beaaac7a85df582857d24a43f1e181461aa7ff5d701476a",
+        "canvas-fonts/GeistMono-Bold.ttf": "75c0828d5c1ee44b9ef9f4df577bf41595ec362e2ea3f1e558590c9e92c7949d",
+        "canvas-fonts/GeistMono-OFL.txt": "0acca17d633ecc7180aa12d8a60a95889d87a439cb83884597ff278046743dcb",
+        "canvas-fonts/GeistMono-Regular.ttf": "a55c1b51cda4afeab9e471e7947b85a20f7c8831d7e6b1470c1b7fbdc0f0f15e",
+        "canvas-fonts/Gloock-OFL.txt": "e5a3c37f36d4484c7818fad6953828f74168cc1218421c913006c84fd4d14c14",
+        "canvas-fonts/Gloock-Regular.ttf": "e86b4ce66dbd3f1f83eee8db99ec96e0da1128c3f53df0e9b3b7472025dfe960",
+        "canvas-fonts/IBMPlexMono-Bold.ttf": "dbd2a2fb024579438d6400a84e57579bfd2dbe67c306c8fd9fde92a61e4f2eea",
+        "canvas-fonts/IBMPlexMono-OFL.txt": "0fc74640fdcd67c036e1fced58d7e4478897a333cd92b981115a3e324337577f",
+        "canvas-fonts/IBMPlexMono-Regular.ttf": "ab08018ccd276b79fb2c636bb95b9c543598f9d50505fe92506fcb4dae7810cd",
+        "canvas-fonts/IBMPlexSerif-Bold.ttf": "b8d294e9b5c5a0940f167c3ced0f7ef2e3f57082ca3ff096ef30e86e26c1c159",
+        "canvas-fonts/IBMPlexSerif-BoldItalic.ttf": "da64b75f4284f53e7b5c71fa190a35b8bf3494fe19f1804c81c3a53340bca570",
+        "canvas-fonts/IBMPlexSerif-Italic.ttf": "b11f1048745e715a55c9d837b3f10226ca3d78867b7db7251ddad8f98dcf0f38",
+        "canvas-fonts/IBMPlexSerif-Regular.ttf": "77cd233a2af8dc6b1022faea3bb3b01f3c75af68bcf530cb6aeb15982ff3dbb7",
+        "canvas-fonts/InstrumentSans-Bold.ttf": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf",
+        "canvas-fonts/InstrumentSans-BoldItalic.ttf": "3762f6cef95d6039489ad5ba5787d4c30f17a1ad01e9ac3c816ed69692722a68",
+        "canvas-fonts/InstrumentSans-Italic.ttf": "78e85858e371b2cb4e18f617c10f0f937c0e12a0887ffee98555b24ed305b3a7",
+        "canvas-fonts/InstrumentSans-OFL.txt": "6c98bea402c5bfed70c42c0d6fcc6a31ea793979537d1becf4a5dae65a26a34f",
+        "canvas-fonts/InstrumentSans-Regular.ttf": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87",
+        "canvas-fonts/InstrumentSerif-Italic.ttf": "9c86e4d5a47b50224a2463a9eca8535835257c8e85c470c2c6b454b1af6f046e",
+        "canvas-fonts/InstrumentSerif-Regular.ttf": "56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99",
+        "canvas-fonts/Italiana-OFL.txt": "3edefd97c07108eb7151fa6ed58fc7ce79bb697fc1fc50a1da25398d54cdf588",
+        "canvas-fonts/Italiana-Regular.ttf": "15c4dd6ab8cf4a29ba8826f65edcbe2f6c266c557d34d081f25072dfd5605fd2",
+        "canvas-fonts/JetBrainsMono-Bold.ttf": "a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3",
+        "canvas-fonts/JetBrainsMono-OFL.txt": "4d9694c4844a13ea377458c3f98c90d2bf83d3c214612dcae2b7808406520708",
+        "canvas-fonts/JetBrainsMono-Regular.ttf": "b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5",
+        "canvas-fonts/Jura-Light.ttf": "c891a381df056b2c4dfe85841e911bf45da0890fa21a7b2692cbe5ea1f505e1e",
+        "canvas-fonts/Jura-Medium.ttf": "c72965cb732a92872643819fd1734128238583cc36b116313859137a51d3368a",
+        "canvas-fonts/Jura-OFL.txt": "707f27f18ff5c786e2b41f44873201b34c3a3694ca6ea4aa24cbb52cbd46fbc2",
+        "canvas-fonts/LibreBaskerville-OFL.txt": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+        "canvas-fonts/LibreBaskerville-Regular.ttf": "2101302538d9e88adb679031c04623e4578b5745e89566284fd2c508d79acae0",
+        "canvas-fonts/Lora-Bold.ttf": "7d74015e950c2fb66519c7295b8155621d22200ae2ca2a4c6b43ce3c490cac87",
+        "canvas-fonts/Lora-BoldItalic.ttf": "152f87e71f5ddb60d5c57ecd9132807c947e65c42977193c9164e7c5a6690081",
+        "canvas-fonts/Lora-Italic.ttf": "be627e595184e8afe521f08da0607eee613f1997d423bc8dadc5798995581377",
+        "canvas-fonts/Lora-OFL.txt": "41cf75bf229a1435b7df209ac7419622516eff7e8cab79260fb0fb9b1cc8ced2",
+        "canvas-fonts/Lora-Regular.ttf": "7ed00e7c9cdf16ab7e2fd2361fe45d4f0b61263cd60aae398b27b7ee08108827",
+        "canvas-fonts/NationalPark-Bold.ttf": "69ac4c301c4a7233c6e602d12a92c54d7967b575f4449951c45ce773f7acff53",
+        "canvas-fonts/NationalPark-OFL.txt": "29618a33c9871519e77e75f7db9df6ba894b9f2208d97975ba419d3f6e46d9f7",
+        "canvas-fonts/NationalPark-Regular.ttf": "a477338b7e18308d476650dfe31235ef86a883572665e56ffb5fb80f82009b58",
+        "canvas-fonts/NothingYouCouldDo-OFL.txt": "179d94a7a42ce98cc0ef2bfad604b77e9b0a9cc03e6a9ae8844844e3028d04b2",
+        "canvas-fonts/NothingYouCouldDo-Regular.ttf": "d866f985896d3280f4fce72db7e17302c24a0c1fdb0699b6b5ed3af14f944d57",
+        "canvas-fonts/Outfit-Bold.ttf": "6654b93d21301ec61887d3cedd6c11d9df1b1dfb63f9cf45ac7995f6e2235ab1",
+        "canvas-fonts/Outfit-OFL.txt": "8fc6af31312082959cc8297b30e04d94ff457faecc9fb0aeeb8906bf448f20e6",
+        "canvas-fonts/Outfit-Regular.ttf": "f24945365147c9e783e91d8649959b59be6b00c9ee4ecd2f6b33afbb2dd871fe",
+        "canvas-fonts/PixelifySans-Medium.ttf": "38397504f71c122b03d234ea6f55118e3d5bdbddffd82bedddbd7755d3b3be82",
+        "canvas-fonts/PixelifySans-OFL.txt": "34b5d28aebcb26adae3e1fb74842b5c6a3915fb721036ea2b3444f18954331dd",
+        "canvas-fonts/PoiretOne-OFL.txt": "26f2bc9434e40e75d2378fd9a8125c16f5ee1d0e7bbdf14daabd7109f7d87a6d",
+        "canvas-fonts/PoiretOne-Regular.ttf": "9cf265b139648b36b6c0afdfeb0bf27f7e66db9a16094bc40f644d8da05bc318",
+        "canvas-fonts/RedHatMono-Bold.ttf": "7ef48353f4be5ddb90f000f6fad48f2b62b3e8c27d9818d8d45ff46c201065e0",
+        "canvas-fonts/RedHatMono-OFL.txt": "3f7ee3287416a0a1b2f90f4230306098268efa63504fa12d6436acd994a69b68",
+        "canvas-fonts/RedHatMono-Regular.ttf": "452fe826871b37539f5212b20c87cf30f82f58dd2741f1c96edd1dcbdc0db6b4",
+        "canvas-fonts/Silkscreen-OFL.txt": "b841352f14bfc3e79b872ede3c05aa49ba816218a53cb2a07c6624ccf38a2ea1",
+        "canvas-fonts/Silkscreen-Regular.ttf": "49567408600809e25147e9225ac4f37f410e2df45a750696c45027531fb65f1b",
+        "canvas-fonts/SmoochSans-Medium.ttf": "dd76e6e77cce82f827a8654cd906e9ce58f3aaf78adda63c4a7f655b8ecb41f0",
+        "canvas-fonts/SmoochSans-OFL.txt": "ed57f8cd1429e35d68ad4b3edb44b142e2245467a2f537bf05044ee015447438",
+        "canvas-fonts/Tektur-Medium.ttf": "52bbe8c9b057b3d2da4eeace31a524b1ea26a1375ae34319cf6900ccc57a4c82",
+        "canvas-fonts/Tektur-OFL.txt": "360ef927fe156e4c7d8d7b1900375594f7db95fc3e04c1f0ce8cbbc55bc76eb8",
+        "canvas-fonts/Tektur-Regular.ttf": "162e1b36c4718c5b051b36c971ad7e50d341944f35618f480422ebbe72988f98",
+        "canvas-fonts/WorkSans-Bold.ttf": "240d125fc9f8561363dc1ea3f513501253bd70942f41468f48f0b0cafb0c82e2",
+        "canvas-fonts/WorkSans-BoldItalic.ttf": "a5b2cad813df0aaa7d16621f2e93b5117c25e9bc788bc9a3ad218e9d6348ce34",
+        "canvas-fonts/WorkSans-Italic.ttf": "6b7f7002e0b0c8b261fe878658ef5551e3e59d9f6b609b04efb90dde1e2c1ada",
+        "canvas-fonts/WorkSans-OFL.txt": "4f8cbaf2a5494148a8064db9b5eb7c23a0f9098683244803b11c0eec857b81a9",
+        "canvas-fonts/WorkSans-Regular.ttf": "e67985a843df0d3cdee51a3d0f329eb1774a344ad9ff0c9ab923751f1577e2a4",
+        "canvas-fonts/YoungSerif-OFL.txt": "0f15fb928a39deedb71e9198dbeece4403f827561b0cdbcff450aacbcf772212",
+        "canvas-fonts/YoungSerif-Regular.ttf": "f8dc08f77abad753a00670af70756a8ace938e5c3f0b770f4f4c2071c4bd8fc6"
       }
     },
     "653962b3-9fbd-43b3-b7ff-380bff2c1b2a": {
@@ -987,6 +1328,32 @@
       "files": {
         ".opencli-managed.json": "2c38a5aee6c5e197d3a3d2a4da68a542c6d6cc9a777b6cc36dbf49ed60e10c10",
         "SKILL.md": "c51aaa1695d529fc4479788088ab0054642fa0f1f902ecb58867dd0b8418a7b0"
+      }
+    },
+    "6dad01be-cc0f-41ba-b279-34c8010168c7": {
+      "id": "6dad01be-cc0f-41ba-b279-34c8010168c7",
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/theme-factory",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "9a3415d3471965f40bb7a555d065119fdae915e0d3bfb5895fbed8e84549ac0b",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632",
+        "theme-showcase.pdf": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
+        "themes/arctic-frost.md": "4ca393c5a61d4400f4e3f2ab79bb52a547568b04b60ac1227e254947b4842b41",
+        "themes/botanical-garden.md": "b5bc2b394e6e9543267ba34445b6202157acbd3a68adaea94891695d52f44950",
+        "themes/desert-rose.md": "6f0a7b6e4c792c98a6b2fa3d16683e5147d81c44b426bd93f059358ca94725fd",
+        "themes/forest-canopy.md": "b05f11b64e22b6291b8b5841db1d06a68a6b3910865f1aadd5f72f6a9de1f841",
+        "themes/golden-hour.md": "182c7db9217ae7f8e4cd2608c80a41a10538f1d904b4e78c45238efff59ae32a",
+        "themes/midnight-galaxy.md": "8c133bbb26924bd47d432f7300176610bc3337737483ee5b6d70b10c5482a1ef",
+        "themes/modern-minimalist.md": "839f95ff8dfc5699e93ba463839aa24ef057dc49a94b8ef369adec05bf4021fc",
+        "themes/ocean-depths.md": "062fcb48d08ab8a2fb8c75e8e49d69eb1b7869d80de6d2b6aaa1089b33f28934",
+        "themes/sunset-boulevard.md": "5c5d442403b0736615824fa8375b745f906265262dc0e80c4167a9528fc0ddbc",
+        "themes/tech-innovation.md": "953b7bde08a782266b511a70bf55d4365897bc30835e4c214a46bb6734b4b8dd"
       }
     },
     "6dc745d0-3a40-4a8a-b893-f9c18a968706": {
@@ -1231,6 +1598,21 @@
         "references/web.md": "d1128567c463e11c9bc3b1d5032fdca83dd323863da408c03cfcff227ebe7a1c"
       }
     },
+    "8b5f7717-8f77-40d3-8f66-d8b10d54b113": {
+      "id": "8b5f7717-8f77-40d3-8f66-d8b10d54b113",
+      "name": "academy-guide",
+      "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/academy-guide",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "2d0dc9443b56aacf20a5383f97aa4d7213a3067451da4761b5be0c32786f9ed1",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "102ce9bf7624e88cf29b80b18fe5c6e1959dc58b1d66915acf808cca1704f610"
+      }
+    },
     "923903c1-6b88-451b-82e0-440f05e36b2c": {
       "id": "923903c1-6b88-451b-82e0-440f05e36b2c",
       "name": "macos-proxy-troubleshooting",
@@ -1429,6 +1811,23 @@
         "references/image-reverse-engineering.md": "241332cbab3a0b976460a346a588946cf2bc72dad1fc4657b8eca360a02c84ee",
         "references/prompt-formula-and-keywords.md": "8c46bf33147917e6818272e75d4a2068bb05e2760c9b612969891fd871a99a1b",
         "references/video-consistency-workflow.md": "cac6e859148af3a465aaae2bc09e5f89c6befb7a02dd3a1907f43e69857e67c6"
+      }
+    },
+    "a523c700-cf6a-424b-b496-d5758fd50707": {
+      "id": "a523c700-cf6a-424b-b496-d5758fd50707",
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/algorithmic-art",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "f3dbe4064aa30f114875664874d54f498e973063d1008619f569983f37673823",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "6688fc81bb2051d3f234385b50ce160834eb0b0510ed8a5816cc412c1d28c352",
+        "templates/generator_template.js": "d4a1d449cbfb92b96009c8f2ad3b1c6cf6215d6ce75d68cf44a1aa7681077e88",
+        "templates/viewer.html": "281d5559d06b93ff5c55a69163dd235fa91b8dab52870cd3260e4a9fccd46480"
       }
     },
     "a907baa4-1bbc-454d-9f8b-30d7260e8e56": {
@@ -1880,6 +2279,24 @@
         "tests.md": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
       }
     },
+    "e9712fb4-8580-43c5-9f76-38af6685bf62": {
+      "id": "e9712fb4-8580-43c5-9f76-38af6685bf62",
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "source_type": "git",
+      "source_ref": "https://github.com/anthropics/skills",
+      "source_subpath": "skills/web-artifacts-builder",
+      "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "tags": [],
+      "content_hash": "9fd56768b2cf5ee3adb3676433a097f52c27fb055830b5b6f71e92f933cc0755",
+      "files": {
+        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+        "SKILL.md": "fed403699c30a8dfc91b43bc82e76c06a0e935e86395cab943644767878a48d4",
+        "scripts/bundle-artifact.sh": "8415e4453b50f38e899f9e513d7ea477b6a9f13d7404ab30a5b967d0cbcdc8ea",
+        "scripts/init-artifact.sh": "33c69d29a9d0cce95df7c1fa2e39e556b3c0c5c984c3a408894031456f842977",
+        "scripts/shadcn-components.tar.gz": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f"
+      }
+    },
     "e9932e6e-32b2-427a-a58a-969c311e74b9": {
       "id": "e9932e6e-32b2-427a-a58a-969c311e74b9",
       "name": "grill-with-docs",
@@ -1951,37 +2368,6 @@
         "references/cli.md": "da94ffe5a7c368e233eac1cdfa2d5207cb85a2a0571607af0e43402c6e12cd45",
         "references/workflows.md": "621d2b8542a91d1d5cd65a5a7774ea250683e4c217e00e9c90d301eb6367d86e",
         "scripts/playwright_cli.sh": "3fce0ea2b9875179f701d9f4c03425545c441b2769cd6c6df964cc7d1d1dbfa8"
-      }
-    },
-    "ef1d4b5d-6589-4e04-81fe-3e7ed74bd2ca": {
-      "id": "ef1d4b5d-6589-4e04-81fe-3e7ed74bd2ca",
-      "name": "skill-creator",
-      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
-      "source_type": "local",
-      "source_ref": null,
-      "source_subpath": null,
-      "source_revision": null,
-      "tags": [],
-      "content_hash": "c83fdc1707bd7c91b8b874223a5b3a1744c9ea9959ab8331cae7a923f039e82c",
-      "files": {
-        "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
-        "SKILL.md": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
-        "agents/analyzer.md": "8ccce0d9755f7684277870e791ffb643b026d5dd4508e5c1bdc8dfec9e8532b5",
-        "agents/comparator.md": "ee90af43eb0dbe2fdadbb96d01f9776f387ed5c529ce083c22b8bec4e3ae10d3",
-        "agents/grader.md": "6ec1c6950fcafa3e00d5e845b2498c5ea3e8f7f012bd9c6abad25425f3ee619c",
-        "assets/eval_review.html": "2cc6071b35ac897b17cf0388ce240fd959396f35f95a1f7d3e74a248dd060d0f",
-        "eval-viewer/generate_review.py": "44d97a35be977331b13b04932927b3beb285862a173f0f15dd052d4f31de5c76",
-        "eval-viewer/viewer.html": "46abd4e19e482b4aeebea24b135c2d88fb122a63346dbeab7fcecd83828a826d",
-        "references/schemas.md": "5ef5fd3c1ac7baae965b5bda6b4f2cf6a191a2d712c7fef2a12dde84573b4833",
-        "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "scripts/aggregate_benchmark.py": "16c5a53e4cbf55a679a42c244cba39cee463d99ce507ecc9fafc4cb4e0a133e0",
-        "scripts/generate_report.py": "d90ec4cfc2dd539564edd332880fb7561309a1f0097d082de88e3101d6c8031e",
-        "scripts/improve_description.py": "09425704c5717656fffd346ba075a390bb55d494dd1082bccd4fe2423117fa05",
-        "scripts/package_skill.py": "2cd9a9891844516fd30466eae30e4a9b9a199802522de3fb12f59a063fba58ab",
-        "scripts/quick_validate.py": "99f76b23da5882ccc9301890e4c31837e4a9262bd1a9a75dc729df0b12459d52",
-        "scripts/run_eval.py": "252ac58feedf233673d6a605661158db20806f724c7d1dd32c92ae316b24ef67",
-        "scripts/run_loop.py": "85b36782ec856e066257cf8e917606945e6df098428005e17f8d60a5b6789c29",
-        "scripts/utils.py": "b396f920bfbb422822427d800656ab125876e1e42ae242ed3c9380338f9d0833"
       }
     },
     "f5457a3e-9e3a-42c2-acbb-bc0395d14ea9": {

@@ -1,0 +1,19 @@
+{
+  "id": "5a4c3c09-0aaf-47a1-8bba-26be152f7e5e",
+  "name": "webapp-testing",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+  "source_type": "git",
+  "source_ref": "https://github.com/anthropics/skills",
+  "source_subpath": "skills/webapp-testing",
+  "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+  "tags": [],
+  "content_hash": "c214e9589b46983bebd94f26f6a6e506a944da7adec4c76621574b292f70f4b3",
+  "files": {
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
+    "examples/console_logging.py": "f06fbca7cdfa44ecf5bae40813b30fc758ec3280af1aab5586aa2dd384db7ad6",
+    "examples/element_discovery.py": "7e99c7caf1593a75a8b2e36847128c41962fefc604f7947426581c2b9fc2361b",
+    "examples/static_html_automation.py": "6633d0b7c3b3bef31e6baa9cef6fac57490767ee481702fe11c281d8d013b769",
+    "scripts/with_server.py": "529b5f10f6ecf2e6234747be6d6601be7ef9011ee29a3eee0879e7823f608238"
+  }
+}

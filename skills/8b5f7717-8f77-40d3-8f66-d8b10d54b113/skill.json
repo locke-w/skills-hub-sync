@@ -1,0 +1,15 @@
+{
+  "id": "8b5f7717-8f77-40d3-8f66-d8b10d54b113",
+  "name": "academy-guide",
+  "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+  "source_type": "git",
+  "source_ref": "https://github.com/anthropics/skills",
+  "source_subpath": "skills/academy-guide",
+  "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+  "tags": [],
+  "content_hash": "2d0dc9443b56aacf20a5383f97aa4d7213a3067451da4761b5be0c32786f9ed1",
+  "files": {
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "102ce9bf7624e88cf29b80b18fe5c6e1959dc58b1d66915acf808cca1704f610"
+  }
+}

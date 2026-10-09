@@ -1,0 +1,26 @@
+{
+  "id": "6dad01be-cc0f-41ba-b279-34c8010168c7",
+  "name": "theme-factory",
+  "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+  "source_type": "git",
+  "source_ref": "https://github.com/anthropics/skills",
+  "source_subpath": "skills/theme-factory",
+  "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+  "tags": [],
+  "content_hash": "9a3415d3471965f40bb7a555d065119fdae915e0d3bfb5895fbed8e84549ac0b",
+  "files": {
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632",
+    "theme-showcase.pdf": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
+    "themes/arctic-frost.md": "4ca393c5a61d4400f4e3f2ab79bb52a547568b04b60ac1227e254947b4842b41",
+    "themes/botanical-garden.md": "b5bc2b394e6e9543267ba34445b6202157acbd3a68adaea94891695d52f44950",
+    "themes/desert-rose.md": "6f0a7b6e4c792c98a6b2fa3d16683e5147d81c44b426bd93f059358ca94725fd",
+    "themes/forest-canopy.md": "b05f11b64e22b6291b8b5841db1d06a68a6b3910865f1aadd5f72f6a9de1f841",
+    "themes/golden-hour.md": "182c7db9217ae7f8e4cd2608c80a41a10538f1d904b4e78c45238efff59ae32a",
+    "themes/midnight-galaxy.md": "8c133bbb26924bd47d432f7300176610bc3337737483ee5b6d70b10c5482a1ef",
+    "themes/modern-minimalist.md": "839f95ff8dfc5699e93ba463839aa24ef057dc49a94b8ef369adec05bf4021fc",
+    "themes/ocean-depths.md": "062fcb48d08ab8a2fb8c75e8e49d69eb1b7869d80de6d2b6aaa1089b33f28934",
+    "themes/sunset-boulevard.md": "5c5d442403b0736615824fa8375b745f906265262dc0e80c4167a9528fc0ddbc",
+    "themes/tech-innovation.md": "953b7bde08a782266b511a70bf55d4365897bc30835e4c214a46bb6734b4b8dd"
+  }
+}

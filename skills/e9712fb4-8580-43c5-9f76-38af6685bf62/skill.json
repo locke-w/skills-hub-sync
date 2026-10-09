@@ -1,0 +1,18 @@
+{
+  "id": "e9712fb4-8580-43c5-9f76-38af6685bf62",
+  "name": "web-artifacts-builder",
+  "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+  "source_type": "git",
+  "source_ref": "https://github.com/anthropics/skills",
+  "source_subpath": "skills/web-artifacts-builder",
+  "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+  "tags": [],
+  "content_hash": "9fd56768b2cf5ee3adb3676433a097f52c27fb055830b5b6f71e92f933cc0755",
+  "files": {
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "fed403699c30a8dfc91b43bc82e76c06a0e935e86395cab943644767878a48d4",
+    "scripts/bundle-artifact.sh": "8415e4453b50f38e899f9e513d7ea477b6a9f13d7404ab30a5b967d0cbcdc8ea",
+    "scripts/init-artifact.sh": "33c69d29a9d0cce95df7c1fa2e39e556b3c0c5c984c3a408894031456f842977",
+    "scripts/shadcn-components.tar.gz": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f"
+  }
+}

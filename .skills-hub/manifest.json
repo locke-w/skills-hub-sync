@@ -1627,6 +1627,20 @@
         "SKILL.md": "e607c21c3fa98c598e1094e3a87d6efc4a18a1637c9777a4d5beeec900192582"
       }
     },
+    "926555ad-90a5-4a1d-9e45-cce4b29c209d": {
+      "id": "926555ad-90a5-4a1d-9e45-cce4b29c209d",
+      "name": "manage-skills-hub",
+      "description": "Use this skill whenever an Agent needs to query, find, install, deploy, update, tag, adopt, diagnose, or safely remove Skills Hub content, including natural-language requests to manage Skills for Codex, Claude Code, Cursor, or another Agent. Always use the Skills Hub CLI workflow instead of editing Skill directories or the database.",
+      "source_type": "bundled",
+      "source_ref": null,
+      "source_subpath": null,
+      "source_revision": "0.11.0",
+      "tags": [],
+      "content_hash": "8fef2cd0beaddfe24b12e25ab3594a8010bda3082d1909f8257107dc8a968206",
+      "files": {
+        "SKILL.md": "0eeae56e23d2565503d336e3524b1287a2cb8b84fc81764ca3385c445b63a25d"
+      }
+    },
     "986a2faa-9f8b-4558-b267-f698e5bfb8c3": {
       "id": "986a2faa-9f8b-4558-b267-f698e5bfb8c3",
       "name": "xlsx",

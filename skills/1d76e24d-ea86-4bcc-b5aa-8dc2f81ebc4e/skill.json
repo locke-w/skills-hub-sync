@@ -7,9 +7,9 @@
   "source_subpath": ".claude/skills/remotion",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "08348a638eb62bf07005399ec08efa6d2ce882d42b1474a3c8552908ec6d6236",
+  "content_hash": "f75d6067dba316dded85abd6115197daa3e9574f956ed3dd3bfc8e383208418c",
   "files": {
-    "SKILL.md": "576e2799966eec44a2a8417f2c69b6c58cdd9c7bca0c35fb6fbb200d2d1a2ee4",
-    "reference.md": "8e617b93b67b5328d5fa516da6923e9e9eb7a17d0c4b5c1b6ad8dddfba50a687"
+    "SKILL.md": "b37046044b69b305700e740c6439f7081db57da8398ed14969145bcb2b59d7d4",
+    "reference.md": "25ca8de9422c369f44dd6be75e60cfa2002b25c72b777ad7f32a65f56422e0b1"
   }
 }

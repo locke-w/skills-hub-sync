@@ -7,9 +7,9 @@
   "source_subpath": ".claude/skills/ffmpeg",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "bd6825b35a83b697324ed98a9e868ad5697a5b845bf1091c2951712383e5154b",
+  "content_hash": "5836f0ba357b924dabab537ccf510ebe3e6bd0ed5ff6647d1ac26978a713aa7a",
   "files": {
-    "SKILL.md": "0231fe03eaacc01a8db12426c8e394aa4c0fc51369fa9352681a5d51ceaa7d11",
-    "reference.md": "3d368ffc254f6796ecb084753c2859a077e9d3d9ddff7b49d3098c234e2eee6f"
+    "SKILL.md": "20a0c1e35a683a6bdb2ba978cb822b950b3ead5d638e84ef711e021e52711d06",
+    "reference.md": "2dea49f4aa09cec01504399225bcdb0f6edb5f1099e3f10e27228a8ba32d3ac0"
   }
 }

@@ -7,11 +7,11 @@
   "source_subpath": ".claude/skills/beautiful-mermaid",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "241fa27e67241e7c3683c63e68703e0a60b08c2bbaecab9b3ebf9d68730050be",
+  "content_hash": "a0262c28affbf7a0eeb121d9d327bb6df1bb2145542477faaa2c267253fe0ce5",
   "files": {
-    "SKILL.md": "7f1eb4bc7648f3ad24c611a5c976aad85432c6a10fbfde9150e65a121db0e9c1",
-    "references/mermaid-syntax.md": "9a3ae6ca23ed1e26c69882fa2f69bb0ad1674e2292a138a5657d70bfa6aef772",
-    "scripts/create-html.ts": "c184b617d1a86763bb2a5b6c7afe06f8319076aa884ad0a70cdc1cf32bdcbc64",
-    "scripts/render.ts": "3c3e8db37fad78016a8133f045ade2a449c9d85a509d9fc4c92fa04dc678f89f"
+    "SKILL.md": "2ea488822ccd006cbbe6a3c4fa52f3224d1f24e96687acbef167bb61e47b1962",
+    "references/mermaid-syntax.md": "3da67ed36425767add2917f89e1b21d8cdc1401a8f368b2b130ade24d68d4c44",
+    "scripts/create-html.ts": "d3fa5a9bf73bfc683e177d8acd64cb8c945053383617d4b5a744975cb1693675",
+    "scripts/render.ts": "764d793b2ee5414c8d13762910c670533d124a6aab498842f8022de2da3e8990"
   }
 }

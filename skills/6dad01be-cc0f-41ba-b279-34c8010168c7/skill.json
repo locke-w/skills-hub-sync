@@ -7,20 +7,20 @@
   "source_subpath": "skills/theme-factory",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "9a3415d3471965f40bb7a555d065119fdae915e0d3bfb5895fbed8e84549ac0b",
+  "content_hash": "65e766d974717f80cd40e11e5d92234484fd0a01da3c9759b5ebc2756bed540a",
   "files": {
-    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
-    "SKILL.md": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632",
+    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "SKILL.md": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
     "theme-showcase.pdf": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
-    "themes/arctic-frost.md": "4ca393c5a61d4400f4e3f2ab79bb52a547568b04b60ac1227e254947b4842b41",
-    "themes/botanical-garden.md": "b5bc2b394e6e9543267ba34445b6202157acbd3a68adaea94891695d52f44950",
-    "themes/desert-rose.md": "6f0a7b6e4c792c98a6b2fa3d16683e5147d81c44b426bd93f059358ca94725fd",
-    "themes/forest-canopy.md": "b05f11b64e22b6291b8b5841db1d06a68a6b3910865f1aadd5f72f6a9de1f841",
-    "themes/golden-hour.md": "182c7db9217ae7f8e4cd2608c80a41a10538f1d904b4e78c45238efff59ae32a",
-    "themes/midnight-galaxy.md": "8c133bbb26924bd47d432f7300176610bc3337737483ee5b6d70b10c5482a1ef",
-    "themes/modern-minimalist.md": "839f95ff8dfc5699e93ba463839aa24ef057dc49a94b8ef369adec05bf4021fc",
-    "themes/ocean-depths.md": "062fcb48d08ab8a2fb8c75e8e49d69eb1b7869d80de6d2b6aaa1089b33f28934",
-    "themes/sunset-boulevard.md": "5c5d442403b0736615824fa8375b745f906265262dc0e80c4167a9528fc0ddbc",
-    "themes/tech-innovation.md": "953b7bde08a782266b511a70bf55d4365897bc30835e4c214a46bb6734b4b8dd"
+    "themes/arctic-frost.md": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0",
+    "themes/botanical-garden.md": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765",
+    "themes/desert-rose.md": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f",
+    "themes/forest-canopy.md": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7",
+    "themes/golden-hour.md": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139",
+    "themes/midnight-galaxy.md": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944",
+    "themes/modern-minimalist.md": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614",
+    "themes/ocean-depths.md": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2",
+    "themes/sunset-boulevard.md": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3",
+    "themes/tech-innovation.md": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a"
   }
 }

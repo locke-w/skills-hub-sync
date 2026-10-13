@@ -7,15 +7,15 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "3398f2163646649ddfeaa21369f6bc7f5f10d1fe84d5e049b41b0c2cdb57267e",
+  "content_hash": "b3706d8e4435e22cd05e704a222c50edac58be92155106ca9bd0772e738f575c",
   "files": {
-    "SKILL.md": "3ec83f31e5e2d243a41f99bb6a232fd94d7d1d4c440719c92dc6a8e18f328082",
-    "references/clean-architecture.md": "2568a79784b10536690c9c54b322a999fb75cecd0aa96be460cd662bdb7049e2",
-    "references/concurrency-async.md": "9d1b9e3c1751cbb2a1f5e4b50f689d3165222b70462356a610239de84261afbb",
-    "references/design-patterns.md": "cec639ef6053723f7104295a8ca870df0ef57dd24e6ca27ab0d1752df6772360",
-    "references/fastapi-async-architecture.md": "c7af9b9b3140cf019ee33e64c957bffc235c82822088558a7e3a1a1aed156e31",
-    "references/packaging-tooling.md": "926ef606640328c94c4fa05025dd87ad284f350da1589bd94fb115e647bb9d2f",
-    "references/testing-observability.md": "6fe185dd0a47117d3781d574fe0dac3191c4e166ebbc58132360a59443c076da",
-    "references/type-system-contracts.md": "2e72d1ccffe7d53ff53a05db408e71588c2459e92b3a8b118579253a7f1a1951"
+    "SKILL.md": "d6ad7f4f43a9cd95c54e107483d6df342741ebc735d764a6f0c433ea86392b5b",
+    "references/clean-architecture.md": "e6b2ac49338b61d3b77d2b44bb1b2d2ac4053e62c0aeebb26f5e89e3bc706ead",
+    "references/concurrency-async.md": "ddc9ff153ab110da63f11d97eda7dd2651d8c210e6fa6d3b292d92d50963c33a",
+    "references/design-patterns.md": "364485be1be0307f167d6624702c38772c1e78dbd51f91b199d02ada5a1c83c1",
+    "references/fastapi-async-architecture.md": "700e9bc1ce4974c81fdf68f16f317668073ad89719b426ae0c67ed053ed80b4b",
+    "references/packaging-tooling.md": "a9cdec5b9c1a239f3ed91afefafcd268ea7ae4298e5500e132ce6495558ddba5",
+    "references/testing-observability.md": "0a70e426c7878cc1b8be246d8c5731cadd279d4d729345d698f3044015e2c8f6",
+    "references/type-system-contracts.md": "46bc9a1c706f5831e51b30162a56bc2518e7e6b00f6121eb67737939229ae123"
   }
 }

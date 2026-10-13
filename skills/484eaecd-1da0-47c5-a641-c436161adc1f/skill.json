@@ -7,9 +7,9 @@
   "source_subpath": "skills/discernment-nudge",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "ededf8e75a1d0a8eecf9fb6d1b19393f801c7bab2fa5194435116696b6ecced1",
+  "content_hash": "cdd4a4287a345b90c9473d6d4b3101a52acf7930bf20c6713a9e46a5a8c05058",
   "files": {
-    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-    "SKILL.md": "9191177c4a8ef11a20dace786d708506b22d43e748c71287bb823de0dc812dad"
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "8e498a6c417b707a845a5373d56dabf5f812c50a25152752ace76251a9515c1c"
   }
 }

@@ -7,13 +7,13 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "73d41a8b0b1b287b40803b17d060c19b31eba0c408461b4a97979e0a52ea8427",
+  "content_hash": "132010ac71abfe30289e57fe39c05f85d8ec995b3413feecf90e573dbc10dc78",
   "files": {
-    "SKILL.md": "5801abfd4120643d37e78f7287769eaefa58382ecccf73af40c621745fd4e297",
-    "references/async-patterns.md": "f07c45cb7b88f34c9236fad6fa4a98d04aa2d4add3cbb6c3d64e64bf8ad25ef6",
-    "references/packaging.md": "95af3375b4e557e923f6620eb9ba3831a1f5a2450e9e5848a5fa288216a06fcd",
-    "references/standard-library.md": "4df40ba27c96826238974aa1d9e444dc5d90ba514a4bc0a2502a64c611de85e6",
-    "references/testing.md": "40d1916548f7c2d0737ab2209e882b83a2e0d6c6d7a1856ae17f82f4da49a1ec",
-    "references/type-system.md": "0d78ca8c765d15d168d6cbda464c7a74ec026ab6376616e5b8c212a7df589161"
+    "SKILL.md": "3788c58f961cf06dd1e130167437b74a8e5e03e746c656edb18245ad1830199a",
+    "references/async-patterns.md": "2d2a92a9df560be6bc635a46e551801c2e831f60985ab3db31443d9f20cc1099",
+    "references/packaging.md": "47703871bdc178d0e1da3e495f70b42a827c89e4e3b4b14111370ec3011ba984",
+    "references/standard-library.md": "6c0247bcd21b1361277701b8a2a40fc77796ffb1b5659a7138313707c7bcb10a",
+    "references/testing.md": "2905d7b53f424fcb6b52a3444b0738c28b8eddd48f724c07e923913164ec5ef2",
+    "references/type-system.md": "c63931b4ff3a735a560545c4bbc4b348a3bf3bfa6d59af95fd368b74ebceeba3"
   }
 }

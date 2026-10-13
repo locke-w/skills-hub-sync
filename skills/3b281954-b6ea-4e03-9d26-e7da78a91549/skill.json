@@ -7,9 +7,9 @@
   "source_subpath": "skills/frontend-design",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "889593bda98299fed147ea1a9a8f3515c7959996e405ba6d5a6428e6a69c34ed",
+  "content_hash": "afb672fd67f2ac0aeaa78a6aed5e36b4b0baccfba22e80c1d54b5111ebb8569e",
   "files": {
-    "LICENSE.txt": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
-    "SKILL.md": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
+    "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "SKILL.md": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
   }
 }

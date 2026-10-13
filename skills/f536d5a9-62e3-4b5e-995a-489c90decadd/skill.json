@@ -7,13 +7,13 @@
   "source_subpath": ".claude/skills/agents",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "45f078ee7fbff919765095c5619b01016e3c51c86af45a329be06e7f690e4eaa",
+  "content_hash": "8a99a646174fe88d5ad54e165b46fafe2bae9a1a346eff49d0e1bd815ca53012",
   "files": {
-    "SKILL.md": "905f27d917a296ff8eb74dcd779bf79cb573842d63e777148fe5b408aa106d0d",
-    "references/agent-configuration.md": "17be23f37d73bd74eaf418937d8add120ae897ec3e68d35939a341fa623adf5e",
-    "references/client-tools.md": "3e29e4c2c5481e9d2179abd8aa17ab987c8e404f67892de25c243560d4b210cf",
-    "references/installation.md": "5d43a248508b1dd0f7d808776c5876b707e29db7c8961dca124670f4ab19c6f8",
-    "references/outbound-calls.md": "434c12d541ec9b308d7811c2392fc95cf356103264b19fa963550b4b7e9af974",
-    "references/widget-embedding.md": "a6ecd9e6067f38c15c10d7108b6db13d85b20f90895df8af18b48eea4ecea33e"
+    "SKILL.md": "e763c739e8a87f5cf06a06d3e962d9c09c94d30db7c8ba00df98c4ef5c7c997c",
+    "references/agent-configuration.md": "719a8f7f0ad13202beaed916b478fe845af47301b721d47822059cc4ac1f259b",
+    "references/client-tools.md": "8e6729e102480c53e8e19a6a3735907dc0ed4931893024edd1b6aa2995f89124",
+    "references/installation.md": "a2f825e2de7eafd9b096d464a785c813f6e83354c5cb4f5fae6c69c26b73a61c",
+    "references/outbound-calls.md": "6e2fd02c2ea1e6a0e337a0a650daddd5935f39ce41eed506020244fb81c5fcac",
+    "references/widget-embedding.md": "71ec62473d6677841ec74bf603f64d043bf285ad27feb4c688c23bb820d07901"
   }
 }

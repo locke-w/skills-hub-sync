@@ -7,9 +7,9 @@
   "source_subpath": "skills\\engineering\\implement",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "edc66ded9db01516f73971234e32b223044f7a10e2b155315c4216ace82045d3",
+  "content_hash": "b38c86dc514e088d2ff7cd6d43eadbf8cf886c08d89f9312e02527b081bf152a",
   "files": {
-    "SKILL.md": "30cd7bc1ebfb3891e85a1eed3b3b81aea0fa4ad4553a784de7f8e421b2d223e0",
-    "agents/openai.yaml": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+    "SKILL.md": "6d3fd9e83b8f36e5213854779db49b256a457a7ebb4a503e53fa7dcff696adc3",
+    "agents/openai.yaml": "8970a8596ade0c28ab427f41a4ea242d6bdf6186c59ebf55e1238dbecaab79dc"
   }
 }

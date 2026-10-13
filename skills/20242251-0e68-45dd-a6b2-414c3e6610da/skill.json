@@ -7,17 +7,17 @@
   "source_subpath": ".claude/skills/create-video",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "140115557efc88bb3edca2eafa2089303ba8ef466ab7c9de1fe3cfa739853c6d",
+  "content_hash": "b32258dcee3c356bbc845ab833fd469e253407050e193e510be0d42972c427f9",
   "files": {
-    "SKILL.md": "6d808f9da553a2799fd28ea9f386298c2eef7bd6bc64e6a0a8a537909bc33fed",
-    "references/assets.md": "722e58e11500ae26f2749be5b6de01a320ea2be4c273c04e17cfbbecb5784f9d",
-    "references/dimensions.md": "4d5553def76145810f5e467c7ba767073fe3e71b64b1af70dee7873d98eb7a1d",
-    "references/prompt-examples.md": "269fc5a7a47831b2ffc9cfaf89c2dd69722494c7267a62811f9fd853ed69c913",
-    "references/prompt-optimizer.md": "62ab1726aa201c6499ff12cec71d4bb448cb0a16b0b3ade28cda3d8a034b1433",
-    "references/quota.md": "63dce485387e9065dad5df48f8b107d474f7e10502aa4959accdd60448140ee6",
-    "references/video-agent.md": "6639e03601c663242702c6ac34efb8476991e0ca617bff38ffee0995d48f169e",
-    "references/video-status.md": "d53afb40c48a403104a4753ae9fdafb048cccaaeb425cc1b63b1a6d8eca0a8bf",
-    "references/visual-styles.md": "7e7f7d069a2bb2281c83a92e540da1bdd1c3c22c29ff365c85d285dc9060716a",
-    "references/webhooks.md": "1549bcda8aba5f06db5887e75278acfa0dd291e4891c8b39de09fd04a15442fa"
+    "SKILL.md": "7018274f6e11127eb6eafaaf3513dc5183e986924e5c32de905170d5817ab14b",
+    "references/assets.md": "b12eaed620e03ae9751e3411cf60742349abbe58ec0d80a8081c9e3b44e65078",
+    "references/dimensions.md": "c0c9bcf23e8663957030e8335f26640c8c34809eca92e81306b0e2eb6c0812aa",
+    "references/prompt-examples.md": "a742bfc8db8ea326b6d63ab9c02571ade3dbf17686f502d6d9a4bacd0c0cc425",
+    "references/prompt-optimizer.md": "968fec33560cbf5d4abf433fe90c5d4602020629f28d6ae63b7061ca9bfd1a34",
+    "references/quota.md": "157271d5e42465df49ffe706a63d6db3ee9187c753c42137a16bc505aa7f2348",
+    "references/video-agent.md": "e181dcf9803d2f34e12ae377a2e1c505302fbd712eb5f412b290e5bd612c4256",
+    "references/video-status.md": "f61025f20734eaec3e2a8c9bbd23a7fc6dba5edc0443867913b9711eb823f009",
+    "references/visual-styles.md": "4d2e2473d72d2e7f9a02587c862ae47b80cb88ee35e0dc98035bd00cd3cca2f8",
+    "references/webhooks.md": "6bc9c4ce68dc8303e25b013aff6066d80ead6148d055e87278499095e17fb2d2"
   }
 }

@@ -7,13 +7,13 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "cd3b640f7c7404a16a87d81b103e11ce79c1ac72d1d28262aea86c291ebfc636",
+  "content_hash": "5fdb09eab0c3d2483a2edc12d7f39cde355caa978fc6545241b93aa38d533b42",
   "files": {
-    "SKILL.md": "6e38cf7391e2248808ba50ab18699fb2738645076dbdb50d1e2cd62e73b95c30",
-    "references/jpa-optimization.md": "5d7255940c18ae913c220cb8f7bd8e75a1ee7884156dfd3c652a8e4a9857e310",
-    "references/reactive-webflux.md": "0c5f3cda8b88be596781028a903b1807aed7cbea30a7352cc832ea722a9e0441",
-    "references/spring-boot-setup.md": "aadf2abe9fa64552659ed817668941bf844c723ad4ec1d67ec1c0fb72d87ef32",
-    "references/spring-security.md": "e7cd092fa11b6185ce9d91a02afefb0ae82f50566589c912c78d53d9716dd095",
-    "references/testing-patterns.md": "9429df81ad070ae7818c81296f9399edb3579eb70b5b6bc306c7095d7cf54973"
+    "SKILL.md": "afba0fbefcea621809f8e70526204d3c50a8d47c82e7ef97ba22cc59c919bc74",
+    "references/jpa-optimization.md": "9a3f98d529f6e7f097f4726725713cfff06c2765c200c50ebfc8c33960a69d93",
+    "references/reactive-webflux.md": "9338d333ea0f7d24fb43617d7b52f24202b7fc9c8904a6f893a65a1ee5e8f2f9",
+    "references/spring-boot-setup.md": "40a7ef2ed9a2eb25014d242a499877d10b51c15b45061a95943e691a48ee0a1b",
+    "references/spring-security.md": "c7ff0c161719080a9f69a3f9bfc83e3082c3480e09f2ab15e8be329208683774",
+    "references/testing-patterns.md": "de713f3aeadb4cff42e1e2fef4ad24617c995645dbc0ccb029848051da8690be"
   }
 }

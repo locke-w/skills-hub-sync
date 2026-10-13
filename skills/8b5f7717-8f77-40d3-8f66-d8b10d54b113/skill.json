@@ -7,9 +7,9 @@
   "source_subpath": "skills/academy-guide",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "7f2e49c49f2869a23419f985498b6a7af224b9f355ce6de37741b1d8be1941bc",
+  "content_hash": "2d0dc9443b56aacf20a5383f97aa4d7213a3067451da4761b5be0c32786f9ed1",
   "files": {
-    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-    "SKILL.md": "f27992510c051355dfe68c92394d509af730da5298094ec86834ee40bbd31376"
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "102ce9bf7624e88cf29b80b18fe5c6e1959dc58b1d66915acf808cca1704f610"
   }
 }

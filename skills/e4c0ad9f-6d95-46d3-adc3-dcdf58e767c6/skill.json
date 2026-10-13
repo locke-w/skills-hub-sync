@@ -7,14 +7,14 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "16384401e2143cfa985a6b1e8e9d007da2791e70c333749b9166924816544631",
+  "content_hash": "277320add485bf858eec1442b5b370c993289046e562f52fd2faa2ea0d8c7fda",
   "files": {
-    "SKILL.md": "38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e",
-    "anthropic-best-practices.md": "20914c2fda31670c75fe91710e18a53d413ce0d00b5102acfa251d75c9226e3f",
-    "examples/CLAUDE_MD_TESTING.md": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
-    "graphviz-conventions.dot": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
-    "persuasion-principles.md": "c3c84f572a51dd8b6d4fc6e5cbdc2bc3b9e07ba381a45bdabfce7ad2894dd828",
-    "render-graphs.js": "ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
-    "testing-skills-with-subagents.md": "c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade"
+    "SKILL.md": "4d99cd4e235947d27d58241335dfd5ca89b4e873af5051b19ae32a3ac92851ea",
+    "anthropic-best-practices.md": "82c80c7c6a42f504fe528dfa80a151c933bd07fce9dec284904cf8bacaba15a5",
+    "examples/CLAUDE_MD_TESTING.md": "3648a10c414546fdea2eae3a8f21345cda2234aca54a084042e5f933a6b332ca",
+    "graphviz-conventions.dot": "b18a02773875f6c7b92f2a260e88550c92a62549b0009df9d680f7e9541d0ecc",
+    "persuasion-principles.md": "6de5db1834b08293748c5d18f7d55ab2f73c12624a33ba8d1be18707da0398b0",
+    "render-graphs.js": "cfecc22868bcf1bcfebd7463a2f5b6c4092d6c68fdba17fb72d0b8619b654032",
+    "testing-skills-with-subagents.md": "134a5d0f695d717f6d34609dff44ec9316a593c2f6db981ec94a61750fcce1bb"
   }
 }

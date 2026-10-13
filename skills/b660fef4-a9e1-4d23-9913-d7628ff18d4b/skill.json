@@ -7,8 +7,8 @@
   "source_subpath": ".claude/skills/azure-text-to-speech",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "ee131171ac403159e2abb4c61aa662bd2eaa8929c96d87c3d0d04a116ed66138",
+  "content_hash": "5db52421b68d49151abfcbc461d3497edb7d4a02c573e565c1f020b615ef2678",
   "files": {
-    "SKILL.md": "4d13ea6d2c6db26fef42a3cff5a37103f9aa401804d50739e87e296a3302b364"
+    "SKILL.md": "06a64f26bc419d11dfc5e68037e11b8dbddf88e6e8a2080951e071b0fc564383"
   }
 }

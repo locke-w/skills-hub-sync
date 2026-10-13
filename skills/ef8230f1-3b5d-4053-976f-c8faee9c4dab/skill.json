@@ -7,12 +7,12 @@
   "source_subpath": ".claude/skills/manim-composer",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "9151d211387ad1ecd682c01dfd4e7f15896a6acf9ecd1d044f98ebb5c498fc1c",
+  "content_hash": "422dfa5a070be9d5564af78a5c13dcea2b66652d0a5dab697dcac4751dd78989",
   "files": {
-    "SKILL.md": "79e7c224fa8912f3e26897aa91252ab30996eddd1208c1128238057a7b89b176",
-    "references/narrative-patterns.md": "fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656",
-    "references/scene-examples.md": "f147c92b48c6fffac71245f65baa00e92ece2d337d3a56382a8a60e9405d98fe",
-    "references/visual-techniques.md": "98a493bced91a4aa821b72a059b4d9c3cdde62babccd9de27d50e176caabb052",
-    "templates/scenes-template.md": "562da30cce06b37061aa0f83e19d7dfe96561bd0011ca90c8248d8b15d1ac7b9"
+    "SKILL.md": "e742943495913a62ffd186afc768bba7c614a7133de47b914bacc7118fae731e",
+    "references/narrative-patterns.md": "3787aed92023897c47f94f7fd481657c5ecac97973721ded3ea4fce6523da72a",
+    "references/scene-examples.md": "74f5f8303f5c547b6810f492b68a364d6c67f7dcf1c4d0a489e222d33fad1c43",
+    "references/visual-techniques.md": "2f0e8c13fe1eb3c86238ea0b7fed8d75dc0ac6ceffbd24329812c78ad3037925",
+    "templates/scenes-template.md": "0a21b8202e37135b3bf54671fe81c4d827cda4293a65842fd19264f92203159a"
   }
 }

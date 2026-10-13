@@ -7,11 +7,11 @@
   "source_subpath": "skills\\engineering\\codebase-design",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "e79f08f09e823a3891f5eda913f82bf536d7ecddf0469077874bbc648338b251",
+  "content_hash": "b43ee81090b73ef1b9a17c96b39bdf9265d751e38f2e736670b7d55830a86d85",
   "files": {
-    "DEEPENING.md": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
-    "DESIGN-IT-TWICE.md": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
-    "SKILL.md": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
-    "agents/openai.yaml": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+    "DEEPENING.md": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+    "DESIGN-IT-TWICE.md": "8e740bf98446dbd4dfdc132ac4346d9a7eedaf93de6a495889171cf7f99f16bd",
+    "SKILL.md": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+    "agents/openai.yaml": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": "skills\\engineering\\resolving-merge-conflicts",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "46a54a795e2eff8fa19a45917b5ca11593d6ec7fb4a9865c594de4c5e8cd804e",
+  "content_hash": "ff40e3b9ec91775290ce602512e936203d3088ed12e7d6016546500df1f56630",
   "files": {
-    "SKILL.md": "d97e7320010bbe7d32313c574acd47cec830d64edd59c956bd0ce2cba84e6ad7",
-    "agents/openai.yaml": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b"
+    "SKILL.md": "9d8114f8ef0b31f535a265fc05c364bd8cf2e2895a830040e06c22acb11f54b0",
+    "agents/openai.yaml": "a1f4f96838f2ed6282eb28abbbf99029cb8fadce552baf53da90a025b8bffddf"
   }
 }

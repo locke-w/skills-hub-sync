@@ -7,14 +7,14 @@
   "source_subpath": "skills\\engineering\\setup-matt-pocock-skills",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "7e537dc1f29bc7e5638f6fa2acf37436e54f0c1b1f3376eed30743460248cfdb",
+  "content_hash": "e8d6b6db9a77b00965a2579da2cebbf57f83659c01e72eece4dea6c0261185a5",
   "files": {
-    "SKILL.md": "2bcd89e97777cdb705914424e39c97d5db524c8eb4eafac8120778a07774f0ec",
-    "agents/openai.yaml": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939",
-    "domain.md": "edc6d6131fdffc4b7135704f5262124fc43355c95f61b7399dc5a4db643e28ca",
-    "issue-tracker-github.md": "afd6852a80185217bd28aa5cbe456bef1e85be25be7bd1fba382d5b8ee428325",
-    "issue-tracker-gitlab.md": "ea175f73d193b3f55819c0ed9bbccf6ee0e70ad8f928e3d7607596c53380acd6",
-    "issue-tracker-local.md": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e",
-    "triage-labels.md": "4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d"
+    "SKILL.md": "86c0dee483fb69f7f5ecfcd010f6d7cbb30df2c47a9b059ac95f98380f383d86",
+    "agents/openai.yaml": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2",
+    "domain.md": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54",
+    "issue-tracker-github.md": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b",
+    "issue-tracker-gitlab.md": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab",
+    "issue-tracker-local.md": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021",
+    "triage-labels.md": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8"
   }
 }

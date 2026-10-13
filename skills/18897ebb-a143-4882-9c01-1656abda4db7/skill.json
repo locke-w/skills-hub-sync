@@ -7,10 +7,10 @@
   "source_subpath": "skills\\in-progress\\setup-ts-deep-modules",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "b6a663551d7cef50d0b749216453e0c290a6abb7474a8cd6242a3438ef0aeecd",
+  "content_hash": "9c43b15550c4e24a2ec41ee6c021d77afdc0220b7500aa930293305800502783",
   "files": {
-    "SKILL.md": "3709fc7d62ea75cd7da1d6f21e33d58d758766fb8f5247a859687d7ed63c213e",
-    "agents/openai.yaml": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610",
-    "dependency-cruiser.config.cjs": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376"
+    "SKILL.md": "29acca66ac99d4532e2a6f0370d8125d7cba1e87c9ac66573203c75189d3e6c7",
+    "agents/openai.yaml": "159f680217d50747702620c05fd65734a152185b3219a8ca5ee4630878a354fa",
+    "dependency-cruiser.config.cjs": "3c4973bec69f73b2117654abf9e666a7c28665b213be20e6d39869e29842428e"
   }
 }

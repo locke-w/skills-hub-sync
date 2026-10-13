@@ -7,11 +7,11 @@
   "source_subpath": "skills/algorithmic-art",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "c9130b4d6fd4b4c925cad6ed0748d53fa2817bebbb8d302c46e0469b1c1666fe",
+  "content_hash": "f3dbe4064aa30f114875664874d54f498e973063d1008619f569983f37673823",
   "files": {
-    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-    "SKILL.md": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef",
-    "templates/generator_template.js": "9ee0f1da52ef8f7bbfde1917123654880890d43f2d388642d71eab6dd78f94c4",
-    "templates/viewer.html": "86c79d7ce97d2599ebe4bd9b97fdeb7295c9d3ed61ceeb513cbe1b2bb5d1ce29"
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "6688fc81bb2051d3f234385b50ce160834eb0b0510ed8a5816cc412c1d28c352",
+    "templates/generator_template.js": "d4a1d449cbfb92b96009c8f2ad3b1c6cf6215d6ce75d68cf44a1aa7681077e88",
+    "templates/viewer.html": "281d5559d06b93ff5c55a69163dd235fa91b8dab52870cd3260e4a9fccd46480"
   }
 }

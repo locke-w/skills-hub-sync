@@ -7,11 +7,11 @@
   "source_subpath": "skills\\engineering\\triage",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "582ffd60a126fac8d12c96fda0a0fbd36be03115a482edd3e46fc2bf57473d06",
+  "content_hash": "a6e60552467ddc5ab18f42f271490c1d2d0bcf8cebbeb2285cb0479fcbbb5b44",
   "files": {
-    "AGENT-BRIEF.md": "7f5f87fed3033df1b06e083c480f3e847b1fbb0647746b8a4c6a50f9f26ef44f",
-    "OUT-OF-SCOPE.md": "1fbf9b432130c6380aa65813b55553cfda150309b27c595e183f8e335b8a190d",
-    "SKILL.md": "623a2ed692bdc77d2090e2a3dea3b627dd722ad3bbaca0be83aada75292c8fc4",
-    "agents/openai.yaml": "2e683717720cf456d165d0bb1a68bb600d0b6a8ccb61841c172e50d26f95351c"
+    "AGENT-BRIEF.md": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15",
+    "OUT-OF-SCOPE.md": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae",
+    "SKILL.md": "652c815971c2df925cee0f250ae2596f50fde19328305f3c55afd157a7f06fe6",
+    "agents/openai.yaml": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
   }
 }

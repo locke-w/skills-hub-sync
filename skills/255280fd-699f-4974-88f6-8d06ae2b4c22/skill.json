@@ -1,0 +1,29 @@
+{
+  "id": "255280fd-699f-4974-88f6-8d06ae2b4c22",
+  "name": "avatar-video",
+  "description": "Create AI avatar videos with precise control over avatars, voices, scripts, scenes, and backgrounds using HeyGen's v2 API. Use when: (1) Choosing a specific avatar and voice for a video, (2) Writing exact scripts for an avatar to speak, (3) Building multi-scene videos with different backgrounds per scene, (4) Creating transparent WebM videos for compositing, (5) Using talking photos as video presenters, (6) Integrating HeyGen avatars with Remotion, (7) Batch video generation with exact specs, (8) Brand-consistent production videos with precise control.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/avatar-video",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "4a174d71a425072f1256be9ced0b275fc852e917453409e66aa2e909b90447a2",
+  "files": {
+    "SKILL.md": "2bba4e8d4e67aac672c608f7e33272883deacb4bd6a0d677077e4eaf23c394b2",
+    "references/assets.md": "b12eaed620e03ae9751e3411cf60742349abbe58ec0d80a8081c9e3b44e65078",
+    "references/avatars.md": "ce78920642b16b1623add740443206f4ffb54f85deb2d82660a13e27401ea968",
+    "references/backgrounds.md": "3e02f0dd2dc683e41abe5481ad36b7809ac0852ade76fbf9c92dd7c2a56f470d",
+    "references/captions.md": "a303f98d9600f04a2bf343ac149a75b5c0db26d5f9e0a0bff421e30615bcb2f2",
+    "references/dimensions.md": "c0c9bcf23e8663957030e8335f26640c8c34809eca92e81306b0e2eb6c0812aa",
+    "references/photo-avatars.md": "5126d1ef73ac1da8a5924481fc52c13716dc921838de1f0e764a28d6bf6f3a02",
+    "references/quota.md": "157271d5e42465df49ffe706a63d6db3ee9187c753c42137a16bc505aa7f2348",
+    "references/remotion-integration.md": "94746a0244b37aaf44fc2fc4e199fe0924b8552e256b2e611037c1b843df08a9",
+    "references/scripts.md": "8515690bd2185e933f53f1e5984aad07a1a3729b41aa9a892a7726419d6db4d4",
+    "references/templates.md": "bb927e37ec7d1a71287fa06a673d35be0751bd248fe89f47f47449aeb65c63ed",
+    "references/text-overlays.md": "7f948d59f711c58903cf86666a87221c2bc7c0e69cbdc14bd3c32cfb3d59e10f",
+    "references/video-generation.md": "a266b5908c666bb8378ad65bba6a1d85b7a358e04a30ecb39dbd2c9903b62c2b",
+    "references/video-status.md": "f61025f20734eaec3e2a8c9bbd23a7fc6dba5edc0443867913b9711eb823f009",
+    "references/voices.md": "d3d82cb38a44f4f355533db4b8e62b444b14ddeaa11c3e528225f9e69a48e39b",
+    "references/webhooks.md": "6bc9c4ce68dc8303e25b013aff6066d80ead6148d055e87278499095e17fb2d2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "6b86f524-4bec-4378-ac97-13c4c0a523b5",
+  "name": "video-download",
+  "description": "Download video and audio from YouTube and 1000+ sites using yt-dlp. No API keys needed.\nUse when: (1) Downloading a video from YouTube or other sites, (2) Extracting audio from a video URL,\n(3) Downloading subtitles/captions from a video, (4) Getting video metadata without downloading.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/video-download",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "1957f731f05d95f7a60bd392630da0585b66198fddedcd45b06bae18f95579ce",
+  "files": {
+    "SKILL.md": "350159d5cd3f36b84e503b40d42ff50be8538102bfd6288f1b318a86d7d89b37"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "e66e7d08-f7a0-4b5e-887c-1410930c5e60",
+  "name": "elevenlabs",
+  "description": "Generate AI voiceovers, sound effects, and music using ElevenLabs APIs. Use when creating audio content for videos, podcasts, or games. Triggers include generating voiceovers, narration, dialogue, sound effects from descriptions, background music, soundtrack generation, voice cloning, or any audio synthesis task.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/elevenlabs",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "a713d73d0fbba0994fc38a5b6ddefcb453808e680e4084dc1ce741cb9d36f6bc",
+  "files": {
+    "SKILL.md": "114d8cfe298cfc4b5c82ee5347d4b5fb1e2f050936e97584140f45dea7ff039b",
+    "reference.md": "1a4318b434dd8a90352a01126d25a569a90b6e7963a42a8d9f853d765faea0c0"
+  }
+}

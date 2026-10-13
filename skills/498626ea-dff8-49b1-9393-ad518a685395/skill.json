@@ -1,0 +1,14 @@
+{
+  "id": "498626ea-dff8-49b1-9393-ad518a685395",
+  "name": "threejs-postprocessing",
+  "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/threejs-postprocessing",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "4e9998e94d2508d7b059ced42d11d572fc9673d8e1449b9478ea0fd3a3fb97bb",
+  "files": {
+    "SKILL.md": "570b86434c30ad9bdc30f4f6d4e8c04124a07dd4ccaa778d4717ecc211dc1d90"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3aec81f7-c4f8-4862-bc0c-a53c188093d0",
+  "name": "visual-style",
+  "description": "Create, extract, and apply portable visual design systems via visual-style.md files. Use when: (1) Creating a visual-style.md design system from scratch, (2) Extracting a visual style from a website URL, video, or PDF brand guide, (3) Applying a visual style to HeyGen videos, HTML slides, Figma, or paper.design, (4) Browsing the gallery of pre-built visual styles (Swiss, Saul Bass, Game Boy, etc.), (5) User mentions \"visual style\", \"design system\", \"brand style\", or \"style guide\", (6) Styling a HeyGen video with a consistent design language.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/visual-style",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "4353bb547b95c52331579e48e07bddc355c042e94cf0c516e3a41ac70f5c9c2c",
+  "files": {
+    "SKILL.md": "4d6b51fa9b4e6111dfabc8bfcce8e868645ddad4da30b5a4b8b258f458a32b46",
+    "references/connectors/figma.md": "5a6d6d97fe3188f6f5418e36c75d2dd22ab75e03f0318d9be7fa864443815cc0",
+    "references/connectors/heygen-video-agent.md": "4b0a385b1c3930c517c6fff55fcb429fe4030cb49f9281041a57df718a912a4d",
+    "references/connectors/html-slides.md": "6dc205d9939d507b3f80b020a93ce2f68d015181353421833b074c44b218bc4d",
+    "references/connectors/paper-design.md": "746b77c37d7db3658bd6a9520b9abc9011aff8311607c2d56d7eb7c50d390ab8",
+    "references/extractors/from-pdf.md": "9b2ef4001dfd519e720523e13bfe36f0c4281bd0228bf4dbfcb4e148d4427f1f",
+    "references/extractors/from-video.md": "9e8e0bae3101d872076fc8aebad91a8ad1a4fbe1741d0589dd2023479b31c166",
+    "references/extractors/from-website.md": "3729dccec055c5fcaab688a1ecbee3a67ca796bd3ee81b3fd99a94b7360ce172",
+    "references/gallery/game-boy-color.visual-style.md": "a2a1018ca020b798976b6533de1db9ee4466eba8bdfb2b1eb70ed3ad71f9919a",
+    "references/gallery/heygen-ai-video.visual-style.md": "ddb662572202b5a30b612d72828d2f0907127ad38d0a28a0337fac7819af5bda",
+    "references/gallery/mueller-brockmann-swiss.visual-style.md": "984484ff9ffb758a4a249405e47a2e78625960f6b0d70365038fe91a4d2fb172",
+    "references/gallery/neville-brody-industrial.visual-style.md": "2b386345e3588f62cd122f46823584f0e8f3ccdf0d1fbf7da044f4fa5f9726da",
+    "references/gallery/saul-bass-cinematic.visual-style.md": "bb4a3cc84c084e737f675d6efea26bdee1848796f64e274b2560e58b175bfb26",
+    "references/spec.md": "c17a24faf0a16dc94d09dc673ea1aef4a492b1b8fed144042930d09dfe8e62e5",
+    "references/templates/full.visual-style.md": "dfb6d9ac057710b83a8b01fd445ff082c35dff22f164077fb1893e956ed66bbc",
+    "references/templates/minimal.visual-style.md": "880ee6e18243ca22331c2588116ecf1168e5734d516f485e3fb8c5477002bc10"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "529dc564-d3a1-4128-8fb6-5ea9f716d506",
+  "name": "threejs-geometry",
+  "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/threejs-geometry",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "8a6a9f729a99c8e299381b92c69651778df3687d08972d45d9004dac6e5e4ec6",
+  "files": {
+    "SKILL.md": "8337bcf86621411f54ef39727b338c84890815e4b3612ce635d593dd9c321a3e"
+  }
+}

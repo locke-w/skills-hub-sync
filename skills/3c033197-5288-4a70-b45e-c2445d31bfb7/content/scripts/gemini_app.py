@@ -32,6 +32,11 @@ SKILL_ROOT = C.SKILL_ROOT
 TMP_OUT = Path("/tmp/auto-xhs")
 IMG_PRIO = [".jpg", ".jpeg", ".png"]
 
+_orig_print = print
+def print(*args, **kwargs):
+    kwargs.setdefault("flush", True)
+    _orig_print(*args, **kwargs)
+
 from gui import *  # noqa: F401,F403  (osa/CGEvent/剪贴板/AX 工具共用)
 
 
@@ -114,7 +119,12 @@ def select_model(proc: str, labels: list[str]) -> bool:
         print(f"⚠️ 未找到模型选择器（mode picker），按当前默认模型继续（期望 {labels}）")
         return False
     before = current_model(rows)
-    hover_click(picker["x"] + picker["w"] / 2, picker["y"] + picker["h"] / 2)
+    for label in labels:
+        if before and label.lower() in before.lower():
+            print(f"当前模型已是目标模型：{before}（期望 {labels}），保持使用")
+            return True
+    cx, cy = picker["x"] + picker["w"] / 2, picker["y"] + picker["h"] / 2
+    click_element_at(proc, cx, cy)
     items = []
     for _ in range(5):
         time.sleep(1.0)
@@ -130,7 +140,8 @@ def select_model(proc: str, labels: list[str]) -> bool:
                 print(f"模型已是选中态：{hit['desc']}")
                 key(53)
                 return True
-            hover_click(hit["x"] + hit["w"] / 2, hit["y"] + hit["h"] / 2)
+            hx, hy = hit["x"] + hit["w"] / 2, hit["y"] + hit["h"] / 2
+            click_element_at(proc, hx, hy)
             time.sleep(2)
             rows = ax_rows(proc)
             now = current_model(rows)
@@ -145,15 +156,18 @@ def new_chat(proc: str):
     rows = ax_rows(proc)
     cands = find_elements(rows, r"new chat|新对话|新建对话|开启新", ("AXButton", "AXMenuItem", "AXLink"))
     if not cands:
-        print("⚠️ 未找到 New chat 按钮，继续当前会话")
+        print("ℹ️ 当前页面已是新会话（无需重复开启）")
         return
-    # 配方：匹配有 2 个取第 2 个
     e = cands[1] if len(cands) > 1 else cands[0]
-    hover_click(e["x"] + e["w"] / 2, e["y"] + e["h"] / 2)
+    cx, cy = e["x"] + e["w"] / 2, e["y"] + e["h"] / 2
+    print(f"   已定位并点击 New Chat 按钮: {e['desc']} 坐标 ({cx:.0f}, {cy:.0f})")
+    click_element_at(proc, cx, cy)
     time.sleep(2)
 
 
 def click_input(proc: str):
+    frontmost(proc)
+    time.sleep(0.15)
     box = []
     for _ in range(3):
         rows = ax_rows(proc)
@@ -161,11 +175,14 @@ def click_input(proc: str):
                             ("AXTextArea", "AXTextField", "AXGroup"))
         if box:
             break
-        time.sleep(3)
+        time.sleep(1.5)
     if not box:
         raise RuntimeError("找不到输入框")
     e = box[0]
-    hover_click(e["x"] + e["w"] / 2, e["y"] + e["h"] / 2)
+    cx, cy = e["x"] + e["w"] / 2, e["y"] + e["h"] / 2
+    click_element_at(proc, cx, cy, hover_s=0.2)
+    time.sleep(0.2)
+
 
 
 def wait_attachment(proc: str, baseline: int, timeout: int = 30) -> bool:
@@ -183,47 +200,142 @@ def count_download_buttons(rows: list[dict]) -> int:
     return len(find_elements(rows, r"download full size|下载完整|full size image"))
 
 
-def click_download(proc: str, baseline: int, timeout_s: int, limit_phrases: list[str]) -> float:
-    """轮询下载按钮数增加 → End 滚动 → 重读坐标 → 点 y 最大者。返回点击时刻。"""
+def wait_for_new_image(proc: str, baseline: int, timeout_s: int, limit_phrases: list[str]):
+    """等待 Gemini 生成图片完成（Download 按钮数增加），带实时心跳与防抖。"""
     t0 = time.time()
+    print(f"   ⏱️ 开始等待 Gemini 生成图片 (当前基准: {baseline}, 超时: {timeout_s}s)...")
     while True:
-        if time.time() - t0 > timeout_s:
-            raise TimeoutError(f"等待 Download 按钮超时（>{timeout_s}s）")
+        elapsed = int(time.time() - t0)
+        if elapsed > timeout_s:
+            raise TimeoutError(f"等待图片生成超时（>{timeout_s}s）")
         rows = ax_rows(proc)
         ph = page_text_has(rows, limit_phrases)
         if ph:
             raise LimitHit(ph)
-        if count_download_buttons(rows) > baseline:
-            break
+        cnt = count_download_buttons(rows)
+        # 生图至少需要 6 秒，防止刚发完消息时因视口回弹/重排导致按钮误增误判
+        if cnt > baseline and elapsed >= 6:
+            print(f"   🎉 检测到新图片已生成 (Download 按钮数从 {baseline} 增至 {cnt}, 耗时 {elapsed}s)！")
+            return
+        if elapsed > 0 and elapsed % 10 == 0:
+            print(f"   ⏱️ Gemini 正在生成绘制中... (已等待 {elapsed}s)")
         time.sleep(POLL)
+
+
+def scroll_to_golden_center(proc: str, max_steps: int = 15) -> dict | None:
+    """动态闭环滚轮对齐：利用实时坐标反馈循环，将最新下载按钮精准调整到窗口黄金中央 (300 <= y <= 620)。
+    彻底解决 End 键被输入框焦点拦截、导致按钮深埋在视口下方 (y > 2000) 点击落空的顽疾！
+    """
     frontmost(proc)
-    btns = []
-    for _ in range(6):
-        key(119)  # End 键滚到底，让按钮进视口
-        time.sleep(2.5)
+    time.sleep(0.2)
+    pos = window_pos(proc)
+    win_x, win_y = pos[0], pos[1]
+    safe_min_y = win_y + 120.0
+    safe_max_y = win_y + 620.0
+    target_center = win_y + 350.0  # 视口黄金中线
+
+    CG = ctypes.cdll.LoadLibrary("/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics")
+    CG.CGEventCreateMouseEvent.restype = ctypes.c_void_p
+    CG.CGEventCreateMouseEvent.argtypes = [ctypes.c_void_p, ctypes.c_uint32, CGPoint, ctypes.c_uint32]
+    CG.CGEventPost.argtypes = [ctypes.c_uint32, ctypes.c_void_p]
+
+    CG.CGEventCreateScrollWheelEvent.restype = ctypes.c_void_p
+    CG.CGEventCreateScrollWheelEvent.argtypes = [ctypes.c_void_p, ctypes.c_uint32, ctypes.c_uint32, ctypes.c_int32]
+
+    # 将鼠标移动到窗口中间，确保滚轮事件直接送达 WebKit 滚动视口
+    p = CGPoint(win_x + 400.0, target_center)
+    ev = CG.CGEventCreateMouseEvent(None, 5, p, 0)
+    CG.CGEventPost(0, ev)
+    time.sleep(0.1)
+
+    for step in range(max_steps):
         rows = ax_rows(proc)
         btns = find_elements(rows, r"download full size|下载完整|full size image")
-        if btns:
-            break
+        if not btns:
+            return None
+        b = max(btns, key=lambda x: x["y"])
+        # 判断是否已经停在黄金安全视口中央
+        if safe_min_y <= b["y"] <= safe_max_y:
+            print(f"      🎯 滚轮对齐就绪: 目标按钮停在黄金中央 ({b['x']:.0f}, {b['y']:.0f})")
+            return b
+
+        diff = b["y"] - target_center
+        # diff > 0 说明按钮在视口下方，需向下拉（滚轮向下 ticks 负数，内容向上移动）
+        ticks = -int(diff / 2.0)
+        ticks = max(-400, min(400, ticks))
+        ev_scroll = CG.CGEventCreateScrollWheelEvent(None, 0, 1, ticks)
+        CG.CGEventPost(0, ev_scroll)
+        time.sleep(0.4)
+
+    # 兜底校验：严禁返回屏外超限坐标
+    rows = ax_rows(proc)
+    btns = find_elements(rows, r"download full size|下载完整|full size image")
     if not btns:
-        raise RuntimeError("滚动后未找到 Download 按钮")
-    btn = max(btns, key=lambda r: r["y"])
-    click_at = time.time()
-    hover_click(btn["x"] + btn["w"] / 2, btn["y"] + btn["h"] / 2)
-    return click_at
+        return None
+    b = max(btns, key=lambda x: x["y"])
+    if (win_y + 60.0) <= b["y"] <= (win_y + 750.0):
+        print(f"      🎯 兜底校准完毕: 按钮在窗口可见区 ({b['x']:.0f}, {b['y']:.0f})")
+        return b
+    print(f"      ⚠️ 经过 {max_steps} 次滚轮对齐，按钮仍处于视口外 ({b['x']:.0f}, {b['y']:.0f})")
+    return None
 
 
-def wait_download(dl_dir: Path, since: float, timeout_s: int) -> Path | None:
+def download_image_reliable(proc: str, dl_dir: Path, since: float, timeout_s: int = 120) -> Path | None:
+    """高可靠下载执行器：闭环滚轮对齐视口 -> 点击最新下载按钮 -> 充裕等待下载文件落盘（未落盘自动持续自愈补点）。"""
     t0 = time.time()
+    last_click_t = 0.0
+    retry_count = 0
+
+    def try_click_button(reason: str) -> bool:
+        nonlocal last_click_t, retry_count
+        frontmost(proc)
+        time.sleep(0.2)
+        btn = scroll_to_golden_center(proc)
+        if btn:
+            cx, cy = btn["x"] + btn["w"] / 2.0, btn["y"] + btn["h"] / 2.0
+            print(f"   📥 [{reason}] 点击黄金视口下载按钮: at ({cx:.0f}, {cy:.0f})...")
+            click_element_at(proc, cx, cy, hover_s=0.5)
+            last_click_t = time.time()
+            retry_count += 1
+            return True
+        else:
+            print(f"   ⚠️ [{reason}] 视口内未定位到安全按钮，尝试重置焦点与兜底滚动...")
+            key(119)  # 辅助按 End 键
+            return False
+
+    # 首次点击
+    print("   🎯 正在闭环滚轮对齐最新图片的下载按钮...")
+    try_click_button("首次触发")
+
+    # 监听下载文件
+    print(f"   📁 监听下载目录: {dl_dir} (超时: {timeout_s}s)...")
     while time.time() - t0 < timeout_s:
+        elapsed = int(time.time() - t0)
         cands = [f for f in dl_dir.iterdir()
                  if f.is_file() and f.stat().st_mtime > since and f.suffix.lower() in C.IMG_EXTS | {".heic"}]
         if cands:
             f = max(cands, key=lambda p: p.stat().st_mtime)
-            time.sleep(1.5)  # 等写完
-            return f
+            # 确保文件大小正常（大于 10KB，非空临时文件）
+            if f.stat().st_size > 10240:
+                print(f"   🎉 成功下载图片: {f.name} ({f.stat().st_size / 1024 / 1024:.2f} MB, 耗时 {elapsed}s)！")
+                time.sleep(1.2)
+                return f
+
+        # 自愈机制：若距离上次点击超过 16 秒仍未检测到落盘，自动重新激活窗口、对齐视口并补点（最多补点 6 次）
+        time_since_click = time.time() - last_click_t
+        if time_since_click >= 16.0 and retry_count < 6:
+            print(f"   ⏳ 耗时 {elapsed}s (距离上次点击 {int(time_since_click)}s) 尚未检测到文件写入，执行第 {retry_count} 次自愈补点...")
+            try_click_button(f"自愈补点 #{retry_count}")
+
+        if elapsed > 0 and elapsed % 10 == 0:
+            print(f"   ⏳ 正在从 Google 服务器下载原图中... (已等待 {elapsed}s)")
         time.sleep(2)
+
     return None
+
+
+
+
 
 
 def to_jpg(src: Path, dst: Path):
@@ -254,9 +366,9 @@ POLL = 15
 def run_views(cfg: dict, cdir: Path, adir: Path, views: list[str], args) -> int:
     proc = cfg["gemini_app"]["process"]
     global POLL
-    POLL = int(cfg["gemini_app"].get("poll_interval_s", 15))
+    POLL = int(cfg["gemini_app"].get("poll_interval_s", 8))
     per_timeout = int(cfg["gemini_app"].get("per_image_timeout_s", 420))
-    dl_timeout = int(cfg["gemini_app"].get("download_timeout_s", 60))
+    dl_timeout = int(cfg["gemini_app"].get("download_timeout_s", 120))
     limit_phrases = cfg["gemini_app"].get("limit_phrases", [])
     attach = bool(C.cfg_get(cfg, "gemini_app.attach_reference", True)) and not args.no_attach
     crop = bool(cfg["images"].get("crop_scene_to_ratio", True)) and args.crop
@@ -269,12 +381,20 @@ def run_views(cfg: dict, cdir: Path, adir: Path, views: list[str], args) -> int:
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.is_file() else []
     model_selected = False
 
+    print(f"📱 正在唤醒 Google Gemini App...")
     subprocess.run(["open", cfg["gemini_app"]["app_path"]], capture_output=True)
-    time.sleep(6)
+    time.sleep(3)
+    print(f"🪟 激活 Gemini 窗口至前台并校验位置...")
     frontmost(proc)
-    window_pos(proc)  # 读一次确认窗口在
+    try:
+        pos = window_pos(proc)
+        print(f"   当前窗口位置: ({pos[0]:.0f}, {pos[1]:.0f})")
+    except Exception as e:
+        print(f"   ⚠️ 读取窗口位置异常: {e}")
     if not args.continue_chat:
+        print(f"✨ 正在新建对话 (New Chat)...")
         new_chat(proc)
+    print(f"🎯 检查模型选择器...")
     model_selected = select_model(proc, cfg["gemini_app"].get(
         "model_labels", [cfg["gemini_app"].get("model_label", "Pro")]))
 
@@ -285,7 +405,7 @@ def run_views(cfg: dict, cdir: Path, adir: Path, views: list[str], args) -> int:
             print(f"跳过视角 {v}（prompts.json 无）")
             continue
         files = C.asset_files(adir)
-        if C.view_present(files, v):
+        if not getattr(args, "force", False) and C.view_present(files, v):
             print(f"跳过视角 {v}（{adir.name} 已有成图）")
             continue
         msg = msgs[v]
@@ -301,37 +421,55 @@ def run_views(cfg: dict, cdir: Path, adir: Path, views: list[str], args) -> int:
             ref = ref_image(cfg, adir, v)
             if ref:
                 print(f"   附参考图 {ref.name}")
+                frontmost(proc)
+                time.sleep(0.3)
                 paste_image(ref)
                 click_input(proc)
+                time.sleep(0.3)
                 keystroke_v()
                 if not wait_attachment(proc, base_attach):
                     print("⚠️ 附件未在 AX 树出现，继续发送")
-                time.sleep(1)
+                time.sleep(1.2)
         # 发消息
+        frontmost(proc)
+        time.sleep(0.3)
         clipboard_text(msg)
         click_input(proc)
+        time.sleep(0.3)
         keystroke_v()
-        time.sleep(0.5)
+        time.sleep(0.8)
         key(36)  # Return
         sent_at = time.time()
-        # 等图 + 下载
+        # 等图 + 自愈下载
         try:
-            click_at = click_download(proc, base_dl, per_timeout, limit_phrases)
+            wait_for_new_image(proc, base_dl, per_timeout, limit_phrases)
         except LimitHit as e:
             print(f"⛔ 命中额度上限（'{e}'），停止。已完成记录保留。")
             return 3
         except TimeoutError as e:
             print(f"⏱️ {e}")
             return 2
-        new_file = wait_download(dl_dir, click_at, dl_timeout)
+
+        new_file = download_image_reliable(proc, dl_dir, sent_at, dl_timeout)
         if not new_file:
             print(f"⏱️ 视角 {v} 下载等待超时（>{dl_timeout}s）")
             return 2
+
+
         raw_dst = adir / "_raw" / f"{Path(target_name(cfg, v)).stem}_{new_file.name}"
         shutil.copy2(new_file, raw_dst)
         dst = adir / target_name(cfg, v)
         if dst.exists():
-            dst = adir / (dst.stem + "_new.jpg")
+            if getattr(args, "force", False):
+                bk_dir = adir / "_backup"
+                bk_dir.mkdir(parents=True, exist_ok=True)
+                bk_file = bk_dir / f"{dst.stem}_backup_{int(time.time())}{dst.suffix}"
+                try:
+                    shutil.copy2(dst, bk_file)
+                except Exception:
+                    pass
+            else:
+                dst = adir / (dst.stem + "_new.jpg")
         to_jpg(new_file, dst)
         cropped = False
         if v not in ("00", "01") and crop:
@@ -355,6 +493,14 @@ def run_views(cfg: dict, cdir: Path, adir: Path, views: list[str], args) -> int:
                                  encoding="utf-8")
         done_any = True
         print(f"   ✅ {dst.name} {w}x{h}{'（已裁 3:4）' if cropped else ''}")
+
+        # 成功转存至对应角色素材库后，安全删除 ~/Downloads 中的原始下载暂存文件
+        try:
+            if new_file.exists():
+                new_file.unlink(missing_ok=True)
+                print(f"   🧹 已自动清理 Downloads 暂存原图: {new_file.name}")
+        except Exception as e:
+            print(f"   ⚠️ 清理 Downloads 暂存原图失败: {e}")
     if not done_any:
         print("没有需要生成的视角")
     return 0
@@ -372,7 +518,7 @@ def dry_run(cfg: dict, cdir: Path, views: list[str], args) -> int:
         if v not in msgs:
             plan.append(f"视角 {v}：prompts.json 无，跳过")
             continue
-        if C.view_present(C.asset_files(adir), v):
+        if not getattr(args, "force", False) and C.view_present(C.asset_files(adir), v):
             plan.append(f"视角 {v}：已有成图，跳过")
             continue
         m = (intro + "\n\n" + msgs[v]) if first else msgs[v]
@@ -420,6 +566,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Gemini App 批量出图（auto-xhs 阶段 2）")
     ap.add_argument("target", nargs="?", help="char_dir / 编号（--probe-model 时省略）")
     ap.add_argument("--views", default="00-10", help="如 00,01,02-10")
+    ap.add_argument("--force", action="store_true", help="强制重新生成指定视角（不跳过已有成图并覆盖）")
     ap.add_argument("--dry-run", action="store_true", help="只写 /tmp/auto-xhs/<char>/msg_NN.txt")
     ap.add_argument("--no-attach", action="store_true")
     ap.add_argument("--new-chat", dest="continue_chat", action="store_false", default=False)

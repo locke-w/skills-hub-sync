@@ -238,7 +238,7 @@ $$\mathcal{P}_{\text{character}} = \text{ForgingFormula}\Big(\mathcal{K}, \mathc
     2. `prompts.md`：**【全量交付刚性契约】视角 00 到 视角 10 全部 11 个视角**，含 00➔01 差异对齐表与中文场景说明，绝不允许抽样、缩写或截断！
     3. `prompts.json`：结构化存储 11 个视角的 raw_prompt 数组与 IFTS 唯一指纹，严禁内部代码泄漏！
     4. **【绝对红线禁令】严禁生成任何 `小红书文案.md`**，职责完全解耦至下游文案技能！
-  - **纯图片存储目录 (3D打印本地驱动)**：`/Users/wuyongjia/3D打印/素材/{char_dir}/`（仅存放纯图片，如 `00_candid.jpg`, `01_model.jpg` 等）
+  - **纯图片存储目录 (3D打印本地驱动)**：`/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材/{char_dir}/`（仅存放纯图片，如 `00_candid.jpg`, `01_model.jpg` 等）
 
 ---
 

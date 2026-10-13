@@ -1,0 +1,14 @@
+{
+  "id": "7cf0a3ec-017b-4684-ab8f-b48c3b00342a",
+  "name": "video-translate",
+  "description": "Translate and dub existing videos into multiple languages using HeyGen. Use when: (1) Translating a video into another language, (2) Dubbing video content with lip-sync, (3) Creating multi-language versions of existing videos, (4) Audio-only translation without lip-sync, (5) Working with HeyGen's /v2/video_translate endpoint.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/video-translate",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "c2d3e4716591e3d8229a80f93a926ce315232a0ea1651c5cec066af2b9302364",
+  "files": {
+    "SKILL.md": "3114c2b5e23e40e2abef74b2d2a5c854945de856023409f840d7425c4d79b3e9"
+  }
+}

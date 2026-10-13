@@ -1,0 +1,14 @@
+{
+  "id": "4ffa2c1f-14bd-487f-9714-660ce53a6885",
+  "name": "video-toolkit",
+  "description": "Create professional videos autonomously using claude-code-video-toolkit — AI voiceovers, image generation, music, talking heads, and Remotion rendering.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/video_toolkit",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "31974d1f34742bc88eaad547d050932e9a1962ef7de74bc8759f3c5f389d9c86",
+  "files": {
+    "SKILL.md": "4b815f9b94e0330f63df41683742eec6db8a3a8388aae466fd47ff3988bfc3dd"
+  }
+}

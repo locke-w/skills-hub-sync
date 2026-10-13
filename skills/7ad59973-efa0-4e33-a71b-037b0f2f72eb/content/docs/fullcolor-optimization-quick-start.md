@@ -18,7 +18,7 @@ paths:
   obsidian_root: "${OBSIDIAN_ROOT:-/Users/wuyongjia/obsidian-gitee}"
   
   # 3D 打印素材根目录
-  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/3D打印}"
+  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/3D打印/3dprint-xhs-思念}"
   
   # Midjourney V8 参数文档
   mj_params_doc: "${MJ_DOC:-/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md}"
@@ -358,7 +358,7 @@ cat > ~/.claude/fullcolor-config/env.template << 'EOF'
 # 复制到 ~/.zshrc 或 ~/.bashrc
 
 export OBSIDIAN_ROOT="$HOME/obsidian-gitee"
-export ASSET_ROOT="$HOME/3D打印"
+export ASSET_ROOT="$HOME/3D打印/3dprint-xhs-思念"
 export MJ_DOC="$OBSIDIAN_ROOT/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md"
 export XHS_RULE="$HOME/.gemini/config/skills/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md"
 EOF

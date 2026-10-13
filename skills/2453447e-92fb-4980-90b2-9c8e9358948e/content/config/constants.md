@@ -28,7 +28,7 @@
 
 ### 素材存储路径
 ```yaml
-图片存储根目录: "/Users/wuyongjia/3D打印/素材"
+图片存储根目录: "/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材"
 文案存储根目录: "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
 人物档案目录模板: "obsidian-gitee/technology/🚀 项目/3D打印/素材/{char_dir}/character_profile.md"
 生图提示词模板: "obsidian-gitee/technology/🚀 项目/3D打印/素材/{char_dir}/prompts.md"

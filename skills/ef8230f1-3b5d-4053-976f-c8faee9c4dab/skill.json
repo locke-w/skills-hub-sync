@@ -1,0 +1,18 @@
+{
+  "id": "ef8230f1-3b5d-4053-976f-c8faee9c4dab",
+  "name": "manim-composer",
+  "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/manim-composer",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "9151d211387ad1ecd682c01dfd4e7f15896a6acf9ecd1d044f98ebb5c498fc1c",
+  "files": {
+    "SKILL.md": "79e7c224fa8912f3e26897aa91252ab30996eddd1208c1128238057a7b89b176",
+    "references/narrative-patterns.md": "fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656",
+    "references/scene-examples.md": "f147c92b48c6fffac71245f65baa00e92ece2d337d3a56382a8a60e9405d98fe",
+    "references/visual-techniques.md": "98a493bced91a4aa821b72a059b4d9c3cdde62babccd9de27d50e176caabb052",
+    "templates/scenes-template.md": "562da30cce06b37061aa0f83e19d7dfe96561bd0011ca90c8248d8b15d1ac7b9"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "e346f19b-afbe-4721-8d6f-e0007d9c8414",
+  "name": "setup-api-key",
+  "description": "Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed.",
+  "source_type": "git",
+  "source_ref": "https://github.com/calesthio/OpenMontage",
+  "source_subpath": ".claude/skills/setup-api-key",
+  "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+  "tags": [],
+  "content_hash": "8bdf6c2c7509fa006e4e9a03055f366c9bc556d5404baeecec468c9762222750",
+  "files": {
+    "SKILL.md": "92f00a9f71f2812bdbb20308f2795e73134f36cae3fdd05a84fdf8954a2be3c3"
+  }
+}

@@ -3,7 +3,7 @@
 
 [paths]
 material = "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
-asset = "/Users/wuyongjia/3D打印/素材"
+asset = "/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材"
 archive_dirname = "_已使用"
 reports_dirname = "_reports"          # 审计报告、registry、copy 日志都写 MATERIAL/_reports/
 downloads = "~/Downloads"
@@ -49,7 +49,7 @@ model_labels = ["Pro", "3 Pro", "Thinking"]  # 用户要求"用最好的"；按�
 attach_reference = true
 poll_interval_s = 15
 per_image_timeout_s = 420
-download_timeout_s = 60
+download_timeout_s = 120
 limit_phrases = ["limit", "上限", "try again later", "稍后再试", "额度"]
 
 [copy]

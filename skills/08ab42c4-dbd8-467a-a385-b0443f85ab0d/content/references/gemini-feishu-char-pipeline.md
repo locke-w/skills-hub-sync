@@ -1,11 +1,11 @@
 # Gemini 网页版批量生图 + 飞书交付流水线(char 系列实战配方)
 
-来源:char_24 小红书发布前全流程实测(2026-09)。适用于纪念手办素材库 `/Users/wuyongjia/3D打印/素材/char_XX_*/` 逐视角生图→下载→归档→飞书发送。
+来源:char_24 小红书发布前全流程实测(2026-09)。适用于纪念手办素材库 `/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材/char_XX_*/` 逐视角生图→下载→归档→飞书发送。
 
 ## 目标布局
 
 - 提示词源(Obsidian):`/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材/<char_dir>/prompts.md`(11 视角手册:视角 00/01 属 Midjourney,02~10 属 Gemini Imagen 3;每节含【煽情场景X·中文短名】与"#### 英文提示词 (可直接复制生图)"代码块)
-- 图片库:`/Users/wuyongjia/3D打印/素材/<char_dir>/`(0.* 底图 + 1.* 标准像 + 视角02~10 归档)
+- 图片库:`/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材/<char_dir>/`(0.* 底图 + 1.* 标准像 + 视角02~10 归档)
 - 文案落盘:Obsidian `<char_dir>/小红书文案.md`
 
 ## 前缀模板(自动拼装,禁写死人名)

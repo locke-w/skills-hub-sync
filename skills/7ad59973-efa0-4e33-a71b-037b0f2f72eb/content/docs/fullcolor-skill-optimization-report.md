@@ -200,7 +200,7 @@ fullcolor-3dprint-character-prompts/
 # .claude/fullcolor-config.yml
 paths:
   obsidian_root: ${OBSIDIAN_ROOT:-~/obsidian-gitee}
-  asset_root: ${ASSET_ROOT:-~/3D打印}
+  asset_root: ${ASSET_ROOT:-~/3D打印/3dprint-xhs-思念}
   mj_params_doc: ${MJ_DOC:-~/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md}
   
 generation:

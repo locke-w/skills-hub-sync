@@ -7,10 +7,10 @@
   "source_subpath": "skills\\engineering\\wizard",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "e19070fd63f151356c3cb0e9c6657a736c3834353f8d2a91c14ff1ed3ff98810",
+  "content_hash": "2e6b697d8742affb11c4377790e5c24baa5676c1a8758235dea83ffa7b929a9b",
   "files": {
-    "SKILL.md": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164",
-    "agents/openai.yaml": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249",
-    "template.sh": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3"
+    "SKILL.md": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1",
+    "agents/openai.yaml": "98f44d682d58e262f160dc59a8befc365e0aa65820dd0261864af26aa8e59d83",
+    "template.sh": "33cbe9dfb1d0e9185b60248a52aabed14bc64785a00cac695e302e739dd6c153"
   }
 }

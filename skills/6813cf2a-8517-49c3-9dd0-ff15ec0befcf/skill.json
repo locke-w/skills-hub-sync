@@ -7,9 +7,9 @@
   "source_subpath": ".claude/skills/playwright-recording",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "bbac0ce7fc877bfcf1ee374d5a156da5de444400d11768cd06895a067c97216b",
+  "content_hash": "7c3213d2ef6d81231b1587f5ec11c81e0797ffdd79962ccfdd0ec4c51652b2e9",
   "files": {
-    "SKILL.md": "291ab7cda312bd3a36d59dc4ead1673d5d5ef92575ca6a1026661414d6bff227",
-    "reference.md": "a0e004eadf70d64d0e2707e5f6c89fc60b449c4f4e1f6ef8321de9779bea50b5"
+    "SKILL.md": "46f287c3c367c65e61c8f7886a87dab010a6ebb336c38bc79379952c5b1b43d0",
+    "reference.md": "e13e1cada73f00eb29f16bd0850d1ccf46043b267f5af6a7ba86c9e2ea06a25a"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": "skills\\engineering\\wayfinder",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "dbba36c1a531e2e063d873a75b3ae2eda6fc51aa86b7382bbf106b98bcf8c95a",
+  "content_hash": "559a8f322e91d8c3b2b3d63baef152e937d3570846cd82a534bf658cadadd984",
   "files": {
-    "SKILL.md": "fee6e1d0c50f0e736b4ef8a599060c959afae904c9a97d82c97f049fcc3aa0f1",
-    "agents/openai.yaml": "88bc81a11a6d52ac67aeaa76b8b619e387020d47c5133a4dd4927fd15c4ad073"
+    "SKILL.md": "3362fa360948f8526e88ebe8184f5402f9b5f4d9dced2ba0ed2721f64ae3de5a",
+    "agents/openai.yaml": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
   }
 }

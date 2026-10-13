@@ -7,8 +7,8 @@
   "source_subpath": ".claude/skills/faceswap",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "935cc90301f5757440f1f9ffdc7b294d6c0616712613c6f1118c320f0c67765b",
+  "content_hash": "e8651abfd99940918c86995215425742dc73ad71d71a13b1ecb4a7ce2154b30f",
   "files": {
-    "SKILL.md": "89f620106773853a0c9f848b9d699a6dcbc75c270d6f5e6ffae1741e4a6fb19b"
+    "SKILL.md": "8583338ba2f500cc918e20b8c5f472ec9fd48e565d9110d2114967273316246a"
   }
 }

@@ -7,17 +7,17 @@
   "source_subpath": "skills/mcp-builder",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "ea024b882a967fe82bb111bc60cc26921609f3fe79792a3af8e05e1a07b95125",
+  "content_hash": "7223e8d398ebef75b54bd7a76392ca7c551abc6704fb1223d7b40acf20c2915f",
   "files": {
-    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-    "SKILL.md": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
-    "reference/evaluation.md": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
-    "reference/mcp_best_practices.md": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
-    "reference/node_mcp_server.md": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
-    "reference/python_mcp_server.md": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
-    "scripts/connections.py": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
-    "scripts/evaluation.py": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
-    "scripts/example_evaluation.xml": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
-    "scripts/requirements.txt": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
+    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+    "SKILL.md": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2",
+    "reference/evaluation.md": "830d9a3a69c9d6d01b638ce3497e0a7680b1d422d318929181a101f7d3816983",
+    "reference/mcp_best_practices.md": "900b5c9ec725b594ea04270d27c33cc51a0c8e866f5cb7ad4f57fb48d3838380",
+    "reference/node_mcp_server.md": "2157ec5b77d6a7f2f84884d81acd060126f969e01a8a780470c1d927c2dabd37",
+    "reference/python_mcp_server.md": "890a64d0949e5b40c639682cda46661311ab818fc03976884ce46f00e2eff462",
+    "scripts/connections.py": "9db2f1ff6442010b131817c1ec127dcf29949c787e7d7948049145c0a39627a9",
+    "scripts/evaluation.py": "0797ae0f3c50bfa5d7281ebc8bc936ac89f33450aca6a36b95c4862ca8c21482",
+    "scripts/example_evaluation.xml": "4df64ca67ca193021364d4d148997b8821f392353dab73c852fa41cfaa822048",
+    "scripts/requirements.txt": "f53f4d884919bbc75bc971f62d196c6f0a443eccf2539f534fd2b66e0618c49d"
   }
 }

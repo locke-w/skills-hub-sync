@@ -7,9 +7,9 @@
   "source_subpath": ".claude/skills/sound-effects",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "22881d4ea25899606a68a5cb56a8bd2b0f36ec1eb7ecc63eba58ab62cda047df",
+  "content_hash": "847c10557c7dc897f7e5bb387bc540a450e67f536bf1ac38b1cad33a0962228c",
   "files": {
-    "SKILL.md": "9da7f48812a55a6569893e900cb43d4088201e21cf38d7b12eda55e63f1dc12a",
-    "references/installation.md": "7f76781829131f3ccac1e549b960446d8aa3ac370d34a384f425766035266725"
+    "SKILL.md": "e17e1465a4a4d5b7ccce25aa0f5906d85be41fccaf678363034619a50a8e076c",
+    "references/installation.md": "a1c2fc13f1ad85fe52f4ec177dca2881809d462a63cdf6a34212cb5651fdf06f"
   }
 }

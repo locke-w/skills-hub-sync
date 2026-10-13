@@ -7,9 +7,9 @@
   "source_subpath": "skills\\productivity\\grill-me",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "ed0d90f42ec40232db01c44a8786e6938eed1df3783e81c985afaa0728d05834",
+  "content_hash": "fbc5f9784bfd2dd45f461891171f24b0753867bdf9fccf2bec9fe4acadb7d968",
   "files": {
-    "SKILL.md": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
-    "agents/openai.yaml": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b"
+    "SKILL.md": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+    "agents/openai.yaml": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
   }
 }

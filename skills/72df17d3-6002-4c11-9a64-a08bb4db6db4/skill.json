@@ -7,13 +7,13 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "9c22a1b285bf40b211ae18cb6d84dda5958bb244d18c5bc2072669acf3fb2822",
+  "content_hash": "e1b5fac95a2398d9aa69a81b786a0fd60d574abe4dcb94ebef7390765c329867",
   "files": {
-    "SKILL.md": "eb47528b4bbc5e9381e4b205b8af34269da0c2b00b0ba22ac0a2e3dd84a70167",
-    "references/double-thread-and-performance.md": "4eeddd49ae1b355e425dca3332ae4c452524a53650ba94fd98f01a0211ac4a34",
-    "references/layered-architecture-and-services.md": "fef40f443dc9f5779c4b5cc9149983ec6b8ac14e904a85d748ab3528e55c8fa3",
-    "references/security-observability-and-skyline.md": "bf937388c061ba299eb9aa8ee0bb47747fbaf470ff64298eb191552e825c13e1",
-    "references/state-management-and-events.md": "a84ff079163ed14a5fd0d0fd8f353996c255a8997e172eb09fac4b9f203d15e0",
-    "references/subpackage-and-bundle-architecture.md": "af5de01b48c186bf86a9349a42e4493f6b5b1e6a47a379bcc441b140319b5435"
+    "SKILL.md": "f892bb7b48d76782b531920839155db0204fa271be50a730ec8bf1b70a67c7aa",
+    "references/double-thread-and-performance.md": "43548306eb796a9ab4051d0d1beb009a40e22d88d9a58f1ba35a4e4dc78ba128",
+    "references/layered-architecture-and-services.md": "c8714ff04534fecfac0782bdc840eaf3b2366de681dcf54c0826fed30b7bc7bf",
+    "references/security-observability-and-skyline.md": "3c78cffe6c7c38e9856cd97fc0e15244b6c3445399f4c7468debe0bef85529bb",
+    "references/state-management-and-events.md": "f670e408b631e0e09e752837f05814fa23e9bfdd38472f30f227fd0b46f1b127",
+    "references/subpackage-and-bundle-architecture.md": "9bd3026cd94dd4a299c555ad157c58a57d241a2afea01113f8f19fed95f92fec"
   }
 }

@@ -7,15 +7,15 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "397938dcda29b2ffb29b654d0649b0b11b2821c62582dfd37c47e96239ca1d50",
+  "content_hash": "93182a0c8ef9f89c5d82da09f17ed28c811f4a2228c77e5043c27c7bfe6fd060",
   "files": {
-    "SKILL.md": "a8cbc42ff375da6e04b743720b3777569b77d517638e81cfa692c2c525df5051",
-    "_skillhub_meta.json": "424cb3d5c6bbfe16962b7012424b5d108ebc536d53a1e42a3e7d02392a3527dc",
-    "references/api_references.md": "ce3e9a83df79035a10beb81250b45691427ce5d0e2f80d4b516206abea9c36bf",
-    "references/error_dictionary.md": "324ac2e7698c725e1550330ad3bcff8845959c324bb9f47ec449c2b1f590c0a3",
-    "references/version_management.md": "729c7bf128d10193b7f0f65b1429af4b76d98487d718e4b3cd6828ab44b40f4e",
-    "scripts/mcp_proxy.py": "22e1519b9b5e6848ac5e6a66657602151a30a815abd5271434a77e5e800d97bd",
-    "scripts/tencent_meeting.py": "e4eaca467ff9aa50fd9b224feb2c95c6120387189adfc42bfe3f4d5ed8343f10",
-    "scripts/utils.py": "24829225fa7456c30998cb340708943472058b033d4fc5abd595a6e4f1387f75"
+    "SKILL.md": "b3e9f3a26e63ec316bddd17e0e3c2ee4f037b28a1e6c4dc35bb91757af900713",
+    "_skillhub_meta.json": "080a3dc551821d39eb38a901274e0493d0519aae83325be150723ba174ff2c80",
+    "references/api_references.md": "7a88290750ac685c02062cdc4e80e073f1e95f392c4f3acc9de375ed773984f5",
+    "references/error_dictionary.md": "3a258e4ad4c1b3d1f3d95f98be6f49a152af1f4715e05d949a6708384e7e43a4",
+    "references/version_management.md": "2ebbc945cfca214b0d5de19f6a4da714f7825e9fcb40e1dda2b588ff9b2cdf97",
+    "scripts/mcp_proxy.py": "f7513dbac547a63346b4c7515057da8deff7ebafd09813424aec6a5a45dc8134",
+    "scripts/tencent_meeting.py": "8599b735d35999fefae0ebf95d3b9b9ebf97d074d10de9451136ae4e16f1078f",
+    "scripts/utils.py": "d23fa6098f9e1046ab9f514d6f67b498f37f5f194ebd8fb099f7bfb1375580ad"
   }
 }

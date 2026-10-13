@@ -7,14 +7,14 @@
   "source_subpath": ".claude/skills/d3-viz",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "acff039b48195a9ab6ed0fee9095e533f24c947d5edaa1128709c9fc3ca912ec",
+  "content_hash": "895feb52729b29aa245d89b3b86d81f768e4f34af348ad9370ae7ee39eb7e0be",
   "files": {
-    "SKILL.md": "c7ed85fb3286071179ee9a7807be99e9e9d8aa41c1456afeeace0b05f5cbe524",
-    "assets/chart-template.jsx": "2381dd1c021b9ea3870f904f1a9d5398643c85e302476c37db395c7531914d21",
-    "assets/interactive-template.jsx": "3887d1100f45fc0c62bc44ba0e612247c4cae816020e5c2f31a999b97f388fca",
-    "assets/sample-data.json": "cc8093793fa7565dc48f5a9212aecaa2ba9a3c962655b3a47118677d4d063727",
-    "references/colour-schemes.md": "5f4e5bdca1bb7564f9b49fac2bbfe9e99ee0e2c2f5086de5d15a8d6592a111fc",
-    "references/d3-patterns.md": "78b0f87314ee568499469bb5d7282766ad3cd1072afd2cdae9d6889e4de4efb2",
-    "references/scale-reference.md": "f6c130a238c42ece29d9a232e32b84f441ca660af872c73fd78a9f39cb488f6b"
+    "SKILL.md": "4b1f820cd87c55dc6b7c714a76c1320903187967cd43f3b4db9d6eacbcc085b3",
+    "assets/chart-template.jsx": "3aa2859ee1078ec3b9cc47f666cd02b8f96a3bfab5562aea0c4d9b14d4387c39",
+    "assets/interactive-template.jsx": "d2a8bb59d33c754ed2b7dfed6fbf38f3463c5486c82704b322e098d1f47d209e",
+    "assets/sample-data.json": "4d5912eeb26a8faad2aed5679a5f1b1134bb9ffb0b6396cf7158f96b0bdcde0a",
+    "references/colour-schemes.md": "3db0ecfc0bd489ecd63f5a0ab560215bcd84e2c6bb69cce991a86bca09a00d9d",
+    "references/d3-patterns.md": "9e3a63dc969180568bd2fb90c7142da1147723ff49ec76dfaae6a6cdec6ad1f3",
+    "references/scale-reference.md": "89a9bad41f6a4057b7ac0ee29206dfb6e77836247d75f04773679e532b3f3619"
   }
 }

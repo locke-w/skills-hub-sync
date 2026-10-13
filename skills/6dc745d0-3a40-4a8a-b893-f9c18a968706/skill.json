@@ -7,9 +7,9 @@
   "source_subpath": "skills\\misc\\scaffold-exercises",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "84724317e746d409fab9c89f1c2a0392a9c6bd8324aa27ecc7efd75b830247c1",
+  "content_hash": "7ec4a3945b4d5f29594eace8f7d5cbb799dec5f5bba87f188f94c1f75e0071a5",
   "files": {
-    "SKILL.md": "de28db7a0954db55c11ba1e3cc0fd4c037bf0f5cb8313cb292e319bcce47f424",
-    "agents/openai.yaml": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db"
+    "SKILL.md": "75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9",
+    "agents/openai.yaml": "525b33913340bea7947ad2de17f2a7c5fb94be543345fe80ae753b9a44ba601d"
   }
 }

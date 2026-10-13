@@ -7,9 +7,9 @@
   "source_subpath": "skills\\misc\\migrate-to-shoehorn",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "a6bfe7775b249b8aa37e6609fee384e998e21801686c9771a44847a237dda75d",
+  "content_hash": "8207ffeca588331a4b310d69caf4a2f5c17d3ac36dffddf98351353df5b5ad65",
   "files": {
-    "SKILL.md": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72",
-    "agents/openai.yaml": "395c2db852e66a199f1cd07f7ed92d66cb6f0787460c5475926f1a5e778b699d"
+    "SKILL.md": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201",
+    "agents/openai.yaml": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": "skills\\productivity\\grilling",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "f77f40017ddb705416bd0753d81d3d09d6653bf7a629207005f0517309561b00",
+  "content_hash": "397cc39d9fe65636c499bc62b2c6f066876903016040dbb5da903dac0d9fbd43",
   "files": {
-    "SKILL.md": "10ff989e7498b23b5acb49d5048f11dcd906757d2f79c5cdf8a00001381296f2",
-    "agents/openai.yaml": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b"
+    "SKILL.md": "d806733216b16e51adad834e724bfec5540a436d06395bfc75b843cda9f7404b",
+    "agents/openai.yaml": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6"
   }
 }

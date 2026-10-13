@@ -7,13 +7,13 @@
   "source_subpath": "skills/webapp-testing",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "c214e9589b46983bebd94f26f6a6e506a944da7adec4c76621574b292f70f4b3",
+  "content_hash": "d07919395928734b671432e01199ff319b7ed26b7e50f5947a002b78852e1e53",
   "files": {
-    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
-    "SKILL.md": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
-    "examples/console_logging.py": "f06fbca7cdfa44ecf5bae40813b30fc758ec3280af1aab5586aa2dd384db7ad6",
-    "examples/element_discovery.py": "7e99c7caf1593a75a8b2e36847128c41962fefc604f7947426581c2b9fc2361b",
-    "examples/static_html_automation.py": "6633d0b7c3b3bef31e6baa9cef6fac57490767ee481702fe11c281d8d013b769",
-    "scripts/with_server.py": "529b5f10f6ecf2e6234747be6d6601be7ef9011ee29a3eee0879e7823f608238"
+    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "SKILL.md": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+    "examples/console_logging.py": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
+    "examples/element_discovery.py": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
+    "examples/static_html_automation.py": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
+    "scripts/with_server.py": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd"
   }
 }

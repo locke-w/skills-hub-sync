@@ -1,0 +1,14 @@
+{
+  "id": "f5367683-3629-49a0-84da-404d87a0aea0",
+  "name": "frontend-ui-engineering",
+  "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+  "source_type": "git",
+  "source_ref": "https://github.com/addyosmani/agent-skills",
+  "source_subpath": "skills/frontend-ui-engineering",
+  "source_revision": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
+  "tags": [],
+  "content_hash": "f04aca4e813215834fa685cbd529451f6e6c8cdb16d9869719e02dff12f75e8a",
+  "files": {
+    "SKILL.md": "29a3e53d57c0a128831a20730ae874a8c4fda40c001fcdc15f8e9ad4b5f72f1b"
+  }
+}

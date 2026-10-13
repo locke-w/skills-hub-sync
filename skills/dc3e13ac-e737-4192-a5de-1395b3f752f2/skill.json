@@ -7,9 +7,9 @@
   "source_subpath": "skills\\in-progress\\claude-handoff",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "29a043931f539c99510628281b894174f473d544bf94bbd41e881302702166dc",
+  "content_hash": "cd453a15ccc0c6a452a56ed421013ec10b767f72e9dc79a5cad2e3217cd90159",
   "files": {
-    "SKILL.md": "7f99b9c489c8d55374d261c31e2dcf7e75c2ee103dbb64e87b18971a05449f21",
-    "agents/openai.yaml": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263"
+    "SKILL.md": "6738e8b7c7899ea0038fb7a5c859ca1b90c7b1eb40123dcdbe94c51b5b119f12",
+    "agents/openai.yaml": "2308a672978864633286fb9f0792b08657e501426b3f7883fc418d5d2eac5eb0"
   }
 }

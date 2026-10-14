@@ -7,9 +7,9 @@
   "source_subpath": "skills\\productivity\\wait-what",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "d35f708df987cda8d291fdc32d98a2fa66f9aadf48d10389b518735c20077c19",
+  "content_hash": "b35e6c9992ed5094300eb89fc189707a478b2a1026e24b19b33c50e6d67917fb",
   "files": {
-    "SKILL.md": "dcaa44ef972d5a3f9bda65a69442fb11e36eb41b7e9bb0dc8b63031ba0582fdb",
-    "agents/openai.yaml": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
+    "SKILL.md": "e3f44e3ccbc0e7b62f20ba70b295fc9c9f4aa3f96c77168faee1c71bacbf4215",
+    "agents/openai.yaml": "b41faadf741d51e4ea184148b2d1854d93f947aaf754c7844f70a00f04194999"
   }
 }

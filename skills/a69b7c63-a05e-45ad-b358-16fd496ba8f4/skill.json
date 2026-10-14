@@ -7,10 +7,10 @@
   "source_subpath": ".claude/skills/music",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "7d49314303dbdc685ae304df939a3b9b6af78c02ce90fdc56fe95a0bbeee1510",
+  "content_hash": "7b7e6926608c262ad5b662624e1392538769718b11826b5685556d1c84b228a1",
   "files": {
-    "SKILL.md": "50d30474d87bb0a1dacd7977ebcfba971e745cea18108140badae4f76845891a",
-    "references/api_reference.md": "146c669e533f5ee293529ffc85db6ba94698ef934e4c60c48425f9426d16a4cb",
-    "references/installation.md": "a0765c7af5800268fdae3ff443d7306d54cf66d3461cce839d3ac9d49ff58625"
+    "SKILL.md": "15bd8e47f3bacd5461d62f3b5a6ffb6d61ef85ae701d472590223e45921a05dd",
+    "references/api_reference.md": "aed053b42966e487d8f5bfd55ef05d0958bc8827d82d3b62427e6bca16b6b5b4",
+    "references/installation.md": "b546df4c0ec0baadd12b43f651e58d08f6e5cc07be6f1d6f438c6a7e9ca2b73f"
   }
 }

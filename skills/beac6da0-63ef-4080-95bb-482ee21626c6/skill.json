@@ -7,14 +7,14 @@
   "source_subpath": ".claude/skills/speech-to-text",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "ac638c16ccd15aac4c151d9e1edb722b3f114c36e69d080d70ff348a103dbd8d",
+  "content_hash": "a18314d79e4b3551deca8ee413dcc38e18f3b47c730692acdfff0ca6a4ebee68",
   "files": {
-    "SKILL.md": "e8f86292bcd42e1ec57e477fb72fa47afc1792b7448199dacf621192864a3168",
-    "references/installation.md": "f88c8285e03acdc53f26ff51ba49b8a7d7f4298a1d5456942ace182ed4ab4915",
-    "references/realtime-client-side.md": "4ee6ac9e9e412c8d0aa9233be1fd03d2480471be6b2c2495f1814f2ff6b3c3c2",
-    "references/realtime-commit-strategies.md": "b2c3de86609e60850503b034804379239ae21de2569a1803fc3a341978ddfed7",
-    "references/realtime-events.md": "b9cf26c4c7ed187079e18043791b29fbaeb919afabd1c475a48be6e67fc1035c",
-    "references/realtime-server-side.md": "01e2a0f305a82daf96b4c7529568dacf468999d5656ea8b1d6c9d0e2f810435b",
-    "references/transcription-options.md": "2ac067a3401ba4926747e989611e8273f68b9cd6efc8ca80acd2619f092e28ee"
+    "SKILL.md": "edc5a0ca7542ff64161f759d9499fe7256607714ac35ef6c9be8a16af75b5955",
+    "references/installation.md": "acafdb43233bceb918b540142541983d72e1bb9e29d8ef0ebd65c3e07815f194",
+    "references/realtime-client-side.md": "1e5b87749a66d81ba4b823c181d8589654361aee694c3e5d7277739b99d4f8ba",
+    "references/realtime-commit-strategies.md": "18f3e0004bbbff7d4fa1d027cc4ce1dfa0e37b7710ecd8afceffb927496eb2a6",
+    "references/realtime-events.md": "ea1441113f6bfbd697dfbdd42f1b55faaae709e0816b2ce417462d9f7d43ead9",
+    "references/realtime-server-side.md": "8e87da5c314d233c5bfc6992a3f0273967b6d6aa5856091d8a9925214fc4f37b",
+    "references/transcription-options.md": "7dece408de6c7e139b34ab5782f0cd2c4cdd5ec228a042ec39b81b9831beddb2"
   }
 }

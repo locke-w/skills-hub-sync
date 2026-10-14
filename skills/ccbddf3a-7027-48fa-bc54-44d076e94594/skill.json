@@ -7,9 +7,9 @@
   "source_subpath": "skills\\productivity\\handoff",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "697650be489e1247ebf2b215d0b5aa97beb2844307e2c7d7f70229db7e0a6a57",
+  "content_hash": "6d7426d6ec2759af53566b92d342866fc84686806fd083c1f479fac4c223179d",
   "files": {
-    "SKILL.md": "7c62de979fdc7ac32fb5ddb2146156c917f80ee070d30fadc9d40343c4b6ed25",
-    "agents/openai.yaml": "5c479fd562c691851690e8b18c8501045bef0943c10743d636b2fae26add1d28"
+    "SKILL.md": "96f8045f01f569daa3737150d918b7201ccd090905fb10cefedd326e4001f551",
+    "agents/openai.yaml": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": "skills\\in-progress\\writing-shape",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "d2c7c3c33f6c397221e2780d3776915037bc87cc913ea6344b78a0d869e431c4",
+  "content_hash": "26564516ac2d36abf44615311cb42e23bdfd6a976cde9f27b2e8f8e31653bbd7",
   "files": {
-    "SKILL.md": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72",
-    "agents/openai.yaml": "56de45430e23104ff178415f5ecf7821d51a9cfabd8814b1607ebf39da2ef5cd"
+    "SKILL.md": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd",
+    "agents/openai.yaml": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299"
   }
 }

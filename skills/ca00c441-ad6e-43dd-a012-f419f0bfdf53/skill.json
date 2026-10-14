@@ -7,18 +7,18 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "7a165a626836a026e7d91ea562b61804b6be02027b925c7c3b9a256c3a42db57",
+  "content_hash": "a0303449474e2c3cf88e5718268dacf0ccdda837ca80e3a28af179799425206a",
   "files": {
-    "SKILL.md": "b4c81c39e39f30e4790607e57b12283878f3751daca9c0e44f301899f2108b13",
-    "references/element-attributes.md": "bf19aa4671e0a50a0fefa9c790f39124e803060eefe395042b723c29fcb7faa2",
-    "references/playwright-tests.md": "c5b0719fef2cfdff50bd744051b2f9afc119775db4b48e9b2882c1cf3886797c",
-    "references/request-mocking.md": "54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c",
-    "references/running-code.md": "d95c539a5990b71d02d8bdf1d9414df16191eb6cff95b0063820518b7a13dcb2",
-    "references/session-management.md": "cd3e261b8763bf952f1e371b876cb78d054379afec85482f9250633e1b7e6c44",
-    "references/spec-driven-testing.md": "3326b3af65ed6e05180aa394a7fd578f29822e67bde9f22f7c7f94e6c8e3a594",
-    "references/storage-state.md": "9ac47f9ae4a1aedcd2077f8ac9ab1ba6bee1962cb83ff51adcd36fb6d83b5ec6",
-    "references/test-generation.md": "2a9c4d94effa31b05cf367dfa8bbace8874a3bc9799987ad2b03269af224d299",
-    "references/tracing.md": "792e0ac7705e56ac48df84c0f5400221ce86107897c671590a64a4ea6a82508e",
-    "references/video-recording.md": "8555ab5400df0d90e66318aacc0a8a4418fbf872e7463824d55d5c41615abd83"
+    "SKILL.md": "037cec52b1b0bc1522b05281b1d4238b6502d44fecda3e1f18a14f17119bbed0",
+    "references/element-attributes.md": "f9ccaf85f43b7fa522a48ece60e3f18f10d43cb509ebd48a010eefbd0cd4f47a",
+    "references/playwright-tests.md": "8da5c537cf6335c1e7590d5418b9a68c9007fd5851aa58331530e09f6ec06b78",
+    "references/request-mocking.md": "f1f6e6360309394bd457e1a9f78a66b1abd016a29d463a1e1215f168458a6fcd",
+    "references/running-code.md": "511fab7eab47171768d9f73048febe99fcbf6c7d9311984f9abeb2759ae47c07",
+    "references/session-management.md": "32727436c51ca8a105eeabf8db958e4483acb23dd7f6ac4ceade16f26e940b5b",
+    "references/spec-driven-testing.md": "9702a8a236e2cbd6d3abdb02fa243bbbcf013bded9432192d5f94e5a4980af2b",
+    "references/storage-state.md": "463a013d7f895773235f324c3adeaa261426269e5c55b194e64fa81ccb12bd79",
+    "references/test-generation.md": "4e06520311becf84b115645dd6a088db67f81e8c928edf7a3019acc8d66592e9",
+    "references/tracing.md": "678d3e9ad0d03349315cb0a097905e3708530d8e03d66f33a2040a7b6b8b44a8",
+    "references/video-recording.md": "3eeb4634a62101ea5659f084439f48e8131748524d71d0eaf95bc0b2fa758096"
   }
 }

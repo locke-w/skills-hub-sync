@@ -7,9 +7,9 @@
   "source_subpath": "skills\\in-progress\\implement-spec",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "c57d6fb8cbec28261ffa02f4d31bf452b3807f0a34efdd09ad1ad0367a50ebda",
+  "content_hash": "6de4c1dfc86169a50925d072f65499cfe87736642212b9a0fee3e07fa946a633",
   "files": {
-    "SKILL.md": "986c0becc03a5b72d1c8b04c8e7c0830b8b9baae109acba404d0f1a8831966a5",
-    "agents/openai.yaml": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3"
+    "SKILL.md": "f703b5f41df9c2202e19540d203e0d5fc32613572a838a070136cc22e712b129",
+    "agents/openai.yaml": "d457ae78ff282b8798380b0c2e393c9798bc2bf5ee7dfe9ca31607714c6cd7d3"
   }
 }

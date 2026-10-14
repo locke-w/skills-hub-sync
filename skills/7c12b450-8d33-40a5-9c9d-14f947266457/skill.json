@@ -7,9 +7,9 @@
   "source_subpath": "skills\\in-progress\\writing-beats",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "e2b292759e63b5a264558750ada00e9c2afc8ecb957148443f133aa50fdec71b",
+  "content_hash": "aee181e7b3389298cacd0e025a92b9be525c1019cbe29ea6e921988613dd0ee6",
   "files": {
-    "SKILL.md": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
-    "agents/openai.yaml": "ddaef01da61d8e3c5f482c4403033c20cf5823f08a1dbf1d4c871670831d01e2"
+    "SKILL.md": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621",
+    "agents/openai.yaml": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
   }
 }

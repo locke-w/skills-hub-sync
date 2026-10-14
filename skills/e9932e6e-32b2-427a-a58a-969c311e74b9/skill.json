@@ -7,9 +7,9 @@
   "source_subpath": "skills\\engineering\\grill-with-docs",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "add11d1d2a892b3b27eef4fabf49dec8dcfea76fbea2ccdf3a3bc0859fa9c710",
+  "content_hash": "6c4aadadcd8e4fe0ca3f00a60cd3cdd429e48e15f706f4946bc6fd8541d7110b",
   "files": {
-    "SKILL.md": "abc0fa7948db18b5fb0e1cc1c522ac5ff47d874e2da1e5df60619d79be11f38b",
-    "agents/openai.yaml": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+    "SKILL.md": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+    "agents/openai.yaml": "94cd0ab161fb468a836349f5ed482ba58ce8e709a05c57ce533d739dbd35cca9"
   }
 }

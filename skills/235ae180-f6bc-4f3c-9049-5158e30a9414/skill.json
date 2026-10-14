@@ -7,9 +7,9 @@
   "source_subpath": "skills\\engineering\\to-tickets",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "8bdf5b3df2640c411f2898f1a4539a478896ab077da2ae46b15d6bf344e01ce8",
+  "content_hash": "06bcd3fa33044f518c2145da72e8fcff6b2723f3d243297bcc402f9ba5cddc3c",
   "files": {
-    "SKILL.md": "8082bc6ef165027c5df3215763055f4a9668878bf27f25f582db78a14c3ed3c1",
-    "agents/openai.yaml": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb"
+    "SKILL.md": "5c9fba69845c2519b9b35b9af42ae5142c21f8ca15ac2123dc2722002c8058ae",
+    "agents/openai.yaml": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090"
   }
 }

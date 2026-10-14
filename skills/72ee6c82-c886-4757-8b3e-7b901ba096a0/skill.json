@@ -7,11 +7,11 @@
   "source_subpath": "skills\\engineering\\domain-modeling",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "89ccbb000441670eaeb82240936e694b30421a876eacd20f8820b0973f203293",
+  "content_hash": "807204ef7f0e82ede788e2f94ee940992aa4141804d49a02ffe17162c13233b8",
   "files": {
-    "ADR-FORMAT.md": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
-    "CONTEXT-FORMAT.md": "17ab16ce783e4d2801ee52fd9acdf550cbf44de65ae76797a93943bbedf22a13",
-    "SKILL.md": "327a2b50620e2fd70abc6893cd6965e76b20f8d0adb0dc2c8d5eb3845efb643e",
-    "agents/openai.yaml": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+    "ADR-FORMAT.md": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b",
+    "CONTEXT-FORMAT.md": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89",
+    "SKILL.md": "dd4c753a617bd7db97c34fd3e049581c4bc0c0590e8a8b1f97d3b9d6013131dc",
+    "agents/openai.yaml": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8"
   }
 }

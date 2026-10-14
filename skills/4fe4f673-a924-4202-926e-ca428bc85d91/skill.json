@@ -7,10 +7,10 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "b7fa7e3ac575ac1f13905c5a91f174564dfe3f0d80d7013916d2b48004a4549f",
+  "content_hash": "87bffda569c78adb7ff92fa9efcffad04bad7b09ac7a15ee51fcdbdd33acedf7",
   "files": {
     ".opencli-managed.json": "08846760950e1f434efa3d88e67c0ebbe0ad410cc79439efadb9899a8e5f79d8",
-    "SKILL.md": "cf0503a26eb2fa78344313d500fb2d08138c959aff11572b3d9d2c59cbdda15c",
+    "SKILL.md": "40162b03c1e56037dafd1b1d0f5b0597b733f6435d4fcfc5a6319b9f29b7adcd",
     "references/sitemap-schema.md": "fc6e7e770b6afff3e9f1432d96fed5da3cadf069c584d3c71e90c9156a768c08"
   }
 }

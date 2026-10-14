@@ -7,18 +7,18 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "07ea20c00333488a71a6233c9934dd6e0976b9d63f8008e593cfd86b6e9a11ea",
+  "content_hash": "c97fb8afd42111c32adde3de45b2b826f9f0b82c3f389432a3ef760f65023055",
   "files": {
-    "SKILL.md": "fa3844ab6410ea2eae0348f7e6af34cd0b55c8ccdd5eb4a5fd6d7befce08c64a",
-    "_skillhub_meta.json": "341a6ea4f73225f3aa95993920d3d7994e2e85f903f47354e186007263fe69f5",
-    "references/auth.md": "53e7ef56f54ce54279299befe283c528982747b77a0eea190e9ae85cd7cea14f",
-    "references/diagram_references.md": "f4dda85e60ab6f9b34d5dd3c2bbc12519f9b05a28e63e3095444c37a0f2d14cc",
-    "references/docengine_references.md": "51a362d7be082610aafb7d469ca3cb10d0f07c162813f0e455c40cc67e96ddda",
-    "references/manage_references.md": "080b010b671d017b901a732ddde2369c99e64c38aead031bacee2b814739b37c",
-    "references/slide_references.md": "e1764ff0dddf923e93c0efe20c2aadc4a1bb301a325585ab121cfefc487e7e8e",
-    "references/smartsheet_references.md": "280e57fe9af21d703aa5ac5e4b8d9a2e29f4a70aa2fdef21c18cdb9b5badbe42",
-    "references/space_references.md": "8aa3a3f7daafb344b77a4d74776edf805afaa67c77d15bcc07a6d0bf81e00580",
-    "references/unsupported_feature_reporting.md": "6088170904007ed97701bd4bbd00e960a55e02a914729bf516fd7b9fe47d4d90",
-    "references/workflows.md": "2bbf0dfe602fe58d51a39c5385ad9ed6a60f0e66aa454eecebaac9d197d0a94b"
+    "SKILL.md": "83c6b9ba0eee997495ea4c4b29b0dce6665fda3a87413edc1e7ca094c1d9bb26",
+    "_skillhub_meta.json": "917979860fc657ea3118b2d6b29a703d2ff0c2c349deda2b0f267dd020d72632",
+    "references/auth.md": "b2c539c4f79826d7f5cc9bc34c8ece80871a7dc35ec4227e3c73bff6574f44b0",
+    "references/diagram_references.md": "05adab9e91aa6b2b5b8736beb4673d72888cfada35c7da9cc35bccbbd25bcc44",
+    "references/docengine_references.md": "3d322dabce06226ced23a4cc1a234f2d72de57b23fdd75172ec39bb418344728",
+    "references/manage_references.md": "912d5ad4ae81a294b0ae6c1d308e12c1b65269466d5509ca1734b0954fed0689",
+    "references/slide_references.md": "32f1245707be6933b0b69049be1d6188475440c3986bcafcbe8164573c9d09c7",
+    "references/smartsheet_references.md": "5a5ffc0caecd3c9582678818d43a6545e7eb00f07067615d56a09f4ad48ab950",
+    "references/space_references.md": "a305826bd3637d47ab2c61522c456ed3915b5e78a78b81082d0d3494a2e73f83",
+    "references/unsupported_feature_reporting.md": "e1e3309d28bd1e09aaa8536c0bcf6a97470498352014d3ef4e47cc68a301af15",
+    "references/workflows.md": "626368b010688a195dbd3d134223ebad2567382fbe2c878d20da6b7bf84f57fd"
   }
 }

@@ -7,10 +7,10 @@
   "source_subpath": ".claude/skills/video-understand",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "2f7e42a9b41ecbe48c38a2bbf9e6e7b56c660a1d54ad9b2b59f02b689c2e8599",
+  "content_hash": "65142dc7aa3fcfa557950ee57428d1bd4ac03c131090ef21b74ed63abcbe98fa",
   "files": {
-    "SKILL.md": "ad72be93cfe301d40e5f9445f8275e6c33b0b3b6a96e9ee687b30a2be34dca6f",
-    "references/output-format.md": "5d12ea9c031b2af7a5b8512b26f6595027628093a78ff97d807c6d44fe7b46b1",
-    "scripts/understand_video.py": "221d4e4ae3c6e16f8640f66ac11c7554b31f56605c80be78dba30cc449f55c45"
+    "SKILL.md": "3ae2a42d7eaec84b8f80c9b3f4b5a35c6e583c3d462d3cabdda585c55dba97f2",
+    "references/output-format.md": "f26b12a25fb6e13a13375f57751dae682ecbd88571701b3796bf5242dda1513e",
+    "scripts/understand_video.py": "af7d389e86af881412730d21d97445c6c34511ad4c1e7364a592ff2818bc62f9"
   }
 }

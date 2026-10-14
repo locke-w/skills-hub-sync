@@ -7,13 +7,13 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "13a4b647741cda503d03888f0c5b04c1ebad68ac892f578461f6b006002816af",
+  "content_hash": "174c3d668b0c348be74f1c5112fd137f31c7d391bed12530ffc82fd918f74aca",
   "files": {
-    "SKILL.md": "0e54afa18ff69f8edfd98583a788d73b33ba81cfb54a7e7c9fefb7d3444bf8bb",
-    "assets/config.yaml": "f49c46a29c156f28b8efff5a7b15c33e74451e4ded802f7fab83e44dd22528c8",
-    "assets/schema.json": "2c5ed642c6ec2a4e2a131942ed125073dfe5d002fe227042f3ea4f24c467437b",
-    "references/GUIDE.md": "3d4a78f4c46031e52d442ba5ac54b30a96ad816b70bd0eb6adc0e020db1cb7fd",
-    "references/PATTERNS.md": "b04391ee2471d5441b213581b69ba9ed2ea31206e193e72a7771e842252eaf17",
-    "scripts/validate.py": "53eeb698a0453df8c4d27f302f364c9d2e1d81ccbc05b8e5116cbb6c34c0ccfb"
+    "SKILL.md": "157d6ca62dd79311dedf87d0d9c5d6e42eeea7b26534f6a0d5795af398a6920a",
+    "assets/config.yaml": "8a950ff2600d0cae5c1fda2b7ac119195976e103ff9095a4724ea81804f8a9cd",
+    "assets/schema.json": "d2dde066b4bfd9238af9df68e546674686cee0d6594a3a436e3c808e15ded7f1",
+    "references/GUIDE.md": "660afc13b1dfd071b80b1364a6106e34af6302d614a77534ae93263c0e26a7fa",
+    "references/PATTERNS.md": "a0a9cff124e00ef0ff6b0e48c6025c57934017c86510467f23af5b3742d91cbc",
+    "scripts/validate.py": "4bc690fff62b1a5f84e053896bd7092e414a6c4dc966bc9858ba3cf7e916a157"
   }
 }

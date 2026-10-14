@@ -7,10 +7,10 @@
   "source_subpath": "skills\\engineering\\diagnosing-bugs",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "c23bf1ba7bf7bf55d36937b33bf634e31441d74c6671da415f0d1801b908e7f3",
+  "content_hash": "0bc0d0e76b2d0cc8dcae8b404ea182a88dc4062e18b2b03645c0b39b63c58fc2",
   "files": {
-    "SKILL.md": "77f3cf31bc99b2f49af943222526531fcc9fc41d047626d3640e875e85af3e84",
-    "agents/openai.yaml": "3e430dbe4334a87597488c060cb3dc3786bb00c9182877d6f5ec41f62490e90b",
-    "scripts/hitl-loop.template.sh": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503"
+    "SKILL.md": "bca66b7141da7d225b7dfd1abf6f2bee657b8044d3897604055e760749c71724",
+    "agents/openai.yaml": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+    "scripts/hitl-loop.template.sh": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
   }
 }

@@ -7,10 +7,10 @@
   "source_subpath": "idea-stage-validation",
   "source_revision": "ea745422b277888cb89cca953f51ccd6e385801c",
   "tags": [],
-  "content_hash": "ef549d0ea9f0e9bf48cb95b8fc73468ad9ae6a4eb9dcf8871eebb175a54eabe1",
+  "content_hash": "bb29c99d91bbe9a0fbec5158e0dc10c79b8c4e2579fa584bfa05460ba4101597",
   "files": {
-    "LICENSE": "907d365a2d025becc4a4fcadc6325e468db8a197dda16e38623b1fc56cf3a1c7",
-    "README.md": "d532e70be3a566a7d7676430a4b7ddb435dbc5b35108f236071459d6c55d89a4",
-    "SKILL.md": "63b9b80b66bf95620c6d5c634c9cb285f4042e8f30e9522bf472fcbc42feec54"
+    "LICENSE": "5621e7b1045c6d50c7a9a9414e6abf58bc709e8d72c85c1350a2cbae6439d2a9",
+    "README.md": "523b99e6712052acc0947053c9513ed637719d223e0225fe4d62c8133d18102c",
+    "SKILL.md": "30cf4c81dfab7af2be83cfa508b070b095aeb1cdac29f604fba72d999c320aac"
   }
 }

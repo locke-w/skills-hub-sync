@@ -7,9 +7,9 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "88d86e7c36ad61647c14609b6adb23674de41c22eb8ce293370a69399f7fb58e",
+  "content_hash": "227325e44960cf0b02b21885cb4ab3353285c37a3a2d47c590b9d368490d1ddc",
   "files": {
-    "SKILL.md": "f56b6656794f5252af1a060c9acae67846c1e4de07089d9f798eaa0667f49495",
+    "SKILL.md": "975998687373746f74396973ad0136fcea5350281b368814113d70e9e8928f48",
     "_icon.svg": "a26df88748bb36e0d3b4c3eab4df40414934488d1e2d8a9832c0446db46462d6",
     "_skillhub_meta.json": "959b8942fe4632556e1a9937c227417c94f052c98c3cf1ee317892759069123e",
     "references/gsap-core.md": "a73c6d60498aa7c7002ca314f0ff6eb561d9b4e57025562d9af755a7b339c261",

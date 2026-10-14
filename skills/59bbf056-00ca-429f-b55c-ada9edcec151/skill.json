@@ -7,10 +7,10 @@
   "source_subpath": "skills\\misc\\git-guardrails-claude-code",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "588acb0d520971ea65fb6febdf0ade9cdf5d5663a4512650d08e55ccff013897",
+  "content_hash": "27ba97d8364daa565fe606cf6822eb5359f123f1dc8556744de040dacc803056",
   "files": {
-    "SKILL.md": "12d335b84bcf984b213b527014262233f27ffa1eb807db466832ff711b96f41f",
-    "agents/openai.yaml": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14",
-    "scripts/block-dangerous-git.sh": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12"
+    "SKILL.md": "69b291d655626a01602b998a1836fcb93c058ede68dfafddfd71e87f17074764",
+    "agents/openai.yaml": "d53cd783fc0ac208dec9a4c267989284384785aab6422dccdaed42f9e40243ec",
+    "scripts/block-dangerous-git.sh": "234922b83c0a1737ee7300806c21ac0f389b07aaeb65c2d71ccedafbc5e1ea4b"
   }
 }

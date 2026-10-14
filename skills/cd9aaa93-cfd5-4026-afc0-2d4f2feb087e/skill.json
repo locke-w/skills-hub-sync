@@ -7,11 +7,11 @@
   "source_subpath": "skills\\engineering\\prototype",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "eb3865976ffc475fcad980e2121d4d766144b79cf7ae0c1cef21b3724644b14b",
+  "content_hash": "1a377595a50330ccdc5e21cb062e2326f2a9f192eb22d28a2adab386fdda3da8",
   "files": {
-    "LOGIC.md": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a",
-    "SKILL.md": "f74ae01f4fc454d3a4ef21271920f1706e626271e715dda0559e489f45c792c3",
-    "UI.md": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b",
-    "agents/openai.yaml": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+    "LOGIC.md": "f61c7d249e786a79ef289018901c348271e1798dd0b0bc5607b5c6f4d4a01ab9",
+    "SKILL.md": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+    "UI.md": "723211e878acbc7b6ff09755263f3295cde724ba902ff0064da41eed51d45ad3",
+    "agents/openai.yaml": "5af65e43ab41a350436697b81e27b7f848d36782043b73c322bb2c9fa9cc55dc"
   }
 }

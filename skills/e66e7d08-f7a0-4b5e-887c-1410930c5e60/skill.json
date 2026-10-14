@@ -7,9 +7,9 @@
   "source_subpath": ".claude/skills/elevenlabs",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "a713d73d0fbba0994fc38a5b6ddefcb453808e680e4084dc1ce741cb9d36f6bc",
+  "content_hash": "feeda35c8cbad8f187fc07bc2a0398c02d0b257b55cebdf0523528acf674624d",
   "files": {
-    "SKILL.md": "114d8cfe298cfc4b5c82ee5347d4b5fb1e2f050936e97584140f45dea7ff039b",
-    "reference.md": "1a4318b434dd8a90352a01126d25a569a90b6e7963a42a8d9f853d765faea0c0"
+    "SKILL.md": "dfc9cbd7cf9fb3ba41985eee92ed2ad28996f7a81550579cdbf560fab213d00e",
+    "reference.md": "bf10195ad967e1db97d6b397ff506e5ff04138effaf48410e9407725328450e5"
   }
 }

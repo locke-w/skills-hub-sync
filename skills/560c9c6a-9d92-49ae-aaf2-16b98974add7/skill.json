@@ -7,13 +7,13 @@
   "source_subpath": "skills/internal-comms",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "beba3d4c2eca0d664a6d0bb22e63d366b67383dca9371bf65678ec5db077d0b9",
+  "content_hash": "4a0a5387e98e36d8bafabf64ca0b85ae99bda6db6f2fd95598780b7ac7bb5632",
   "files": {
-    "LICENSE.txt": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
-    "SKILL.md": "c5c061ab25b33fab2358a9be53a5cc0d528ec7c3e8a29285a041ffc95d0d8947",
-    "examples/3p-updates.md": "5ea581bce7bc7030e5d9b5f65c192fd9aa05db8460837c485057ee9ad1b4e736",
-    "examples/company-newsletter.md": "408275de740b7a849df557abd2136dc4f689c9aaa35a76fe5549a745bcc1df09",
-    "examples/faq-answers.md": "02808d0a5dc3c0fe03c6b03a4e291fbda51dfc970a91cc4f28a82faa62d16251",
-    "examples/general-comms.md": "c30fa95415e6b03b7501b9dcfbf4aa5a37494408c3b7bd8ae2a72e750dc456d2"
+    "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+    "SKILL.md": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+    "examples/3p-updates.md": "087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc",
+    "examples/company-newsletter.md": "30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5",
+    "examples/faq-answers.md": "5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484",
+    "examples/general-comms.md": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47"
   }
 }

@@ -7,13 +7,13 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "04ac32dbb31219e5209ddd6fc82059c4022cfc493307379dbedf2efda410b94d",
+  "content_hash": "4f8d382a2fa85e4a9dff63ded94f6001f6f5509f4366b77420ade1080789baff",
   "files": {
-    "SKILL.md": "6bc95c39d8fe5c60c83378d526acafe65c5e67dfa20706479dcf7970beea22d4",
-    "references/book-paper-notes-template.md": "23136d969c1ac3ac865a79ce5663d5abe8148cf233a4aed0951754112c9e867c",
-    "references/cornell-notes-template.md": "7508fe7f48d217d945b2aac7d5607408cb8405a141c0a581d79a611857278feb",
-    "references/feynman-technique-template.md": "7c12de31efeae7ec60bb4dc023259fdd863dfe4337c5d80ddb80446368cc73c2",
-    "references/tech-deep-dive-template.md": "ae9c11e5668532cd137b9da06fb6c6f78366744acfd50c3594cc1943b0bc8ece",
-    "references/typography-and-diagrams.md": "a99f7e64ad63a2c50bd4f473aaf447c148f8ded42c3a67f625dcb45b1180a31b"
+    "SKILL.md": "8792ed8bed624ed630e7a241643c0e72a6101a44511a5fb274dd449d55125426",
+    "references/book-paper-notes-template.md": "b80f58a46ffcb3df4de174b2598107da510d5d500207bdcf50d8a73528c22f6c",
+    "references/cornell-notes-template.md": "5a03b06f8396244244ab8db3d5223bdd3630a648d171d3f85921822ab8894879",
+    "references/feynman-technique-template.md": "1de594198329cc4a06805386c296eb6cbd979126a093bdbde258c99eafe5bd37",
+    "references/tech-deep-dive-template.md": "56b7b76a0bd84fe321da0770f98ce385675bf2e4c0fffcb9b7bab59330763686",
+    "references/typography-and-diagrams.md": "d1b11ce60061d8957f93166dce1646892755eb6b98eaa00c99ce10f150f4350e"
   }
 }

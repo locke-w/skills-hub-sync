@@ -7,9 +7,9 @@
   "source_subpath": "skills\\misc\\setup-pre-commit",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "3b018dfb65c0b088ea77b5cb9780b66fed777655776b4280f41c5044358d13b0",
+  "content_hash": "f7811649ec09aeb8aea5b4607a0a2fa5c1153e15815fe5d8b46a844a11975c81",
   "files": {
-    "SKILL.md": "e069e6a23069ebdba946d4dea11e5d663c10640c6b14b55c4585c81b1a256ac9",
-    "agents/openai.yaml": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727"
+    "SKILL.md": "c9819d7f1e3b198064edc1faa3154224ed67395e9f07f5d3cea4b67cf0a11a98",
+    "agents/openai.yaml": "acf41db398c5c43afe504008bb7d615a97b6498b0f1f6c5b2395254c0bfb57d1"
   }
 }

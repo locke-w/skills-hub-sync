@@ -7,18 +7,18 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "9476d82bbaab25aa7dac913f8c301aa14fcf5be210d44d94bb0131f3e48fa18e",
+  "content_hash": "1d45e96987a472b97aa358f1134b6b731cddbbb9ae3e041d1693a118c2b2bf81",
   "files": {
-    "CREATION-LOG.md": "397f122f115f994372a1805e30071fc0ad86c0dc1e427fbf5b5f1b14143399f5",
-    "SKILL.md": "530855dfa2b10d5b9f92ac170fe41c5f8fbc4918957a564855b50a896ca625a2",
-    "condition-based-waiting-example.ts": "0602407671f97439acc9e3cc2fe27ad42a22eb0dbca62f56d610fb223daadb0f",
-    "condition-based-waiting.md": "02aa854bd9e761f275e1450d7136ba60f1a4d103fe94b552fdce822dd3c99506",
-    "defense-in-depth.md": "9407efcbd028a5ec45edfdf6692b988716c0a7b34d1fb5e05d60146171d8041e",
-    "find-polluter.sh": "0bb69ae18d810d49ad3f48802b98b394339ea637bb91f569dafb0b283039a89e",
-    "root-cause-tracing.md": "cb00878f1b5b79442dc474f0e0d67b44f8175e741ba90abbf5e9778b67ba4854",
-    "test-academic.md": "51e07c1c56052a6c46cde8e7d42d6612598ea076f128086fd85911f4d2d3e8dd",
-    "test-pressure-1.md": "fbf04219c44460e76d96642d7dc16960a2390936e0a6937d0b133e013fa55afb",
-    "test-pressure-2.md": "fc6b2594bed3f2a15ece75d0a211b55cb9a4668d85b9873f2bab5ee54ed31cbf",
-    "test-pressure-3.md": "69ed6a5a59dac92d58d284519991a46b90978bc40a229776dac0ffa3a6123bfe"
+    "CREATION-LOG.md": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
+    "SKILL.md": "4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473",
+    "condition-based-waiting-example.ts": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+    "condition-based-waiting.md": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+    "defense-in-depth.md": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+    "find-polluter.sh": "6462747eae9b175ac145b78bcfaeab755654a75e32637f08eb633f065a9e1d7c",
+    "root-cause-tracing.md": "6b0622269e098ca1399e123e553fd385f0b6412d88ef0e9c4f5a8ea9cf1cec7b",
+    "test-academic.md": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+    "test-pressure-1.md": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+    "test-pressure-2.md": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+    "test-pressure-3.md": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708"
   }
 }

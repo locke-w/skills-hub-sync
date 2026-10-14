@@ -7,9 +7,9 @@
   "source_subpath": "skills\\in-progress\\writing-fragments",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "f2e26072323f960af348cad40b5541992765727f4af9404ddd290ded78609fb1",
+  "content_hash": "96baaea69f5535a07e9e73a59aa673ec98d0bd9beda6e6519146b04f4ab12b9f",
   "files": {
-    "SKILL.md": "3be6ffe9386ddd6de8b320c331295953995792fd65d0972aa2a28524ead73e90",
-    "agents/openai.yaml": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb"
+    "SKILL.md": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea",
+    "agents/openai.yaml": "81167f25ee8ea1bb4b4958f12b6702ea972ad31b05e03ec91e39fa4bae0c2641"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "2d4cc1c75f980ecbecbc817c7c097e934fac29817c14ab759a2a104dcae5364f",
+  "content_hash": "6e41504ed9a2dc55b84240c8dc4edf8db6e7c2da6b71ed29e8edbdf4f95a3094",
   "files": {
-    "SKILL.md": "cd8550405fc7fd224489f0b993fce822f69626fc0c612b3c9829d991cb4314c6",
-    "plan-document-reviewer-prompt.md": "f934889f4f40f85782e703042edb28217169853df3eaf285586a5ab4e5ea5403"
+    "SKILL.md": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b",
+    "plan-document-reviewer-prompt.md": "6fce2aa83c63715697e9dd86050c820716100b91efbd9f12bab8477ecc060256"
   }
 }

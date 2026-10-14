@@ -7,10 +7,10 @@
   "source_subpath": "skills\\engineering\\ask-matt",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "4d6eec01309a25b303a6f2864a387f53705a497ffb2141c2457fed56c9928c68",
+  "content_hash": "9f5381e1cbcfb1769a8f57d1320c92d8dd3a3c62d58e9fa7a6188fc4f7d557a0",
   "files": {
-    "PHASE-BOUNDARIES.md": "a8aa20158609ef39e2b308b6ba0660c91066838d07a867202e63a7744a88a3ed",
-    "SKILL.md": "b25d86fb36b1d294eeead5d7db529f86135f9671f2afcd607579a63bb2213769",
-    "agents/openai.yaml": "bdffbc5a0a99ed1b6ef3253d251d755fd18162b9845972e380007f844b09b05c"
+    "PHASE-BOUNDARIES.md": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd",
+    "SKILL.md": "d8934db5ccf28b8c6e43d44d88801936d3831ab5666280b26d6f0852a312dc63",
+    "agents/openai.yaml": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e"
   }
 }

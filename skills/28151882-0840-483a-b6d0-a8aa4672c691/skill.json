@@ -7,10 +7,10 @@
   "source_subpath": "skills\\in-progress\\pr",
   "source_revision": "c55ee468e27dfb38f97e68fa7d4f90bf7c83f606",
   "tags": [],
-  "content_hash": "4d1754bfe4ea833f99d10f8c5adebd9425ecd4f20f5cff05f472a456e8ea3223",
+  "content_hash": "60601554de264f4dcdf236e13964c8cbb4bff5ee4f84f39d0f29b49920c4d021",
   "files": {
-    "CREDITS.md": "d316306f029b9dc9552d6aa5e5454bd95550da45c6325dbe41f86fc256f2dd14",
-    "SKILL.md": "e91dc57fa0ee1d8d2fd35562425c943d377f0acdfba6245858a619990fcff0e8",
-    "agents/openai.yaml": "2295b586624db4ef546f3fd4695492f039d941a46d8a1593a702ce3ca511b8ad"
+    "CREDITS.md": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109",
+    "SKILL.md": "ff14ed2aa5e1f040b781afb5da44357b6f1dc2b0476089ca970a9e704ef05699",
+    "agents/openai.yaml": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": "skills\\engineering\\to-spec",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "fe4161dbf30edde0f295335d6201b56d829851402f0cddf3ebf8c8640cd7c070",
+  "content_hash": "7f4a38312a6231d9ad975cbc521d350718dc482a4df43a6c10876f29538368e1",
   "files": {
-    "SKILL.md": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
-    "agents/openai.yaml": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb"
+    "SKILL.md": "c73a2250beac0479e384f5466e834bb54ce6e30b7f8705e9999ba840d9d59b36",
+    "agents/openai.yaml": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a"
   }
 }

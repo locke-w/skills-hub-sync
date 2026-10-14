@@ -7,9 +7,9 @@
   "source_subpath": "skills\\productivity\\to-questionnaire",
   "source_revision": "3cca18b368ae95cdbdebbff572ccafa662551015",
   "tags": [],
-  "content_hash": "de349e981057e8aab601a774569ef8eef69c0a97c83a2108cf5d65f6520a9741",
+  "content_hash": "85289025855d77446d9a518b12261047e2242ad543797420e036924653c9cf39",
   "files": {
-    "SKILL.md": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
-    "agents/openai.yaml": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
+    "SKILL.md": "77825120815c21400f82e2794faf342d1d1a4ab1493be3fe061857885d26b768",
+    "agents/openai.yaml": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b"
   }
 }

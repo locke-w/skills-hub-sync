@@ -7,8 +7,8 @@
   "source_subpath": ".claude/skills/text-to-speech",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "d351a35a0e862eebde52786c37b6c7b5846d1d0d954c4f78612278789360a2e8",
+  "content_hash": "9ee776c93a08455bd57138d81c0ad5122afa177401f350ffe8ecd57e443ab217",
   "files": {
-    "SKILL.md": "64d6dce955261dc4f766fbdc53ced2c799956b3c821cda0f437ce9bb1ff8386b"
+    "SKILL.md": "e9a061a762a136327cb623be9077aa1f0b80121d328621837caab9a2a7424e4a"
   }
 }

@@ -7,9 +7,9 @@
   "source_subpath": ".claude/skills/video-edit",
   "source_revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
   "tags": [],
-  "content_hash": "f260ca8bfb554554ea8f40521078fb64b70fbb8bb8a5609f40962d2ad7dc68fe",
+  "content_hash": "b21bf110ee1e3d4ea8215087f3204ebf689afd84d9faf6e9296b181e77884d8b",
   "files": {
-    "SKILL.md": "899b1bebac349822be73ebc171b364bd9718b546b1c6f9cc0ba6ee83c5ccd5a8",
-    "references/operations.md": "ae4590f79edd3b5c4d238383ad64e4ca1a248c5449f3173422bef83a906a430e"
+    "SKILL.md": "25a8a985c4ecc4ad4c32fe29f51d9122f02f149e641916e1709bee5dfaccb7f0",
+    "references/operations.md": "2463a5298822520657e9c63d6bb1caaf4c99cf769d479737a0e078cb538e525b"
   }
 }

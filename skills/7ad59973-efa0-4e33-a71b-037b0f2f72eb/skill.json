@@ -7,7 +7,7 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "81f5dc41410e969a8c75464d2044ad8ab75c94c5a733aed9a09fab2fc72f4961",
+  "content_hash": "e7cd4583690a1f63d02b0c2c5a7573df67e771df18211a49a240d7b5f6ec5090",
   "files": {
     "CHANGELOG.md": "9f577820d4b00369f8f4faa88e3742b5bfbe2d94257c97e31f7df7d54d24e33f",
     "README.md": "31691c1326485ca6a515705f2fafd31d9d1e681f66b27f149042fcd6f4a226f1",
@@ -27,6 +27,7 @@
     "references/nano-banana-hyperrealistic-engine.md": "e68a259a7f57085c0d5c76821ab5ab73db8988bc6ee2dc103053e4921ddbcde6",
     "references/prompt-engineering-spec.md": "2c376b5a7133b2c885b4e19126f263705adeaea45bc3dab0e5ad5c022346721d",
     "references/scene-library.md": "12f25051e0408728e7a0f7fef23243c0685b90ea4a5a68149cb5268b4b89edc2",
+    "scripts/viral_prompts_engine.py": "2e3f786044a0da50248971a0710d6ba84497683098bfc73bd20e8a907181d079",
     "validators/batch-audit.sh": "dce1de608df0aef4ea615f8ce3df33f891f019b38504acf406b9c875db05d146",
     "validators/check-completeness.sh": "c3fb54be2efcb100ca6eb7017493be3b13f1ba2f2f0aaf301e8c225883535cdf",
     "validators/check-fullbody.sh": "4673a8b5bb52aecef909aaeea07f84d484f586883e41d7c31f2404f3db535663",

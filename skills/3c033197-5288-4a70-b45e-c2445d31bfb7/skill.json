@@ -7,7 +7,7 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "b9f4a5f0c0f3f6c96e2aac59d528f9e7798d5ea7d0267b91f8d3efdafd0d7552",
+  "content_hash": "4e044e68b1091aa49e279df46029cd0df91fa9ca8b245bf23fde6d1fb85629df",
   "files": {
     "SKILL.md": "db1bdaae3820f9b340bf8889150ed0ff7308de9661f904b5c1ed6f9c1e45cd38",
     "checklists/copy-checklist.md": "8172aea6fc027589d66c45410292ef67d99330b3c256cc17d33178c4f364dd37",
@@ -47,6 +47,7 @@
     "scripts/render_character.py": "76e9aeaf6b10a7bc53025d57eff89e016a87b4bbb2cc622a2c062fd3ba035064",
     "scripts/validate_copy.py": "c662ffdfd00df303a02fd4abfc110c47e49b167e23428def3c19f8b7bc9eabe9",
     "scripts/validate_prompts.py": "cdfdbfa262ac97b80e5a8fa7d8c999598f1ce7ee03f44a5bf3cdd0fca34ec7e1",
+    "scripts/viral_prompts_engine.py": "2e3f786044a0da50248971a0710d6ba84497683098bfc73bd20e8a907181d079",
     "scripts/write_copy.py": "8e66dba66393237f118fa8b98d418ee4520ad24d5b2723857fa2f4738a91335c"
   }
 }

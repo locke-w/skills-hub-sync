@@ -881,7 +881,7 @@
       "source_subpath": null,
       "source_revision": null,
       "tags": [],
-      "content_hash": "8f3e3b544718e547728e48fbc8aec1a3221b2cf06aaf294bc25098eac364d100",
+      "content_hash": "2682128572258a833daf62ac4a8b52eeb570c2909e5bd5ba4d42157e6c3ed997",
       "files": {
         "SKILL.md": "db1bdaae3820f9b340bf8889150ed0ff7308de9661f904b5c1ed6f9c1e45cd38",
         "checklists/copy-checklist.md": "8172aea6fc027589d66c45410292ef67d99330b3c256cc17d33178c4f364dd37",
@@ -911,7 +911,7 @@
         "references/images/gemini-app-runbook.md": "8b284e589045bfb2e1370836b12d9269ed8069103a1334489a0235261b2b602d",
         "references/publish/feishu-runbook.md": "c5896396b4240455d46d863a5aa02b314d31a8fa5c412c37cc247d7033595a95",
         "scripts/common.py": "319fbb52e5248af011f31f5836eac29c28a01832d993e0e92e517dc2e6ff1b18",
-        "scripts/feishu_send.py": "da1e0c510b5341d73ab4817ec871faec3c9fcc7fe0b64383d24e45c3b9b4f642",
+        "scripts/feishu_send.py": "fcb63c07c2b90df18bb8d501e67a838cc49aaa34bdc3b3f8aebb38c58f10d919",
         "scripts/gemini_app.py": "750b8f1b8cbdcfac49501a75b882bd051928a6a603064fb187ae3e3a20268c80",
         "scripts/gui.py": "6fb48d75fe709eb087111499f8cc548d12be9fe8097b5da580fcfc770040bb3d",
         "scripts/inspect_images.py": "5baf78f0ef7ac4899db058e737ce4e929b5334ed26d5d0d8d0d543f2706f226b",

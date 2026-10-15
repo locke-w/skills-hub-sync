@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import argparse
+import ctypes
 import json
 import re
 import subprocess
@@ -188,6 +189,16 @@ def build_messages(cfg: dict, cdir: Path, paras, decl, titles, tags, pinned, img
     ]
 
 
+# ---------------------------------------------------------------- 系统环境健康前置核验
+def is_screen_locked() -> bool:
+    """检测当前 macOS 是否处于锁屏状态（锁屏下 WindowServer 禁止渲染与 GUI 模拟）"""
+    try:
+        out = subprocess.check_output(["ioreg", "-n", "Root", "-d1"], text=True, errors="replace", timeout=3)
+        return '"CGSSessionScreenIsLocked"=Yes' in out
+    except Exception:
+        return False
+
+
 # ---------------------------------------------------------------- GUI（飞书为 Electron，AX 不暴露会话内容：用截图+OCR 核验）
 def screenshot_ocr(tmp: Path, proc: str | None = None, chat_panel_only: bool = True) -> str:
     png = tmp / "feishu_screen.png"
@@ -195,7 +206,7 @@ def screenshot_ocr(tmp: Path, proc: str | None = None, chat_panel_only: bool = T
     # 只保留飞书窗口区域，并且默认只截取右侧会话面板（隔离左侧列表历史中的智能伙伴/Hermes）
     if proc:
         try:
-            x, y, w, h = [float(v) for v in re.findall(r"\d+\.?\d*", osa(f'''
+            raw = osa(f'''
 tell application "System Events" to tell process "{proc}"
   set win to missing value
   set best to 0
@@ -209,19 +220,26 @@ tell application "System Events" to tell process "{proc}"
       end if
     end try
   end repeat
-  set p to position of win
-  set s to size of win
-  return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
-end tell'''))]
-            from PIL import Image
-            im = Image.open(png)
-            # Retina 截图像素 = AX 坐标 × 2
-            x_offset = (w * 0.40) if chat_panel_only else 0
-            crop_x1 = int((x + x_offset) * 2)
-            crop_y1 = int(y * 2)
-            crop_x2 = int((x + w) * 2)
-            crop_y2 = int((y + h) * 2)
-            im.crop((crop_x1, crop_y1, crop_x2, crop_y2)).save(png)
+  if win is not missing value then
+    set p to position of win
+    set s to size of win
+    return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
+  else
+    return "none"
+  end if
+end tell''')
+            coords = [float(v) for v in re.findall(r"\d+\.?\d*", raw)]
+            if len(coords) >= 4:
+                x, y, w, h = coords[:4]
+                from PIL import Image
+                im = Image.open(png)
+                # Retina 截图像素 = AX 坐标 × 2
+                x_offset = (w * 0.40) if chat_panel_only else 0
+                crop_x1 = int((x + x_offset) * 2)
+                crop_y1 = int(y * 2)
+                crop_x2 = int((x + w) * 2)
+                crop_y2 = int((y + h) * 2)
+                im.crop((crop_x1, crop_y1, crop_x2, crop_y2)).save(png)
         except Exception:
             pass
     r = subprocess.run(["tesseract", png.name, "-", "-l", "chi_sim"], cwd=tmp,
@@ -247,13 +265,24 @@ tell application "System Events" to tell process "{proc}"
       end if
     end try
   end repeat
-  set p to position of win
-  set s to size of win
-  return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
+  if win is not missing value then
+    set p to position of win
+    set s to size of win
+    return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
+  else
+    return "none"
+  end if
 end tell'''
-    x, y, w, h = [float(v) for v in re.findall(r"\d+\.?\d*", osa(script))]
-    # 会话面板约从窗口 60% 宽开始，输入框在底部 ~4% 高处
-    return (x + w * 0.80, y + h * 0.955)
+    try:
+        raw = osa(script)
+        nums = [float(v) for v in re.findall(r"\d+\.?\d*", raw)]
+        if len(nums) >= 4:
+            x, y, w, h = nums[:4]
+            return (x + w * 0.80, y + h * 0.955)
+    except Exception:
+        pass
+    # 默认兜底坐标 (1316x750 窗口对应比例)
+    return (60.0 + 1316.0 * 0.80, 184.0 + 750.0 * 0.955)
 
 
 def get_feishu_window_rect(proc: str) -> tuple[float, float, float, float]:
@@ -272,13 +301,21 @@ tell application "System Events" to tell process "{proc}"
       end if
     end try
   end repeat
-  set p to position of win
-  set s to size of win
-  return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
+  if win is not missing value then
+    set p to position of win
+    set s to size of win
+    return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
+  else
+    return "none"
+  end if
 end tell'''
-    coords = [float(v) for v in re.findall(r"\d+\.?\d*", osa(script))]
-    if len(coords) >= 4:
-        return coords[0], coords[1], coords[2], coords[3]
+    try:
+        raw = osa(script)
+        coords = [float(v) for v in re.findall(r"\d+\.?\d*", raw)]
+        if len(coords) >= 4:
+            return coords[0], coords[1], coords[2], coords[3]
+    except Exception:
+        pass
     return 60.0, 184.0, 1316.0, 750.0
 
 
@@ -323,6 +360,9 @@ def check_is_valid_personal_conversation(contact: str, ocr_text: str) -> tuple[b
 
 def open_conversation(cfg: dict, tmp: Path, force_reopen: bool = False) -> tuple[float, float]:
     """打开 Lark → 精准定位纯个人联系人会话 → 负向安全门禁校验 → 返回输入框坐标。"""
+    if is_screen_locked():
+        raise SystemExit("⛔ 检测到当前 macOS 处于锁屏状态！macOS 安全机制阻止锁屏状态下的 GUI 操作与屏幕截屏。\n💡 解决办法：请解锁 Mac 屏幕并确保飞书窗口已展开在前台，然后重新点击发送。")
+
     proc = cfg["feishu"]["process"]
     contact = cfg["feishu"]["contact"]
 
@@ -439,6 +479,11 @@ def find_character_video(cfg: dict, target_str: str, preferred_video: str | None
 def send_single_character(cfg: dict, rules: dict, target_str: str, args,
                             input_coord: tuple[float, float] | None = None) -> tuple[int, tuple[float, float] | None]:
     """发送单个长辈人物的完整发布包或成片视频到飞书联系人。返回 (exit_code, input_coord)。"""
+    # 0. 早期健康门禁：真实发送前快速检测 macOS 锁屏状态
+    if not args.dry_run and is_screen_locked():
+        print(f"⛔ [{target_str}] 检测到当前 macOS 处于锁屏状态！\n   ⚠️ macOS 安全机制在锁屏状态下禁止 WindowServer 像素渲染与一切 GUI 模拟输入。\n   💡 解决指引：请在 Mac 电脑上输入密码解锁屏幕，并保持飞书窗口处于打开状态，然后重试发送。")
+        return 3, input_coord
+
     # 1. 纯视频发送模式 (--only-video)
     if getattr(args, "only_video", False):
         video_path = find_character_video(cfg, target_str, getattr(args, "video", None))
@@ -533,6 +578,9 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
         except SystemExit as e:
             print(e)
             return 3, None
+        except Exception as e:
+            print(f"❌ 唤起飞书会话失败: {e}")
+            return 2, None
 
     # OCR 判重：会话截图中若已含本人物目录名，视为已发送
     needle = "_".join(cdir.name.split("_")[:2])
@@ -609,7 +657,7 @@ def main() -> int:
 
     print(f"📋 收到 {len(args.targets)} 个角色发送任务，目标联系人:「{cfg['feishu']['contact']}」")
     current_xy = None
-    stats = {"success": 0, "skipped": 0, "failed": 0}
+    stats = {"success": 0, "skipped": 0, "failed": 0, "blocked": 0}
 
     for idx, tgt in enumerate(args.targets, 1):
         print(f"\n{'='*20} [{idx}/{len(args.targets)}] 开始处理角色: {tgt} {'='*20}")
@@ -619,16 +667,21 @@ def main() -> int:
                 stats["success"] += 1
             elif code == 4:
                 stats["skipped"] += 1
+            elif code == 3:
+                stats["blocked"] += 1
             else:
                 stats["failed"] += 1
         except Exception as e:
             print(f"❌ 角色 {tgt} 处理异常: {e}")
             stats["failed"] += 1
 
+    total_err = stats["failed"] + stats["blocked"]
     print("\n" + "=" * 50)
-    print(f"🎉 批量发送流程结束: 成功 {stats['success']} · 跳过 {stats['skipped']} · 失败 {stats['failed']}")
+    print(f"🎉 批量发送流程结束: 成功 {stats['success']} · 跳过 {stats['skipped']} · 阻塞 {stats['blocked']} · 失败 {stats['failed']}")
     print("=" * 50)
-    return 0 if stats["failed"] == 0 else 2
+    if stats["blocked"] > 0 and stats["failed"] == 0:
+        return 3
+    return 0 if total_err == 0 else 2
 
 
 if __name__ == "__main__":

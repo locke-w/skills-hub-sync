@@ -29,6 +29,11 @@ def _cg():
     CG.CGEventCreateMouseEvent.restype = ctypes.c_void_p
     CG.CGEventCreateMouseEvent.argtypes = [ctypes.c_void_p, ctypes.c_uint32, CGPoint, ctypes.c_uint32]
     CG.CGEventPost.argtypes = [ctypes.c_uint32, ctypes.c_void_p]
+
+    CG.CGEventCreateKeyboardEvent.restype = ctypes.c_void_p
+    CG.CGEventCreateKeyboardEvent.argtypes = [ctypes.c_void_p, ctypes.c_uint16, ctypes.c_bool]
+    CG.CGEventSetFlags.argtypes = [ctypes.c_void_p, ctypes.c_uint64]
+
     return CG, CGPoint
 
 
@@ -49,12 +54,33 @@ def hover_click(x: float, y: float, hover_s: float = 1.2):
     _post(2, x, y)            # LeftMouseUp
 
 
+def cg_key(code: int, flags: int = 0):
+    """通过系统底层 CoreGraphics CGEvent 投递键盘事件，绝不触发 System Events 跨应用弹窗"""
+    ev_down = CG.CGEventCreateKeyboardEvent(None, code, True)
+    ev_up = CG.CGEventCreateKeyboardEvent(None, code, False)
+    if flags:
+        CG.CGEventSetFlags(ev_down, flags)
+        CG.CGEventSetFlags(ev_up, flags)
+    CG.CGEventPost(0, ev_down)
+    time.sleep(0.06)
+    CG.CGEventPost(0, ev_up)
+
+
 def keystroke_v():
-    osa('tell application "System Events" to keystroke "v" using command down')
+    """Command+V 粘贴 (优先 CGEvent 底层投递，安全降级至 osa)"""
+    try:
+        # kVK_ANSI_V = 9, kCGEventFlagMaskCommand = 0x00100000
+        cg_key(9, 0x00100000)
+    except Exception:
+        osa('tell application "System Events" to keystroke "v" using command down')
 
 
 def key(code: int):
-    osa(f'tell application "System Events" to key code {code}')
+    """按键如回车 36 (优先 CGEvent 底层投递，安全降级至 osa)"""
+    try:
+        cg_key(code)
+    except Exception:
+        osa(f'tell application "System Events" to key code {code}')
 
 
 def keystroke_combo(char: str, mods: str = "command down"):

@@ -159,6 +159,7 @@ python3 $F/validators/validate_prompts.py --self-test                   # 校验
 | Step 4 | `references/prompt-engineering-spec.md` | MJ V8 参数、00→01 算子与对齐矩阵、结构模板、六步法 + Step 7 |
 | Step 5 | `references/scene-library.md` | 11 视角总表、九大情绪槽位、场景变奏、封面候选、母题映射、出图验收 |
 | Step 5 | `references/github-diorama-staging-matrix.md` · `references/nano-banana-hyperrealistic-engine.md` | 实景/道具/光影素材库 · 15 种机位与去 AI 味微瑕 |
+| 爆款库 | `references/benchmark-and-workstation-viral-prompts.md` | 对标博主风格复刻 (5组) · 节后工位治愈与开箱对比爆款 (5组) |
 | 示例 | `references/golden-examples.md` | 三套标杆示例（厨房外婆、客运老爸、校门父亲），已按 v5 修订 |
 | 可选 | `references/blender-render-and-img2img.md` | 有 3D 模型文件时的渲染与图生图工作流 |
 | 审计 | `docs/latest-audit-report.md` | 最近一次全库审计结果 |

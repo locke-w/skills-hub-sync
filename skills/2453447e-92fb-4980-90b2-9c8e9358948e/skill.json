@@ -7,7 +7,7 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "eca077713b1bba12716a3c983f8f852752e52933cb182cb0669f040f79097e2e",
+  "content_hash": "9a88154bd60e53610c456d795f862dad0ee442747224694e90f112f0294a2969",
   "files": {
     "CHANGELOG.md": "58d6e3bcd1352ad2b231c24d09189ab6a96cfc5bcd91dd0bb384cd863d31e660",
     "SKILL.md": "5f6e8be54e3848999b55399945970aaad4781e213b552799e8ba9938cabef8b9",
@@ -17,7 +17,7 @@
     "references/conversion-and-traffic-safety.md": "c832136196a89e5ab61990efd80462220126e2c3a5f401da938ec151103c856d",
     "references/copywriting-craft.md": "72e5fe74d4c7df9cdb126bf8dd71b8edfd644e11c08472ffb27557c25297c5ea",
     "references/emotional-story-templates.md": "49b74794a5c4a91dcacc65e2affa471d32b3ae8264f43648732026391f28a8e6",
-    "references/operations-playbook.md": "f36d0b254c8b00fe12ca339d04e81f53d0f699da04e7bd02e96b130872d66f0e",
+    "references/operations-playbook.md": "df9cfe2f12a7bb68c78082507a11be20b6d19ab724ab387228a3996a185611c8",
     "references/xiaohongshu_ai_rule.md": "5da0038dbfb0633867c51fa09b1ac62370efde905dfa12719d7b5a37210fb660",
     "scripts/inspect_images.py": "b15cd089484712e3821ca636151fdafcb4124a1dbcb9a9f51fce3b5a124d0c5c",
     "scripts/validate-config.sh": "041ec0353b5ff28c79524107e01879834ea94073c4785a4c63aa80476929887f",

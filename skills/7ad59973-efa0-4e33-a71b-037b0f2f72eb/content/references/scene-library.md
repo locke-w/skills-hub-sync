@@ -103,3 +103,12 @@
 - 提示词与档案（Obsidian）：`{material_base}/{char_dir}/character_profile.md`、`prompts.md`、`prompts.json`（可由 `validate_prompts.py --export-json` 从 `prompts.md` 生成）；
 - 图片（3D 打印素材库）：`{asset_root}/{char_dir}/`，按第 1 节文件名保存，目录内只放图片；
 - 路径变量见 `config/paths.yml`；本技能不生成 `小红书文案.md`。
+
+---
+
+## 8. 扩展场景库与对标博主爆款资产 (v5.1)
+
+详情参阅 `references/benchmark-and-workstation-viral-prompts.md`：
+1. **对标博主风格复刻（@思念如马3D打印真人手办，5组）**：涵盖【典雅旗袍佳人立像】、【掌心父母双尊像】、【浪漫定格白月光婚纱】、【元气青春女儿工装】、【儒雅学者尊师像】。
+2. **节后工位治愈好物 × 实体开箱对比爆款（5组）**：涵盖【掌心手办 vs 手机老照片对望（高CTR封面）】、【键盘边默默陪伴的奶奶】、【硬核防震黑珍珠棉开箱】、【工位多肉日光微景】、【加班长夜温情灯塔】。
+

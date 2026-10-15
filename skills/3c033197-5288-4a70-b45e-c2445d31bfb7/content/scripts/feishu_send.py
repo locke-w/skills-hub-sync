@@ -242,9 +242,38 @@ end tell''')
                 im.crop((crop_x1, crop_y1, crop_x2, crop_y2)).save(png)
         except Exception:
             pass
+    out_parts = []
+    # 1. 全图 OCR
     r = subprocess.run(["tesseract", png.name, "-", "-l", "chi_sim"], cwd=tmp,
-                       capture_output=True, text=True, errors="replace", timeout=120)
-    out = r.stdout
+                       capture_output=True, text=True, errors="replace", timeout=60)
+    if r.stdout:
+        out_parts.append(r.stdout)
+
+    # 2. 定向聚焦：针对顶部 180px 标题栏 (含目标联系人姓名) 与底部 180px 输入框 (含“可以向自己发送文件或转发消息”)
+    # 彻底杜绝聊天记录中大块黑色视频卡片对 Tesseract 默认版面分析的干扰
+    try:
+        from PIL import Image
+        im = Image.open(png)
+        im_w, im_h = im.size
+        # 顶部标题栏 ROI (PSM 6 极速聚焦文字行)
+        hdr_png = tmp / "feishu_header.png"
+        im.crop((0, 0, im_w, min(180, im_h))).save(hdr_png)
+        r_hdr = subprocess.run(["tesseract", hdr_png.name, "-", "-l", "chi_sim", "--psm", "6"],
+                               cwd=tmp, capture_output=True, text=True, errors="replace", timeout=30)
+        if r_hdr.stdout:
+            out_parts.append(r_hdr.stdout)
+
+        # 底部输入框 ROI (PSM 6 极速聚焦输入框占位符)
+        ftr_png = tmp / "feishu_footer.png"
+        im.crop((0, max(0, im_h - 180), im_w, im_h)).save(ftr_png)
+        r_ftr = subprocess.run(["tesseract", ftr_png.name, "-", "-l", "chi_sim", "--psm", "6"],
+                               cwd=tmp, capture_output=True, text=True, errors="replace", timeout=30)
+        if r_ftr.stdout:
+            out_parts.append(r_ftr.stdout)
+    except Exception:
+        pass
+
+    out = "\n".join(out_parts)
     (tmp / "feishu_ocr_last.txt").write_text(out, encoding="utf-8")
     return out
 

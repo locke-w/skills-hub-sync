@@ -149,6 +149,72 @@ python3 $F/validators/validate_prompts.py --self-test                   # 校验
 
 ---
 
+## 🐍 爆款提示词与 Python 脚本调用指南 (v5.1)
+
+本技能提供原生 Python 驱动模块 `scripts/viral_prompts_engine.py`，完整收录对标博主风格复刻 (BM-01~05) 与节后工位爆款 (WS-06~10) 提示词矩阵，支持三种调用形态：
+
+### 1. Python 模块直接 Import 调用
+
+```python
+import sys
+from pathlib import Path
+sys.path.append(str(Path("~/.gemini/config/skills/fullcolor-3dprint-character-prompts/scripts").expanduser()))
+
+from viral_prompts_engine import get_viral_prompts, get_viral_prompt_by_id, render_viral_prompt
+
+# 示例 1: 获取全部或按分类获取提示词清单 (benchmark / workstation)
+all_prompts = get_viral_prompts()
+ws_prompts = get_viral_prompts("workstation")  # 5 组工位爆款
+
+# 示例 2: 查询指定 ID (如 WS-06 工位开箱对比，首屏 CTR 14%~16%)
+prompt_ws06 = get_viral_prompt_by_id("WS-06")
+print(prompt_ws06["prompt_en"])
+
+# 示例 3: 依据长辈人设档案动态注模渲染 (自动替换 IFTS、称谓与服饰)
+char_data = {
+    "title_cn": "走街串巷锔了一辈子碗盆的锔瓷匠爷爷",
+    "posture": "BM",
+    "ifts": "73-year-old Chinese husband, gaunt angular jaw, leathery neck creases, bald crown with silver fringe, hearty hollering grin",
+    "cloth": "ash-gray cotton jacket with tobacco-brown canvas apron"
+}
+rendered = render_viral_prompt("WS-06", char_profile=char_data)
+print("定制出图指令:\n", rendered["rendered_prompt_en"])
+```
+
+### 2. CLI 命令行调用
+
+```bash
+F=~/.gemini/config/skills/fullcolor-3dprint-character-prompts/scripts/viral_prompts_engine.py
+
+# 查看 10 组爆款提示词列表矩阵
+python3 $F --list
+
+# 查阅指定 ID 完整提示词与释义
+python3 $F --id WS-06
+python3 $F --id BM-01
+
+# 为指定长辈目录动态提取 IFTS 并渲染爆款提示词
+python3 $F --char-dir "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材/char_101_BM_走街串巷锔了一辈子碗盆的锔瓷匠爷爷" --render WS-06
+
+# 导出提示词为 JSON 或 Markdown
+python3 $F --export-json ~/Desktop/viral_prompts.json
+python3 $F --export-md ~/Desktop/viral_prompts.md
+```
+
+### 3. 本地工作站 RESTful HTTP API 调用 (中枢服务端口 8765)
+
+```bash
+# 获取提示词列表
+curl -s "http://127.0.0.1:8765/api/viral-prompts?category=workstation"
+
+# 动态注模渲染
+curl -s -X POST http://127.0.0.1:8765/api/viral-prompts/render \
+  -H "Content-Type: application/json" \
+  -d '{"id": "WS-06", "dir": "char_101_BM_走街串巷锔了一辈子碗盆的锔瓷匠爷爷"}'
+```
+
+---
+
 ## 🗂️ 文件地图（按需读取）
 
 | 何时读 | 文件 | 内容 |

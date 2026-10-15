@@ -81,3 +81,10 @@ deduplication:
   ifts_similarity_threshold: 0.35
   # 同代际同职业互斥度阈值
   same_generation_vocation_threshold: 0.40
+
+viral_prompts:
+  benchmark_ids: ["BM-01", "BM-02", "BM-03", "BM-04", "BM-05"]
+  workstation_ids: ["WS-06", "WS-07", "WS-08", "WS-09", "WS-10"]
+  reference_doc: "references/benchmark-and-workstation-viral-prompts.md"
+  script_engine: "scripts/viral_prompts_engine.py"
+

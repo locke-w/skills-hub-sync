@@ -7,7 +7,7 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "334d7418c2359ea112f1b8999bcd8fefd27b9dbf8b4350ee23156f8f0ff7f4d9",
+  "content_hash": "81f5dc41410e969a8c75464d2044ad8ab75c94c5a733aed9a09fab2fc72f4961",
   "files": {
     "CHANGELOG.md": "9f577820d4b00369f8f4faa88e3742b5bfbe2d94257c97e31f7df7d54d24e33f",
     "README.md": "31691c1326485ca6a515705f2fafd31d9d1e681f66b27f149042fcd6f4a226f1",
@@ -19,6 +19,7 @@
     "docs/fullcolor-optimization-quick-start.md": "92de1f4778eef7cdac7340ac8ec7b9b600c5dc9cf190879cd0c3268e1b17faef",
     "docs/fullcolor-skill-optimization-report.md": "f3bfda178b95baf0a518888530ee31a868414d3b49fa8231bb45a1df35da83ca",
     "docs/latest-audit-report.md": "43e83b58ea4b8748bd92c5ca0e5a0f2780c75c5ee69a072ad8db71aa66381850",
+    "references/benchmark-and-workstation-viral-prompts.md": "5e4230eab0d7308e5e7835851db848bb5a3647e70810ed3979f99f784d8e9b43",
     "references/blender-render-and-img2img.md": "ac5052c01edf01c5b2dc50fa7733144398ff7c70c5f1273b56143212120d9b39",
     "references/character-forging-engine.md": "2d7cfb9a7a1492c57776d9ca37f6fb12c2b03a8ac665131bdea1803b4a55def6",
     "references/github-diorama-staging-matrix.md": "18d2024758217a75b2d26eb2e002634a01db6ed6693ccadb012af9bf838f5210",

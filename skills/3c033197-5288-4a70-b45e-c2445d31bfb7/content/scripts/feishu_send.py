@@ -28,7 +28,7 @@ import validate_copy as VC  # noqa: E402
 import inspect_images as II  # noqa: E402
 from gui import (ax_rows, frontmost, osa, hover_click, key,  # noqa: E402
                  keystroke_v, clipboard_text, paste_image, send_clipboard_text,
-                 send_file, paste_file)
+                 send_file, paste_file, get_window_rect, feishu_coords)
 
 TMP = Path("/tmp/auto-xhs")
 
@@ -279,73 +279,29 @@ end tell''')
 
 
 def input_xy(proc: str) -> tuple[float, float]:
-    """会话输入框：主窗口右下区域（Electron 不暴露控件，用窗口内比例坐标）。"""
-    script = f'''
-tell application "System Events" to tell process "{proc}"
-  set win to missing value
-  set best to 0
-  repeat with w in windows
-    try
-      set s to size of w
-      set a to (item 1 of s) * (item 2 of s)
-      if a > best then
-        set best to a
-        set win to w
-      end if
-    end try
-  end repeat
-  if win is not missing value then
-    set p to position of win
-    set s to size of win
-    return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
-  else
-    return "none"
-  end if
-end tell'''
-    try:
-        raw = osa(script)
-        nums = [float(v) for v in re.findall(r"\d+\.?\d*", raw)]
-        if len(nums) >= 4:
-            x, y, w, h = nums[:4]
-            return (x + w * 0.80, y + h * 0.955)
-    except Exception:
-        pass
-    # 默认兜底坐标 (1316x750 窗口对应比例)
-    return (60.0 + 1316.0 * 0.80, 184.0 + 750.0 * 0.955)
+    """会话输入框文本区：居中偏左（宽比 0.60，底距 48pt），避开右侧 Aa、表情、剪刀等富文本工具栏图标。"""
+    input_text_xy, _ = feishu_coords(proc)
+    return input_text_xy
+
+
+def send_btn_xy(proc: str) -> tuple[float, float]:
+    """会话右下角发送按钮（蓝色纸飞机 ➤ 按钮）绝对坐标。"""
+    _, send_xy = feishu_coords(proc)
+    return send_xy
+
+
+def click_feishu_send(proc: str = "Feishu", send_xy: tuple[float, float] | None = None):
+    """显式点击飞书右下角发送按钮，辅以 Return 键作为双保险发出。"""
+    if not send_xy:
+        send_xy = send_btn_xy(proc)
+    hover_click(*send_xy, hover_s=0.2)
+    time.sleep(0.15)
+    key(36)
 
 
 def get_feishu_window_rect(proc: str) -> tuple[float, float, float, float]:
     """获取飞书主窗口位置与尺寸 (x, y, w, h)。"""
-    script = f'''
-tell application "System Events" to tell process "{proc}"
-  set win to missing value
-  set best to 0
-  repeat with w in windows
-    try
-      set s to size of w
-      set a to (item 1 of s) * (item 2 of s)
-      if a > best then
-        set best to a
-        set win to w
-      end if
-    end try
-  end repeat
-  if win is not missing value then
-    set p to position of win
-    set s to size of win
-    return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
-  else
-    return "none"
-  end if
-end tell'''
-    try:
-        raw = osa(script)
-        coords = [float(v) for v in re.findall(r"\d+\.?\d*", raw)]
-        if len(coords) >= 4:
-            return coords[0], coords[1], coords[2], coords[3]
-    except Exception:
-        pass
-    return 60.0, 184.0, 1316.0, 750.0
+    return get_window_rect(proc)
 
 
 def click_messages_tab(rows: list[dict], win_x: float, win_y: float) -> bool:
@@ -443,19 +399,22 @@ def open_conversation(cfg: dict, tmp: Path, force_reopen: bool = False) -> tuple
     return input_xy(proc)
 
 
-def send_text(text: str, xy: tuple[float, float]):
-    send_clipboard_text(text, input_xy=xy)
+def send_text(text: str, xy: tuple[float, float], proc: str = "Feishu"):
+    """发送单段文本至飞书会话：聚焦输入框 -> 粘贴 -> 点击发送按钮 + Return 双保险发出。"""
+    s_xy = send_btn_xy(proc)
+    send_clipboard_text(text, input_xy=xy, proc=proc, send_btn_xy=s_xy)
 
 
-def send_images(cfg: dict, imgs: list[Path], xy: tuple[float, float]) -> bool:
-    """合并发送：逐张粘贴后只按一次 Return。"""
+def send_images(cfg: dict, imgs: list[Path], xy: tuple[float, float], proc: str = "Feishu") -> bool:
+    """合并发送：逐张粘贴后，显式点击右下角发送按钮 + 按 Return 双保险发出。"""
+    s_xy = send_btn_xy(proc)
     for img in imgs:
         paste_image(img)
-        hover_click(*xy)
+        hover_click(*xy, hover_s=0.2)
         time.sleep(0.6)
         keystroke_v()
         time.sleep(int(cfg["feishu"].get("send_interval_s", 5)))
-    key(36)
+    click_feishu_send(proc, s_xy)
     return True
 
 
@@ -508,6 +467,8 @@ def find_character_video(cfg: dict, target_str: str, preferred_video: str | None
 def send_single_character(cfg: dict, rules: dict, target_str: str, args,
                             input_coord: tuple[float, float] | None = None) -> tuple[int, tuple[float, float] | None]:
     """发送单个长辈人物的完整发布包或成片视频到飞书联系人。返回 (exit_code, input_coord)。"""
+    proc = cfg["feishu"].get("process", "Feishu")
+
     # 0. 早期健康门禁：真实发送前快速检测 macOS 锁屏状态
     if not args.dry_run and is_screen_locked():
         print(f"⛔ [{target_str}] 检测到当前 macOS 处于锁屏状态！\n   ⚠️ macOS 安全机制在锁屏状态下禁止 WindowServer 像素渲染与一切 GUI 模拟输入。\n   💡 解决指引：请在 Mac 电脑上输入密码解锁屏幕，并保持飞书窗口处于打开状态，然后重试发送。")
@@ -540,9 +501,10 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
         try:
             divider = f"------------------------char_{target_str} 视频微电影成片------------------------"
             print(f"🚀 [{target_str}] 正在发送视频分割标识与视频文件: {video_path.name}...")
-            send_text(divider, input_coord)
+            send_text(divider, input_coord, proc=proc)
             time.sleep(interval)
-            send_file(video_path, input_coord, upload_wait_s=4.0)
+            s_xy = send_btn_xy(proc)
+            send_file(video_path, input_coord, upload_wait_s=4.0, send_btn_xy=s_xy)
             time.sleep(interval)
             print(f"🎉 [{target_str}] 视频已成功发送至飞书联系人！")
             return 0, input_coord
@@ -621,12 +583,12 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
     merged = True
     try:
         print(f"🚀 [{cdir.name}] 正在发送 6 条消息包...")
-        send_text(divider, input_coord)
+        send_text(divider, input_coord, proc=proc)
         time.sleep(interval)
-        merged = send_images(cfg, imgs, input_coord)
+        merged = send_images(cfg, imgs, input_coord, proc=proc)
         time.sleep(interval)
         for name, txt in msgs[2:]:
-            send_text(txt, input_coord)
+            send_text(txt, input_coord, proc=proc)
             time.sleep(interval)
 
         # 追加发送成片视频
@@ -635,7 +597,8 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
             if v_path and v_path.is_file():
                 v_size = round(v_path.stat().st_size / 1024 / 1024, 2)
                 print(f"🎬 [{cdir.name}] 正在追加发送微电影成片: {v_path.name} ({v_size} MB)...")
-                send_file(v_path, input_coord, upload_wait_s=4.0)
+                s_xy = send_btn_xy(proc)
+                send_file(v_path, input_coord, upload_wait_s=4.0, send_btn_xy=s_xy)
                 time.sleep(interval)
             else:
                 print(f"⚠️ [{cdir.name}] 启用了附带视频，但未找到已生成的 .mp4 成片，跳过视频追加")

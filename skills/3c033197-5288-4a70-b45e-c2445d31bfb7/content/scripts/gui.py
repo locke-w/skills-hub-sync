@@ -419,6 +419,53 @@ def window_pos(proc: str) -> tuple[float, float]:
     return float(a), float(b)
 
 
+def get_window_rect(proc: str) -> tuple[float, float, float, float]:
+    """获取指定进程主窗口位置与尺寸 (x, y, w, h)。
+    遍历窗口寻找面积最大者，避免取到浮层/弹窗小窗口。
+    """
+    script = f'''
+tell application "System Events" to tell process "{proc}"
+  set win to missing value
+  set best to 0
+  repeat with w in windows
+    try
+      set s to size of w
+      set a to (item 1 of s) * (item 2 of s)
+      if a > best then
+        set best to a
+        set win to w
+      end if
+    end try
+  end repeat
+  if win is not missing value then
+    set p to position of win
+    set s to size of win
+    return (item 1 of p) & "," & (item 2 of p) & "," & (item 1 of s) & "," & (item 2 of s)
+  else
+    return "none"
+  end if
+end tell'''
+    try:
+        raw = osa(script)
+        coords = [float(v) for v in re.findall(r"\d+\.?\d*", raw)]
+        if len(coords) >= 4:
+            return coords[0], coords[1], coords[2], coords[3]
+    except Exception:
+        pass
+    return 60.0, 184.0, 1316.0, 750.0
+
+
+def feishu_coords(proc: str = "Feishu") -> tuple[tuple[float, float], tuple[float, float]]:
+    """获取飞书输入框与发送按钮的屏幕绝对坐标：返回 (input_text_xy, send_btn_xy)。
+    1. 输入框文本区：居中偏左（宽比 0.60，底距 48pt），避开右侧 Aa、表情、剪刀等富文本工具栏图标；
+    2. 纸飞机发送按钮：固定锚定在窗口右下角（右距约 84pt，底距约 42pt）。
+    """
+    win_x, win_y, win_w, win_h = get_window_rect(proc)
+    input_text_xy = (win_x + win_w * 0.60, win_y + win_h - 48.0)
+    send_btn_xy = (win_x + win_w - 84.0, win_y + win_h - 42.0)
+    return input_text_xy, send_btn_xy
+
+
 def find_elements(rows: list[dict], pat: str, roles: tuple = ()) -> list[dict]:
     rx = re.compile(pat, re.I)
     return [r for r in rows if rx.search(r["desc"]) and (not roles or r["role"] in roles)]
@@ -455,14 +502,18 @@ def paste_image(path: Path, tmp: Path = Path("/tmp/auto-xhs/_attach.png")) -> bo
 
 
 def send_clipboard_text(text: str, input_xy: tuple[float, float] | None = None,
-                        proc: str | None = None):
-    """pbcopy → 点输入框 → ⌘V → Return。"""
+                        proc: str | None = None,
+                        send_btn_xy: tuple[float, float] | None = None):
+    """pbcopy → 点输入框文本区聚焦 → ⌘V 粘贴 → 点击发送按钮 + Return 双保险发出。"""
     clipboard_text(text)
     if input_xy:
-        hover_click(*input_xy)
-    time.sleep(0.5)
+        hover_click(*input_xy, hover_s=0.2)
+    time.sleep(0.4)
     keystroke_v()
     time.sleep(0.5)
+    if send_btn_xy:
+        hover_click(*send_btn_xy, hover_s=0.2)
+        time.sleep(0.15)
     key(36)
 
 
@@ -478,13 +529,17 @@ def paste_file(file_path: Path) -> bool:
     return True
 
 
-def send_file(file_path: Path, xy: tuple[float, float], upload_wait_s: float = 3.5) -> bool:
-    """点击会话输入框 -> 剪贴板放入文件 -> ⌘V 粘贴 -> 等待飞书客户端解析/预传视频 -> Return 发送。"""
+def send_file(file_path: Path, xy: tuple[float, float], upload_wait_s: float = 3.5,
+              send_btn_xy: tuple[float, float] | None = None) -> bool:
+    """点击会话输入框 -> 剪贴板放入文件 -> ⌘V 粘贴 -> 等待飞书客户端解析/预传视频 -> 点击发送按钮 + Return 双保险发出。"""
     paste_file(file_path)
-    hover_click(*xy)
+    hover_click(*xy, hover_s=0.2)
     time.sleep(0.6)
     keystroke_v()
     time.sleep(upload_wait_s)
+    if send_btn_xy:
+        hover_click(*send_btn_xy, hover_s=0.2)
+        time.sleep(0.15)
     key(36)
     return True
 

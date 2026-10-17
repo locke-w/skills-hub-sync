@@ -7,10 +7,10 @@
   "source_subpath": ".agents/skills/rea-ci-tests-audit",
   "source_revision": "149a0fc06c3c67ee45624e6da14dfb0754473758",
   "tags": [],
-  "content_hash": "4742b779f4122ff8ccf3e28d060b56d00560d2f4b176dbe4ea123c7bc9bbfabc",
+  "content_hash": "ff530b9dd4ed356a59b86a2ae08ea98a845ac25ab94ece1f2d3c830a736390ab",
   "files": {
     "SKILL.md": "997f3717eacb261247b43805a75db9cbd6bd29eb88a5639b592b9705abac98ef",
-    "references/measurement-and-ci.md": "691eb55373b24b8276dce5abcf94d9011b6ebeb7bdd9c23fb371654c5e52a583",
-    "agents/openai.yaml": "389cac55e7a6faf9b22e871b18adcdfd3bd89bdd00aa9e6636de07ca913ec916"
+    "agents/openai.yaml": "389cac55e7a6faf9b22e871b18adcdfd3bd89bdd00aa9e6636de07ca913ec916",
+    "references/measurement-and-ci.md": "691eb55373b24b8276dce5abcf94d9011b6ebeb7bdd9c23fb371654c5e52a583"
   }
 }

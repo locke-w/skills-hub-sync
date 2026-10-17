@@ -7,7 +7,7 @@
   "source_subpath": ".agents/skills/reverse-engineer-anything",
   "source_revision": "149a0fc06c3c67ee45624e6da14dfb0754473758",
   "tags": [],
-  "content_hash": "6802a415fb918b8a64863370e8af28c59532dee873db74291870644f0ee5ea56",
+  "content_hash": "6e13bc262b5a6a133348664d5e6b590e86b9d601b519f30b793987bb3b4fca18",
   "files": {
     "SKILL.md": "976e400f028618926c0b658ee50df79996f5f32402d33b49a23bfdbc232b45e6",
     "references/android-applications.md": "67a9237d76a5b736640c6404f5e1fe01d83369848142feb7e11d78f4a5e62732",

@@ -7,10 +7,10 @@
   "source_subpath": ".agents/skills/rea-analysis-optimization",
   "source_revision": "149a0fc06c3c67ee45624e6da14dfb0754473758",
   "tags": [],
-  "content_hash": "0b4e89d7c2302765baf7e65d60f07e5f15e5103d074cc32777ac944bf6fe341f",
+  "content_hash": "27f32c8b273293d9a3cdba968cc58dc1438c7ed97b66baad0014502d6619b3dc",
   "files": {
     "SKILL.md": "2a7ae210985017f00f8ae3b57c8f03fff0587ce19079184284b5881b53d5f469",
-    "references/kuna-case-study.md": "69af48780802f81033b0332274a9caf36e8b2125d6e5ade4b55002e469a39a2a",
-    "agents/openai.yaml": "56b9f54df5f01eb8a0ebd0eadb33f565519737494849ad188865f9f595a03da3"
+    "agents/openai.yaml": "56b9f54df5f01eb8a0ebd0eadb33f565519737494849ad188865f9f595a03da3",
+    "references/kuna-case-study.md": "69af48780802f81033b0332274a9caf36e8b2125d6e5ade4b55002e469a39a2a"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "2e91974f-fcbf-43a4-a215-173d2dc1aebf",
+  "name": "rea-tool-design",
+  "description": "Design or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics.",
+  "source_type": "git",
+  "source_ref": "https://github.com/morluto/rea",
+  "source_subpath": ".agents/skills/rea-tool-design",
+  "source_revision": "149a0fc06c3c67ee45624e6da14dfb0754473758",
+  "tags": [],
+  "content_hash": "b7a0ed7c1e947578858fffe3c26455d730f618639696b71fef34a01da4a58610",
+  "files": {
+    "SKILL.md": "6023df0f1cdbe9944963469a3f2a1365d55eebdf1a7f4adb33430851f9ee5f14"
+  }
+}

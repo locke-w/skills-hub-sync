@@ -1,0 +1,14 @@
+{
+  "id": "f07ef9ca-eacb-45db-96e9-b8143094cb35",
+  "name": "rea-changelog-update",
+  "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization.",
+  "source_type": "git",
+  "source_ref": "https://github.com/morluto/rea",
+  "source_subpath": ".agents/skills/rea-changelog-update",
+  "source_revision": "149a0fc06c3c67ee45624e6da14dfb0754473758",
+  "tags": [],
+  "content_hash": "a7fc75c71af3eca24813136c1346c211220474466ea8e8c7ef95565f0e46060e",
+  "files": {
+    "SKILL.md": "75729ede35eac4768fdc315f0f2a6885d84df1dfa1cd7b795f213b10ddcfd4bf"
+  }
+}

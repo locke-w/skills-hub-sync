@@ -56,13 +56,13 @@ fi
 echo "🚀 Creating new React + Vite project: $PROJECT_NAME"
 
 # Create new Vite project (always use latest create-vite, pin vite version later)
-pnpm create vite "$PROJECT_NAME" --template react-ts
+pnpm create vite "$PROJECT_NAME" --template react-ts --no-interactive
 
 # Navigate into project directory
 cd "$PROJECT_NAME"
 
 echo "🧹 Cleaning up Vite template..."
-$SED_INPLACE '/<link rel="icon".*vite\.svg/d' index.html
+$SED_INPLACE '/<link rel="icon".*svg/d' index.html
 $SED_INPLACE 's/<title>.*<\/title>/<title>'"$PROJECT_NAME"'<\/title>/' index.html
 
 echo "📦 Installing base dependencies..."

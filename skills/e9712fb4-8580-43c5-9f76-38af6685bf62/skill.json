@@ -7,12 +7,12 @@
   "source_subpath": "skills/web-artifacts-builder",
   "source_revision": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
   "tags": [],
-  "content_hash": "e88cd0c76b38438718f41b476e55d9f18832b5e2d10df7ba98a422d6a15a926e",
+  "content_hash": "1f95f9e7d8e72e1408965bfb74bc2ba1d3f80ac6c1712b339676b177aaddec1b",
   "files": {
     "LICENSE.txt": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
     "SKILL.md": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8",
     "scripts/bundle-artifact.sh": "abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618",
-    "scripts/init-artifact.sh": "355e5dd4382aaaee91f01f1627eaeab30b2676ffa8d9b3ec328a1ae450ebccaa",
+    "scripts/init-artifact.sh": "be41d631fe1d0a7eb96a247baf228402e2da29c2a404bcf2abcdea2c3d226e53",
     "scripts/shadcn-components.tar.gz": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f"
   }
 }

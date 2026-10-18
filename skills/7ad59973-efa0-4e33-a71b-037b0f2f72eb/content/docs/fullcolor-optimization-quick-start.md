@@ -18,7 +18,7 @@ paths:
   obsidian_root: "${OBSIDIAN_ROOT:-/Users/wuyongjia/obsidian-gitee}"
   
   # 3D 打印素材根目录
-  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/3D打印/3dprint-xhs-思念}"
+  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念}"
   
   # Midjourney V8 参数文档
   mj_params_doc: "${MJ_DOC:-/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md}"

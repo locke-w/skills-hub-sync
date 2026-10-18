@@ -8,7 +8,7 @@ paths:
   # 人物档案与提示词目录（每个人物一个 char_XX_姿态_描述 子目录）
   material_base: "${OBSIDIAN_ROOT:-/Users/wuyongjia/obsidian-gitee}/technology/🚀 项目/3D打印/素材"
   # 3D 打印纯图片素材根目录
-  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材}"
+  asset_root: "${ASSET_ROOT:-/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/素材}"
   # Midjourney V8 参数文档
   mj_params_doc: "${MJ_DOC:-/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md}"
   # 小红书 AI 合规手册（xiaohongshu 技能内）

@@ -55,7 +55,7 @@ logger = logging.getLogger("OpenMontage.Engine")
 # 全局常量与配置契约 (Config Contract)
 # ==============================================================================
 class OpenMontageConfig:
-    PROJECT_ROOT: Path = Path("/Users/wuyongjia/3D打印/3dprint-xhs-思念")
+    PROJECT_ROOT: Path = Path("/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念")
     MATERIAL_DIR: Path = PROJECT_ROOT / "素材"
     DOCS_DIR: Path = Path("/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材")
     VIDEO_ASSETS_DIR: Path = PROJECT_ROOT / "视频素材"

@@ -12,7 +12,7 @@ metadata:
   validators: "scripts/validate_copy.py · scripts/inspect_images.py · scripts/validate-config.sh"
   compliance-specification: "references/xiaohongshu_ai_rule.md（v2.0，2026-09-23 核验）"
   default-narrative-pov: "A2 手艺人设计手记 / B 第二人称代入"
-  image-save-root: "/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材"
+  image-save-root: "/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/素材"
   copy-save-root: "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
   triggers: 小红书文案, 纪念手办文案, 3D打印长辈文案, 3D打印父母文案, 公公婆婆手办文案, 岳父岳母文案, 老伴手办文案, 怀念父亲, 怀念母亲, 怀念外婆, 老照片立体化, 掌心手办, 手办种草, 小红书标题, 封面文案, 评论区运营, 置顶评论, 私信话术, 发布计划, 笔记复盘, 小红书运营, char_XX
   related-skills: fullcolor-3dprint-character-prompts, photorealistic-character-generator, doc-coauthoring

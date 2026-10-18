@@ -82,7 +82,7 @@
 ```bash
 /Applications/Blender.app/Contents/MacOS/Blender --background \
   --python "{脚本目录}/render_print_preview.py" \
-  -- -i "{模型文件路径}.obj" -o "/Users/wuyongjia/3D打印/3dprint-xhs-思念/{会话名称}/渲染效果图"
+  -- -i "{模型文件路径}.obj" -o "/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/{会话名称}/渲染效果图"
 ```
 > `{会话名称}` 取值规则见 SKILL.md 铁律三。渲染前先确认输出目录已创建。
 

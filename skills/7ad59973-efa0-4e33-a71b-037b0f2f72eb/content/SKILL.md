@@ -12,7 +12,7 @@ metadata:
   xiaohongshu-compliance-ref: "~/.skillshub/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md"
   midjourney-reference-doc: "/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md"
   prompt-save-root: "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
-  image-save-root: "/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材"
+  image-save-root: "/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/素材"
   character-generator-mode: "dynamic-formula-engine"
   default-batch-size: 20
   prompts-per-character: 11

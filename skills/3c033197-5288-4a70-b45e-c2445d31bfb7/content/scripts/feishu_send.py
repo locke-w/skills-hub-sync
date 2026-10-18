@@ -26,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
 import validate_copy as VC  # noqa: E402
 import inspect_images as II  # noqa: E402
-from gui import (ax_rows, frontmost, osa, hover_click, key,  # noqa: E402
+from gui import (ax_rows, frontmost, osa, hover_click, key, keystroke_combo,  # noqa: E402
                  keystroke_v, clipboard_text, paste_image, send_clipboard_text,
                  send_file, paste_file, get_window_rect, feishu_coords)
 
@@ -351,17 +351,20 @@ def open_conversation(cfg: dict, tmp: Path, force_reopen: bool = False) -> tuple
     proc = cfg["feishu"]["process"]
     contact = cfg["feishu"]["contact"]
 
+    # 1. 唤起并激活飞书应用，先按一次 Escape 消除可能残留的旧搜索弹窗或遮罩
     subprocess.run(["open", "-a", cfg["feishu"]["app_path"]], capture_output=True)
-    time.sleep(1.0)
+    osa(f'tell application "{proc}" to activate')
     frontmost(proc)
-    time.sleep(0.5)
+    time.sleep(0.4)
+    osa('tell application "System Events" to key code 53')  # ESC
+    time.sleep(0.4)
 
     win_x, win_y, win_w, win_h = get_feishu_window_rect(proc)
     rows = ax_rows(proc)
     if not rows:
         raise SystemExit("⛔ 读不到飞书 AX 树（未登录/未授权辅助功能），停止。")
 
-    # 若非强制重新打开，先快速验证当前是否已经在目标联系人会话中
+    # 2. 若非强制重新打开，先快速验证当前是否已经在目标联系人会话中
     if not force_reopen:
         curr_ocr = screenshot_ocr(tmp, proc)
         ok, _ = check_is_valid_personal_conversation(contact, curr_ocr)
@@ -369,30 +372,35 @@ def open_conversation(cfg: dict, tmp: Path, force_reopen: bool = False) -> tuple
             print(f"✅ 当前已在联系人「{contact}」个人会话中，直接复用。")
             return input_xy(proc)
 
-    # 步骤 1：先点击左侧导航栏的「消息」Tab，确保在消息面板
+    # 3. 步骤 1：先点击左侧导航栏的「消息」Tab，确保在消息面板
     click_messages_tab(rows, win_x, win_y)
+    time.sleep(0.6)
+
+    # 4. 步骤 2：打开快捷搜索 (⌘+K)
+    keystroke_combo("k", "command down")
     time.sleep(0.8)
 
-    # 步骤 2：点击搜索按钮 (⌘+K)
-    click_search_button(rows, win_x, win_y)
-    time.sleep(1.2)
+    # 5. 步骤 3：核心防御：全选并清空输入框残留内容，杜绝搜索词累加追加导致“输入两遍”
+    osa('tell application "System Events" to keystroke "a" using command down')
+    time.sleep(0.1)
+    osa('tell application "System Events" to key code 51')  # Backspace
+    time.sleep(0.2)
 
-    # 步骤 3：粘贴搜索联系人
+    # 6. 步骤 4：粘贴联系人名称（单次精准输入）
     clipboard_text(contact)
     keystroke_v()
-    time.sleep(1.5)  # 等待搜索弹窗与候选项渲染完成
+    time.sleep(1.2)  # 等待搜索弹窗与候选项渲染完成
 
-    # 步骤 4：核心修正：不要盲目回车或按↓！
-    # 真实实测：搜索弹窗第1项是纯个人联系人「吴永佳」，坐标居中偏左：(win_x + 310, win_y + 215)
-    first_item_x = win_x + 310
-    first_item_y = win_y + 215
-    hover_click(first_item_x, first_item_y, hover_s=0.5)
-    time.sleep(1.8)
+    # 7. 步骤 5：回车选中首项进入会话（单次输入后，目标联系人位居首位并默认高亮）
+    osa('tell application "System Events" to key code 36')
+    time.sleep(1.5)
 
-    # 步骤 5：截屏与 OCR 严密门禁校验
+    # 8. 步骤 6：截屏与 OCR 严密门禁校验
     ocr = screenshot_ocr(tmp, proc)
     is_valid, reason = check_is_valid_personal_conversation(contact, ocr)
     if not is_valid:
+        # 门禁拦截时按 Escape 恢复界面，避免悬浮弹窗遮挡下一次尝试
+        osa('tell application "System Events" to key code 53')
         raise SystemExit(f"⛔ 会话门禁拦截失败：{reason}。已停止发送，杜绝发送到错误会话！")
 
     print(f"✅ 成功定位并进入纯个人联系人「{contact}」会话，门禁验证通过。")
@@ -434,7 +442,7 @@ def find_character_video(cfg: dict, target_str: str, preferred_video: str | None
         return None
     char_num = int(m.group(1))
 
-    video_root = Path(cfg.get("paths", {}).get("video", "/Users/wuyongjia/3D打印/3dprint-xhs-思念/视频素材")).expanduser()
+    video_root = Path(cfg.get("paths", {}).get("video", "/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/视频素材")).expanduser()
     if not video_root.exists():
         return None
 

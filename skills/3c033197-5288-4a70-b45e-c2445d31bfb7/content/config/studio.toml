@@ -3,7 +3,7 @@
 
 [paths]
 material = "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
-asset = "/Users/wuyongjia/3D打印/3dprint-xhs-思念/素材"
+asset = "/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/素材"
 archive_dirname = "_已使用"
 reports_dirname = "_reports"          # 审计报告、registry、copy 日志都写 MATERIAL/_reports/
 downloads = "~/Downloads"

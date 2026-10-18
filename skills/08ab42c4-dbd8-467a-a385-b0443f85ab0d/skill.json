@@ -7,9 +7,9 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "b249728bf9589f68889cb2d8cf396cb463691436436031c8ace4a814f039fec3",
+  "content_hash": "f46e0b8b7db91fc97095b12de5280895beb9282b625d96ff08e70586641be89b",
   "files": {
     "SKILL.md": "dd063270a9dc7156a07ebdf34db986e12811c4f50dcfd05eb180b212fb0795e6",
-    "references/gemini-feishu-char-pipeline.md": "90fb266de3b778b57d29e76a4e41975bbc259d78f6670dd40a6a21dcdb0165c0"
+    "references/gemini-feishu-char-pipeline.md": "c996cbba050ba29fb19e47e73e41cdf7f36cb09e60cc338a78721675e026ea99"
   }
 }

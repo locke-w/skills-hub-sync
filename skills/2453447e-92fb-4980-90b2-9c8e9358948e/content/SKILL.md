@@ -172,3 +172,5 @@ v13 及以前生成的文案多为第一人称亲属视角、含小号互动脚�
 
 - fullcolor 产出 `character_profile.md`、`prompts.md` 与图片：00/01 为 1:1 建模参考（00 不发笔记），02–10 为 3:4 笔记场景图，07/10 为封面候选；
 - 本技能只读取这些资产；需要重出图（例如存量 1:1 想整组换成 3:4）时，提示用户调用 `fullcolor-3dprint-character-prompts`。
+
+<!-- ego-browser UI 验证测试 -->

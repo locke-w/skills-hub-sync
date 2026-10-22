@@ -7,10 +7,10 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "a08b4f142ca8a9209733c4396a503ae58475b1f60a23ef1a769c5317dfb17f23",
+  "content_hash": "ec6260c2842a94e4ff81cd17698150a69b05062dbbf55e5ba54228b8609e8461",
   "files": {
     "CHANGELOG.md": "58d6e3bcd1352ad2b231c24d09189ab6a96cfc5bcd91dd0bb384cd863d31e660",
-    "SKILL.md": "be153deba795bacf279abc1ac9cdae8c26988a3ab69b3fcbdc9658e5e4445d23",
+    "SKILL.md": "18dda1ce7bb4d3ec28b2831eb4f89a1f070a8c5b711dbe1734e03eb644c7280e",
     "checklists/unified-checklist.md": "79e6e6f3b689cee8267b2629fc3f9c451a74a26c8d2d43b8675fe92d3b12637e",
     "config/constants.md": "b2cc0859cf8946157c713c076e986dcc0d4b5cbfb5a7bc90ad933179a64824c5",
     "references/bao.md": "abf96abe37c63878f1cfbfbfe9ada25f82cb6114387f8a783b2c49c32b4d85fc",

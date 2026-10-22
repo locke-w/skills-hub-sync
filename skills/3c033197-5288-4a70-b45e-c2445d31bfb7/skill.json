@@ -7,9 +7,9 @@
   "source_subpath": null,
   "source_revision": null,
   "tags": [],
-  "content_hash": "50f8856dd1b43ebd60547d008d0eaa6f4f0dd8451cae616e2e3ebc021cd9932c",
+  "content_hash": "2c0e763393cf4b720ec2ecc51d7cbc060bd7c3c153b8dde0d53217346de18d52",
   "files": {
-    "SKILL.md": "1c622b0115681c79996b1270ebd0b95d86cff1198263b456adb05230373a4593",
+    "SKILL.md": "db1bdaae3820f9b340bf8889150ed0ff7308de9661f904b5c1ed6f9c1e45cd38",
     "checklists/copy-checklist.md": "8172aea6fc027589d66c45410292ef67d99330b3c256cc17d33178c4f364dd37",
     "checklists/image-qa.md": "121fc873c1527dc4bfc72b0df4f07a5e081a3426a08494c076a1bc828dfcc16a",
     "config/copy_lexicon.json": "ed3bf57c93ad30c1d999c968d7970812db8d8b17a88fe18c4c66ac4c411cf360",

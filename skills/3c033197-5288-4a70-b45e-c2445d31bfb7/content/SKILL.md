@@ -128,6 +128,3 @@ validate_prompts → inspect_images（缺 0 号图即停，提示用户放入）
 | 5 | `prompts/feishu_polish.md` · `references/publish/feishu-runbook.md` | 标题/置顶润色提示词 · 飞书发送故障排查 |
 
 自检：`python3 $S/scripts/validate_prompts.py --self-test`、`python3 $S/scripts/validate_copy.py --self-test`（改了 studio.toml、词库或校验器后都要跑）。
-
-<!-- 同步引擎测试修改 -->
-

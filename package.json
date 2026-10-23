@@ -1,0 +1,17 @@
+{
+  "name": "locke-w-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent skills collection for engineering, browser automation, and productivity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/locke-w/skills-hub-sync"
+  },
+  "license": "MIT",
+  "scripts": {
+    "list-skills": "bash scripts/list-skills.sh",
+    "link-skills": "bash scripts/link-skills.sh",
+    "sync-version": "node scripts/sync-plugin-version.mjs",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
+  }
+}

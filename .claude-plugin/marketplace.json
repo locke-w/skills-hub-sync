@@ -1,0 +1,24 @@
+{
+  "name": "locke-w",
+  "owner": {
+    "name": "locke-w",
+    "url": "https://github.com/locke-w"
+  },
+  "description": "Agent skills collection as an installable Claude Code & Agent Skills plugin.",
+  "plugins": [
+    {
+      "name": "locke-w-skills",
+      "source": "./",
+      "description": "Agent skills for engineering, browser automation, AI content creation, and productivity.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "skills",
+        "tdd",
+        "code-review",
+        "automation",
+        "productivity"
+      ]
+    }
+  ]
+}

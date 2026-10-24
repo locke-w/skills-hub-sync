@@ -9,7 +9,7 @@ metadata:
   domain: 3d-printing-and-ai-visuals
   config-files: "config/CORE_RULES.md（L1/L2 速查）· config/paths.yml（路径与参数，校验器直接读取）"
   validator: "validators/validate_prompts.py（bash 包装脚本保留旧命令）"
-  xiaohongshu-compliance-ref: "~/.skillshub/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md"
+  xiaohongshu-compliance-ref: "~/.cc-switch/skills/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md"
   midjourney-reference-doc: "/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md"
   prompt-save-root: "/Users/wuyongjia/obsidian-gitee/technology/🚀 项目/3D打印/素材"
   image-save-root: "/Users/wuyongjia/vibeCoding/3D打印/3dprint-xhs-思念/素材"

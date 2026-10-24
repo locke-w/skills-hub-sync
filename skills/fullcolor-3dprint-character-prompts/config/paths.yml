@@ -12,7 +12,7 @@ paths:
   # Midjourney V8 参数文档
   mj_params_doc: "${MJ_DOC:-/Users/wuyongjia/obsidian-gitee/technology/🧰 AI工具/midjourney/Midjourney V8.x 核心参数与高级指令全景说明.md}"
   # 小红书 AI 合规手册（xiaohongshu 技能内）
-  xhs_rule_doc: "${XHS_RULE:-/Users/wuyongjia/.skillshub/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md}"
+  xhs_rule_doc: "${XHS_RULE:-/Users/wuyongjia/.cc-switch/skills/xiaohongshu-memorial-3dprint-copywriter/references/xiaohongshu_ai_rule.md}"
   # 批量审计报告输出（相对技能根目录）
   audit_report: "docs/latest-audit-report.md"
 

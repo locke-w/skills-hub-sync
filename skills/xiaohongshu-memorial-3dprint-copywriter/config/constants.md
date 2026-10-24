@@ -23,7 +23,7 @@
 统一清单: "checklists/unified-checklist.md"
 文案校验脚本: "scripts/validate_copy.py"
 图片检查脚本: "scripts/inspect_images.py"
-上游视觉技能: "~/.skillshub/fullcolor-3dprint-character-prompts"
+上游视觉技能: "~/.cc-switch/skills/fullcolor-3dprint-character-prompts"
 ```
 
 ### 素材存储路径

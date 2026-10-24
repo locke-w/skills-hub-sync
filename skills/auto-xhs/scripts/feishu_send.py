@@ -430,6 +430,24 @@ def sent_marker(tmp: Path) -> Path:
     return tmp / ".feishu_sent"
 
 
+def write_sent_markers(cdir: Path, adir: Path, tmp: Path, content: str) -> None:
+    """持久化写入已发送标记到 /tmp、Obsidian 人物目录与图片资产目录，防止重启或系统清理丢失"""
+    for folder in (tmp, cdir, adir):
+        if folder and folder.is_dir():
+            try:
+                (folder / ".feishu_sent").write_text(content, encoding="utf-8")
+            except Exception:
+                pass
+
+
+def has_sent_marker(cdir: Path, adir: Path, tmp: Path) -> Path | None:
+    """检查人物是否已有发送标记（优先检查永久目录，其次 /tmp）"""
+    for folder in (cdir, adir, tmp):
+        if folder and (folder / ".feishu_sent").is_file():
+            return folder / ".feishu_sent"
+    return None
+
+
 def find_character_video(cfg: dict, target_str: str, preferred_video: str | None = None) -> Path | None:
     """智能查找人物关联的已合成成片视频文件 (.mp4)"""
     if preferred_video and preferred_video != "auto":
@@ -539,9 +557,10 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
 
     tmp = TMP / cdir.name
     tmp.mkdir(parents=True, exist_ok=True)
-    marker = sent_marker(tmp)
-    if not args.dry_run and not args.force and marker.is_file():
-        print(f"⏭️ [{cdir.name}] 已发送过（命中本地发送标记 {marker.name}），跳过。加 --force 可重发。")
+    existing_marker = has_sent_marker(cdir, adir, tmp)
+    if not args.dry_run and not args.force and existing_marker:
+        write_sent_markers(cdir, adir, tmp, existing_marker.read_text(encoding="utf-8", errors="ignore") or f"{cdir.name}\n{datetime.now().isoformat()}\n")
+        print(f"⏭️ [{cdir.name}] 已发送过（命中本地发送标记 {existing_marker}），跳过。加 --force 可重发。")
         return 4, input_coord
 
     polished, fallback = False, False
@@ -584,7 +603,8 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
     # OCR 判重：会话截图中若已含本人物目录名，视为已发送
     needle = "_".join(cdir.name.split("_")[:2])
     if not args.force and needle in re.sub(r"\s+", "", screenshot_ocr(tmp, proc)):
-        print(f"⏭️ [{cdir.name}] 已发送过（OCR 判重命中会话中的 char_dir），跳过。加 --force 可重发。")
+        write_sent_markers(cdir, adir, tmp, divider + "\n" + datetime.now().isoformat() + "\n")
+        print(f"⏭️ [{cdir.name}] 已发送过（OCR 判重命中会话中的 char_dir，已同步持久化标记），跳过。加 --force 可重发。")
         return 4, input_coord
 
     interval = int(cfg["feishu"].get("send_interval_s", 5))
@@ -627,7 +647,7 @@ def send_single_character(cfg: dict, rules: dict, target_str: str, args,
           f" · 图片合并 {'是' if merged else '否（逐张）'}")
     verified = ok_div or ok_body
     if verified:
-        marker.write_text(divider + "\n" + datetime.now().isoformat() + "\n", encoding="utf-8")
+        write_sent_markers(cdir, adir, tmp, divider + "\n" + datetime.now().isoformat() + "\n")
     log = C.reports_dir(cfg) / "feishu-log.jsonl"
     log.parent.mkdir(parents=True, exist_ok=True)
     with log.open("a", encoding="utf-8") as f:

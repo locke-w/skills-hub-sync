@@ -44,7 +44,7 @@ codex plugin add locke-w-skills@locke-w
 ./scripts/link-skills.sh
 ```
 
-## 包含的技能列表（共 55 个）
+## 包含的技能列表（共 56 个）
 
 | 技能名称 (`skill-name`) | 路径 | 简介 |
 | :--- | :--- | :--- |
@@ -63,6 +63,7 @@ codex plugin add locke-w-skills@locke-w
 | [`fullcolor-3dprint-character-prompts`](./skills/fullcolor-3dprint-character-prompts) | `skills/fullcolor-3dprint-character-prompts` | Use when generating AI-photoreal elder, parent, in-law, or late-spouse character profiles and 11-... |
 | [`gsap-animation-assistant`](./skills/gsap-animation-assistant) | `skills/gsap-animation-assistant` | GSAP assistant for generating and reviewing frontend animation code with timelines, ScrollTrigger... |
 | [`java-architect`](./skills/java-architect) | `skills/java-architect` | Use when building, configuring, or debugging enterprise Java applications with Spring Boot 3.x, m... |
+| [`java-code-animator`](./skills/java-code-animator) | `skills/java-code-animator` | 把 Java 方法/JDK 源码的执行原理做成带中文配音和字幕的 Manim 讲解动画（借鉴 Code2Video 方法论，无需 API Key）... |
 | [`java-coding-standards`](./skills/java-coding-standards) | `skills/java-coding-standards` | Java coding standards for Spring Boot and Quarkus services: naming, immutability, Optional usage,... |
 | [`java-testing`](./skills/java-testing) | `skills/java-testing` | Test Java applications - JUnit 5, Mockito, integration testing, TDD patterns |
 | [`macos-gui-automation`](./skills/macos-gui-automation) | `skills/macos-gui-automation` | Use when computer_use GUI 批准超时,需无人值守驱动 macOS 应用。 |

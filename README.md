@@ -44,7 +44,7 @@ codex plugin add locke-w-skills@locke-w
 ./scripts/link-skills.sh
 ```
 
-## 包含的技能列表（共 56 个）
+## 包含的技能列表（共 52 个）
 
 | 技能名称 (`skill-name`) | 路径 | 简介 |
 | :--- | :--- | :--- |
@@ -68,7 +68,6 @@ codex plugin add locke-w-skills@locke-w
 | [`java-testing`](./skills/java-testing) | `skills/java-testing` | Test Java applications - JUnit 5, Mockito, integration testing, TDD patterns |
 | [`macos-gui-automation`](./skills/macos-gui-automation) | `skills/macos-gui-automation` | Use when computer_use GUI 批准超时,需无人值守驱动 macOS 应用。 |
 | [`macos-proxy-troubleshooting`](./skills/macos-proxy-troubleshooting) | `skills/macos-proxy-troubleshooting` | Use when an app hits region errors despite a proxy running. |
-| [`manage-skills-hub`](./skills/manage-skills-hub) | `skills/manage-skills-hub` | Use this skill whenever an Agent needs to query, find, install, deploy, update, tag, adopt, diagn... |
 | [`opencli-adapter-author`](./skills/opencli-adapter-author) | `skills/opencli-adapter-author` | Use when writing an OpenCLI adapter for a new site or adding a new command to an existing site. G... |
 | [`opencli-autofix`](./skills/opencli-autofix) | `skills/opencli-autofix` | Automatically fix broken OpenCLI adapters when commands fail. Load this skill when an opencli com... |
 | [`opencli-browser-sitemap`](./skills/opencli-browser-sitemap) | `skills/opencli-browser-sitemap` | Use when driving a website with opencli browser and sitemap context is available, requested, or n... |
@@ -90,9 +89,6 @@ codex plugin add locke-w-skills@locke-w
 | [`subagent-driven-development`](./skills/subagent-driven-development) | `skills/subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session |
 | [`systematic-debugging`](./skills/systematic-debugging) | `skills/systematic-debugging` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [`tech-study-docs`](./skills/tech-study-docs) | `skills/tech-study-docs` | Use when writing, structuring, or refactoring technical documentation, study notes, tech specs, A... |
-| [`template-skill`](./skills/template-skill) | `skills/template-skill` | Replace with description of the skill and when Claude should use it. |
-| [`tencent-docs`](./skills/tencent-docs) | `skills/tencent-docs` | 腾讯文档（docs.qq.com）-在线云文档平台，是创建、编辑、管理文档的首选 skill。涉及"新建/创建/编辑/读取/查看/搜索文档"、"保存文件"、"云文档"、"腾讯文档"、"docs.... |
-| [`tencent-meeting-skill`](./skills/tencent-meeting-skill) | `skills/tencent-meeting-skill` | 在用户提及腾讯会议、视频会议、线上会议相关内容与操作时使用此技能。触发关键词包括：预约会议、创建会议、修改会议、取消会议、查询会议、会议详情、会议号、meeting_id、meeting_cod... |
 | [`test-driven-development`](./skills/test-driven-development) | `skills/test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code |
 | [`test-engineer`](./skills/test-engineer) | `skills/test-engineer` | Use when designing test suites, writing unit/integration/E2E tests, analyzing test coverage gaps,... |
 | [`using-git-worktrees`](./skills/using-git-worktrees) | `skills/using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing im... |
